@@ -1,0 +1,22 @@
+Language,Default
+
+#,Farm level 3 upgrade material dialogue.
+#,Material: Plant growth data.
+#,Prefix_Key: Farm_03
+
+#,Player is able to obtain growth data from the safe located in the market place. (plant seed shop)
+#,Player must crack the safe
+#,Player access the safe
+Farm_03_StrongBox_Main_01,[STATUS: LOCKED]
+Farm_03_StrongBox_Player_02,"Can you help me out with this, Cassini?"
+Farm_03_StrongBox_Cassini_03,"Yes, {PlayerFullName}. Initiate safe-cracking protocol when you are ready. "
+
+#,Player choice to crack the safe.
+Farm_03_StrongBox_S01,(Attempt to crack safe's security.)
+
+#,Player succeeds in cracking the safe.
+Farm_03_StrongBox_Succes_Main_01,[STATUS: UNLOCKED]
+Farm_03_StrongBox_Succes_Nar_02,"(At a cursory glance, the documents inside contain detailed information for growing plants on Titan. You take them.)"
+
+#,Player fails in cracking the safe.)
+Farm_03_StrongBox_Fail_01,[ACCESS DENIED... TRY AGAIN LATER]\n\n[STATUS: LOCKED]

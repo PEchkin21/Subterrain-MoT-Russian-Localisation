@@ -1,0 +1,378 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Nina Zherdev
+#,Quest Name: A Night to Remember 
+#,Key_Fix: Side_Q_NightToRemember
+
+#,"Being raised so masculine, Nina just wants to be treated like a woman for once. Phase 1: player interviews Dalton, Alexei, & Fang (all 3 are good choices. Phase 2: player chooses one of the 3 or themselves to take Nina out. Phase 3: plan date or go on date."
+#,"How the date goes is determined by dialogue choices during date (likes, dislikes, hobbies, romance, etc.) or by suggestions given to NPC before date (type of date, time of date, location of date, etc.). "
+#,Chooses Alexei = Player receives plans for Blade Sharpener = consumable for close weapons that adds DoT bleeding effect to organic enemies for the next X attacks. 
+#,Chooses Fang = Player receives plans for Electric Ammo = consumable for any weapon that adds DoT electric effect to enemies for the next X attacks. (Double for non-organic targets)
+#,"Chooses Dalton or if Player chooses self, but not GF option = Player receives plans for Flame Ammo = consumable for ranged weapons that added DoT Burn effect to any target for the next X attacks. "
+#,"Player chooses themself and GF option = Player receives Lover's Armor = when worn, player heals back 10% of damage dealt to enemies"
+
+#,Player receives message to start quest
+Side_Q_NightToRemember_AI_01,"Incoming message from Nina, {PlayerFullName}."
+Side_Q_NightToRemember_Nina_02,"We don't really know each other, but I need to talk to someone. Can that someone be you?\n-Nina Zherdev-"
+
+#,Player speaks to Nina
+Side_Q_NightToRemember_Player_03,"Hi, Nina. I was surprised to get a message... from you of all people. "
+Side_Q_NightToRemember_Nina_04,"I was surprised to send it, to be honest. There just isn't anyone else who might understand where I'm coming from. "
+Side_Q_NightToRemember_Nina_05,"Maybe you won't either, but you're an unknown element in camp, so I'm taking a shot. "
+Side_Q_NightToRemember_Player_06,"Well, I'm here to listen. What's going on?"
+Side_Q_NightToRemember_Nar_07,(Nina puts her rifle down and leans against the wall. Her usual gruff exterior softens as she speaks.)
+Side_Q_NightToRemember_Nina_08,"You know, I was destined to end up here. Not on Titan specifically, but I knew I'd end up working security somewhere, pushed to fight and shoot and hunt. My dad did this to me. I mean, he basically raised me as a boy. "
+Side_Q_NightToRemember_Nina_09,"Hanging out in Camp Huygen without contact with HQ or anyone on Earth, I've been staying quiet and listening to everyone talk. Most of the people here are orphans, they lost someone or they're running away from something. "
+Side_Q_NightToRemember_Nina_10,"That applies to me too. I'm here running away from the idea of what my father wanted me to be... but here I am, exactly that person. "
+Side_Q_NightToRemember_Nar_11,"(A heavy silence lingers over the conversation. You're unsure exactly what to say or whether you should say anything at all. A lone tear falls from Nina's eye, but she wipes it away quickly.)"
+Side_Q_NightToRemember_Player_12,These are some serious emotions you're dealing with. I'm sorry you felt the need to do it alone. 
+Side_Q_NightToRemember_Nina_13,"You're right, and that's the kicker. I am alone. All my childhood friends grew up, married their perfect partner, had kids, and lived the dream. "
+
+#,Player dialogue choice
+#,Q1_S02 necessary for player to pick themselves to date Nina 
+Side_Q_NightToRemember_Nina_14,Can you believe I've never even been on a date?
+Side_Q_NightToRemember_Q1_S01,"You do put up walls, emotional walls. "
+Side_Q_NightToRemember_Q1_S02,"With your looks? Yes, I'm very surprised. "
+
+#,Player picks S01
+Side_Q_NightToRemember_Q1_S01_Nina_01,"Can you blame me? I never really learned how to interact with people. Instead, I was taught to size up an opponent and look for weak points. That kind of thing doesn't lead to sustainable relationships. "
+
+#,Player picks S02
+Side_Q_NightToRemember_Q1_S02_Nina_01,"Really? Most people can't see past the armor. I work hard to stay fit, though. Not that I'm trying to be attractive for anyone but myself. "
+
+#,Continues conversation
+Side_Q_NightToRemember_Nina_15,"You know what I wish, though? I wish I would receive a mysterious hand-written note from a secret admirer inviting me to a candlelit dinner. My admirer would give me a single red rose and a kiss on the cheek, and we'd dance the night away. "
+
+#,Player dialogue choice
+#,Q2_S01 necessary for player to pick themselves to date Nina 
+Side_Q_NightToRemember_Nina_16,"Sounds like 10-year-old, girly girl nonsense, huh?"
+Side_Q_NightToRemember_Q2_S01,Not at all. I think you'll have that one day.
+Side_Q_NightToRemember_Q2_S02,I doubt something like that could happen on Titan. 
+
+#,Player picks S01
+Side_Q_NightToRemember_Q2_S01_Nina_01,Thank you. Sometimes I just feel so silly dreaming about romance in-between tactics training.
+
+#,Player picks S02
+Side_Q_NightToRemember_Q2_S02_Nina_01,"Don't remind me. At this rate, this'll be our final resting place, and I'll die before ever having a real kiss. And that's just depressing. "
+
+#,Continues conversation
+Side_Q_NightToRemember_Player_17,What if I could make it happen for you?
+Side_Q_NightToRemember_Nina_18,Make what happen? What are you talking about?
+Side_Q_NightToRemember_Player_19,"I'm going to give you a night to remember, something romantic with someone who could be your possible soulmate."
+Side_Q_NightToRemember_Nina_20,A soulmate? In Camp Huygen?
+Side_Q_NightToRemember_Player_21,"I've heard you've been turning heads around camp, yeah. Let me make the arrangements. I'll do everything! All you have to do is await a hand-written letter. "
+Side_Q_NightToRemember_Nina_22,A letter from who?
+Side_Q_NightToRemember_Player_23,Didn't you say you wanted a 'secret' admirer? 
+Side_Q_NightToRemember_Nar_24,"(Nina's eyes start to tear up, but she grabs her rifle and toughens up again.)"
+Side_Q_NightToRemember_Nina_25,The fact that you'd do this for me without even knowing me... I just don't know what to say. 
+Side_Q_NightToRemember_Player_26,"No need to thank me yet. If this works, though, just name your first kid after me. *haha*"
+Side_Q_NightToRemember_Nina_27,*haha* I guess we'll see. I'll leave it in your hands. 
+Side_Q_NightToRemember_Player_28,"I'll see you later, Nina. "
+
+#,After player walks away from Nina X steps
+Side_Q_NightToRemember_AI_29,"{PlayerFullName}, you told Nina you know people who might be interested in her. Who did you have in mind?"
+Side_Q_NightToRemember_Player_30,"No one! I literally just said whatever I could to try to make her feel better. I hate seeing people cry. Any thoughts, Cassini?"
+Side_Q_NightToRemember_AI_31,Would you like me to cross-reference personnel records for potential matches?
+Side_Q_NightToRemember_Player_32,Yes! That's at least a place to start. 
+Side_Q_NightToRemember_Nar_33,(...)
+Side_Q_NightToRemember_AI_34,"From my findings, I believe there are three potential matches for Nina."
+Side_Q_NightToRemember_AI_35,"Fang at the power plant, Alexei in mine operations, and Dalton, who works security with Nina. "
+Side_Q_NightToRemember_Player_36,Let's interview each of them to see who could be her best match.
+Side_Q_NightToRemember_AI_37,I'll help analyze their answers to let you know where Nina's potential suitors match up. 
+Side_Q_NightToRemember_Player_38,Okay! Let's get to work. 
+
+#,Player speaks with Nina after quest begins
+#,Replaces Basic_Nina until end of quest
+Side_Q_NightToRemember_Nina_39,I can't wait to see what you have planned. 
+
+#,————————————————————————————
+#,Player speaks with Dalton
+Side_Q_NightToRemember_Player_40_01,Ask about date with Nina
+Side_Q_NightToRemember_Player_40,Hey Dalton! How's it going today?
+Side_Q_NightToRemember_Dalton_41,Just a normal day for me. You?
+Side_Q_NightToRemember_Player_42,I'm actually thinking of setting you up with a friend of mine. Is that something that interests you?
+Side_Q_NightToRemember_Dalton_43,"I can't imagine who you could be talking about. Not many prospects in camp. But sure, I'm somewhat interested. "
+Side_Q_NightToRemember_Player_44,"Well, let me ask you a few questions first to make sure you'll be a match. "
+
+#,Player can ask one or more of the following questions to determine the best suitor. None of these are mandatory's but 
+Side_Q_NightToRemember_Player_45,Let me ask you about...
+Side_Q_NightToRemember_DaltonQ_S01,Family 
+Side_Q_NightToRemember_DaltonQ_S02,Attraction
+Side_Q_NightToRemember_DaltonQ_S03,Work
+Side_Q_NightToRemember_DaltonQ_S04,Exes
+Side_Q_NightToRemember_DaltonQ_S05,I have everything I need. 
+
+#,DaltonQ_S01 (Family) - Negative
+Side_Q_NightToRemember_DaltonQ_S01_Player_01,What's your relationship with your family like?
+Side_Q_NightToRemember_DaltonQ_S01_Dalton_02,"I have two sisters, but we don't talk much. I keep to myself a lot of the time. "
+Side_Q_NightToRemember_DaltonQ_S01_AI_03,"Nina is an only child, but Dalton grew up with a family he actively avoids. Two people prone to emotional walls could potentially be bad. Result is potentially negative. "
+
+#,DaltonQ_S02 (Attraction) - Neutral
+Side_Q_NightToRemember_DaltonQ_S02_Player_01,What kind of partners are you attracted to?
+Side_Q_NightToRemember_DaltonQ_S02_Dalton_02,I've enjoyed the company of all types of women. Don't really have a preference. 
+Side_Q_NightToRemember_DaltonQ_S02_AI_03,"If Dalton truly has no preference, this result is Neutral. "
+
+#,DaltonQ_S03 (Work) - Positive 
+Side_Q_NightToRemember_DaltonQ_S03_Player_01,How does your work affect your love life?
+Side_Q_NightToRemember_DaltonQ_S03_Dalton_02,My work is my love most days. 
+Side_Q_NightToRemember_DaltonQ_S03_AI_03,"Nina also devotes a lot of her time to work, and they already work together, so they'd have that in common. Result is positive. "
+
+#,DaltonQ_S04 (Exes) - Neutral
+Side_Q_NightToRemember_DaltonQ_S04_Player_01,Tell me about your past relationships?
+Side_Q_NightToRemember_DaltonQ_S04_Dalton_02,"Never been in a real one. Women gravitate to me, and we have fun, but nothing lasts. I think it's the noir, private investigator energy I give off. "
+Side_Q_NightToRemember_DaltonQ_S04_AI_03,"Neither of them has had serious relationship experience, but Dalton has much more romantic experience. Potential result is neutral. "
+
+#,DaltonQ_S05 (Stop Asking)
+Side_Q_NightToRemember_DaltonQ_S05_Dalton_01,Okay. Let me know if I make the cut. 
+
+#,————————————————————————————
+#,Player speaks with Fang
+Side_Q_NightToRemember_Player_46,"Hey, Fang, are you busy? "
+Side_Q_NightToRemember_Fang_47,"Always busy, but I can make time. What's up?"
+Side_Q_NightToRemember_Player_48,I think you're potentially a great match for a blind date with a friend of mine. Is that something you'd be game for?
+Side_Q_NightToRemember_Fang_49,"If I can find the time for a date, I wouldn't say no. "
+Side_Q_NightToRemember_Player_50,"Cool, let's see if you'd make for a good match. "
+
+#,Player can ask one or more of the following questions to determine the best suitor. None of these are mandatory's but 
+
+#,FangQ_S01 (Family) - Positive
+Side_Q_NightToRemember_FangQ_S01_Player_01,What's your relationship with your family like?
+Side_Q_NightToRemember_FangQ_S01_Fang_02,"I'm an only child, and grew up with a lot of pressure from my dad. We worked through a lot of it, but I still find myself instinctually wanting to please him. "
+Side_Q_NightToRemember_FangQ_S01_AI_03,"Nina and Fang have almost identical family circumstances, which could help them relate to each other. Result is positive. "
+
+#,FangQ_S02 (Attraction) - Negative
+Side_Q_NightToRemember_FangQ_S02_Player_01,What kind of partners are you attracted to?
+Side_Q_NightToRemember_FangQ_S02_Fang_02,"This may sound sexist, but I'm into soft, sweet women. If they are shorter than me, I like that as well. "
+Side_Q_NightToRemember_FangQ_S02_AI_03,Fang's preference in appearance doesn't match with Nina. Potentially a negative result. 
+
+#,FangQ_S03 (Work) - Neutral
+Side_Q_NightToRemember_FangQ_S03_Player_01,How does your work affect your love life?
+Side_Q_NightToRemember_FangQ_S03_Fang_02,The work I do is just to make enough money to survive and sustain my lifestyle. 
+Side_Q_NightToRemember_FangQ_S03_AI_03,Nina and Fang seem to both be dismissive of their jobs. Result is neutral. 
+
+#,FangQ_S04 (Exes) - Neutral
+Side_Q_NightToRemember_FangQ_S04_Player_01,Tell me about your past relationships?
+Side_Q_NightToRemember_FangQ_S04_Fang_02,"A few girlfriends... even almost got married once. Family always came first, though, and something always forced a breakup. Finding love is hard. "
+Side_Q_NightToRemember_FangQ_S04_AI_03,"Fang has been controlled by his circumstances. It is possible he would make different choices on Titan, without outside forces at play. Result is neutral. "
+
+#,FangQ_S05 (Stop Asking)
+Side_Q_NightToRemember_FangQ_S05_Fang_01,Let me know if I need to take a night off. 
+
+#,————————————————————————————
+#,Player speaks with Alexei
+Side_Q_NightToRemember_Player_52,Alexei! Just the man I was looking for.
+Side_Q_NightToRemember_Alexei_53,"Good to see you, Wolf? To what do I owe the honor?"
+Side_Q_NightToRemember_Player_54,I want to potentially set you up with a friend of mine on a blind date. 
+Side_Q_NightToRemember_Alexei_55,"Are you serious? Well, I'm open to this since you're the one asking. "
+Side_Q_NightToRemember_Player_56,Only if I can determine you're a good match. So...
+
+#,Player can ask one or more of the following questions to determine the best suitor. None of these are mandatory's but 
+
+#,AlexeiQ_S01 (Family) - Neutral
+Side_Q_NightToRemember_AlexeiQ_S01_Player_01,What's your relationship with your family like?
+Side_Q_NightToRemember_AlexeiQ_S01_Alexei_02,"We have big families in Russia. I'm one of six kids, and all of us would kill for each other. Parents are even still together. Family is strong.  "
+Side_Q_NightToRemember_AlexeiQ_S01_AI_03,"Alexei and Nina have opposite family lives, but this isn't a bad thing due to his loyalty. Result is neutral. "
+
+#,AlexeiQ_S02 (Attraction) - Positive
+Side_Q_NightToRemember_AlexeiQ_S02_Player_01,What kind of partners are you attracted to?
+Side_Q_NightToRemember_AlexeiQ_S02_Alexei_02,"Blondes. I like strong blondes who don't take crap from anyone. If they can drink like me, even better. "
+Side_Q_NightToRemember_AlexeiQ_S02_AI_03,Nina aligns almost exactly with Alexei's attraction preferences. Result is positive. 
+
+#,AlexeiQ_S03 (Work) - Neutral
+Side_Q_NightToRemember_AlexeiQ_S03_Player_01,How does your work affect your love life?
+Side_Q_NightToRemember_AlexeiQ_S03_Alexei_02,Work is work. What's more important is how we have fun!
+Side_Q_NightToRemember_AlexeiQ_S03_AI_03,"If Nina isn't invested in her work, a strong off-the-clock lifestyle could be helpful for her. Result is neutral. "
+
+#,AlexeiQ_S04 (Exes) - Negative
+Side_Q_NightToRemember_AlexeiQ_S04_Player_01,Tell me about your past relationships?
+Side_Q_NightToRemember_AlexeiQ_S04_Alexei_02,"Too many to count. Lots of opportunity, lots of women. I don't like to be alone. "
+Side_Q_NightToRemember_AlexeiQ_S04_AI_03,"Nina may be intimidated by someone as experienced as Alexei, and we cannot be sure he wouldn't cast her aside quickly either. Result is negative. "
+
+#,AlexeiQ_S05 (Stop Asking)
+Side_Q_NightToRemember_AlexeiQ_S05_Alexei_01,You know where to find me when you make a decision. 
+
+#,————————————————————————————
+#,"When player has spoken with all 3 suitors, Cassini pings player with choice"
+#,"If player chooses S02, no additional dialogue needed. This should pop back up after they speak with one of the suitors again. "
+Side_Q_NightToRemember_AI_58,"After speaking with the potential suitors, are you ready to choose Nina's blind date?"
+Side_Q_NightToRemember_Choose_S01,I guess I have to make a decision...
+
+#,Player chooses Choose_S01
+Side_Q_NightToRemember_Choose_S01_AI_01,"Analyzing the answers they provided, all suitors have the potential of being a good date for Nina."
+Side_Q_NightToRemember_Choose_S01_Player_02,"Agreed. That's why this is such a hard choice, but I have to make the right one. "
+
+#,Player is presented with date choices
+#,With S04 player chooses themselves. Player must have made correct dialogue choices during initial quest dialogue. Not available if player already has Freyja as GF. 
+Side_Q_NightToRemember_Choose_S01_AI_03,Who have you chosen for Nina?
+Side_Q_NightToRemember_Final_S01,Alexei
+Side_Q_NightToRemember_Final_S02,Dalton
+Side_Q_NightToRemember_Final_S03,Fang
+Side_Q_NightToRemember_Final_S04,I'm taking Nina out myself
+
+#,Player chooses Alexei
+Side_Q_NightToRemember_Final_S01_AI_01,Alexei is an interesting choice. Why'd you pick him?
+Side_Q_NightToRemember_Final_S01_Player_02,"He's aggressive, but Alexei has heart and could show Nina a good time. I think that's what she needs right now. "
+Side_Q_NightToRemember_Final_S01_Player_03,"Even if there's a chance their connection won't last forever, I see potential there. "
+
+#,Player chooses Dalton
+Side_Q_NightToRemember_Final_S02_AI_01,Dalton is a natural choice. Why'd you pick him?
+Side_Q_NightToRemember_Final_S02_Player_02,"Nina and Dalton have a lot in common, from personality to their work experience. A lot of people meet their partner on the job, you know?"
+Side_Q_NightToRemember_Final_S02_Player_03,"Being in close proximity already might allow Nina to open up faster, as well. "
+
+#,Player chooses Fang
+Side_Q_NightToRemember_Final_S03_AI_01,Fang is a bold choice. Why'd you pick him?
+Side_Q_NightToRemember_Final_S03_Player_02,"Nina needs someone motivated and family-oriented, and that's Fang to a T. I could see their connection growing fast."
+Side_Q_NightToRemember_Final_S03_Player_03,And the fact that they both have daddy-issues may give them the perfect icebreaker to commiserate over. 
+
+#,Player chooses themselves 
+Side_Q_NightToRemember_Final_S04_AI_01,"A surprising decision. Why have you chosen yourself, {PlayerFullName}?"
+Side_Q_NightToRemember_Final_S04_Player_02,"Nina didn't have anyone to talk to, but she chose me. I felt such a connection to her, and it's obvious I like her, since I'm running around trying to make her happy."
+Side_Q_NightToRemember_Final_S04_Player_03,"So, why leave it to chance? I'll just personally make sure she has the romantic evening of her dreams. "
+Side_Q_NightToRemember_Final_S04_AI_04,Your rationale is logical. I have no objections. 
+
+#,————————————————————————————
+#,Player must now prep the date for Nina 
+Side_Q_NightToRemember_AI_59,"Now that we've chosen Nina's blind date, it's time to solidify the evening's other details, including obtaining a rose, candles, and securing a location for the date to occur. "
+Side_Q_NightToRemember_Player_60,"I can speak with Seoyeon about a rose. She's the expert on plants. And David might have access to candles, since he sells pretty much everything. "
+Side_Q_NightToRemember_AI_61,And may I suggest speaking with Miriam about using the Pub for the location?
+Side_Q_NightToRemember_Player_63,Great idea! Let's go make this date perfect. 
+
+#,Player speaks with Seoyeon
+#,"After dialogue, player must buy the Rose from the Hydropnics trade box"
+Side_Q_NightToRemember_Player_64_01,"( Ask about rose for the date night. )"
+Side_Q_NightToRemember_Player_64,"Hi, Seoyeon! You wouldn't happen to know where I could get a rose, would you?"
+Side_Q_NightToRemember_Seoyeon_65,"Under normal circumstances, I'd say that roses require too much water and care for us to grow them here. We're mostly growing food and medicinal plants, but you actually came at an opportune time. "
+Side_Q_NightToRemember_Seoyeon_66,"Rana was able to grow two roses and gave them to me for our anniversary. It was incredibly sweet, but I don't really need two roses. "
+Side_Q_NightToRemember_Seoyeon_67,"Since this is a special request, I will only charge you 1000 Credits."
+Side_Q_NightToRemember_Player_68,"Thanks, Seoyeon. And congrats on the anniversary. "
+Side_Q_NightToRemember_Seoyeon_69,Of course.
+
+Side_Q_NightToRemember_Player_69_01,"I will come back when I have enough credits."
+Side_Q_NightToRemember_Player_69_02,"Purchase rose from Seoyeon."
+Side_Q_NightToRemember_Player_69_03,"( You have obtained rose from Seoyeon )"
+
+#,Player speaks with David
+#,"After dialogue, player must buy the Candle from the David's Emporium trade box"
+Side_Q_NightToRemember_Player_70_01,"Ask about decorative candles for date night."
+Side_Q_NightToRemember_Player_70,"David... My friend, The House! I have a favor to ask."
+Side_Q_NightToRemember_David_71,"You're the only one who is giving my new nickname a chance, so sure... what do you need?"
+Side_Q_NightToRemember_Player_72,I need some decorative candles.
+Side_Q_NightToRemember_David_73,"We have a bunch of lightbulbs, flashlights, and even illuminated mini-pods, but decorative candles? Why are we going old school?"
+Side_Q_NightToRemember_Player_74,For a candlelit dinner. I'm trying to create a romantic ambiance. 
+Side_Q_NightToRemember_David_75,"Oh, wow, then I won't stand in the way of love. Let me check my inventory."
+Side_Q_NightToRemember_Nar_76,(David pulls out his datapad and scrolls for quite a while before he taps the pad and puts it away.)
+Side_Q_NightToRemember_David_77,"I was able to find a few decorative candles. Just purchase them from my trade box, and they're yours. Sold as a bundle, because I'm a nice guy. "
+Side_Q_NightToRemember_David_78,Good luck with the dinner. 
+
+#,Player speaks with Miriam
+Side_Q_NightToRemember_Player_79_01,"Ask about table for the date night."
+Side_Q_NightToRemember_Player_79,"Hey, Miriam. If I wanted to use Alp's Pub after hours for a date night, is that a possibility?"
+Side_Q_NightToRemember_Miriam_80,"Alp is pretty liberal with the pub, so I'd assume yes. Ulf and I hang out here all the time."
+Side_Q_NightToRemember_Miriam_81,Who's the lucky lady?
+Side_Q_NightToRemember_Player_82,"My lips are sealed for now, but this is awesome! "
+Side_Q_NightToRemember_Player_83,Any chance Alp can cook up a meal for two as well?
+Side_Q_NightToRemember_Miriam_84,"He's been busy, so let's not bother him. I'll cook a homemade meal for the date myself."
+
+#,Player choice of Miriam meal
+#,"Food choice will impact date with NPC. Alexei hates soup (S01) but loves kugel (S02), Dalton hates noodles (S02) but loves eggs (S03), Fang is vegetarian (S03) but lots matzoh (S01). As long as player doesn't pick the food they hate, everything goes well. "
+Side_Q_NightToRemember_Miriam_85,I have a few specialties I could whip up. Which would you prefer?
+Side_Q_NightToRemember_Food_S01,Matzoh Ball Soup
+Side_Q_NightToRemember_Food_S02,Kugel
+Side_Q_NightToRemember_Food_S03,Shakshuka
+
+#,Miriam asks for the candle and rose
+Side_Q_NightToRemember_Player_86_S01,"( Ask to set the table with a decorative candle and some rose. )"
+Side_Q_NightToRemember_Miriam_86_01,"Do you have all the items for the table? I will need them so I can set the table properly!"
+Side_Q_NightToRemember_Player_86_01,"Of course, here they are."
+Side_Q_NightToRemember_Player_86_02,"I don't have them with me, but I will bring them."
+Side_Q_NightToRemember_Nar_87_01,"(You give decorative candles and the rose to Miriam, hoping the table to be as romantic as possible.)"
+
+Side_Q_NightToRemember_Miriam_86,"Excellent, I'll get started on a batch so it's ready for the date."
+Side_Q_NightToRemember_Player_87,"Thanks for everything, Miriam. See you soon. "
+
+#,"Once player has rose, candles, and food selection, Cassini pings player. "
+Side_Q_NightToRemember_AI_88,"Everything is set for Nina's blind date, {PlayerFullName}."
+Side_Q_NightToRemember_Player_89,"Actually, just one last thing. "
+Side_Q_NightToRemember_Nar_90,"(You pull a sheet of paper from your bag, and scrawl a meaningful note on it.)"
+Side_Q_NightToRemember_Player_91,Nina said the night should start with a hand-written note. 
+Side_Q_NightToRemember_AI_92,We cannot give it to her directly. 
+Side_Q_NightToRemember_Player_93,"No, I'm going to leave it in her room. She'll find it after her shift and then head to the date. "
+Side_Q_NightToRemember_AI_94,Well planned. 
+
+#,Player choice to start date
+#,"If player chooses S02, no additional dialogue needed. Player will have a marker added to their mini-map for Nina's room. This popup will come back up if they go there."
+Side_Q_NightToRemember_Nar_95_01,"( This storage seems to belong to Nina. )"
+Side_Q_NightToRemember_AI_95,Should we leave the note for Nina now?
+Side_Q_NightToRemember_StartDate_S01,Yes! Tonight is perfect for Nina's blind date!
+Side_Q_NightToRemember_StartDate_S02,Let's wait for the right time.
+
+#,————————————————————————————
+#,Player starts date with NPC
+#,"Fade to black, with just the narration on screen. "
+Side_Q_NightToRemember_StartDate_S01_Nar_01,(You sneak to Nina's room and slip the hand-written note under her door. It beckons her to Alp's Pub for a night of romance.)
+
+#,"If player asked the questions to find NPC's negative quality, they get the chance to warn about it, thus making the date go better."
+#,"Even with the prompt, the player can still choose S02 to not steer him away from negative quality."
+#,If player chose Alexei
+Side_Q_NightToRemember_StartDate_S01_AI_02,I'm sending Alexei details about his date with Nina. Is there anything else I should include?
+Side_Q_NightToRemember_AlexeiNeg_S01,Tell him to stay away from the topic of past relationships. 
+Side_Q_NightToRemember_AlexeiNeg_S02,"Just, 'Good luck.'"
+
+#,If player chose Dalton
+Side_Q_NightToRemember_StartDate_S01_AI_03,I'm sending Dalton details about his date with Nina. Is there anything else I should include?
+Side_Q_NightToRemember_DaltonNeg_S01,Tell him not to talk about his relationship with his family. 
+Side_Q_NightToRemember_DaltonNeg_S02,"Just, 'Good luck.'"
+
+#,If player chose Fang
+Side_Q_NightToRemember_StartDate_S01_AI_04,I'm sending Fang details about his date with Nina. Is there anything else I should include?
+Side_Q_NightToRemember_FangNeg_S01,"Tell him that she might be physically different from girls he's dated before, but to put that aside and just go for it. "
+Side_Q_NightToRemember_FangNeg_S02,"Just, 'Good luck.'"
+
+#,After the player chooses to warn NPC or not
+Side_Q_NightToRemember_AI_96,Sending the message now. 
+Side_Q_NightToRemember_Nar_97,(...)
+Side_Q_NightToRemember_AI_98,Messages have been sent. 
+Side_Q_NightToRemember_Player_99,And now... we wait. I hope it goes well. 
+
+#,————————————————————————————
+#,"If player chose NPC to take Nina out, then all they can do is wait for word on how the date went (X number of turns). "
+#,"Great Result (BIG XP + Credits) = 1) Player warned NPC of negative quality, 2) Chose NPC favorite food"
+#,"Good Result (BIG XP) = 1) Player warned NPC of negative quality, 2) Chose NPC neutral food"
+#,"Fine Result (Medium XP + Credits) = 1) Player warned NPC of negative quality, 2) Chose NPC hated food"
+#,"Neutral Result (Medium XP) = 1) Player did NOT warned NPC of negative quality, 2) Chose NPC favorite food"
+#,"Bad Result (Low XP) = 1) Player did NOT warned NPC of negative quality, 2) Chose NPC neutral food"
+#,"Worst Result (Low XP + No NPC reward) = 1) Player did NOT warned NPC of negative quality, 2) Chose NPC hated food"
+
+#,Player receives message X number of turns after setting up the date. 
+#,Message for a great result. 
+Side_Q_NightToRemember_AI_100,"Incoming message from Nina, {PlayerFullName}."
+Side_Q_NightToRemember_Nina_101_01,"For me to simply say thank you just wouldn't be enough. You chose the perfect guy to join me last night, and this may lead to a life-long love I never knew was possible. The food was delicious, and we danced the night away. I owe you big time. Oh! And <#FFA500>Alexei</color> said he put a new surprise item in your storage box too. Cheers! \n-Nina Zherdev"
+Side_Q_NightToRemember_Nina_101_02,"For me to simply say thank you just wouldn't be enough. You chose the perfect guy to join me last night, and this may lead to a life-long love I never knew was possible. The food was delicious, and we danced the night away. I owe you big time. Oh! And <#FFA500>Dalton</color> said he put a new surprise item in your storage box too. Cheers! \n-Nina Zherdev"
+Side_Q_NightToRemember_Nina_101_03,"For me to simply say thank you just wouldn't be enough. You chose the perfect guy to join me last night, and this may lead to a life-long love I never knew was possible. The food was delicious, and we danced the night away. I owe you big time. Oh! And <#FFA500>Fang</color> said he put a new surprise item in your storage box too. Cheers! \n-Nina Zherdev"
+
+#,Message for a good or fine result. 
+Side_Q_NightToRemember_AI_102,"Incoming message from Nina, {PlayerFullName}."
+Side_Q_NightToRemember_Nina_103_01,"Just wanted to let you know that I had a good time on my blind date! You made a great choice of suitor for me. And even though there were a few hiccups, it is a memory I will treasure forever. Thank you for making it possible. Oh! And <#FFA500>Alexei</color> said he put a new surprise item in your storage box too. Cheers!\n-Nina Zherdev"
+Side_Q_NightToRemember_Nina_103_02,"Just wanted to let you know that I had a good time on my blind date! You made a great choice of suitor for me. And even though there were a few hiccups, it is a memory I will treasure forever. Thank you for making it possible. Oh! And <#FFA500>Dalton</color> said he put a new surprise item in your storage box too. Cheers!\n-Nina Zherdev"
+Side_Q_NightToRemember_Nina_103_03,"Just wanted to let you know that I had a good time on my blind date! You made a great choice of suitor for me. And even though there were a few hiccups, it is a memory I will treasure forever. Thank you for making it possible. Oh! And <#FFA500>Fang</color> said he put a new surprise item in your storage box too. Cheers!\n-Nina Zherdev"
+
+#,Replaces Basic_Nina until is result was great to fine
+Side_Q_NightToRemember_Nina_104,Thanks for all you did for me. I'll see you around. 
+
+#,Message for a neutral to bad result. 
+Side_Q_NightToRemember_AI_105,"Incoming message from Nina, {PlayerFullName}."
+Side_Q_NightToRemember_Nina_106_01,"Hey! I appreciate what you attempted to do for me, but it just wasn't a great night. We worked through the issues and had an okay time, but I don't think I'll be signing up for another blind date anytime soon. Again, though, you tried and I'm thankful. <#FFA500>Alexei</color> mentioned he put a new surprise item in your storage box too. See you around.\n-Nina Zherdev"
+Side_Q_NightToRemember_Nina_106_02,"Hey! I appreciate what you attempted to do for me, but it just wasn't a great night. We worked through the issues and had an okay time, but I don't think I'll be signing up for another blind date anytime soon. Again, though, you tried and I'm thankful. <#FFA500>Dalton</color> mentioned he put a new surprise item in your storage box too. See you around.\n-Nina Zherdev"
+Side_Q_NightToRemember_Nina_106_03,"Hey! I appreciate what you attempted to do for me, but it just wasn't a great night. We worked through the issues and had an okay time, but I don't think I'll be signing up for another blind date anytime soon. Again, though, you tried and I'm thankful. <#FFA500>Fang</color> mentioned he put a new surprise item in your storage box too. See you around.\n-Nina Zherdev"
+
+#,Replaces Basic_Nina until is result was bad
+Side_Q_NightToRemember_Nina_107,"Thanks for trying to help me. I'll see you around, though. "
+
+#,Message for a neutral to worst result. 
+Side_Q_NightToRemember_AI_108,"Incoming message from Nina, {PlayerFullName}."
+Side_Q_NightToRemember_Nina_109,"Hey! I appreciate what you attempted to do for me, but... WHAT WERE YOU THINKING? Nothing went right on the date, and we just went home early. The whole night was a bust, and I honestly would have been better off just sticking to my romantic dreams. Thanks for trying, but you may want to stay away from match-making in the future. See you around. \n-Nina Zherdev"
+
+#,Replaces Basic_Nina until is result was worst
+Side_Q_NightToRemember_Nina_110,How's it going? I hope you're staying out of the love game. 

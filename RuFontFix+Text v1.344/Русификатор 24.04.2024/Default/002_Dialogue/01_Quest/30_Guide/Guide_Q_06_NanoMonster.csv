@@ -1,0 +1,17 @@
+Language,Default
+
+#,Main Quest Name: Nano Monster
+#,Purpose: Nano Monster and its tutorial
+#,Actor: Cassini
+#,KeyPrefix: NanoMonster_MQ
+
+#,This triggers when the player transforms into the nano monster for the first time.
+NanoMonster_MQ_Nar_01,(Your body has reached a tipping point. You're losing control…)
+NanoMonster_MQ_Player_02,"Something is happening to me! Cassini, help!"
+NanoMonster_MQ_AI_03,"{PlayerFullName}, your Nano Infection levels are beyond normal parameters. Performing bio scan…"
+NanoMonster_MQ_AI_04,Your biometric readings are beyond all previous chromosomal mutation parameters.
+NanoMonster_MQ_AI_05,"Checking all medical records, and this occurred once before… right after you left cryostasis."
+NanoMonster_MQ_AI_06,"It is occurring again due to sheer amount of Nano Infection you've absorbed, despite Ida's modifications to your nanobots."
+NanoMonster_MQ_Nar_07,"(Your muscles erupt, with nails turning into claws and teeth transforming into fangs. The sudden urge to destroy everything floods your mind.)"
+NanoMonster_MQ_AI_08,Retain control and inject Anti-Nanobot Shots to reduce your infection levels before it's too late.
+NanoMonster_MQ_AI_09,The effects are irreversible. Don't let the infection overwhelm you.

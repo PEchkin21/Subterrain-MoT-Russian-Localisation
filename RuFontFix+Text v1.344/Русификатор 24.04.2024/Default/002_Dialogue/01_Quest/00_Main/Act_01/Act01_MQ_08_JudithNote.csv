@@ -1,0 +1,39 @@
+Language,Default
+
+#,Main Quest Name: Judith's Note
+#,Purpose: Get Judith's Notebook at Inventory
+#,"Place: Engineering, Cave"
+#,"Actor: Player, Judith Taggart"
+#,KeyPrefix: Act01_MQ_08
+
+#,(Player asks Judith if she was looking for him/her)
+#,"(Judith lost her note when she was exploring cave, she wants player to get it for her)"
+#,(Judith lost her note because she seemingly was running away from the creatures in the deeper part of the cave)
+Act01_MQ_08_Player_01,I'm the one running errands in the caves for credits. Did you need something?
+Act01_MQ_08_Judith_02,"You know, me'dad used to say, 'If a person comes to you with an open hand, smack it away. They just want money.'"
+Act01_MQ_08_Narration_03,"(Judith's tone is semi-joking, but you're still taken aback nonetheless. She continues.)"
+Act01_MQ_08_Judith_04,"So, how is the cave these days? Lots of dangerous creatures, or just swarms of wee ones?"
+Act01_MQ_08_Player_05,"All types, actually. They put up a good fight, but I can handle them. "
+Act01_MQ_08_Judith_06,"I'm not one for fighting me'self. Much rather oil on my hands than blood, y'know. Since you're taking requests into treacherous domains, though, I have a task for you."
+Act01_MQ_08_Player_07,My schedule is wide open. What do you need?
+Act01_MQ_08_Judith_08,"Well, as you can tell, most of us are reluctant to enter the caves. It used to be relatively safe, and our teams would take turns exploring it, but the creatures multiplied out of nowhere, and some of them mutated into literal monsters. Now they're everywhere, and our numbers are low enough as it is."
+Act01_MQ_08_Judith_09,"I was in that cave a few weeks ago, making sure the support beams were sturdy, and one of those creatures tried to attack me. I got away, but I lost my invention notebook. I've had it since arriving on Titan, and it contains many ideas for improving this place. "
+Act01_MQ_08_Judith_10,"Handling the creatures - as you put it - isn't a problem for you, <color=#FFFF00>so can you please retrieve my notebook for me?</color> "
+
+#,(Player accepts the job)
+Act01_MQ_08_Player_11,"Okay, I'll look for your notes."
+Act01_MQ_08_Judith_12,Wonderful! I'll be here. 
+
+#,(Player already has the Judith's note)
+Act01_MQ_08_Player_13,Notebook? Are you talking about this?
+
+#,(Player brings back the note)
+Act01_MQ_08_Player_14,I found your notebook.
+
+#,(Judith's reaction when she gets the note)
+#,(Judith will produce some blueprint for player later which can be requested to be researched.)
+Act01_MQ_08_Narration_15,"(Judith is extremely relieved, letting out a huge sigh and smiling. You hand her the notebook, and she flips through it to ensure it's intact.)"
+Act01_MQ_08_Judith_16,"You are a lifesaver. Here are some credits, and I'll even share one of my easy blueprints with you. I just put it in your <color=#FFA500>Storage</color>, and you can use the <color=#FFA500>Item Production</color> menu to <color=#FFA500>Research</color> and <color=#FFA500>Craft</color> it."
+Act01_MQ_08_Narration_17,(You receive <color=#66FFCC>Credits</color> and a <color=#66FFCC>Blueprint</color>)
+Act01_MQ_08_Player_18,Thank you. It was really nothing. 
+Act01_MQ_08_Judith_19,"No, it was definitely something. The camp would be better off if everyone was like you. Have a great one!"

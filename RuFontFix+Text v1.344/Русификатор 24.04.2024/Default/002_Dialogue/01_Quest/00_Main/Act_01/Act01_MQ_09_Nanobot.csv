@@ -1,0 +1,72 @@
+Language,Default
+
+#,Main Quest Name: Nanobot
+#,Purpose: Nanobot-related stats and perk activation.
+#,Place: Medical
+#,"Actor: Player, Ida Shahane, Isko Exconde"
+#,KeyPrefix: Act01_MQ_09
+
+#,(Player receives message from Ida to come and see her ASAP)
+Act01_MQ_09_AI_01,<color=#FFA500>A new message has arrived.</color>
+Act01_MQ_09_Player_02,What's this?
+Act01_MQ_09_Nar_03,(You check your messages. A message scrolls across your vision.)
+Act01_MQ_09_Ida_04,<message>\nCome back to the clinic as soon as possible. I have urgent news.\n-Ida Shahane-
+
+#,(Players speaks with Ida.)
+Act01_MQ_09_Player_05,You wanted to see me? You said it was urgent.
+Act01_MQ_09_Nar_06,"(Ida attempts to hide her excitement upon your arrival, but her poker face isn't as strong as she might think. She leads you back to the clinic to continue the conversation.)"
+
+#,(Player gathers with Ida and Isko in the clinic)
+#,(This important event unlocks player's Nanobot ability which is a condition to access the mine)
+#,(Ida explains the situation when they arrived at the camp. Nanobot infection at mine.)
+#,(Replacement Omniscope parts Ida used for the player came from dead miner. Idea never told this in the beginning but maybe it is a good idea to use that here.)
+#,"(After examining dead miner, Ida has some idea what is causing the infection but not knowing why.)"
+#,(Ida discovered that player has different kinds of Nanobot which seems to have some degree of resistance to the nanobots causing the infection.)
+Act01_MQ_09_Ida_07,Thank you for coming so quickly. We've discovered something that may be useful.
+Act01_MQ_09_Player_08,...And that is?
+Act01_MQ_09_Nar_09,(She pauses for a moment to collect her thoughts before continuing.)
+Act01_MQ_09_Ida_10,"First, Camp Huygen was organized and funded with the exclusive purpose of mining, but did you know the mine here is currently locked down?"
+Act01_MQ_09_Player_11,"I've picked that up from conversations with others in camp, yes."
+Act01_MQ_09_Ida_12,Did any of them tell you why the mines are closed?
+Act01_MQ_09_Player_13,No. Why? What's going on?
+Act01_MQ_09_Ida_14,"It's a delicate matter, but I'll explain. When mining operations began, everything went smoothly at first. Within days, however, Isko and I were treating several spontaneous skin lesions, and too many miners fell violently ill, and could not continue work. We initially believed all of this to be caused by poor ventilation, but the operation never recovered even after making adjustments. Even our replacement workers got sick, and I was unable to cure them. "
+Act01_MQ_09_Isko_15,"Don't blame yourself, Ida. We were honestly stumbling in the dark, and HQ pushed too hard for the work to keep going."
+Act01_MQ_09_Ida_16,"I know, but I should have found a solution sooner. As of right now, <color=#FFFF00>all mining has stopped indefinitely</color>, and <color=#FFFF00>HQ has all but abandoned Camp Huygen</color> as a lost cause, which is why we're in dire straits."
+Act01_MQ_09_Ida_17,"Isko and I have been determined to solve this medical conundrum ever since. I had hoped your memories would shed some light, but your amnesia presented a problem. We instead went back to the previous owner of your Omniscope, or at least many of the parts inside that we swapped to make yours usable. He was a patient who succumbed to illness from the mines. At the very least, we hoped his <color=#FFA500>nanobot AI</color> would give us some insight."
+Act01_MQ_09_Player_18,"Nanobots? If I remember correctly, I received a nanobot shot before coming to Titan."
+Act01_MQ_09_Ida_19,"Yes, everyone gets that shot. The microscopic robots work together in clusters within a loose AI mesh to help regulate the body and immunize against harmful environments until atmospheric terraforming is complete. With so many unpredictable elements to our journey to Titan, the nanobots are mandatory for anyone traveling here."
+Act01_MQ_09_Ida_20,"However, the previous owner of your Omniscope possessed still-active nanobots in his system that were somehow altered by whatever sickness was down in that mine. These altered nanobots, we call them viruses, seem to break down normal nanobots, destroying and sometimes even absorbing them in the process. And those nanobots were transferred to you during your Omniscope procedure. Don't worry, we've run several tests since you left the clinic, and you're just fine... which brings us to why I asked you to come back. "
+Act01_MQ_09_Isko_21,"No one else coming out of the mine has contracted anything like this. So far, it looks like it spreads by direct contact, so the previous owner must have found something other than ore in the mine. And it came back with him, but your nanobots seem resistant to the virus. "
+Act01_MQ_09_Ida_22,And now I can finally share my news. There's a possibility that <color=#FFFF00>you are the only person on Titan who can safely enter that mine</color>.
+Act01_MQ_09_Player_23,Are you serious? Why me?
+Act01_MQ_09_Ida_24,"We ran several labs on your DNA and your nanobots when you were here last. The results show your nanobots, like your cryo-pod, use divergent technology unlike anyone else's here on Titan. And so far, your nanobots have retained their integrity after constant attacks from the invading nanobots of the previous owner. "
+Act01_MQ_09_Ida_25,This means you should be able to update your nanobots to make you almost completely immune to any harmful effects the mine can throw at you.
+Act01_MQ_09_Nar_26,"(You feel overwhelmed by the news. You already feel like an outsider, but now you are different on a biological level too?)"
+Act01_MQ_09_Player_27,This is... a lot. What are you asking of me?
+Act01_MQ_09_Ida_28,"Listen: Your nanobots give you an edge no one else possesses. We're all scavenging a single shallow cave and collecting crumbs, but it'll soon be depleted at the rate we're going. We need the resources in the mine. And by we, I mean all of us, including you. Without either support from HQ or going into the mine, we don't survive... period. The mine has abundant resources that could help us hold on until connection with HQ can be re-established. You must go into the mines for all of our sakes. "
+Act01_MQ_09_Player_29,Are you really entrusting this mission to a stranger? I don't even know who I am.
+Act01_MQ_09_Ida_30,"Isko has already attempted to alter our nanobots, but every test scenario ends in cell destruction."
+Act01_MQ_09_Isko_31,"There just isn't anyone else, unfortunately. It has to be you. "
+Act01_MQ_09_Nar_32,(Ida and Isko remain silent as you contemplate what they've said. Why did you wake up in this camp? At this particular time of need? Was this fate?)
+Act01_MQ_09_Player_33,Since there's no other choice... I accept. Just tell me what's next.
+Act01_MQ_09_Ida_34,"Excellent! Our systems show your nanobots are only partially functional at the moment. We need to force a full resynchronization, which should bring them entirely back to 100% and keep you alive."
+Act01_MQ_09_Nar_35,(Resistance is futile at this point. You simply nod to acknowledge your compliance.)
+Act01_MQ_09_Ida_36,Good. Follow me.
+
+#,(Screen fades to nanobot activation machine)
+Act01_MQ_09_Nar_37,"(Ida leads you to a capsule at the back of the clinic. You enter, and she signals Isko to begin the process.)"
+Act01_MQ_09_Nar_38,(...)
+Act01_MQ_09_Nar_39,(Time passes and the blinking lights and electrical zaps eventually become irritating. The machine continues to run.)
+Act01_MQ_09_Ida_40,"Isko, is everything synced? This has to work."
+Act01_MQ_09_Isko_41,"We can't directly interface with the nanobots, but I've gradually introduced virus samples, and the nanobots have fought off even the highest loads. I believe they are fully recalibrated. "
+Act01_MQ_09_Ida_42,Good news is rare around here. Drinks on me if this actually works. 
+Act01_MQ_09_Nar_43,(Ida opens the capsule and helps you out.)
+Act01_MQ_09_Ida_44,"Everything is done, and your nanobots are ready for the mine. "
+
+#,(Nanobot activation event)
+#,(Ida suggests player to go and see Tau Mogorosi by Mine control center. Maybe he will let player in)
+Act01_MQ_09_AI_45,<color=#FFA500>Nanobots activated. Nanobot gauge display activated. New nanobot perk activated.</color>
+Act01_MQ_09_Ida_46,Do you feel any different? 
+Act01_MQ_09_Player_47,"It feels... weird. Nanobots are usually unnoticeable, but I can literally feel them moving through my body right now. It'll take some getting used to, but at least I see a new display on my scope. Must mean it worked as planned. "
+Act01_MQ_09_Ida_48,"While I'd love to keep you for a few more hours to thoroughly document this medical phenomenon, it's more important for you to report to the mine ASAP. What you find inside will be the key to saving us."
+Act01_MQ_09_Ida_49,We've done all that we can for you here. <color=#FFFF00>Go find Tau at the mines</color>. He'll be expecting you.

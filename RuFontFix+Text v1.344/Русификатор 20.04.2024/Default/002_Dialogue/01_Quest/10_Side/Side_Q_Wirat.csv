@@ -1,0 +1,218 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Wirat Saapchaengduagdao 
+#,Quest Name: Guided Meditation 
+#,Key_Fix: Side_Q_GuidedMetitation
+
+#,"Wirat asks the Player to gather incense (from underground church) and candles (special item from Alp's store), then to participate in a guided meditation."
+#,"The world gives you only what you tell it you want. then Wirat will ask a series of guiding questions and the player will give responses, each one tallying up a reward they'll receive at the end. "
+#,"3 NPCs not represented here: Fang, Temir, Brett. We could add another question to include some more of these, add them to existing questions, or just leave them alone. Any thoughts are accepted. "
+
+#,Player receives message to start quest
+#,Guided Meditation is more of a victory lap of a quest and should only pop up once all other quests have been completed. Possible exception: Ursula's (who may or may not activate if you finish the game quickly) and Tau's (since that'll happen after you've already left Camp). 
+Side_Q_GuidedMetitation_AI_01,"Incoming message from Wirat, {PlayerFullName}. "
+Side_Q_GuidedMetitation_Wirat_02,"You've proven to be connected to almost every aspect of Camp Huygen, but when was the last time you took a moment to reflect. Visit me, and we can begin. \n-Wirat Saapchaengduagdao"
+
+#,Player speaks with Wirat
+Side_Q_GuidedMetitation_Player_03,"Hey, Wirat! What is all this about reflection?"
+Side_Q_GuidedMetitation_Wirat_04,"Life is reflection. The strong live life, and the wise know why the strong live as they do. "
+Side_Q_GuidedMetitation_Wirat_05,"In truth, the world gives you only what you tell it you want. When have you last reflected on the 'why' of your story?"
+Side_Q_GuidedMetitation_Player_06,"I can't say I have, actually. Every day has been bouncing from task to task, danger to danger, and just barely surviving. "
+Side_Q_GuidedMetitation_Wirat_07,Then I task you with performing a guided meditation with me. We need incense and candles to begin. 
+Side_Q_GuidedMetitation_Wirat_08,Come find me when you are ready. 
+Side_Q_GuidedMetitation_AI_09,"{PlayerFullName}, the camp has no Incense in its inventory, but the underground church on Level 10 of the mine may be a place to find some. "
+Side_Q_GuidedMetitation_Player_10,And we can visit David's Emporium to purchase more candles too.
+Side_Q_GuidedMetitation_AI_11,"It appears we have a plan, then. "
+
+#,After getting the candle fro David's Emporium
+Side_Q_GuidedMetitation_Player_12,Looks like David had more candles. 
+Side_Q_GuidedMetitation_AI_13,Quite lucky. 
+
+#,After getting incense from underground church
+Side_Q_GuidedMetitation_AI_14,This incense can be used for meditation with Wirat. 
+Side_Q_GuidedMetitation_Nar_15,"(You receive '<color=#66FFCC>Incense</color>'.)"
+
+#,Returning to Wirat
+Side_Q_GuidedMetitation_Player_16,I'm back with mediation supplies. 
+
+#,Player choice
+Side_Q_GuidedMetitation_Wirat_17,"Good, good. Are you ready to start?"
+Side_Q_GuidedMetitation_Start_S01,Let's start our mediation. 
+Side_Q_GuidedMetitation_Start_S02,Not yet. I'll be back. 
+
+#,If player chooses to not start the meditation
+Side_Q_GuidedMetitation_Start_S02_Wirat_01,"'The biggest mistake is you think you have time,' but I will be here. "
+
+#,———————————————————————————
+#,Player starts meditation by select Start_S01
+#,"Guided meditation in composed of a series of questions, each one granting a reward based on player's response. It'd be cool if these specific bonuses carried over into a New Game+. "
+#,Fade in on room with Wirat and player in meditation together or possibly illustrations them on either side of the screen with meditation words in center. Could be cool. 
+Side_Q_GuidedMetitation_Wirat_18,Let us begin.
+Side_Q_GuidedMetitation_Nar_19,"(The sage-scented incense invades your nostrils, while a combination of dim candles and soft music lull you into a calmed state.)"
+Side_Q_GuidedMetitation_Wirat_20,"Return to your beginning. Your first breaths after leaving cryostasis, the first things to hit your senses, the first voices you heard. "
+
+#,Question 1
+Side_Q_GuidedMetitation_Wirat_21,Tell me the most important person to you when you awoke?
+
+Side_Q_GuidedMetitation_Q1_S01,Ida
+Side_Q_GuidedMetitation_Q1_S02,Alp
+Side_Q_GuidedMetitation_Q1_S03,Mr. Lao
+Side_Q_GuidedMetitation_Q1_S04,Isko
+
+Side_Q_GuidedMetitation_Q1_S01_Player_01,"Ida, 100%. She was responsible for me being here, and has taken care of me whenever I needed. "
+Side_Q_GuidedMetitation_Q1_S02_Player_01,"It was Alp who gave me my first meal. Sure I had to slice up some rats, but I returned to him again and again for a reason."
+Side_Q_GuidedMetitation_Q1_S03_Player_01,"It was Mr. Lao who gave me a bed, the first real place I found a quiet. I'll always be grateful for that. "
+Side_Q_GuidedMetitation_Q1_S04_Player_01,"When I first awoke, Isko was the first smile I saw. He invited me into the world as a friend, and not a lab rat. "
+
+Side_Q_GuidedMetitation_Q1_S0104_Nar_02,(Your acknowledgment of gratitude can't be ignored by the universe.)
+
+Side_Q_GuidedMetitation_Wirat_22,"Only through wisdom can we see those who directly contribute to your wellbeing, but also to those who work outside of our view. "
+Side_Q_GuidedMetitation_Wirat_23,"Every person within Camp Huygen serves a purpose, each one of them connected to you and I through our spirits and actions. "
+
+#,Question 2
+Side_Q_GuidedMetitation_Wirat_24,Tell me the name of someone in camp you believe affected you indirectly. 
+
+Side_Q_GuidedMetitation_Q2_S01,Grace
+Side_Q_GuidedMetitation_Q2_S02,Martin
+Side_Q_GuidedMetitation_Q2_S03,Katerina
+Side_Q_GuidedMetitation_Q2_S04,Dalton
+
+Side_Q_GuidedMetitation_Q2_S01_Player_01,"Without Grace, I would have never discovered more about my past, and of TECC's past. I'm happy I was able to bring closure for her as well. "
+Side_Q_GuidedMetitation_Q2_S02_Player_01,Martin pushed me to adventure and go further into the mines. I want to have just as interesting stories one day. 
+Side_Q_GuidedMetitation_Q2_S03_Player_01,"I feel Katerina has taught me that you can appear one way but be another. She comes off as cold, but she's been helpful every step of the way. "
+Side_Q_GuidedMetitation_Q2_S04_Player_01,"Dalton is a force of justice. Even before I brought the evidence on Tau to him, he kept an eye on the people of Camp Huygen, which is sorely needed. "
+
+Side_Q_GuidedMetitation_Q2_S0104_Nar_02,(The universe has connected you to others you don't even realize.)
+
+Side_Q_GuidedMetitation_Wirat_25,"Together with the known and unknown, human beings create beauty in this world. "
+Side_Q_GuidedMetitation_Wirat_26,"And while outward beauty is in the eye of the beholder, there is also a universal beauty contained in every movement the world makes. "
+
+#,Question 3
+#,"Note: Freyja should default as spot S01, but can be swapped out with Nina is she is player GF. "
+#,Octavio is grayed out if he hates player at the end of Passing Notes
+Side_Q_GuidedMetitation_Wirat_27,"When you think of beauty, what name comes to mind?"
+Side_Q_GuidedMetitation_Q3_S01,Freyja
+Side_Q_GuidedMetitation_Q3_S02,Octavio
+Side_Q_GuidedMetitation_Q3_S03,Rana
+Side_Q_GuidedMetitation_Q3_S04,Pierre
+
+Side_Q_GuidedMetitation_Q3_S01_Player_01,"Freyja was obsessed with seeing the beauty in things, and it helped to open my own eyes to the world too. "
+Side_Q_GuidedMetitation_Q3_S02_Player_01,"Octavio's outlook on life and seeking pleasure is a thing of beauty, one I wish I could pursue myself. He sure can dance as well. "
+Side_Q_GuidedMetitation_Q3_S03_Player_01,"Not only is Rana attractive on the outside, but her compassion for others in the camp and relationships with Seoyeon were the essence of beauty in my eyes. "
+Side_Q_GuidedMetitation_Q3_S04_Player_01,"There is beauty in almost every action Pierre has taken, because he truly believe the people of Camp Huygen to be family. It means a lot to have that connection without conditions. "
+
+Side_Q_GuidedMetitation_Q3_S0104_01_Nar_02,"(Flashes of color dance behind your eyelids, amusing your senses)"
+
+Side_Q_GuidedMetitation_Wirat_28,"And with beauty comes love, from love comes kindness. It is a conscious choice to open our hearts to others, to share a smile, to hold each other's hands. "
+
+#,Question 4
+#,Jozef will be grayed out as an option if player touched his car at any time. 
+Side_Q_GuidedMetitation_Wirat_29,Who is someone who has shown incredible kindness to you?
+
+Side_Q_GuidedMetitation_Q4_S01,Miriam
+Side_Q_GuidedMetitation_Q4_S02,Jozef
+Side_Q_GuidedMetitation_Q4_S03,Seoyeon
+Side_Q_GuidedMetitation_Q4_S04,Seble
+
+Side_Q_GuidedMetitation_Q4_S01_Player_01,"Miriam is like Camp Huygen's mother, always ready with a kind word or bowl of soup. She directly takes care of the people around her, and walks beside them in spirit. "
+Side_Q_GuidedMetitation_Q4_S02_Player_01,"Jozef seems rugged, but he also invites others to partake in his time as friends. As long as you don't touch his car. "
+Side_Q_GuidedMetitation_Q4_S03_Player_01,"Seoyeon is quiet and shy, but cares a lot about the people of Camp Huygen. Her work keeps us all fed and healthy, after all."
+Side_Q_GuidedMetitation_Q4_S04_Player_01,"While we'll never have the connection she shares with her drone, Pyro, she emanates kindness to those who get close to her."
+
+Side_Q_GuidedMetitation_Q4_S0104_Nar_02,"(By speaking the name, you feel your heart open and the world's love enter your soul.)"
+
+Side_Q_GuidedMetitation_Wirat_30,"On the other side of kindness falls animosity, that subtle or sometimes not-so-subtle hatred we feel toward others. "
+Side_Q_GuidedMetitation_Wirat_31,"It is important to acknowledge that emotion, accept it, and then let it fade. "
+
+#,Question 5
+Side_Q_GuidedMetitation_Wirat_32,Do you feel this negative emotion towards anyone?
+
+Side_Q_GuidedMetitation_Q5_S01,Tau
+Side_Q_GuidedMetitation_Q5_S02,Vinh
+Side_Q_GuidedMetitation_Q5_S03,Monsters
+
+Side_Q_GuidedMetitation_Q5_S01_Player_01,"The only person deserving of hate is Tau. He's wronged a lot of people in Camp, including me."
+Side_Q_GuidedMetitation_Q5_S02_Player_01,"In a strange way, I feel animosity toward Vinh. Nothing malicious, but she made me question my abilities. Then again, she also made me strive for more strength, so I also thank her in a way. "
+Side_Q_GuidedMetitation_Q5_S03_Player_01,The only thing I hate on Titan are the monsters in the mine. They are a constant threat to everyone here. 
+
+Side_Q_GuidedMetitation_Q5_S0104_Nar_02,"(By acknowledging animosity, one can truly let it go. You take a deep breath and release the well-up negativity to be consumed by the universe.)"
+
+Side_Q_GuidedMetitation_Wirat_33,Now let go of that image and replace it with nothing...
+Side_Q_GuidedMetitation_Wirat_34,"Take a moment to sit without the need to obsess or worry, without any needs at all. "
+
+#,Question 6
+Side_Q_GuidedMetitation_Wirat_35,Now picture someone who shares this calm stillness with us in this moment. 
+Side_Q_GuidedMetitation_Q6_S01,Odette
+Side_Q_GuidedMetitation_Q6_S02,Idrissi
+Side_Q_GuidedMetitation_Q6_S03,Earl
+Side_Q_GuidedMetitation_Q6_S04,Ursula
+
+Side_Q_GuidedMetitation_Q6_S01_Player_01,"Odette is often quiet, but knows when to let loose and engage. Sort of an introverted extrovert, watching the world from the outside and choosing the best moments to jump in. "
+Side_Q_GuidedMetitation_Q6_S02_Player_01,"Idrissi is a man of few words. He buckles down, and just does his work with worrying about all the chaos around him. "
+Side_Q_GuidedMetitation_Q6_S03_Player_01,"Earl is comfortable in his spirituality, but also understands that credits run the world. He doesn't complain or fight the system, though. Earl gives in and controls it instead. "
+Side_Q_GuidedMetitation_Q6_S04_Player_01,"Ursula is someone who stays under the radar, but longs for adventure. She came from a life of wealth and solitude, but became family in Camp Huygen. "
+
+Side_Q_GuidedMetitation_Q6_S0104_Nar_02,"(Other faces race through your memories before returning to a blank void once more, awaiting Wirat's next guide.)"
+
+Side_Q_GuidedMetitation_Wirat_36,You are doing well. I would assume you've meditated many times before. 
+Side_Q_GuidedMetitation_Player_37,I guess you could say I meditated for years in my cryopod. 
+Side_Q_GuidedMetitation_Wirat_38,"Fair enough. Still, though, I hope you are finding this helpful. "
+Side_Q_GuidedMetitation_Player_39,"So far, so good. "
+
+#,Question 7
+Side_Q_GuidedMetitation_Wirat_40,Tell me next of someone else who has been helpful to you since you awoke. 
+Side_Q_GuidedMetitation_Q7_S01,Litzi
+Side_Q_GuidedMetitation_Q7_S02,Claudia
+Side_Q_GuidedMetitation_Q7_S03,Cristhyan
+Side_Q_GuidedMetitation_Q7_S04,David
+
+Side_Q_GuidedMetitation_Q7_S01_Player_01,"Litzi has been there since the beginning. She has kept the Camp running even when reserves were low, and is one of the most helpful people I've ever met. "
+Side_Q_GuidedMetitation_Q7_S02_Player_01,"In terms of general safety around camp, I'd say Claudia is extremely helpful. She manages a crack team and makes sure everyone is protected. "
+Side_Q_GuidedMetitation_Q7_S03_Player_01,"Having worked beside Cristhyan, he performs a thankless job all around camp and helps everyone even if they don't realize it. "
+Side_Q_GuidedMetitation_Q7_S04_Player_01,"David always has a smile, but he's also responsible for keeping track of everything within Camp. It's a big job, but he doesn't let it get to him. "
+
+Side_Q_GuidedMetitation_Q7_S0104_Nar_02,(The idea of helpfulness and the free exchange of acts of service makes you smile. Everyone helping everyone is a beautiful thought.)
+
+Side_Q_GuidedMetitation_Wirat_41,And finally. . . people helping others can lead to lifelong friendships.
+
+#,Question 8
+Side_Q_GuidedMetitation_Wirat_42,Who do you hold as a friend in your heart?
+Side_Q_GuidedMetitation_Q8_S01,Alexei
+Side_Q_GuidedMetitation_Q8_S02,Cyrus
+Side_Q_GuidedMetitation_Q8_S03,Judith
+Side_Q_GuidedMetitation_Q9_S04,Ulf
+
+Side_Q_GuidedMetitation_Q8_S01_Player_01,"Since we met, Alexei and I have had an intrinsic connection. Both wolves, both warriors. "
+Side_Q_GuidedMetitation_Q8_S02_Player_01,I feel a kinship with Cyrus. Both of us have mysterious pasts and have forged new lives here on Titan.
+Side_Q_GuidedMetitation_Q8_S03_Player_01,"Judith is loud and excitable, but she's also my go-to when I need a friend, an inventor, or just someone to listen. "
+Side_Q_GuidedMetitation_Q8_S04_Player_01,"Ulf knows everything! That guy is an expert in mining, security systems, geology, mixology, you name it. I learn so much from him every day. "
+
+Side_Q_GuidedMetitation_Q8_S0104_Nar_02,(Speaking your friendship into the universe strengthens your connection to your friend and all of humanity.)
+
+Side_Q_GuidedMetitation_Nar_43,"(A silence lingers after the last question and goes on for quite a while. You have the urge to open your eyes, if only to peek to see if Wirat is still there, but you resist.)"
+Side_Q_GuidedMetitation_Wirat_44,That is our time today. You can open your eyes.
+Side_Q_GuidedMetitation_Wirat_45,I hope that you feel a sense of peace after our meditation. It can be life-changing to truly reflect on your life. 
+Side_Q_GuidedMetitation_Player_46,"Actually, yeah, it really was. My mind if clear, and I feel like I know what my future holds. "
+Side_Q_GuidedMetitation_Wirat_47,Then charge forward into your future and claim it. Everyone you've made connections with will stand behind you.
+Side_Q_GuidedMetitation_Player_48,Thank you for your guidance. 
+
+#,선택지에 따른 보상.
+Reward_BaseStat_Strength,<#66FFCC>( Strength +5 )</color>
+Reward_BaseStat_Agility,<#66FFCC>( Agility +5 )</color>
+Reward_BaseStat_Endurance,<#66FFCC>( Endurance +5 )</color>
+Reward_BaseStat_Perception,<#66FFCC>( Perception +5 )</color>
+Reward_BaseStat_Mutation,<#66FFCC>( Mutation +5 )</color>
+
+Reward_PerkPoint,<#66FFCC>( Perk Point +2 )</color>
+Reward_Credit,<#66FFCC>( Credit +5000 )</color>
+
+Reward_Proficiency_OHM,<#66FFCC>( One Hand Melee +2 )</color>
+Reward_Proficiency_THM,<#66FFCC>( Two Hand Melee +2 )</color>
+Reward_Proficiency_OHR,<#66FFCC>( One Hand Range +2 )</color>
+Reward_Proficiency_THR,<#66FFCC>( Two Hand Range +2 )</color>
+Reward_Proficiency_Bow,<#66FFCC>( Bow +2</color>
+Reward_Proficiency_Nano,<#66FFCC>( Nano +2</color>
+Reward_Proficiency_Physical,<#66FFCC>( Physical +2 )</color>
+Reward_Proficiency_Survival,<#66FFCC>( Survival +2 )</color>

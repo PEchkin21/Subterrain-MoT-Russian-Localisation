@@ -1,0 +1,21 @@
+Language,Default
+
+#,MineControl level 3 upgrade material dialogue.
+#,Material: Pipe insulating material
+#,"#,Prefix_Key: MineControl_03"
+#,"Language,Default"
+
+#,Pipe insulating material can be found in the area with furnance. (a lot of pipes like boiler room)
+#,"When player enters the area, monsters drop from above to attack player."
+
+#,When player enters the area
+MineControl_03_Nar_01,(The heat index rises when you enter the room. There are a series of pipes that branch off in every direction.)
+MineControl_03_Player_02,"Why is this room so hot, Cassini? "
+MineControl_03_AI_03,These pipes act as heat conductors for almost every system in camp. It would be even hotter if not for its specialized insulation.
+MineControl_03_Player_04,Let's look for any stockpiled insulation hiding around here. It could be useful.
+MineControl_03_Nar_05,"(Before you finish your thought, there is a rustling in the darkness above you.)"
+MineControl_03_AI_06,"Detecting anomalies, {PlayerFullName}. Get ready!"
+
+#,"Monster(s) drops from above, and player defeats them."
+#,Player finds insulating material within box next to furnance.
+MineControl_03_Nar_07,(You find 'Insulation Material' in the box.)

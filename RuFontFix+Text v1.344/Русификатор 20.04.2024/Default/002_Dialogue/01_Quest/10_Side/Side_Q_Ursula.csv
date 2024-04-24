@@ -1,0 +1,133 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Ursula Hafner
+#,Quest Name: Last Days
+#,Key_Fix: Side_Q_LastDays
+
+#,Player is asked to acquire items. Maybe a specific flower and a whiskey from Ulf
+#,"Player has a touching moment with Ursula as she dies peacefully. Because she is wealthy, the reward would be a TON of credits that she leaves to the player, since she has no one else. "
+#,"Note: I feel like this should be a rare quest that not everyone gets. Like, maybe the player has to have interacted with Ursula a certain number of times in Act 1 & 2."
+#,"Note 2: Ursula will be an NPC who is dies if you finish her quest too, so choosing to take the quest could have impact on final ending. Do you let her die peacefully, or is she needed for the best ending? Could be a way to push players to finish game quickly?"
+
+#,"If player has interacted with Ursula a certain number of times, then player receives message to start quest"
+Side_Q_LastDays_AI_01,"Incoming message from Ursula, {PlayerFullName}. "
+Side_Q_LastDays_Ursula_02,Please visit me. There may not be much more time. \n-Ursula Hafner-
+
+#,———————————————————————
+#,Triggers after player enters Ursula's room to speak with her.
+#,"Starting with this Quest, Ursula is no longer moving around Camp. She can only be found in her bed (too sick to get out of bed)"
+Side_Q_LastDays_Nar_03,"(You enter Ursula's room, which is absolutely quiet. There is barely any light or sound, creating an eerie atmosphere.)"
+Side_Q_LastDays_Nar_04,"(Ursula senses you enter and struggles as she sits up in the bed. You move forward to help her, but she waves you away.)"
+Side_Q_LastDays_Player_05,"Hey, Ursula. How are you feeling?"
+Side_Q_LastDays_Ursula_06,"Well, like my letter said, I'm pretty sure my time is limited. I'll soon be joining the deceased. "
+Side_Q_LastDays_Player_07,I'm sure you'll be okay. 
+Side_Q_LastDays_Ursula_08,"That's sweet, but there's no need to bullshit me. I've made peace with death. *sigh* It's why I'm here in the first place. "
+Side_Q_LastDays_Player_09,"What do you mean, Ursula? You came to Titan to... die?"
+Side_Q_LastDays_Nar_10,(She beckons you closer and turns on her bedside light to illuminate her face.)
+Side_Q_LastDays_Ursula_11,"Not only am I old, but my sickness has had a field day taking over my body. "
+Side_Q_LastDays_Ursula_12,"While you're looking at me, do you recognize me? Some people say I look just like my mother. "
+Side_Q_LastDays_Player_13,"I can't say I do, sorry. "
+Side_Q_LastDays_Ursula_14,What about Hafner Cosmetics? Have you heard of that?
+Side_Q_LastDays_Player_15,"Oh, yeah, who hasn't heard of Hafner Cos-"
+Side_Q_LastDays_Player_16,Wait... is that your company?
+Side_Q_LastDays_Ursula_17,"Yes. It was handed down to me as the only child of Walden Hafner. It's such an important surname that my husband, Kiefer, god bless his soul, even took my name when we married. "
+Side_Q_LastDays_Ursula_18,"But my parents passed, and my husband died, and we never had any children, never got around to adopting. The company my family started generations ago is now being run by a cutthroat board of directors that ousted me once they learned I was sick. "
+Side_Q_LastDays_Player_19,That's terrible. 
+Side_Q_LastDays_Ursula_20,"Actually, it was the best day of my life. Knowing every day could be your last, makes you appreciate the time you have left that much more. "
+Side_Q_LastDays_Ursula_21,"I had always dreamed of traveling the stars, so I bought my way on a shuttle to Titan. A few fake certifications and TECC was letting just about anyone board. I was supposed to be a miner, but that didn't last long. I'm too weak, and just a liability. "
+Side_Q_LastDays_Player_22,I bet Tau didn't like that too much. 
+Side_Q_LastDays_Ursula_23,"Actually, Tau was always a sweetheart to me. He said I reminded him of his mother, who is also sick, though not to my level. "
+Side_Q_LastDays_Ursula_24,"I've been staying out of everyone's way, and he's the only one who's been visiting me, making sure I take my meds, and brings me food. Tau has been a godsend. "
+
+#,If player does this quest after Tau is in jail
+Side_Q_LastDays_Ursula_25,"Of course, I've heard about your helping to arrest him. I know he's done some bad stuff, but you should know he's not as evil as everyone thinks. He's just as damaged as the rest of us. "
+Side_Q_LastDays_Player_26,Interesting. I would have never thought Tau capable of kindness. 
+Side_Q_LastDays_Ursula_27,We are all capable of so many things. 
+
+#,Continues conversation
+Side_Q_LastDays_Ursula_28,"But, like I said, I know the end is near for me, so I need someone with your abilities to get something for me. "
+Side_Q_LastDays_Player_29,Anything? What do you need?
+Side_Q_LastDays_Ursula_30,"I've heard rumors of flowers that could be growing underground. It was my final wish to die here on Titan, and I want to do it with a native Titan flower in one hand and a dry whiskey in the other. "
+Side_Q_LastDays_Ursula_31,Can you do that for me?
+Side_Q_LastDays_Player_32,Yes. . . I'll go find an underground flower for you right now. 
+Side_Q_LastDays_Ursula_33,"Thanks, and please hurry back. "
+
+#,If player returns to Ursula after quest has begun
+#,Replaces Basic_Ursula until end of quest
+Side_Q_LastDays_Ursula_34,A Titan flower is all I need for peace. I hope you find one soon. 
+
+#,———————————————————————
+#,If player takes longer than X turns to visit Ursula after initial message
+#,OR if player takes longer than X turn to return to Ursula once taking the quest on
+Side_Q_LastDays_Nar_35,"(You enter Ursula's room, which is absolutely quiet. She initially appears to be sleeping in her bed, but as you approach, it becomes evident that she is not breathing.)"
+Side_Q_LastDays_AI_36,Ursula has succumbed to her advanced cancer. I am alerting security to her body's location. 
+Side_Q_LastDays_Player_37,Why didn't I come sooner. She didn't have to die alone. 
+Side_Q_LastDays_AI_38,"There is nothing left for us to do here, {PlayerFullName}. We should continue with our other tasks. "
+
+#,When player interacts with Titan Flower
+Side_Q_LastDays_Player_41,"Oh my god. Is this a flower actually growing on Titan, Cassini?"
+Side_Q_LastDays_AI_42,Yes. A biological scan shows that this plant shares more in common with the mutants in the underground than with any known plant lifeforms.
+Side_Q_LastDays_AI_43,"It isn't dangerous, however. Just as earth plants absorb carbon dioxide and convert it to oxygen, this Titan Flower absorbs the normally deadly contamination of the mines and produces breathable air. "
+Side_Q_LastDays_Player_44,"So bringing this to Ursula won't harm anyone? I'm not bringing an Audrey II to Camp Huygen, right?"
+Side_Q_LastDays_AI_45,"The flower is harmless to humans, but could be used against the creatures here in the mine with the right research. "
+Side_Q_LastDays_Player_46,"Let's take it back, then. "
+Side_Q_LastDays_Nar_47,"(You receive '<color=#66FFCC>Titan Flower</color>'.)"
+
+#,When player speaks with Ulf for Whiskey
+Side_Q_LastDays_Player_48,"Hey, Ulf. Do you have any whiskey behind the bar?"
+Side_Q_LastDays_Ulf_49,Of course! It's one of my favorite liquors. 
+Side_Q_LastDays_Player_50,I need to buy a bottle for Ursula. 
+Side_Q_LastDays_Ulf_51,"Ursula is that terrible miner lady, right? Wow! She was a trip. So many great stories. Yeah, she deserves a drink. "
+Side_Q_LastDays_Ulf_52,I'll put one in the Trade Box for purchase. Have a great one. 
+Side_Q_LastDays_Player_53,"Thanks, Ulf. "
+
+#,———————————————————————
+#,Returning to Ursula within the required number of Turns. 
+Side_Q_LastDays_Player_54,Ursula? I'm back. 
+Side_Q_LastDays_Nar_55,"(Ursula opens her eyes slowly, and her smile flashes when she realizes it's you.)"
+Side_Q_LastDays_Ursula_56,Did you bring the flower? The whiskey?
+Side_Q_LastDays_Player_57,"Yes, of course. "
+Side_Q_LastDays_Ursula_58,Give me a shot. 
+Side_Q_LastDays_Nar_59,(You place the Titan Flower in her left hand and pour a shot of whiskey in her right hand.)
+Side_Q_LastDays_Ursula_60,"Thank you, {PlayerFullName}. You know? I've been following all you've done around camp. I would have been proud if you were my kid. "
+Side_Q_LastDays_Player_61,"That's very sweet, Ursula. I think you would have made a great mother. "
+Side_Q_LastDays_Ursula_62,...
+Side_Q_LastDays_Player_63,Ursula? Are you-
+Side_Q_LastDays_AI_64,I detect no life signs. Ursula has passed.
+Side_Q_LastDays_AI_65,It is unfortunate that she did not get to drink the whiskey you brought.
+Side_Q_LastDays_Player_66,Humans are weird that way. I don't think it was about drinking whiskey. She just wanted to have whiskey with her as she passed away for a sense of comfort. Everyone has that thing that is special to them.  
+Side_Q_LastDays_AI_67,It is beautiful in a way. I am glad we were with her. 
+Side_Q_LastDays_Player_68,Certainly. No one should die alone. 
+Side_Q_LastDays_AI_69,With that said. . . we should probably take the Titan flower with us to Ida. 
+Side_Q_LastDays_Player_70,"Yes, let's get out of here. Can you also send a message to security about Ursula?"
+Side_Q_LastDays_AI_71,"Already done, {PlayerFullName}. "
+
+#,———————————————————————
+#,Speaking with Ida
+Side_Q_LastDays_Player_72,"Hey, Ida, I found the craziest thing on the bottom level of the mines."
+Side_Q_LastDays_Ida_73,You know I love to hear about new discoveries down there. Tell me what you have. 
+Side_Q_LastDays_Player_74,A strange Titan flower. Cassini got all kinds of readings on this thing. 
+Side_Q_LastDays_Nar_75,(Ida's eyes widen as she takes the flower from you.)
+Side_Q_LastDays_Ida_76,There are a million different medical breakthroughs that could be possible from something like this. I'm going to get with Seoyeon for some experiments. I'll let you know what we find. 
+Side_Q_LastDays_Player_77,I knew you were the right person to bring this to. See you later!
+
+#,Player receives message from Ida
+#,"Titan Flower Sap is used as ingredient for very advanced medical or other consumable supplies. Here, we give player advanced aid kit craft recipe along the recipt for further creating sap."
+Side_Q_LasyDays_AI_78,"Incoming message from Ida, {PlayerFullName}. "
+Side_Q_LastDays_Ida_79,"We were able to create a sap from the Titan Flower. This can be applied to weapons to increase damage dealt to the mutants underground, as it breaks down the contamination that created them. It doesn't last long, but you can synthesize more with enough crafting materials. \n-Ida Shahane"
+Side_Q_LastDays_Nar_80,"(You receive '<color=#66FFCC>Titan Flower Sap</color>'.)"
+
+#,Player receives message from Mr. Lao if Tau is in jail
+#,Player receives LOTS of credits
+Side_Q_LasyDays_AI_81,"Incoming message from Mr. Lao, {PlayerFullName}. "
+Side_Q_LastDays_Lao_82,"There were some changes to Ursula's credit dispersal before her death. She was quite wealthy, and it appears she left you all her credits. You'll see a deposit momentarily. Spend it wisely.\n-Mr. Lao"
+
+#,Player receives message from Mr. Lao if Tau is NOT in jail
+#,"Player receives LOTS of credits, but not as much with Tau not in jail."
+Side_Q_LasyDays_AI_83,"Incoming message from Mr. Lao, {PlayerFullName}. "
+Side_Q_LastDays_Lao_84,"There were some changes to Ursula's credit dispersal before her death. She was quite wealthy, and her credits were set to go entirely to Tau at one time. However, it looks like she changed the beneficiaries to include you as well. You'll see a deposit momentarily. Spend it wisely.\n-Mr. Lao"
+Side_Q_LasyDays_Player_85,I guess Ursula wasn't kidding when she said she liked Tau. 
+Side_Q_LasyDays_AI_86,"Being with you has shown me that no one is just one thing. That seems to extend to Tau, as well.  "
+Side_Q_LasyDays_Player_87,"Yeah. *sigh* Well, let's get back to work. "

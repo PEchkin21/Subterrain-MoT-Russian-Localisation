@@ -1,0 +1,21 @@
+Language,Default
+
+#,Main Quest Name: Control Center
+#,Object: Terminal
+#,Purpose: Main story push. This is the end of Act2 and game is driving player to return to the camp so the player can obtain further information about how to proceed to the next act
+#,Actor: Mark Miller( Previous settler camp's TECC second in command)
+#,KeyPrefix: Act01_MQ_25
+
+#,Accessing terminal on control center.
+Act01_MQ_25_Nar_01,"(The terminal seems to boot up, but the display remains blank.)"
+
+#,Player picks up an unknown data device in front of the terminal
+Act01_MQ_25_Player_02,Hmm... I think there's something else here?
+Act01_MQ_25_Nar_03,(Obtained unknown data device.)
+Act01_MQ_25_Player_04,"Cassini, can you scan this?"
+Act01_MQ_25_AI_05,Analyzing...
+Act01_MQ_25_AI_06,Scanning for data...
+Act01_MQ_25_AI_07,"Matching data found. {PlayerFullName}, this is a <color=#66FFCC>TECC Exploration Log</color>. It has sustained damage, and even its encryptions are corrupted. I am unable to access the data directly. "
+Act01_MQ_25_Player_08,Okay. Log the data... I think <color=#FFFF00>we should bring it to Judith</color>. She can probably help us recover whatever's on this.
+Act01_MQ_25_AI_09,The log likely contains information about your past as well. 
+Act01_MQ_25_Player_10,"That's what I'm hoping, yes. "

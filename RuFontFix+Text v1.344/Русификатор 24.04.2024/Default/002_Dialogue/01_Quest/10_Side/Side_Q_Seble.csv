@@ -1,0 +1,55 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Seble Kebede
+#,Quest Name: Droning On 
+#,Key_Fix: Side_Q_DroningOn
+
+#,"Mining Drones have been non-operational for some time, so Seble asks for specific parts to repair it. Special components can only be produced with specific materials from the mines, which is why she can't go. "
+
+#,Player receives message from Seble
+Side_Q_DroningOn_AI_01,"Incoming message from Seble, {PlayerFullName}."
+Side_Q_DroningOn_Seble_02,Can you help me fix one of the mining drones? I'll tell you more when next I see you.\n-Seble Kebede-
+
+#,When player speaks with Seble
+Side_Q_DroningOn_Player_03,"Hi, Seble. I'm ready to hear about the drone you're working on. "
+Side_Q_DroningOn_Seble_04,"I wish there was more to tell, but I've hit a brick wall. Let me show you..."
+Side_Q_DroningOn_Nar_05,(You follow Seble as she leads you to the garage.)
+
+#,"Fade in on the garage. Player and Seble are there with her drone, Pyro. It should look different, with flame designs on the frame. Idrissi is there too. "
+Side_Q_DroningOn_Seble_06,"Here she is... I call her Pyro. She was the drone I used everyday here on Titan, until the mines closed. "
+Side_Q_DroningOn_Player_07,And now it doesn't work? 
+Side_Q_DroningOn_Seble_08,"Well, Pyro has always been temperamental, but I used to be able to strip other drones for parts to repair her. Unfortunately, the other mining drones were either abandoned underground and probably destroyed by monsters down there, or are now quarantined by Tau as to not expose people to the contagion."
+Side_Q_DroningOn_Seble_09,"He's not budging on that decision, so my normal methods are just not possible now. "
+Side_Q_DroningOn_Seble_10,"I brought Pryo here in hopes that Idrissi and I could figure something out together, but no luck there either. "
+Side_Q_DroningOn_Idrissi_11,There are no parts for drones here. We can do nothing. 
+Side_Q_DroningOn_Seble_12,"I know, I know. I wish he wasn't right, but he definitely is... but that's where you come in. If you find any drones underground, can you bring back their motors, controller boards, or transmitters. Some of the pieces might be too damaged, but I can use slightly broken pieces just fine. "
+Side_Q_DroningOn_Player_13,"Certainly! I can look out for damaged drones while I'm in the mines pretty easily. You can count on me, Seble."
+Side_Q_DroningOn_Seble_14,"Thank you! If we get enough parts, we can finally get Pyro flying again, and that would bring me so much joy. "
+Side_Q_DroningOn_Player_15,I'll start searching now. Later!
+
+#,When player speaks to Seble before completing this quest
+#,Replaces Basic_Seble until end of quest
+Side_Q_DroningOn_Seble_16,Keep an eye out for damaged drones underground. Thanks!
+
+#,"We should scatter damaged drones around the first few levels of the mines. Not too deep, since the Huygen miners didn't get too deep before running into problems."
+#,"Player needs to collect 3 drone motors, 3 drone transmitters, and 3 done controller boards. Suggestion would be to have more drones to find than would be needed to get to these levels, so the player could luck into finding the right pieces right away. "
+#,When player has obtained all the necessary pieces. 
+Side_Q_DroningOn_AI_17,"With this, we have collected the necessary parts for Seble. We should bring them to her next time we return to camp. "
+
+#,When player returns to Seble after finding all the necessary pieces. 
+Side_Q_DroningOn_Player_18,"It took some searching, but here's everything you wanted. Will these work?"
+Side_Q_DroningOn_Seble_19,"Motors... Transmitters... Controller Boards... Yes! None of these alone will do the trick, but I'm good at Frankenstein-ing parts for Pyro. She has been recreated from at least twelve other drones already. "
+Side_Q_DroningOn_Seble_20,"You can't imagine how much I care for this drone. I know it sounds odd, but she's like a friend to me. "
+Side_Q_DroningOn_Player_21,"Hey, it's no different than having a favorite knife or wearing a pair of lucky underwear. We all have our quirks, Seble."
+Side_Q_DroningOn_Seble_22,"Thank you. And before you think you did all this just to be nice, I have something for you. "
+Side_Q_DroningOn_Seble_23,"I drew up plans for you to build your own Drones. Trust me... they make great allies, especially in the mine where it's dangerous. "
+Side_Q_DroningOn_Nar_24,"(You receive '<color=#66FFCC>Credits</color>', '<color=#66FFCC>Raw Materials</color>' and '<color=#66FFCC>Drone Blueprint</color>'.)"
+Side_Q_DroningOn_Player_25,"Wow, that's awesome! Though I doubt mine will be as cool as Pyro. "
+Side_Q_DroningOn_Seble_26,"You never know. *haha* I should get to work on the rebuild, so I'll see you later. "
+Side_Q_DroningOn_Player_27,"Later, Seble."
+
+#,When player speaks to Seble after finishing they quest
+#,Replaces Basic_Seble for rest of game
+Side_Q_DroningOn_Seble_28,It's great to have an operational drone again.

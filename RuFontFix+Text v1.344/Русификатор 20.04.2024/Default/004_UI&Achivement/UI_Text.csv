@@ -1,0 +1,621 @@
+Language,Default
+Menu_NewGame,Новая Игра
+Menu_LoadGame,Загрузить Игру
+Menu_Settings,Настройки
+Menu_Credits,Credits
+Menu_Exit,Выход
+Menu_ChangeLog,Список изменений
+Game_Title,Subterrain: Mines of Titan
+GameLoader_EarlyStage,This game is in the early stages of development.\nFeatures and design are subject to change.
+Demo_Title,Демо
+Demo_Desc,"Thanks for playing the Subterrain: Mines of Titan Demo!\nYou are still free to continue playing, but access to the deeper levels of the game is not available in the demo.\n\nPlease follow us on Steam and Discord and help us make an even better game!"
+Demo_Steam,Subterrain: Mines of Titan Steam Forum
+Demo_Discord,Subterrain: Mines of Titan Discord Channel
+GameOver,Конец Игры
+GameOver_TotalTurn,Всего Ходов
+GameOver_Needs,Потребности
+GameOver_Status,Статус
+GameOver_Camp,Лагерь
+GameOver_ReactorDesc,Лагерь Хайген был уничтожен!
+GameOver_PlayerDesc,Вы погибли!
+Settings_Title,Настройки
+Settings_MasterVolume_Title,Общая громкость
+Settings_BGMVolume_Title,Громкость Фоновой Музыки
+Settings_UIVolume_Title,Громкость Интерфейса
+Settings_SfxVolume_Title,Громкость Эффектов
+Settings_AmbienceVolume_Title,Громкость Окружения
+Settings_Brightness_Title,Яркость
+Settings_Language_Title,Язык
+Settings_Language_Default,Русско-Английский
+Settings_Language_Korean,Корейский
+Settings_Language_SimplifiedChinese,Китайский упрощенный
+Settings_Vsync_Title,VSync
+Settings_Vsync_Half,Половина
+Settings_Vsync_On,ВКЛ
+Settings_Vsync_Off,ВЫКЛ
+Settings_Resolution_Title,Разрешение
+Settings_FullScreen_Title,Полноэкранный
+Settings_FullScreen_On,ВКЛ
+Settings_FullScreen_Off,ВЫКЛ
+Settings_UIScale_Title,Масштаб Интерфейса
+Settings_GameScale_Title,Масштаб Игры
+Settings_AutoSave_Title,Автосохранения
+Settings_AutoSave_Disabled,Отключены
+Settings_AutoSave_Stage1,Каждые 200 Ходов
+Settings_AutoSave_Stage2,Каждые 400 Ходов
+Settings_AutoSave_Stage3,Каждые 600 Ходов
+Settings_AutoSave_Stage4,Каждые 800 Ходов
+Settings_AutoSave_Stage5,Каждые 1000 Ходов
+Settings_AutoSave_Stage6,Каждые 1200 Ходов
+Settings_WalkSpeed_Title,Скорость ходьбы
+Settings_SimLevel_Title,Тип Симуляции
+Settings_SimLevel_Simple,Упрощенный
+Settings_SimLevel_Full,Полный
+Notice_Loading,Загрузка...
+Notice_Saving,Сохранения...
+PauseMenu_Title,Пауза
+PauseMenu_ReturnToGame,К Иггре
+PauseMenu_ReturnToMenu,В Меню
+PauseMenu_Save,Сохранить Игру
+PauseMenu_DifficultySettings,Настройки Сложности
+SaveSlot_Load,Загрузить
+SaveSlot_Save,Сохранить
+SaveSlot_Delete,Удалить
+SaveSlot_GameTime,Игровое Время
+Slot01,Слот 01
+Slot02,Слот 02
+Slot03,Слот 03
+Slot04,Слот 04
+Slot05,Слот 05
+Slot06,Слот 06
+Slot07,Слот 07
+Slot08,Слот 08
+SlotQuick,Быстрое Сохранение
+SlotAuto,Авто-сохранения
+SlotEmpty,Пустой Слот
+Button_Select,Выбрать
+Button_Start,Начать
+Button_Apply,Применить
+Button_Cancel,Отмена
+Button_Reset,Сбросить
+Button_Done,Готово
+Button_ControlConfig,Настройки Управления
+Button_Continue,Продолжить
+Button_FastForward,Перемотка?
+Button_SkipAll,Пропустить Всё
+KeyboardControl_MoveLeft,Движение Влево
+KeyboardControl_MoveRight,Движение Вправо
+KeyboardControl_MoveUp,Движение Вверх
+KeyboardControl_MoveDown,Движение Вниз
+KeyboardControl_MoveLeftUp,Движение Влево Вверх
+KeyboardControl_MoveRightUp,Движение Вправо Вверх
+KeyboardControl_MoveLeftDown,Движение Влево Вниз
+KeyboardControl_MoveRightDown,Движение Вправо Вниз
+KeyboardControl_Pause,Паузв
+KeyboardControl_Back,Вернуться
+KeyboardControl_Continue,Продолжить
+KeyboardControl_QuickSave,Быстрое Сохранение
+KeyboardControl_QuickLoad,Быстрая Загрузка
+KeyboardControl_QuickSlot1,Быстрый Слот 1
+KeyboardControl_QuickSlot2,Быстрый Слот 2
+KeyboardControl_QuickSlot3,Быстрый Слот 3
+KeyboardControl_QuickSlot4,Быстрый Слот 4
+KeyboardControl_QuickSlot5,Быстрый Слот 5
+KeyboardControl_QuickSlot6,Быстрый Слот 6
+KeyboardControl_QuickSlotPageUp,Следующий Быстрый Слот
+KeyboardControl_QuickSlotPageDown,Предыдущий Быстрый Слот
+KeyboardControl_WheelMenu,Колесовое Меню
+KeyboardControl_Inventory,Инвентарь
+KeyboardControl_Journal,Журнал
+KeyboardControl_Status,Статус
+KeyboardControl_Perk,Перк
+KeyboardControl_Map,Карта
+KeyboardControl_Production,Производство
+KeyboardControl_Research,Исследования
+KeyboardControl_Recycle,Переработка
+KeyboardControl_Craft,Крафт
+KeyboardControl_Camp,Лагерь
+KeyboardControl_ToggleLight,Включить фонарь
+KeyboardControl_WeaponSwap,Переключить Оружие
+KeyboardControl_InventoryQuickMove,Item Quick Take/Put
+KeyboardControl_InventoryDrop,Item Force Drop
+KeyboardControl_InventorySplit,Разделить Стак Предметов
+KeyboardControl_InventoryScanGround,Scan Ground
+KeyboardControl_InventoryTakeAll,Взять Всё
+KeyboardControl_Info,Информация
+KeyboardControl_FocusPlayer,Фокус на Игроке
+KeyboardControl_CameraPan,Панорамирование Камеры
+KeyboardControl_ReloadAmmo,Перезарядить
+PopupButton_QuickSlot,Быстрый Слот
+PopupButton_Get,Получить
+PopupButton_Drop,Бросить
+PopupButton_Use,Использовать
+PopupButton_Setup,Устанавить
+PopupButton_Remove,Убрать
+PopupButton_Consume,Потребить
+PopupButton_Drink,Выпить
+PopupButton_Eat,Сьесть
+PopupButton_Throw,Бросить
+PopupButton_Talk,Говорить
+PopupButton_Attack,Атаковать
+PopupButton_Sell,Продать
+PopupButton_Buy,Купить
+PopupButton_Throw,Бросить
+PopupButton_Reload,Перезарядить
+PopupButton_Unload,Разрядить
+PopupButton_Equip,Экипировать
+PopupButton_UnEquip,Снять
+PopupButton_Read,Читать
+PopupButton_Research,Иследовать
+PopupButton_Craft,Крафт
+PopupButton_Recycle,Переработать
+PopupButton_Register,Записать
+PopupButton_Split,Разделить
+PopupButton_Unlock,Открыть
+PopupButton_LevelUp,Повышение Уровня
+PopupButton_EquipWardSlot01,Экипировать в Слот 1
+PopupButton_EquipWardSlot02,Экипировать в Слот 2
+PopupButton_EquipWardSlot03,Экипировать в Слот 3
+PopupButton_EquipWardSlot04,Экипировать в Слот 4
+Popup_Stat_Name,Статус
+Popup_Perk_Name,Перк
+Popup_Journal_Name,Журнал
+Popup_Journal_Log,Логи
+Popup_Journal_Quest,Задачи
+Popup_Journal_Guide,Справочник
+Popup_Journal_Codex,Кодекс
+Popup_Journal_IDTag,ID Метка
+Popup_Journal_Keycards,Ключ Карты
+Popup_Inventory_Name,Инвентарь
+Popup_Inventory_Split,Разделить Предмет?ы
+Popup_Inventory_DropItems,Броешенные Вещи
+Popup_Inventory_TakeAll,Take All {KeyboardControl_InventoryTakeAll}
+Popup_Inventory_Bartering,Бартер
+Popup_Inventory_Equipment,Экипировка
+Popup_Inventory_Usable,Используемое
+Popup_Inventory_Junk,Мусор
+Popup_Inventory_Material,Материалы
+Popup_Inventory_KeyCard,Ключ Карты
+Popup_Inventory_TransferAllJunk,Сложить Весь Мусор
+Popup_Inventory_TransferAllMaterial,Сложить Все Мусорные Материалы
+Popup_Stat_Level,Уровень Персонажа
+Popup_Stat_Exp,Опыт
+Popup_Stat_Next_Exp,Опыт для Повышения Уровня
+Popup_Stat_MaxLevel,Максимальный Уровень
+Popup_Settings,Настройки
+Popup_Map,Карта
+Popup_Elevator,Лифт
+Popup_Production,Производство
+Popup_CampManagement,Управления Лагерем
+Popup_Train,Прогресс Тренировки?
+Popup_Message_Title,Сообщения
+Popup_Message_Preview_Title,Непрочитанные Сообщения
+Popup_Inventory_Special,Задачи
+ConfirmBox_Title,Уведомление
+ConfirmBox_Yes,Да
+ConfirmBox_No,Нет
+ConfirmBox_Ok,Хорошо
+ConfirmBox_UnlockedPerk,"Новый Перк Доступен: "
+ConfirmBox_UngradblePerk,"Перк Может Быть Улучшен: "
+ConfirmBox_ItemGained,"Предмет Получен: "
+ConfirmBox_QuestUnlocked,"Задача Доступна: "
+ConfirmBox_UnlockGuide,"Руководство Обновлено: "
+ConfirmBox_ItemWillBeRemoved,"Following items within selected item will be removed. Continue?"
+ConfirmBox_CheckJournal,"Проверить Журнал"
+ConfirmBox_CheckGuide,"Проверить Руководство"
+ConfirmBox_OverwirteSaveGame,"Перезаписать сохранение?"
+ConfirmBox_DeleteSaveGame,"Удалить Сохранение?"
+ConfirmBox_AccessGranted,"Доступ Получен"
+ConfirmBox_AccessDenied,"Доступ Запрещен"
+ConfirmBox_SystemResourceIncreased,"Ресурсы Лагеря Увеличены: "
+ConfirmBox_SystemResourceDecreased,"Ресурсы Лагеря Уменьшены: "
+ConfirmBox_SystemResourceRateIncreased,"Camp Resource Rate Increased: "
+ConfirmBox_SystemResourceRateDecreased,"Camp Resource Rate Decreased: "
+ConfirmBox_SystemResearchDurationDecreased,"Camp Research Duration Decreased: "
+ConfirmBox_DeleteSaveGame,"Delete this saved game?"
+ConfirmBox_FastTravel,"Attempt to fast travel to the location?"
+ConfirmBox_FastTravel_Unable,"Unable to fast travel to the location at this time. Try again in a few turns."
+ConfirmBox_FastTravel_UnableThisTime,"Unable to fast travel to the location at this time."
+ConfirmBox_FastTravel_Unavailable,"Fast travel is not available from this location."
+ConfirmBox_CampManagementDisabled,"Camp management is disabled for the current difficulty settings."
+TextInput_Limit,Лимии в 30 Знаков
+TextInput_Header_Name,Введите Имя
+TextInput_Header_PlaceHolder,Введите Текст...
+ItemUseData_Repair,Починить
+Cursor_ToQuickSlot,To В Быстрый Слот
+Omniscope_Inventory,Инвентарь {KeyboardControl_Inventory}
+Omniscope_Stat,Статы {KeyboardControl_Status}
+Omniscope_Perk,Перки {KeyboardControl_Perk}
+Omniscope_Map,Карта {KeyboardControl_Map}
+Omniscope_Journal,Журнал {KeyboardControl_Journal}
+Omniscope_Production,Производство {KeyboardControl_Production}
+Omniscope_CampManagement,Управление Лагерем {KeyboardControl_Camp}
+Omniscope_Setting,Настройка {KeyboardControl_Pause}
+Success,Успех
+Fail,Провал
+Depleted,Истощено
+Impossible,Невозможно
+Split,Разделить
+Perk_Key,Перк
+Stat_Key,Стат
+Level,Уровень
+Level_Short,ЛвЛ
+PerkTypeActive,Активный Перк
+PerkTypePassive,Пасивный Перк
+PerkModTypeSetSurfix,(of original)
+PerkAttackPhase,Фаза Атаки
+PerkCurrentLevel,Текущий Уровень
+PerkNextLevel,Следующий Уровень
+PerkProficiencyRequirement,Необходимое Требование
+PerkAttributeRequirement,Attribute Requirement
+Codex_Research_Level,Research Level
+Codex_Modifier_Accuracy,Точность
+Codex_Modifier_Damage,Урон
+Codex_Modifier_Critical,Критический Урон
+Codex_Modifier_CriticalChance,Шанс Крита
+Codex_Modifier_DamageReduced,Защита
+Codex_Modifier_CollectChance,Шанс
+Codex_Modifier_CollectAmount,Количество
+Codex_Category_Monster,"Монстр"
+Codex_Category_Mineral,"Минерал"
+Codex_Category_Plant,"Растение"
+Journal_Task,Задачи
+Journal_Log,Записи
+Journal_Guide,Руководство
+Journal_Guide_Page,Страница
+Journal_Log_Category_MainStory,Главная История
+Journal_Log_Category_Location,Локация
+Journal_Log_Category_Book,Книг&Записки
+Journal_Codex,Кодекс
+Journal_Current_Tasks,Текущие Задачи
+Journal_Completed_Tasks,Заверщённые Задачи
+Journal_Failed_Tasks,Проваленные Задачи
+Journal_Completion,Выполняется
+Journal_TrackTask,Отследить Задачу
+Journal_CancelTaskTracking,Отменить Отслеживание
+Journal_ContactList,Контакты
+Journal_Task_InProgress,В Процессе
+Journal_Task_Completed,Завершено
+Journal_Task_Failed,Провалено
+Journal_Task_Closed,Закрыто
+Journal_Description,Описание
+Journal_Progress,Прогрес
+Journal_ProgressCompleted,Завершённые Задачи
+Journal_AdditionalInformation,Дополнительная Информация
+Journal_IDTagType,"Тип Персонажа"
+Journal_IDTagTab_All,"Все Типы"
+Journal_IDTagTab_Soldier,"Солдат"
+Journal_IDTagTab_Miner,"Шахтёр"
+Journal_IDTagTab_Engineer,"Инженер"
+Journal_IDTagTab_Pilot,"Пилот"
+Journal_IDTagTab_Scientist,"Учёный"
+Journal_IDTagTab_Doctor,"Доктор"
+Journal_IDTagTitle,"Найденые ID Карты: "
+NewGame_Title,Выбрать Игрока
+PortraitSelector_Title,Выберите Портрет
+TrackerTitle,Статус Отслеживания
+CampTask,Завершённые Задача
+Research_Title,Исследования
+Research_Requirement,Требования Исследования
+Craft_Title,Крафт
+Craft_Requirement,Требования Крафта
+Craft_Result,Результат Крафта
+Recycle_Requirement,Recycle Requirement
+Quality,Качество
+Result_Bad,Плохое
+Result_Normal,Нормальное
+Result_Good,Хорошее
+Result_Excellent,Отличное
+Result_Exceptional,Исключительное
+Recycle_Title,Переработка
+Recycle_Result,Результат Переработки
+Recycle_Amount,Количество
+Credits,Кредиты
+Production_Current,Текущий Запрос
+Production_Queue,Очередь Запросов
+CampResource_Power,Энергия
+CampResource_Water,Вода
+CampResource_Ration,Рационы
+CampResource_RationDistribution,Ration Distribution
+CampResource_Maintenance,Facility Maintenance
+CampResource_UndergroundPower,Underground Power LevelUp
+CampResource_TurnsLeft,Turns Left
+CampMaintenanceCondition,Facility Condition
+CampNPCCondition,Living Condition
+CampUI_InfectionLevel,Infection Level:
+CampUI_InfectionIncreaseRate,Infection Increase Rate:
+CampUI_Powered,Powered:
+CampUI_AirFilterInstalled,Air Filter Installed:
+CampUI_GlobalApoLevel,Overall apocalpse level.\nThe overall apocalypse level indicates the general strength of enemies in the game. It naturally increases over the course of turns unless the difficulty setting is based on the player's progression.
+Information,Information
+TaskDurationSlow,Slow
+TaskDurationNormal,Normal
+TaskDurationFast,Fast
+Recycle_Yield,Recycle Yield
+Job_WaitingForStart,Waiting
+Job_NotStarted,Not Started
+Job_Queued,Queued
+Job_InProgress,In Progress
+Job_MoveToTop,Ctrl + Click\nMove to the top
+Job_MoveToBottom,Ctrl + Click\nMove to the bottom
+Efficiency,Efficiency
+Map_SectorList,Sector
+Map_MapList,Area
+Map_MapInformation,Area Information
+Window_Open,Open
+Window_Close,Close
+WeaponType_OneHandedMelee,One Handed Melee Weapon
+WeaponType_TwoHandedMelee,Two Handed Melee Weapon
+WeaponType_OneHandedRange,One Handed Ranged Weapon
+WeaponType_TwoHandedRange,Two Handed Ranged Weapon
+WeaponType_Bow,Bow
+WeaponType_Sling,Метательное
+WeaponType_Shotgun,Дробовик
+WeaponType_Launcher,Launcher
+WeaponType_Heavy,Heavy Weapon
+WeaponType_Accessory,Accessory
+WeaponType_Pickaxe,Pick Axe
+WeaponType_Sickle,Sickle
+WeaponType_Oxygen,Oxygen Canister
+WeaponType_Lamp,Lamp
+WeaponType_Ward,Ward Belt
+WeaponType_Wardmodule,Ward Module
+Perk_Name,Perk Name
+Perk_Point,Perk Points
+Perk_Locked,Locked
+Perk_Cost,Cost
+Perk_Cost_Nano,Нано
+Perk_Cost_Ward,Ward
+Perk_Cost_Health,Здоровье
+Perk_Cost_Ad,<sprite name=maxAdrenaline_Icon>Adrenaline
+Perk_Error_CoolTime,"Under Cooldown"
+Perk_Error_NotEnoughNano,"Not Enough Nano Energy"
+Perk_Error_NotEnoughAD,"Not Enough Adrenaline"
+Perk_Error_NotEnoughHP,"Not Enough HP"
+Perk_Error_ItemType,"Item Type Not Equipped"
+Perk_Error_Item,"Item Not Equipped"
+Perk_Error_Ammo,"Not Enough Ammo"
+Perk_Error_Status,"Status Condition Limited"
+Perk_Error_Sleep,"Sleeping"
+Invasion_Detail_Title,"Invasion In Progress"
+Invasion_Estimate,"Estimated Arrival Turns"
+Base_Value,Base Value
+LevelUp,Повышение Уровня!
+ProficiencyLevelUp,Proficiency Level Up!
+Tracking_Start,Tracking
+Tracking_Complete,Tracking complete.
+Tracking_Failed,Tracking failed. Unable to find path.
+Miss_Key,Промах
+Block_Key,Block!
+Fumble_Key,Fumble!
+CriticalHit_Key,Critical Hit!
+Immune_Key,Immune!
+Resisted_Key,Resisted!
+Equipment_Destroyed,Equipment Destroyed
+WeaponReloaded,Weapon Reloaded
+WeaponAmmoCapacity,Ammo
+WeaponOutOfAmmo,Out Of ammo
+WeaponOutOfArrow,Out Of arrows
+NotEnoughCredit,Not Enough Credits
+ItemEmpty,Пусто
+ItemEquipped,Equipped
+TurnPreserved,Turn Preserved
+StateDamageTitle,Can cause following effect
+StateResult_Fracture,Fracture! Unable to move!
+StateResult_Disoriented,Disoriented!
+StateResult_Jammed,Weapon jammed!
+Activate_Condition_Type,Type
+Activate_Condition_Type_Always,Always
+Activate_Condition_Type_Attack,On Attack
+Activate_Condition_Type_Hit,On Hit
+Activate_Condition_Action,Condition
+Activate_Result_Type_Always,Always
+Activate_Result_Type_Block,Block
+Activate_Result_Type_Critical,Critical
+Activate_Result_Type_Fumble,Fumble
+Activate_Result_Type_Hit,Normal Hit
+Activate_Result_Type_HitAlways,All Hits
+Activate_Result_Type_Kill,Kill
+Activate_Result_Type_Miss,Miss
+CharacterTaskState_None,Idling
+CharacterTaskState_GoingToBed,Going to bed
+CharacterTaskState_Sleeping,Sleeping
+CharacterTaskState_GoingToWork,Going to work
+CharacterTaskState_Working,Working
+CharacterTaskState_Wandering,Wandering
+Day,D {0}
+TurnDuration,Duration
+TurnActivate,Activate Turn
+TurnCoolDown,Cooldown
+PerTurn,/Turn
+AdditionalDamage,Other Damage Types
+Exp_Key,Experience
+Recovery_Key,Recovery
+Damage_Key,Damage
+Accuracy_Key,Accuracy
+Attack_Key,Attack
+Critical_Key,Critical!
+Block_Key,Block!
+Counter_Key,Counter!
+AOOAttack_Key,Attack of Opportunity!
+Defense_Key,Defense
+Rate_Key,Rate
+Cave,Cave Entrance
+Cost,Стоимость
+Nano,Nano
+CurrentStock,Current Stock
+Bartering,Бартер
+Discount,Скидка
+Remaining_Turns,Оставшиеся зоды.
+Location_AwakenMove,Move Point
+CollisionDamage_Key,Collision Damage
+Main_Quest,Main Task
+Sub_Quest,Sub Task
+NanoMonsterHeal,Heal
+DamageReduction,Damage Reduction
+#,Journal Log UI
+Main_Story,"Player's Story"
+Tutorial,"Tutorial"
+UIToolTip_Journal,Journal {KeyboardControl_Journal}
+UIToolTip_Map,Map {KeyboardControl_Map}
+UIToolTip_Inventory,Inventory {KeyboardControl_Inventory}
+UIToolTip_CharacterStatus,Character Status {KeyboardControl_Status}
+UIToolTip_Production,Production {KeyboardControl_Production}
+UIToolTip_CampManagement,Camp Management {KeyboardControl_Camp}
+UIToolTip_Perk,Perk {KeyboardControl_Perk}
+UIToolTip_AvailablePerkPoint,Available Perk Points to Spent
+UIToolTip_Message,Message
+UIToolTip_ToggleLight,Toggle Light {KeyboardControl_ToggleLight}
+UIToolTip_SwapWeapon,Swap Weapon {KeyboardControl_WeaponSwap}
+UIToolTip_Pause,Pause Menu {KeyboardControl_Pause}
+UIToolTip_NextTurn,Next Turn {KeyboardControl_Continue}
+UIToolTip_Track,Track Path
+UIToolTip_TrackQuest,Track This Quest
+UIToolTip_TrackQuestCancel,Stop Tracking Current Quest
+UIToolTip_FastTravel,Fast Travel
+UIToolTip_Help,Guide
+UIToolTip_EnvironmentOxygen,Environment Oxygen
+UIToolTip_CharacterOxygen,Character Oxygen
+UIToolTip_OxygenLevel_Normal,Oxygen Level: <color=#FFFF00>Normal</color>
+UIToolTip_OxygenLevel_Usage,<sprite name=LackOfOxygen_Icon> Suffocation Rate: <color=#FFFF00>+{0}%</color>\n Per turn without oxygen canister
+UIToolTip_Lamp,Lamp Battery
+UIToolTip_EquipmentDurability,Equipment Durability
+UIToolTip_Ammo,Ammo
+UIToolTip_HP,Health
+UIToolTip_Nano,Nano Energy
+UIToolTip_Adrenaline,Adrenaline ({UDI_Adrenaline})
+UIToolTip_Thirst,Thirst Needs ({UDI_Thirst})
+UIToolTip_Hunger,Hunger Needs ({UDI_Hunger})
+UIToolTip_Sleep,Sleep Needs ({UDI_Sleepness})
+UIToolTip_Collector_SuccessRate,Success Rate
+UIToolTip_QuickSlotPageUp,Quick Slot Page Up {KeyboardControl_QuickSlotPageUp}
+UIToolTip_QuickSlotPageDown,Quick Slot Page Down {KeyboardControl_QuickSlotPageDown}
+UIToolTip_TaskQueueResult_UnableToResearch,Unable to research.
+UIToolTip_TaskQueueResult_UnableToCraft,Unable to craft.
+UIToolTip_TaskQueueResult_UnableToRecycle,Unable to recycle.
+UIToolTip_TaskQueueResult_FacilityLevelNotMet,Facility level not met.
+UIToolTip_TaskQueueResult_NotEnoughCredit,Not enough credits.
+UIToolTip_TaskQueueResult_NotEnoughMaterial,Not enough materials.
+UIToolTip_TaskQueueResult_NotEnoughCampResource,Not enough camp materials.
+UIToolTip_TaskQueueResult_NotEnoughItemCount,Not enough items.
+UIToolTip_TaskQueueResult_TaskWithSameItemAlreadyQueued,Same type already queued.
+UIToolTip_NewDurabilityIsLower,Repaired durability amount is\nlower or the same as the current one.
+UIToolTip_TaskQueueResult_TaskQueueLimitReached,Task queue limit reached.
+UIToolTip_CurrentDurabilityTooLow,Current durability is less than 10.
+UIToolTip_ScrollUpAlternative,"Change Inventory Type\nAlternative: Mouse Scroll Up."
+UIToolTip_ScrollDownAlternative,"Change Inventory Type\nAlternative: Mouse Scroll Down."
+Back_001,"[Back]"
+Exit_001,"[Exit]"
+BaseStat_NameKey,Базавые Статы
+Body_Gauge,Body Gauge
+Combat_Attack,Offense
+Combat_Defense,Defense
+State_Stat,State
+Special_Stat,Особые
+From_Durabiliy,From Durability
+Facility_Generator,<b><size=120%>Generator</b>
+Facility_WaterStation,<b><size=120%>Water Station</b>
+Facility_Farm,<b><size=120%>Bio Farm</b>
+Facility_Engineering,<b><size=120%>Engineering</b>
+Facility_Medical,<b><size=120%>Medical</b>
+Facility_MineControl,<b><size=120%>Mine Control</b>
+Facility_Description_Generator,<size=20%>\n<size=100%>Main Task: Production Power Resource \nResource Production: <sprite name="Electric_Resource_Icon">Power<#a5eaff>+{0}</color> (<sprite name="Methane_fuel_Icon"> Methane Fuel<#e91c1c>-{3}</color>)\nConsume Resource: <sprite name="Water_Resource_Icon">Water Resource<#e91c1c>-{13}</color>\nTask Time: {20}
+Facility_Description_WaterStation,<size=20%>\n<size=100%>Main Task: Production Water Resource / Craft Oxygen Canister\nResource Production: <sprite name="Water_Resource_Icon">Water Resource<#a5eaff>+{1}</color>  (<sprite name="Phytochemical_Icon">Phytochemical<#e91c1c>-{4}</color>)\nConsume Resource: <sprite name="Electric_Resource_Icon">Power<#e91c1c>-{9}</color>\nTask Time: {20}
+Facility_Description_Farm,<size=20%>\n<size=100%>Main Task: Production Ration Resource\nResource Production: <sprite name="Ration_Resource_Icon">Ration<#a5eaff>+{2}</color>  (<sprite name="Organic_fertilizer_Icon">Organic Fertilizer<#e91c1c>-{5}</color>)\nConsume Resource: <sprite name="Electric_Resource_Icon">Power<#e91c1c>-{10}</color>/<sprite name="Water_Resource_Icon">Water Resource<#e91c1c>-{14}</color>\nTask Time: {20}
+Facility_Description_Engineering,<size=20%>\n<size=100%>Main Task: Craft Equipment Item\nTask Time: {20}
+Facility_Description_Medical,<size=20%>\n<size=100%>Main Task: Production Medical / Recycle Organic Materials\nTask Time: {20}
+Facility_Description_MineControl,<size=20%>\n<size=100%>Main Task: Recycle Inorganic Materials\nTask Time: {20}
+Power_Resource,<b><size=120%>Power Resource</b>
+Water_Resource,<b><size=120%>Water Resource</b>
+Ration_Resource,<b><size=120%>Ration Resource</b>
+Power_Description,<size=20%>\n<size=100%>Produce <sprite name="Electric_Resource_Icon">Power Resource(<#a5eaff>+{0}</color>) by every turn.\nL<sprite name="Methane_fuel_Icon">Methane(<#e91c1c>-{3}</color>)<sprite name="Water_Resource_Icon">Water(<#e91c1c>-{13}</color>)\n<size=40%>\n<size=100%><b>[Consume Power Resource<sprite name="Electric_Resource_Icon">]</b>\n-At the Water Production(<#e91c1c>-{9}</color>)\n-At the Ration Production(<#e91c1c>-{10}</color>)\n-At the Facility Maintenance(<#e91c1c>-{8}</color>) /-At the Underground(<#e91c1c>-{7}</color>)
+Water_Description,<size=20%>\n<size=100%>Produce <sprite name="Water_Resource_Icon">Water Resource (<#a5eaff>{1}</color>) by every turn.\nL<sprite name="Phytochemical_Icon">Phytochemical(<#e91c1c>-{4}</color>)<sprite name="Electric_Resource_Icon">Power(<#e91c1c>-{9}</color>)\n<size=40%>\n<size=100%><b>[Consume Water Resource<sprite name="Water_Resource_Icon">]</b>\n-At the Power Production(<#e91c1c>-{13}</color>)\n-At the Ration Production(<#e91c1c>-{14}</color>)\n-At the Facility Maintenance(<#e91c1c>-{12}</color>)
+Ration_Description,<size=20%>\n<size=100%>Produce <sprite name="Ration_Resource_Icon">Ration Resource (<#a5eaff>{2}</color>) by every turn.\nL<sprite name="Organic_fertilizer_Icon">Organic Fertilizer(<#e91c1c>-{5}</color>)<sprite name="Electric_Resource_Icon">Power(<#e91c1c>-{10}</color>)<sprite name="Water_Resource_Icon">Water(<#e91c1c>-{14}</color>)\n<size=40%>\n<size=100%><b>[Consume Ration Resource<sprite name="Ration_Resource_Icon">]</b>\n-At the Ration Distribution(<#e91c1c>-{15}</color>)
+Engineering_Upgrade_01,Engineering Upgrade Lv.2
+Engineering_Upgrade_02,Engineering Upgrade Lv.3
+Engineering_Upgrade_03,Engineering Upgrade Lv.4
+Engineering_Upgrade_Desc,Upgrading Engineering unlocks new equipment and items to produce.
+Farm_Upgrade_01,Farm Upgrade Lv.2
+Farm_Upgrade_02,Farm Upgrade Lv.3
+Farm_Upgrade_03,Farm Upgrade Lv.4
+Farm_Upgrade_Desc,Upgrading the Farm increases Ration production efficiency and unlocks new agricultural items to purchase.
+Generator_Upgrade_01,Generator Upgrade Lv.2
+Generator_Upgrade_02,Generator Upgrade Lv.3
+Generator_Upgrade_03,Generator Upgrade Lv.4
+Generator_Upgrade_Desc,Upgrading the Generator increases Power production efficiency.
+Medical_Upgrade_01,Medical Upgrade Lv.2
+Medical_Upgrade_02,Medical Upgrade Lv.3
+Medical_Upgrade_03,Medical Upgrade Lv.4
+Medical_Upgrade_Desc,Upgrading the Clinic unlocks new medical items to produce.
+MineControl_Upgrade_01,Mine Control Upgrade Lv.2
+MineControl_Upgrade_02,Mine Control Upgrade Lv.3
+MineControl_Upgrade_03,Mine Control Upgrade Lv.4
+MineControl_Upgrade_Desc,Upgrading Mine Control allows you to Recycle more types of minerals and ore.
+WaterStation_Upgrade_01,Water Station Upgrade Lv.2
+WaterStation_Upgrade_02,Water Station Upgrade Lv.3
+WaterStation_Upgrade_03,Water Station Upgrade Lv.4
+WaterStation_Upgrade_Desc,Upgrading the Water Station increases Water production efficiency.
+MessageTip_001,"The auto-save interval can be adjusted within the settings."
+MessageTip_002,"Press the {KeyboardControl_Info} key to obtain more information about your surroundings."
+MessageTip_003,"Press the {KeyboardControl_InventoryDrop} key and (Left Mouse Click) to quickly drop items to the ground."
+MessageTip_004,"Press the {KeyboardControl_InventoryQuickMove} key and (Left Mouse Click) to quickly move items around."
+MessageTip_005,"Press the {KeyboardControl_InventorySplit} key and (Left Mouse Click) on item to split it."
+MessageTip_006,"Oxygen canisters only deplete in areas where there is a lack of oxygen."
+MessageTip_007,"Don't forget to turn the light off {KeyboardControl_ToggleLight} when you do not need it."
+MessageTip_008,"Remember to fortify the reactors by placing turrets and barricades."
+MessageTip_009,"You can perform limited equipment repairs using Repair Kits."
+MessageTip_010,"The infection spreads more rapidly as it increases in quantity and affects other neighboring areas."
+MessageTip_011,"Press the {KeyboardControl_CameraPan} key or (Middle Mouse Click) and drag to pan camera."
+MessageTip_012,"You can use (Mouse Scroll) to switch between player inventory categories."
+NewCraftItem,"New Craft Item:"
+Collect_Difficulty_None,Очень Легко
+Collect_Difficulty_Easy,Легко
+Collect_Difficulty_Normal,Нормально
+Collect_Difficulty_Difficult,Сложно
+Collect_Difficulty_Hard,Трудно
+Collect_Difficulty_VeryHard,Очень Трудно
+Collect_Difficulty_Impossible,Невозможно
+ProficiencyMax,Max Proficiency Level Reached
+AttributeMax,Max Attribute Level Reached
+Minimap_FacilityUpgrade,Facility Upgrade
+Minimap_MainQuest,Main Quest
+Minimap_FriendlyUnit,Friendly Unit
+Minimap_HostileUnit,Hostile Unit
+DifficultySetting_Title,Customize Difficulty Settings
+DifficultySetting_CurrentDifficulty,Current Difficulty
+DifficultySetting_Detail,Setting Detail
+DifficultySetting_InfectionTitle,Infection
+DifficultySetting_CombatTitle,Combat
+DifficultySetting_CampResource,Camp Resource Usage
+DifficultySetting_ProductionCostTitle,Production Cost
+DifficultySetting_InvasionTitle,Invasion
+DifficultySetting_MapQuestTrackingTitle,Map Quest Tracking
+DifficultySetting_EvolutionProgression,Evolution Progression
+DifficultySetting_Choice_Enable,Enabled
+DifficultySetting_Choice_Disable,Disabled
+DifficultySetting_Choice_Player,Player
+DifficultySetting_Choice_Natural,Natural
+DifficultySetting_Easy,ЛЕГКО
+DifficultySetting_Normal,НОРМАЛЬНО
+DifficultySetting_Hard,ТЯЖЕЛО
+DifficultySetting_Difficult,НАКАЗАНИЕ
+DifficultySetting_Nightmare,КОШМАР
+DifficultySetting_Detail_Infection,"Infection increase rate: "
+DifficultySetting_Detail_DamageMul,"Enemy damage multiplier: "
+DifficultySetting_Detail_ProtectionMul,"Enemy protection multiplier: "
+DifficultySetting_Detail_CampResourceMul,"Camp resource multiplier: "
+DifficultySetting_Detail_ProductionCostMul,"Production cost multiplier: "
+DifficultySetting_Detail_ProductionQueueLimit,"Production queue limit: "
+DifficultySetting_Detail_ItemPurchaseMul,"Item purchase cost multiplier: "
+DifficultySetting_Detail_Invasion,"Invasion: "
+DifficultySetting_Detail_MapTracking,"Map quest tracking: "
+DifficultySetting_Detail_Evolution,"Evolution type: "
+DifficultySetting_Tooltip_Infection,"The infection level determines the rate at which the infection will spread throughout the game. The infection speed impacts how quickly enemies will spawn and ultimately determines the rate at which enemy evolutions will occur, unless the Evolution setting is adjusted to depend on the player's progress."
+DifficultySetting_Tooltip_Combat,"The combat level determines the difficulty of combat encounters and influences damage and protection multipliers for enemies encountered in the game."
+DifficultySetting_Tooltip_CampResource,"The camp resource usage level determines how extensively the camp utilizes its resources for power, water, and ration production. Lowering the level decreases resource consumption, while raising it increases consumption. When set to its lowest level, the camp ceases to consume any resources, effectively disabling the camp management feature of the game. The lowest setting caters to players who prefer not to engage with the camp management aspect of gameplay. Under this condition, camp productivity remains consistently set to 'Good,' making the game slightly easier."
+DifficultySetting_Tooltip_ProductionCost,"The production cost determines whether players need to spend in-game currency, 'Credits,' when utilizing the camp's production features such as Research, Crafting, and Recycling. Disabling this feature will increase the purchase value of items from NPCs and the camp, making them more costly. However, it also means players will require fewer credits throughout the game, thereby making the overall gameplay easier. If you prioritize immersion, you may also consider disabling production credit costs to better align with the game's immersive experience."
+DifficultySetting_Tooltip_Invasion,"The invasion setting determines whether evolving enemies will periodically attack the player's camp in an attempt to destroy the reactor. Losing the reactor facility results in another game over scenario. If you prefer to explore the world without the pressure of timely invasions, you can disable this feature. Disabling the invasion makes the game slightly easier."
+DifficultySetting_Tooltip_MapTracking,"The game is designed to encourage self-exploration to discover hidden objects throughout the game. However, it can sometimes be challenging to locate specific spots for important items. This setting marks icons on the map when players encounter main story-related objects, such as main quests and facility upgrades, making them easier to find. It's important to note that this setting does not apply to side quests."
+DifficultySetting_Tooltip_Evolution,"The Evolution setting determines how evolving creatures behave in the game. 'Natural' means that creatures will evolve over time based on the natural build-up of infection in the world. Setting it to 'player's progression based' means that evolution speed and level will be determined by the player's character level progression. Choose the 'player-based' option if you prefer to explore the world with less pressure on turns, thereby making the game easier."
+DifficultySetting_FirstTimeOldSave,"Your save game predates the implementation of the difficulty setting for the first time in the game. Therefore, you are provided with a one-time opportunity to review the settings and make changes without any penalties. While some difficulty settings can be altered afterward (Except Evolution Progression and Production Cost), doing so will disable the ability to earn achievements at the end of the game."
+DifficultySetting_DuringGame,"You are allowed to change some difficulty settings during the course of the game. However, please note that changing the difficulty setting after starting a new game will disable the ability to earn achievements at the end of the game."

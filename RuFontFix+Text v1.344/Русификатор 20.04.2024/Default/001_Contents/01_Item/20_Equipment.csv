@@ -1,0 +1,368 @@
+Language,Default
+
+#,Need Text-----------------
+
+20_Equip_05_Accessory_LoversScarf_NameKey,Lover's Scarf
+20_Equip_05_Accessory_LoversScarf_DescKey,"It's a scarf with mysterious power that restore a bit of health depending on Endurance when receiving damage."
+
+#,--------------------------
+
+#,[ 01-01. Head: Tier ]
+20_Equip_01_Head_01_Tier01_Head_NameKey,Battered Helmet
+20_Equip_01_Head_01_Tier01_Head_DescKey,"Probably a bicycler's helmet. It's certainly used, but it should still offer a little protection."
+
+20_Equip_01_Head_01_Tier02_Head_NameKey,Shielded Helmet
+20_Equip_01_Head_01_Tier02_Head_DescKey,"A helmet with a cracked face shield. It'll still help, especially if anything aims for the eyes."
+
+20_Equip_01_Head_01_Tier02_A_Monster_NameKey,Corpse Helmet
+20_Equip_01_Head_01_Tier02_A_Monster_DescKey,A helmet made from mutant bones and hide gathered underground.
+
+20_Equip_01_Head_01_Tier03_Head_NameKey,Armored Helmet
+20_Equip_01_Head_01_Tier03_Head_DescKey,A newly-made headpiece that protects as much of the wearer's head from all angles.
+
+20_Equip_01_Head_01_Tier04_Head_NameKey,Experimental Helmet
+20_Equip_01_Head_01_Tier04_Head_DescKey,"Headwear with some extra-protective features, including a computerized visor. It looks like something from a video game."
+
+20_Equip_01_Head_01_Tier05_Head_NameKey,High-Density Helmet of Headbutting
+20_Equip_01_Head_01_Tier05_Head_DescKey,This form-fitting helmet is hard enough to make headbutting monsters a real option. Judith installed some impressive tech in this one.
+
+#,[ 01-02. Head: Side ]
+20_Equip_01_Head_02_Side_Miner_001_NameKey,Miner Helmet
+20_Equip_01_Head_02_Side_Miner_001_DescKey,A simple helmet worn by the miners on Titan.
+
+#,[ 01-03. Head: Special ]
+20_Equip_01_Head_03_Speical_WolfsHalo_NameKey,Wolf's Halo
+20_Equip_01_Head_03_Speical_WolfsHalo_DescKey,"A lightweight helmet crafted from a wolf's skull, reinforced with a metallic frame to withstand impact. You'll look damn cool wearing this. "
+
+
+#,[ 02-00. Suit: Start ]
+20_Equip_02_Suit_00_Start_Basic_001_NameKey,Camp Sportswear
+20_Equip_02_Suit_00_Start_Basic_001_DescKey,Convenient sportswear made by TECC. It's a staple outfit for the people in the camp.
+
+#,[ 02-01. Suit: Tier ]
+20_Equip_02_Suit_01_Tier01_Body_NameKey,Old Body Armor
+20_Equip_02_Suit_01_Tier01_Body_DescKey,A set of old body armor. It's old but better than nothing.
+
+20_Equip_02_Suit_01_Tier02_Body_NameKey,Military Grade Armor
+20_Equip_02_Suit_01_Tier02_Body_DescKey,"A decent set of armor that provides suitable protection from basic attacks. Not designed to face monsters, though."
+
+20_Equip_02_Suit_01_Tier02_A_Body_NameKey,Corpse Body Armor
+20_Equip_02_Suit_01_Tier02_A_Body_DescKey,"A set of body armor made of mutant bones and hide. It smells horrible, but provides adequate protection."
+
+20_Equip_02_Suit_01_Tier03_Body_NameKey,Hard Shell Armor
+20_Equip_02_Suit_01_Tier03_Body_DescKey,"Improved armor that offers extra protection from bullets and monster claws, so you can fight the good fight."
+
+20_Equip_02_Suit_01_Tier04_Body_NameKey,Experimental Armor
+20_Equip_02_Suit_01_Tier04_Body_DescKey,"Standard armor with nonstandard additions that boggle the mind. Hopefully, they're helpful and not dangerous."
+
+20_Equip_02_Suit_01_Tier05_Body_NameKey,Extremely Enduring Exoskeleton of Invincibility
+20_Equip_02_Suit_01_Tier05_Body_DescKey,"An advanced set of armor that could stop a bulldozer, and you'll feel indestructible while wearing it."
+
+#,[ 02-02. Suit: Side ]
+20_Equip_02_Suit_02_Side_Miner_001_NameKey,Miner Uniform
+20_Equip_02_Suit_02_Side_Miner_001_DescKey,A basic miner's uniform. Offers minor protection against cold and heat.
+
+20_Equip_02_Suit_02_Side_Job_Doctor_001_NameKey,Doctor's Uniform
+20_Equip_02_Suit_02_Side_Job_Doctor_001_DescKey,Wearing this medical coat tells everyone you're a doctor. Get ready to deal with a lot of blood. 
+
+20_Equip_02_Suit_02_Side_Job_Engineer_001_NameKey,Mechanics's Uniform
+20_Equip_02_Suit_02_Side_Job_Engineer_001_DescKey,The uniform of choice for generator workers. It has extra pockets and loops for your tools. 
+
+20_Equip_02_Suit_02_Side_Job_Engineer_002_NameKey,Engineer's Uniform
+20_Equip_02_Suit_02_Side_Job_Engineer_002_DescKey,Engineers build and fix machines. This uniform comes with your sleeve already rolled up to save time. 
+
+20_Equip_02_Suit_02_Side_Job_Pilot_002_NameKey,Pilot's Uniform
+20_Equip_02_Suit_02_Side_Job_Pilot_002_DescKey,"Made from lightweight material to maximize reaction speed, pilots wearing the proper uniform always feel like flying."
+
+20_Equip_02_Suit_02_Side_Job_Pub_001_NameKey,Server's Uniform
+20_Equip_02_Suit_02_Side_Job_Pub_001_DescKey,"Working in Alp's Pub can ruin your clothes. For protection, this full-length apron does the trick. "
+
+20_Equip_02_Suit_02_Side_Job_Scientist_001_NameKey,Scientist's Uniform
+20_Equip_02_Suit_02_Side_Job_Scientist_001_DescKey,Scientists are the heart of Titan's settlement. The uniform includes a striking coat and lots of pockets to hold items you scavenge. 
+
+20_Equip_02_Suit_02_Side_Job_Soldier_001_NameKey,Soldier's Uniform
+20_Equip_02_Suit_02_Side_Job_Soldier_001_DescKey,"This padded uniform allows soldiers to carry lots of ammo and effectively hide in the dark. Plus, you'll look like a ninja. "
+
+20_Equip_02_Suit_02_Side_Job_Supply_001_NameKey,Worker's Uniform
+20_Equip_02_Suit_02_Side_Job_Supply_001_DescKey,"Working in the Supply Depot means lifting and handling cargo, but the uniform is pretty casual. "
+
+20_Equip_02_Suit_02_Side_Speical_Cristhyan_001_NameKey,Cristhyan's Outfit
+20_Equip_02_Suit_02_Side_Speical_Cristhyan_001_DescKey,"Plumbers aren't known for their fashion appeal, but at least Cristhyan wears suspenders to keep his pants up. "
+
+20_Equip_02_Suit_02_Side_Speical_Earl_001_NameKey,Earl's Outfit
+20_Equip_02_Suit_02_Side_Speical_Earl_001_DescKey,A simple outfit with a leather coat and comfortable pants. Earl knows how to dress for sure!
+
+20_Equip_02_Suit_02_Side_Speical_Freyja_001_NameKey,Freyja's Outfit
+20_Equip_02_Suit_02_Side_Speical_Freyja_001_DescKey,"For an outfit worn by such a beauty, this suit is just a basic sweater and slacks. True beauty is on the inside anyway, right?"
+
+20_Equip_02_Suit_02_Side_Speical_Grace_001_NameKey,Grace's Outfit
+20_Equip_02_Suit_02_Side_Speical_Grace_001_DescKey,"This combination of white, yellow, and blue makes the perfect suit for those who enjoy bright colors."
+
+20_Equip_02_Suit_02_Side_Speical_Judith_001_NameKey,Judith's Outfit
+20_Equip_02_Suit_02_Side_Speical_Judith_001_DescKey,"If you want to think like a genius, you should dress like a genius. Judith approved!"
+
+20_Equip_02_Suit_02_Side_Speical_Lao_001_NameKey,Lao's Outfit
+20_Equip_02_Suit_02_Side_Speical_Lao_001_DescKey,You can't get better than Mr. Lao's striped trench coat if you want fashionable comfort.
+
+20_Equip_02_Suit_02_Side_Speical_Martin_001_NameKey,Martin's Outfit
+20_Equip_02_Suit_02_Side_Speical_Martin_001_DescKey,Martin's suave combination of silk and leather comes from decades of dressing to impress. Time for you to look just as slick.
+
+20_Equip_02_Suit_02_Side_Speical_Octavio_001_NameKey,Octavio's Outfit
+20_Equip_02_Suit_02_Side_Speical_Octavio_001_DescKey,The perfect clothes to wear when you're not partying. The coat keeps you warm and is stain-resistant.
+
+20_Equip_02_Suit_02_Side_Speical_Rana_001_NameKey,Rana's Outfit
+20_Equip_02_Suit_02_Side_Speical_Rana_001_DescKey,Protecting your clothes is crucial when you have to handle dirt and chemicals. Rana knows how to dress for the job. 
+
+20_Equip_02_Suit_02_Side_Speical_Seoyeon_001_NameKey,Seoyeon's Outfit
+20_Equip_02_Suit_02_Side_Speical_Seoyeon_001_DescKey,A uniform for someone who takes their job seriously. Look professional and impress others with this sleek suit.
+
+20_Equip_02_Suit_02_Side_Speical_Tau_001_NameKey,Tau's Outfit
+20_Equip_02_Suit_02_Side_Speical_Tau_001_DescKey,"Miners don't need heavy equipment when not underground. Sometimes, it's better just to wear regular clothes like Tau does. "
+
+20_Equip_02_Suit_02_Side_Speical_Temir_001_NameKey,Temir's Outfit
+20_Equip_02_Suit_02_Side_Speical_Temir_001_DescKey,"This suit includes a basic sweater and khakis. Temir is a simple man, after all. "
+
+20_Equip_02_Suit_02_Side_Speical_Ursula_001_NameKey,Ursula's Outfit
+20_Equip_02_Suit_02_Side_Speical_Ursula_001_DescKey,"Blue is Ursula's favorite color. If you share this sentiment, then show that off with this bright sweater. "
+
+20_Equip_02_Suit_02_Side_Speical_Wirat_001_NameKey,Wirat's Outfit
+20_Equip_02_Suit_02_Side_Speical_Wirat_001_DescKey,"One might assume Wirat would wear robes, but he forgot to pack them. Denim is his second choice, though. "
+
+#,[ 02-03. Suit: Special ]
+20_Equip_02_Suit_03_Special_Acid_001_NameKey,Chemical-Resistant Suit
+20_Equip_02_Suit_03_Special_Acid_001_DescKey,"This bright yellow suit dramatically increases resistance to Acid Damage. Not stylish, but you'll live."
+
+20_Equip_02_Suit_03_Special_Burn_001_NameKey,Flame-Resistant Suit
+20_Equip_02_Suit_03_Special_Burn_001_DescKey,Old fashioned firefighters used to wear this suit. It greatly increases resistance to Burn Damage.
+
+20_Equip_02_Suit_03_Special_WolfsPelt_NameKey,Wolf's Pelt
+20_Equip_02_Suit_03_Special_WolfsPelt_DescKey,"To become the wolf, one must revere the wolf. Wearing a wolf's skin can bring you closer to your wild nature."
+
+
+#,[ 03-01. Glove: Tier ]
+20_Equip_03_Glove_01_Tier01_Hand_NameKey,Used Gloves
+20_Equip_03_Glove_01_Tier01_Hand_DescKey,A pair of old but usable military-grade gloves.
+
+20_Equip_03_Glove_01_Tier02_Hand_NameKey,Military-Grade Gloves
+20_Equip_03_Glove_01_Tier02_Hand_DescKey,A newer pair of military-grade gloves to protect delicate fingers. They look cool too!
+
+20_Equip_03_Glove_01_Tier02_A_Hand_NameKey,Corpse Gloves
+20_Equip_03_Glove_01_Tier02_A_Hand_DescKey,A set of armored gloves made from a combination of underground mutant bones and hide.
+
+20_Equip_03_Glove_01_Tier03_Hand_NameKey,Armored Gloves
+20_Equip_03_Glove_01_Tier03_Hand_DescKey,Gloves fit with extra protection and improved weapon gripping power.
+
+20_Equip_03_Glove_01_Tier04_Hand_NameKey,Experimental Gloves
+20_Equip_03_Glove_01_Tier04_Hand_DescKey,"Gloves with experimental features. The fingers are stiff, but they are obviously well-protected."
+
+20_Equip_03_Glove_01_Tier05_Hand_NameKey,Gauntlets of Fortified Fingers
+20_Equip_03_Glove_01_Tier05_Hand_DescKey,"A pair of high-tech, form-fitting gauntlets that improve throwing and work cohesively with Judith's other inventions."
+
+#,[ 03-02. Glove: Side ]
+20_Equip_03_Glove_02_Side_Hand_Miner_001_NameKey,Miner Gloves
+20_Equip_03_Glove_02_Side_Hand_Miner_001_DescKey,Essential safety gloves for miners. Good grips won't slip!
+
+#,[ 03-03. Glove: Special ]
+20_Equip_03_Glove_03_Special_Protective_001_NameKey,Protective Glove
+20_Equip_03_Glove_03_Special_Protective_001_DescKey,"These gloves will help procure a heat sink for Temir, but they probably won't last longer than that, though. "
+
+20_Equip_03_Glove_03_Special_Tempered_001_NameKey,Tempered Glove
+20_Equip_03_Glove_03_Special_Tempered_001_DescKey,Heat-protective gloves that are durable and protect against Burn damage. 
+
+20_Equip_03_Glove_03_Special_WolfsPaw_NameKey,Wolf's Paw: Hand
+20_Equip_03_Glove_03_Special_WolfsPaw_DescKey,These iron-lined yet agile wristbands act as excellent tools to block incoming attacks… if one holds enough of the wolf's soul within. 
+
+
+#,[ 04-00. Boot: Start ]
+20_Equip_04_Boot_00_Start_Basic_001_NameKey,Camp Shoes
+20_Equip_04_Boot_00_Start_Basic_001_DescKey,Normal shoes. Nothing noteworthy about them except for how comfortable they are.
+
+#,[ 04-01. Boot: Tier ]
+20_Equip_04_Boot_01_Tier01_Foot_NameKey,Combat Boots
+20_Equip_04_Boot_01_Tier01_Foot_DescKey,An old pair of rugged boots. They've seen some use but should protect your toes.
+
+20_Equip_04_Boot_01_Tier02_Foot_NameKey,Military-Grade Boots
+20_Equip_04_Boot_01_Tier02_Foot_DescKey,Even thicker boots offering more toe protection. A solid kick from these would probably hurt.
+
+20_Equip_04_Boot_01_Tier02_A_Monster_NameKey,Corpse Boots
+20_Equip_04_Boot_01_Tier02_A_Monster_DescKey,A pair of armored boots made of underground mutant bones and hide.
+
+20_Equip_04_Boot_01_Tier03_Foot_NameKey,Reinforced Boots
+20_Equip_04_Boot_01_Tier03_Foot_DescKey,"Boots reinforced with metal plating, balanced for good blood flow to your feet. It's going to take massive damage to get through these."
+
+20_Equip_04_Boot_01_Tier04_Foot_NameKey,Experimental Boots
+20_Equip_04_Boot_01_Tier04_Foot_DescKey,"Lightweight experimental boots that deliver stability and comfort. They pinch the ankle slightly, however."
+
+20_Equip_04_Boot_01_Tier05_Foot_NameKey,Remarkably Comfy and Fashionable Footwear
+20_Equip_04_Boot_01_Tier05_Foot_DescKey,"A pair of form-fitting, strangely nice-looking boots. They're also incredibly tough and should easily deflect almost anything that hits them."
+
+#,[ 04-02. Boot: Side ]
+20_Equip_04_Boot_02_Side_Miner_001_NameKey,Miner Shoes
+20_Equip_04_Boot_02_Side_Miner_001_DescKey,The work shoes that miners wear. Not as comfortable as camp shoes.
+
+#,[ 04-03. Boot: Special ]
+20_Equip_04_Boot_03_Special_WolfsPaw_NameKey,Wolf's Paw: Foot
+20_Equip_04_Boot_03_Special_WolfsPaw_DescKey,"These finely crafted boots make the wearer lighter on their feet, keeping them safe to continue the path of the wolf. "
+
+
+#,[ 05. Accessory ]
+20_Equip_05_Accessory_Goggle_001_NameKey,Goggles
+20_Equip_05_Accessory_Goggle_001_DescKey,Goggles that protect the eyes. Other gear will be needed for the rest of the head.
+
+20_Equip_05_Accessory_LoversGrip_NameKey,Lover's Grip
+20_Equip_05_Accessory_LoversGrip_DescKey,Improved gloves that restores a bit of health with each successful attack. A gift for being a matchmaker.
+
+20_Equip_05_Accessory_SoldierHeadBand_NameKey,Soldier's Headband
+20_Equip_05_Accessory_SoldierHeadBand_DescKey,A true warrior doesn't need a helmet. Wearing only a headband reveals one's inner strength to one's enemies.
+
+20_Equip_05_Accessory_SuperVisor_NameKey,Array Visor
+20_Equip_05_Accessory_SuperVisor_DescKey,"Pierre's prototype extends the wearer's senses, ensuring nothing escapes notice. It's wonderful for reconnaissance but doesn't make for great armor. "
+
+20_Equip_05_Accessory_SurpriseGlove_NameKey,Surprise Glove
+20_Equip_05_Accessory_SurpriseGlove_DescKey,A set of electrified gloves that speeds up attacks and makes it easier to slip in a surprise attack against an enemy.
+
+20_Equip_05_Accessory_TrailblazerBoots_NameKey,Trailblazer Boots
+20_Equip_05_Accessory_TrailblazerBoots_DescKey,"These boots might not look like much, but they've survived every hazardous terrain on Earth. Now's the chance to wear them on a whole new world. "
+
+20_Equip_05_Accessory_CombatBracelet_NameKey,Power Glove
+20_Equip_05_Accessory_CombatBracelet_DescKey,"When wielding a melee weapon, this glove's combat AI increases the wearer's <#66FFCC>Accuracy</color> and reduces <#66FFCC>Fumble Chance</color>."
+
+20_Equip_05_Accessory_Scope_NameKey,Targeting Scope
+20_Equip_05_Accessory_Scope_DescKey,"When firing a pistol or rifle, this scope provides helpful AI targeting that greatly increases <#66FFCC>Accuracy</color> and <#66FFCC>Ranged Critical Efficiency</color>."
+
+20_Equip_05_Accessory_AcidNeutralizer_NameKey,Dermal Shield
+20_Equip_05_Accessory_AcidNeutralizer_DescKey,Injecting yourself with the Dermal Shield solution changes the skin's chemistry to increase resistance to <#66FFCC>Acid Damage</color>.
+
+20_Equip_05_Accessory_HeatCape_NameKey,Heat Cape
+20_Equip_05_Accessory_HeatCape_DescKey,"In addition to being extremely fashionable, this stylish accessory increases resistance to <#FF0000>Burn Damage</color>."
+
+20_Equip_05_Accessory_PoisonGasMask_NameKey,Gas Mask
+20_Equip_05_Accessory_PoisonGasMask_DescKey,This gas mask straps to a person's face and protects them from airborne toxins (increases resistance to <#FF0000>Poison Damage</color>).
+
+20_Equip_05_Accessory_IronCore_NameKey,Core Reactor
+20_Equip_05_Accessory_IronCore_DescKey,"Installed in an armor's chest, this miniature reactor enhances the wearer's <#66FFCC>Fortitude</color> (increases resistance to all adverse status effects)."
+
+20_Equip_05_Accessory_StickyBomb_NameKey,Web Bomb
+20_Equip_05_Accessory_StickyBomb_DescKey,"When this grenade explodes next to an enemy, it covers them in thick webbing that halts all movement for 3 turns."
+
+20_Equip_05_Accessory_LaserVisor_NameKey,Laser Visor
+20_Equip_05_Accessory_LaserVisor_DescKey,"When placed around the eyes, this visor lets the wearer burn their enemies by shooting lasers from their frickin' face! Requires <#66FFCC>Nano Energy</color> to activate."
+
+20_Equip_05_Accessory_PoisonEmitter_NameKey,Poison Ejector
+20_Equip_05_Accessory_PoisonEmitter_DescKey,"When worn around the mouth, this mask lets the wearer spit poison at their enemies to weaken them. Requires <#66FFCC>Nano Energy</color> to activate."
+
+20_Equip_05_Accessory_AcidSpitter_NameKey,Acid Spitter
+20_Equip_05_Accessory_AcidSpitter_DescKey,"While wearing this mask, one can spit a chemical acid at nearby enemies. Requires <#66FFCC>Nano Energy</color> to activate."
+
+20_Equip_05_Accessory_SlingShotLauncher_NameKey,Particle Shooter
+20_Equip_05_Accessory_SlingShotLauncher_DescKey,"Using advanced technology, this accessory collects particles from the environment to fire ultra-dense projectiles. Requires <#66FFCC>Nano Energy</color> to activate."
+
+20_Equip_05_Accessory_CombatInitializer_NameKey,Combat Initializer
+20_Equip_05_Accessory_CombatInitializer_DescKey,An Omniscope upgrade installed in one's armor to enhance damage dealt to undamaged enemies.
+
+
+#,[ 06. Lamp & Oxygen ]
+20_Equip_06_Lamp_001_NameKey,Lamp
+20_Equip_06_Lamp_001_DescKey,A basic lamp used to illuminate one's path within a very limited range.
+
+20_Equip_06_Lamp_002_NameKey,Improved Lamp
+20_Equip_06_Lamp_002_DescKey,A better lamp that lights up a wider area while underground. 
+
+20_Equip_06_Lamp_003_NameKey,Lamp Pro+
+20_Equip_06_Lamp_003_DescKey,"With technology patented by TECC, this is the best lamp to illuminate a large area using simple batteries. "
+
+20_Equip_06_Oxygen_001_NameKey,Oxygen Canister
+20_Equip_06_Oxygen_001_DescKey,A container of portable oxygen designed for use in oxygen-poor areas for a short duration. Canisters cannot be refilled once depleted.
+
+20_Equip_06_Oxygen_002_NameKey,Improved Oxygen Canister
+20_Equip_06_Oxygen_002_DescKey,An improved-capacity container for portable oxygen designed for use in oxygen-poor areas for a short duration. Canisters cannot be refilled once depleted.
+
+20_Equip_06_Oxygen_003_NameKey,Advanced Oxygen Canister
+20_Equip_06_Oxygen_003_DescKey,An advanced-capacity container of portable oxygen designed for use in oxygen-poor areas for a short duration. Canisters cannot be refilled once depleted.
+
+#,[ 07. Pickaxe & Sickle ]
+20_Equip_07_Pickaxe_01_Tier01_NameKey,Pickaxe
+20_Equip_07_Pickaxe_01_Tier01_DescKey,A standard pickaxe used by miners. Keeping this in hand should make mining more efficient.
+
+20_Equip_07_Pickaxe_01_Tier02_NameKey,Improved Pickaxe
+20_Equip_07_Pickaxe_01_Tier02_DescKey,"Made from higher-density iron, this is a step up from the basic pickaxe."
+
+20_Equip_07_Pickaxe_01_Tier03_NameKey,Titanium Pickaxe
+20_Equip_07_Pickaxe_01_Tier03_DescKey,"The best pickaxe around, crafted from forged titanium with a grip designed to survive the most brutal swings."
+
+20_Equip_07_Pickaxe_03_Special_Experimental_NameKey,Alpha Pickaxe
+20_Equip_07_Pickaxe_03_Special_Experimental_DescKey,"This one-of-a-kind pickaxe uses science to maximize mineral extraction output, but it should only be used to mine the rarest ore."
+
+20_Equip_07_Sickle_01_Tier01_NameKey,Makeshift Scythe
+20_Equip_07_Sickle_01_Tier01_DescKey,Some old hooked blade that was improvised into a tool. Should help harvest more materials. 
+
+20_Equip_07_Sickle_01_Tier02_NameKey,Improved Scythe
+20_Equip_07_Sickle_01_Tier02_DescKey,An actual harvesting tool to dig plants up from the root more effectively. Go get some plants!
+
+20_Equip_07_Sickle_01_Tier03_NameKey,Expert Harvester
+20_Equip_07_Sickle_01_Tier03_DescKey,"A sturdy handle with a sharp blade. Until they invent something new, this is the best harvesting tool around. "
+
+20_Equip_07_Sickle_03_Special_Experimental_NameKey,Reaper's Scythe
+20_Equip_07_Sickle_03_Special_Experimental_DescKey,"This one-of-a-kind scythe possesses the thinnest, sharpest blade to harvest the most delicate plant samples. It should only be used when other scythes don't work."
+
+
+#,[ 08. Ward Belt & Module ]
+20_Equip_08_WardBelt_Tier01_NameKey,C-Rank Ward Belt
+20_Equip_08_WardBelt_Tier01_DescKey,The first iteration of the Ward Belt. It looks a bit unfinished. Module Slots: 1.
+
+20_Equip_08_WardBelt_Tier02_NameKey,B-Rank Ward Belt
+20_Equip_08_WardBelt_Tier02_DescKey,An upgraded Ward Belt that fits better and adds versatility. Module Slots: 2.
+
+20_Equip_08_WardBelt_Tier03_NameKey,A-Rank Ward Belt
+20_Equip_08_WardBelt_Tier03_DescKey,"A sleek belt that goes with any outfit, especially when utilizing multiple Nano Modules. Module Slots: 3."
+
+20_Equip_08_WardBelt_Tier04_NameKey,S-Rank Ward Belt
+20_Equip_08_WardBelt_Tier04_DescKey,Get the maximum use of Nano Modules from this belt made purely from advanced tech. Lots of wires and buttons. Module Slots: 4.
+
+20_Equip_08_WardModule_Tier01_A_NameKey,Simple Physics Module
+20_Equip_08_WardModule_Tier01_A_DescKey,"A simple module that concentrates Nano Energy to enhance the human body. It could be better, but you can't knock the results, either. "
+
+20_Equip_08_WardModule_Tier02_A_NameKey,Standard Physics Module
+20_Equip_08_WardModule_Tier02_A_DescKey,"When installed, this module even further enhances your Attributes. It makes everything easier, but don't become dependent on it. "
+
+20_Equip_08_WardModule_Tier03_A_NameKey,Refined Physics Module
+20_Equip_08_WardModule_Tier03_A_DescKey,"How this more refined module works is a mystery, but you can't deny that it makes you stronger, tougher, more agile, and more perceptive. "
+
+20_Equip_08_WardModule_Tier04_A_NameKey,Superlative Physics Module
+20_Equip_08_WardModule_Tier04_A_DescKey,Installing this module makes you feel like a superhero. Your enemies better watch out.
+
+20_Equip_08_WardModule_Tier01_B_NameKey,Simple Survival Module
+20_Equip_08_WardModule_Tier01_B_DescKey,"A simple module that slightly reduces one's Needs and increases resistance against Status Effects. It helps, but it's not life-changing. "
+
+20_Equip_08_WardModule_Tier02_B_NameKey,Standard Survival Module
+20_Equip_08_WardModule_Tier02_B_DescKey,"When installed, this module raises your survival chances and pushes you beyond normal human limits. It's pretty too!"
+
+20_Equip_08_WardModule_Tier03_B_NameKey,Refined Survival Module
+20_Equip_08_WardModule_Tier03_B_DescKey,Your body can adapt to any situation with the help of this refined module. Are there any limits to the power of Nano Energy?
+
+20_Equip_08_WardModule_Tier04_B_NameKey,Superlative Survival Module
+20_Equip_08_WardModule_Tier04_B_DescKey,"Installing this module alters your physiology to superhuman levels. Enemies barely cause lasting damage, and your natural Needs are negligible. "
+
+20_Equip_08_WardModule_Tier01_C_NameKey,Simple Nano Module
+20_Equip_08_WardModule_Tier01_C_DescKey,"Do you need a boost? This simple module enhances Nano abilities slightly, which might give you an edge in the mines. "
+
+20_Equip_08_WardModule_Tier02_C_NameKey,Standard Nano Module
+20_Equip_08_WardModule_Tier02_C_DescKey,Contamination is everywhere! This module delivers concentrated Nano Energy to increase control over Mutation and resist Nano Infection.
+
+20_Equip_08_WardModule_Tier03_C_NameKey,Refined Nano Module
+20_Equip_08_WardModule_Tier03_C_DescKey,"A refined module that pumps Nano Energy directly into your veins. The human body has its limits, however, so be careful. "
+
+20_Equip_08_WardModule_Tier04_C_NameKey,Superlative Nano Module
+20_Equip_08_WardModule_Tier04_C_DescKey,Install this advanced module and see what it feels like to be a wizard of Nano powers. You don't even need a magic wand.
+
+20_Equip_08_WardModule_Tier01_D_NameKey,Simple Special Module
+20_Equip_08_WardModule_Tier01_D_DescKey,"With this simple module, Special ability effects are slightly enhanced. Not by a lot, but even a little helps. "
+
+20_Equip_08_WardModule_Tier02_D_NameKey,Standard Special Module
+20_Equip_08_WardModule_Tier02_D_DescKey,"This module boosts the power of Special abilities, which can be the difference between life and death in the mines. "
+
+20_Equip_08_WardModule_Tier03_D_NameKey,Refined Special Module
+20_Equip_08_WardModule_Tier03_D_DescKey,"Installing this module sends bursts of Nano Energy pouring into the body, making everything you do... better. Get one now!"
+
+20_Equip_08_WardModule_Tier04_D_NameKey,Superlative Special Module
+20_Equip_08_WardModule_Tier04_D_DescKey,"An advanced module capable of pushing your Special abilities beyond their limits. Shoot further, cut deeper, move faster! "

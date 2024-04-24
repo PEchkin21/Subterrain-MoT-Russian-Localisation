@@ -1,0 +1,51 @@
+Language,Default
+
+#,Main Quest Name: Airship Modifications
+#,Purpose: Get to the Airship Assembly Event 
+#,Actor: Cyrus
+#,KeyPrefix: Act03_MQ_41
+
+#,Player asks Cyrus if there is way to fix the air ship
+#,"Component for fixing air ship is, Energy converter, Navigation module, Hydrazine (energy source which can be produced at the highest engineering level) and a lots of other raw materials"
+#,Energy converter and navigation module can't be recreated at Judith.
+#,This is the ending path which can save as many people as possible.
+Act03_MQ_41_Player_01,"Cyrus, tell me there's a way to get the airship flying again. We need it to get back to HQ."
+Act03_MQ_41_Cyrus_02,"Tak (yes), but not in its current state. If we want to use it, we'd need to retrieve the parts we stripped from it to jury-rig other systems around camp. That would leave Camp Huygen on its last legs, though."
+Act03_MQ_41_Cyrus_03,"But even then, we'd still need... let's see... an <color=#66FFCC>Energy Converter</color>, a <color=#66FFCC>Navigation Module</color>, and plenty of fuel."
+Act03_MQ_41_Player_04,We're kind of on a timetable. Are there any shortcuts we can make on those components?
+Act03_MQ_41_Cyrus_05,"No. The <color=#66FFCC>Energy Converter</color> is a core system for the high-concentration fuel that airships require. <color=#66FFCC>Hydrazine</color> is an airship's fuel of choice, and we'll need a lot of it."
+Act03_MQ_41_Cyrus_06,And a working <color=#66FFCC>Navigation Module</color> means you can actually steer the damned thing. 
+Act03_MQ_41_Player_07,Can the old ones just be fixed?
+Act03_MQ_41_Cyrus_08,"Talked with Judith already, and she said, 'Not possible,'… but in her voice. I'm awful at impressions."
+Act03_MQ_41_Cyrus_09,"It's not like HQ gave us state-of-the-art machinery here. They pinched every penny, and we're just working with leftovers. Still, the airship is a delicate vehicle, so it'll need heavy modifications before we can leave... even WITH all its parts."
+Act03_MQ_41_Player_10,What do you mean? What kind of modifications?
+Act03_MQ_41_Cyrus_11,"Our model was designed for short trips and light loads. So, if the whole camp is coming along for the ride, the hull needs reinforcing, and I can get Judith or one of her lackeys to help upgrade the engines to support an increased weight limit. That's why I will mention just how much fuel this will take for a third time."
+Act03_MQ_41_AI_12,"After considering everything Cyrus has shared, our chances of successfully reaching HQ would be 41%."
+Act03_MQ_41_Cyrus_13,"Better than 0%, tak? The work itself won't take long if everyone chips in, but those components are a must-have. I'll also upload the <color=#66FFCC>Airship Modification</color> specs to your production list."
+Act03_MQ_41_Player_14,I see…
+Act03_MQ_41_Cyrus_15,"With luck, you'll find most of the parts underground. And you know what?… I am hopeful. Before you, the camp was going nowhere. With you, maybe we will get out of here."
+Act03_MQ_41_Cyrus_16,"So, if you think this airship is our best chance out of here, I'm on board."
+
+#,After completing the modification to the ship
+Act03_MQ_41_AI_17,"<color=#FFFF00>Incoming message from Cyrus, {PlayerFullName}.</color>"
+Act03_MQ_41_Cyrus_18,"After some blood and sweat, we finished the <color=#66FFCC>Airship modifications</color>. Stop by when you get a chance.\n-Cyrus-"
+Act03_MQ_41_Player_19,We should check in soon.
+
+#,Talking to Cyrus after the modification to the ship.
+Act03_MQ_41_Player_20,So you finished the modifications?
+Act03_MQ_41_Cyrus_21,"Tak! Behold! <color=#FFFF00>Flying Beast Mark II</color>! Everyone put in the work, and it came out great."
+Act03_MQ_41_Cyrus_22,"Just give the word, and we're ready to depart. Should we gather everyone?"
+Act03_MQ_41_Nar_23,"(This is a <color=#FFFF00>one-way trip</color>. Once you leave camp, you cannot return.)"
+
+#,Player's choice
+Act03_MQ_41_S01,(It's time. Gather everyone.)
+Act03_MQ_41_S02,(Not yet. There's still work to do.)
+
+#,S01 takes player to Escape Assembly Scene
+
+#,If player chooses not to leave yet
+Act03_MQ_41_S02_Cyrus_01,"Come back when you're ready, and we'll get out of here."
+
+#,Player comes back to Cyrus after saying no before
+#,"After this text, go back to player's  choice"
+Act03_MQ_41_S02_Cyrus_02,Ready to gather the camp now?

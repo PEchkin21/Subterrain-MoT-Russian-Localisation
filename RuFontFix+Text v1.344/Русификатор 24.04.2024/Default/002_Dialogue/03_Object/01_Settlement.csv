@@ -1,0 +1,62 @@
+Language,Default
+#,"[ Side Quest: Maintenance ] When accessing panel for quest 'Maintenance', this triggers when the quest was not active."
+Obj_MaintenancePanel_01_Nar,"( It looks like some kind of panel that oversees the facility's status. I better not touch this. )"
+#,"[ Side Quest: GoingPlumb ] When accessing panel for quest 'GoingPlumb', this triggers when the quest was not active."
+Obj_PipePanel_01_Nar,"( This looks like some sort of control for the pipe system. I better not touch this without permission. )"
+#,"GraveYard Text"
+#,"Text showing when clicked on the graves in the game"
+Object_Grave_FirstGeneration_Nar_01,This grave seems old and probably belongs to someone from the first TECC settlement.
+#,Belongs to Fana Ibrahim
+Object_Grave_001_01_Nar_01,"This grave reads, 'Here lies Fana Ibrahim,\n—\nIn eternal love for our favorite cardiologist.'"
+#,Belongs to Qian Gao
+Object_Grave_001_02_Nar_01,"This grave reads, 'Here lies Qian Gao,\n—\nResting in the stars.'"
+#,Belongs to Jampa Namgang
+Object_Grave_001_03_Nar_01,"This grave reads, 'Here lies Jampa Namgang,\n—\nWork delayed causes regret.'"
+#,Belongs to Farez Khoury
+Object_Grave_001_04_Nar_01,"This grave reads, 'Here lies Farez Khoury,\n—\nBeloved husband, father, and brother.'"
+#,Belongs to Rohan Bakshi
+Object_Grave_001_05_Nar_01,"This grave reads, 'Here lies Rohan Bakshi,\n—\nScience > Religion.'"
+#,"Takes the idtag from the cross."
+Object_Grave_TakeIdTag_01,You take the ID Tag hanging on the grave.
+#,"Already taken the idtag from the cross."
+Object_Grave_AlreadyTakenIdTag_01,You already took the ID Tag from this grave.
+#,"When clicked on the grave for the people who died recently in the camp during mine nano crisis. You are able to create some NPC and then give names. 4 people died. Probably miners?"
+#,"Second Generation Grave"
+Object_Grave_SecondGeneration_Nar_01,"This grave looks new, probably belonging to a recently deceased miner."
+#,"Second Generation Grave Individuals"
+Object_Grave_002_01_Nar_01,"This grave reads, 'Here lies Maria Park,\n—\nWife and lover, friend and mother.'"
+Object_Grave_002_02_Nar_01,"This grave reads, 'Here lies Akim Sarafyan,\n—\nReunited with God at last.'"
+Object_Grave_002_03_Nar_01,"This grave reads, 'Here lies Juhan Kanas,\n—\nHeaven better get ready.'"
+Object_Grave_002_04_Nar_01,"This grave reads, 'In memory of Paul Damascus, who hated this moon and everyone in it.'"
+#,[ Side Quest: Surprise Party ] This is text that displays when Favor quest has not be activated but still accessed the box that supposed to contain favor
+Side_Q_SurpriseParty_Nar_Box_Basic,"(It's empty right now, but a box of this quality won't stay that way long.)"
+#,"[ Side Quest: Surprise Party ] When accessing sink for quest 'Surprise Party', this triggers when the quest was not active. There is no cake in there yet."
+Obj_Sink_Cake_01_Nar,"( This looks like a well taken care of sink. Something could be stored here, but it is empty. Whoever is taking care of the kitchen must be obsessed with hygiene. )"
+#,Dialogue sequence for accessing accelerator in reactor room
+#,When accessing the accelerator. Welcome terminal message.
+ReactorRoom_Accelerator_Ter_01,Welcome to particle accelerator system.
+#,0 When accessing the accelerator before first time invasion.
+ReactorRoom_Accelerator_BeforeFirstInvasion_Nar_01,"(A strange, complicated-looking device. You should probably avoid touching it right now.)"
+#,1 When accessing the accelerator after the first invasion event has triggered. This dialogue only happens once for introducing the feature.
+ReactorRoom_Accelerator_AI_01,"Time is of the essence, {PlayerFullName}. If we are ready to stand against the encroaching invasion, activating it will hasten the monsters' attack."
+ReactorRoom_Accelerator_Player_02,"How can it do that, Cassini? "
+ReactorRoom_Accelerator_AI_03,"The creatures are currently burrowing through extremely dense layers of rock, using only their innate senses to track the reactor's location. "
+ReactorRoom_Accelerator_AI_04,"The Accelerator was once used to make mining easier by loosening minerals, but it is also quite loud."
+ReactorRoom_Accelerator_Player_05,"So, you're saying that activating the Accelerator will let the monsters dig faster and act as a homing beacon so they arrive sooner?"
+ReactorRoom_Accelerator_AI_06,"Exactly. But I caution against using it before ensuring proper defenses are implemented. Otherwise, we are only inviting a quick death."
+ReactorRoom_Accelerator_Player_07,Noted. Okay... let's give it a go.
+#,"2 When accessing the accelerator after the first invasion event has triggered, repeating."
+ReactorRoom_Accelerator_AI_02,Warning: The Accelerator speeds up the Invasion process.
+#,3 When accessing the accelerator during invasion.
+ReactorRoom_Accelerator_Unable_Ter_01,Accelerator cannot be accessed at this time.
+#,"Terminal Choice, comes up when invasion is triggered."
+ReactorRoom_Accelerator_Choice_01,What do you do?
+ReactorRoom_Accelerator_S_01,Press the big <color=#FF0000>Red Button</color>.
+ReactorRoom_Accelerator_S_02,Do nothing.
+#,Aftter activating accelerator
+ReactorRoom_Accelerator_Activated_Ter_01,Accelerator Activated.
+Basic_Counter_Supply_01_Nar,"(It seems to be the old window of this supply facility. Next to the rusty monitor, there are scattered papers that seem to have organized the supplies of the facility.)"
+Ft_Counter_Supply_01_Player,"Hey, is anyone here?"
+Ft_Counter_Supply_02_Nar,"(You hear someone approaching from inside.)"
+Select_Counter_Supply_Katerina,"(Call Katerina.)"
+Select_Counter_Supply_David,"(Call David.)"

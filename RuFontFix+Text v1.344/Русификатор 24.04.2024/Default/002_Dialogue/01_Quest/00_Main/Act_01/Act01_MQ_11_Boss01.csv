@@ -1,0 +1,105 @@
+Language,Default
+
+#,Main Quest Name: Boss
+#,Purpose: First Boss Combat
+#,"Place: Tau's Office, Mine Entrance"
+#,"Actor: Player, Tau Mogorosi, Alexei Bogomolov, Seble Kebede"
+#,KeyPrefix: Act01_MQ_11
+
+#,(Player is not ready to go to the mine)
+Act01_MQ_11_Player_01,I'm not ready yet. Give me a little time.
+
+#,(Player is ready to go to the mine)
+Act01_MQ_11_Player_02,"I'm ready to go into the mine now, Overseer Mogorosi. "
+Act01_MQ_11_Tau_03,Finally. Go wait in my office while I make some preparations.
+
+#,(Tau asks player to wait in his office)
+#,(Player waits alone in the office. Alexei comes in the room and takes player to the mine entrance.)
+Act01_MQ_11_Nar_04,"(Waiting in Tau's office, you wonder what other preparations would even be needed? Was making you wait just a power move?)"
+Act01_MQ_11_Nar_05,"(Then you contemplate your actual chances of success. Every little bit helps, so maybe a little patience is warranted.)"
+Act01_MQ_11_Nar_06,"(The office door opens. You stand to greet Tau and to be led to the mine, but a different man enters.)"
+Act01_MQ_11_Alexei_07,Are you our wolf?
+Act01_MQ_11_Player_08,Pardon?
+Act01_MQ_11_Alexei_09,"Live like a wolf, howl like a wolf.' *hehe* I take it you're the one going into the mine."
+Act01_MQ_11_Player_10,"Yes, I'm {PlayerFullName}. Seems like everything points to the mine, which I guess makes me the wolf."
+Act01_MQ_11_Alexei_11,"I am Alexei Bogomolov. Tau says you have a death wish, but I can tell there is something kismet about you being here."
+Act01_MQ_11_Nar_12,(Alexei waves you to follow him. You follow quickly.)
+
+#,(Player and Alexei meet Seble at the mine entrance.)
+#,(Alexei and Seble both complains about how badly they are treated by Tau.)
+Act01_MQ_11_Nar_13,"(You arrive at the Mine Elevator. Seble is already there, working on the systems. She flips a few switches, and the gears start moving.)"
+Act01_MQ_11_Alexei_14,"So, Tau roped you in, too, Seble?"
+Act01_MQ_11_Seble_15,"'Rope in' nothing. The 'ahya' (donkey) only thinks with his wallet! This whole operation is running on fumes, yet he just continues to suck it even dryer at our expense. I'm here because if reopening the mine is even possible, that'll help to balance everything out. "
+Act01_MQ_11_Alexei_16,"Yeah. No kidding. Least he could do is spring for new equipment. I'm working with holes in my boots right now. 'Don't need new boots to operate a drone,' he says. Heh. Whatever."
+Act01_MQ_11_Alexei_17,"Okay, Wolf, this is it. The elevator over there will take you down."
+Act01_MQ_11_Player_18,When was the last time it was used? It doesn't look very safe.
+Act01_MQ_11_Nar_19,"(Alexei gets in close and grabs your shoulders, looking you in the eye.)"
+Act01_MQ_11_Alexei_20,"Live like a wolf, howl like a wolf,' right? You go down there and give 'em hell, and let us worry about shaft maintenance. "
+Act01_MQ_11_Nar_21,(The door opens. Footsteps approach from the distance as Tau has finally caught up.)
+
+#,(Tau enters and speaks to player.)
+Act01_MQ_11_Tau_22,"Now then, everybody ready to go? You've had plenty of time."
+Act01_MQ_11_Alexei&Seble_23,"Yes, Overseer Mogorosi!"
+
+#,(Tau tries to make deal with player to pay him for any credit player makes off the mine.)
+Act01_MQ_11_Nar_24,(Tau approaches you and speaks with a more diplomatic tone.)
+Act01_MQ_11_Tau_25,"Hey, real talk: If this works and you don't die down there, then we need to talk terms. There's a huge demand for what's in the mine, but you'll need exclusive access to come and go to fulfill that demand. Only I can give you that."
+Act01_MQ_11_Tau_26,We maintain this death trap. We know the ins and outs of this operation way better than someone who just woke up yesterday.
+Act01_MQ_11_Tau_27,So keep in mind that you need us. You feel me?
+Act01_MQ_11_Nar_28,"(It's not surprising for Tau to take this approach. He's a bully, and this is extortion, but he's also right.)"
+Act01_MQ_11_Player_29,"Consider yourself heard. Now, let me get to work."
+
+#,(Boss creature enters mine by pulling/breaking the lift to the mine.)
+#,(Boss creature makes noise then breaks lift)
+Act01_MQ_11_Nar_30,(A series of terrifying noises suddenly ring from the elevator shaft. They quickly approach and are undoubtedly created by something substantial in size.)
+Act01_MQ_11_Nar_31,"(Within seconds, a loud thump rattles the area. Whatever it is... is right beneath your feet. Waves of fear rush over everyone else, but you stand firm.)"
+
+#,(Boss creature jumps in to the mine entrance)
+#,"(Tau cowardly runs away and locks the door behind him, telling everyone that he will get some help)"
+Act01_MQ_11_Nar_32,(A giant creature rips through the bottom of the elevator.)
+Act01_MQ_11_Tau_33,W-w-what the fu- The fuck's that?!
+Act01_MQ_11_Seble_34,"Whatever it is, it's not good!"
+Act01_MQ_11_Nar_35,"(Seble pulls a lever to close the elevator doors, but the monster is too quick and fully emerges.)"
+Act01_MQ_11_Alexei_36,"What's the plan, boss?!"
+Act01_MQ_11_Tau_37,Hold it off! We gotta make sure it doesn't get to the camp!
+Act01_MQ_11_Nar_38,"(Mogorosi sprints ahead to the Mine Entrance doors, leaving you and the rest of the group behind.)"
+Act01_MQ_11_Nar_39,(The door locks behind him.)
+Act01_MQ_11_Player_40,Wonderful.
+Act01_MQ_11_Seble_41,<b>Seriously?! He locked the goddamn door!</b>
+Act01_MQ_11_Alexei_42,...You were right. That guy doesn't care about people. 
+Act01_MQ_11_Seble_43,I was hoping he'd prove me wrong one day. Too bad that day might never happen now. 
+Act01_MQ_11_Nar_44,"(Everything is chaos, but your veins are ice cold. Something tells you this isn't your first time facing something like this.)"
+Act01_MQ_11_Player_45,Get behind me! I'll make sure we get out of here!
+
+#,"(Boss is defeated, follow up text from Alexei and Seble)"
+Act01_MQ_11_Alexei_45,"Thank you, Wolf. I don't usually trust strangers, but you are my new best friend."
+Act01_MQ_11_Seble_46,"Yes, thank you! Is everyone okay? Nobody got <color=#FFFF00>exposed</color>, right?"
+Act01_MQ_11_Nar_47,(Seble checks you and Alexei for wounds - and herself - especially anywhere the creature might have touched bare skin.)
+Act01_MQ_11_Seble_48,"I don't know about you, Alexei, but I don't think I've seen a creature that big before."
+Act01_MQ_11_Alexei_49,"Me neither, but let's get out of here. Tau has some explaining to do. "
+Act01_MQ_11_Nar_50,(The mine entrance suddenly reopens.)
+
+#,(Tau enters mine entrance)
+#,(Alexei is angry at Tau for running away and locking the door behind.)
+#,(Tau makes a excuses)
+#,(Tau asks player to join the assembly which will take place to explain what just happened)
+Act01_MQ_11_Tau_51,"I knew you could do it! You protected the mine, and the camp is safe! Great job!"
+Act01_MQ_11_Nar_52,"(Alexei stomps toward Tau and punches him with his entire body, but Tau is only slightly moved by the punch... proving how physically tough he actually is. Tau just smirks back at him.)"
+Act01_MQ_11_Tau_53,Heh. You feel big now?
+Act01_MQ_11_Alexei_54,"What was that shit, Tau?! Were you okay with us dying? We work with you every day! How the hell could you do that to us?"
+Act01_MQ_11_Tau_55,"You two aren't here by accident. I knew y'all could handle yourselves if something like this happened. You're alive, too, so I don't see the fuckin' problem. Good job, you survived."
+Act01_MQ_11_Alexei_56,"Bullshit, Tau!"
+Act01_MQ_11_Tau_57,That's Overseer Mogoro-
+Act01_MQ_11_Alexei_58,"No! No, Overseer anything anymore. You're just plain fuckin' Tau. No respect for you since you have none for us. If it wasn't for the wolf, we'd all be dead. That thing could've broken through the mine entrance and killed everyone in camp. "
+Act01_MQ_11_Tau_59,"Look, we're all proving our worth. Now's the time to start getting this camp back in shape. And when we're back on Earth, and I'm promoted at TECC, I'll make sure we're all taken care of."
+Act01_MQ_11_Nar_60,"(Seble pulls Alexei away from the confrontation. Alexei isn't satisfied with Tau's offer, but he crosses his arms and holds his tongue.)"
+Act01_MQ_11_Tau_61,"Let's not let Alexei's outburst sour our victory. Don't worry. We'll make things fair, and I doubt there're too many creatures of that size in the mine, anyway."
+Act01_MQ_11_Tau_62,"To be careful, though, I'll call for a camp assembly to discuss the new danger and let everyone know miners are apparently pulling guard duty too. Our value is obvious, and they'll have no choice but to acknowledge that we deserve compensation."
+Act01_MQ_11_Tau_63,"So, consider this part of our deal. <color=#FFFF00>Come to the assembly at the pub</color> so we can explain what happened here, and we'll all get paid. I'll see you there!"
+Act01_MQ_11_Nar_64,"(Tau turns his attention to Alexei, Seble, and the trashed elevator. No one's using it right now.)"
+Act01_MQ_11_Tau_65,"And you two! The repairs here seem workable, so get to work. After the assembly, {PlayerFullName} will need it to get this place running. "
+Act01_MQ_11_Seble_66,"Fuck you, Tau."
+Act01_MQ_11_Tau_67,"Yeah, yeah, fuck me, but also get back to fuckin' work. "
+Act01_MQ_11_Nar_68,(Seble starts assessing the elevator's condition. Alexei eyes Tau with disdain for a moment before joining her.)
+Act01_MQ_11_Nar_69,(You shake your head in disbelief at Tau's spin on what happened.)
+Act01_MQ_11_Nar_70,(Then you start thinking... What the hell are you going to say at the assembly?)

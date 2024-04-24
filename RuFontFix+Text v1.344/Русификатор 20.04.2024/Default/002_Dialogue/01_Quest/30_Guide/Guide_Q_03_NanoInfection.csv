@@ -1,0 +1,24 @@
+Language,Default
+
+#,Key Fix: Event_Tutorial_NanoInfection
+#,This even triggers when player receives some nano infection damage and they are over the first trait limit.
+
+#,AI detects the nano infection. (Trait popping up in UI).
+#,Player sends message to Ida with some data about the infection.
+Event_Tutorial_NanoInfection_Player_01,Argh! What is that feeling?
+Event_Tutorial_NanoInfection_Nar_02,"(A strange dark energy courses through your veins, which glow green through your skin. It hurts, but only to a small degree for the moment.)"
+Event_Tutorial_NanoInfection_AI_03,"Incoming communication from Ida, {PlayerFullName}."
+Event_Tutorial_NanoInfection_Ida_04,"I've been remotely monitoring your vitals, and they just went through the roof. What's happening down there?"
+Event_Tutorial_NanoInfection_Player_05,"I got hit by a monster, and it now feels like my body is attacking itself. I thought you said my nanobots resisted that."
+Event_Tutorial_NanoInfection_Ida_06,"Your nanobots keep the environmental nanobots from infecting you, but breakthrough Nano Infection through direct contact with mutated creatures is possible."
+Event_Tutorial_NanoInfection_Ida_07,"Even with low Nano Infection levels, you're still in danger. They are programmed to self-replicate and will eventually overwhelm your body if we don't take care of this."
+Event_Tutorial_NanoInfection_Player_08,What can we do about this? It hurts pretty badly. 
+Event_Tutorial_NanoInfection_Ida_09,"Isko and I are already working on a solution. Come back to camp ASAP, so we can address this. "
+Event_Tutorial_NanoInfection_Player_10,"Okay, I'm on the way now."
+
+#,"After returning to Ida, player is able to obtain craft recipe for anti-nano bot shots. Only talk to Ida to reduce making unnecessary scene teleport transition."
+Event_Tutorial_NanoInfection_Player_11,"I have returned, is there any news about my nanobot infection problem?"
+Event_Tutorial_NanoInfection_Ida_12,"As matter of fact I do! I've made Anti-Nanobot Shots available to produce. Using this item decreases your Nano Infection instantly. It is the only defense we currently have for you against the harmful effects at the moment."
+Event_Tutorial_NanoInfection_Ida_13,"Please, take this sample for now. Isko and I can produce more if we have enough materials."
+Event_Tutorial_NanoInfection_Ida_14,"This breakthrough should make your time underground a lot less painful. Unless you don't like needles."
+Event_Tutorial_NanoInfection_Ida_15,"Pack these shots if you think you'll be in contact with Nano Infection, and I'll let you know if I come up with any other solutions. Good luck!"

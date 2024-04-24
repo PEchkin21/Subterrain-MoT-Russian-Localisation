@@ -1,0 +1,43 @@
+Language,Default
+
+#,Main Quest Name: Register
+#,Purpose: Item Production Function & Camp Shop Tutorial
+#,Place: Supply
+#,"Actor: Player, David Almanza, Katerina Spiros"
+#,KeyPrefix: Act01_MQ_04_00
+
+#,창고 시설의 카운터와 상호작용하고 카트리나와 대화.
+#,(Player asks Katerina to register)
+Act01_MQ_04_00_Register_Player_01,"Hi, I'm here to register? My name is-"
+Act01_MQ_04_00_Register_Nar_02,(The rugged-looking woman behind the desk holds up a finger while she finishes clicking on her keyboard. Her nameplate reads 'Katerina'. She seems to have a chip on her shoulder when she finally addresses you.)
+Act01_MQ_04_00_Register_Katerina_03,"They just make them younger and younger. Registering, eh?"
+Act01_MQ_04_00_Register_Nar_04,"(Katerina rolls her eyes, then presses a button on the desk.)"
+Act01_MQ_04_00_Register_Katerina_05,Sending someone to your office for registration. Make sure to close your browsers. 
+Act01_MQ_04_00_Register_Katerina_06,David will see you. He's through there. 
+Act01_MQ_04_00_Register_Nar_07,"(Katerina goes back to ignoring you, as you open the door and walk in.)"
+
+#,시설의 사무실로 이동하여 대화. 플레이어 정보 등록.
+#,(Screen fades and then player and David appear in front of storage desk location. Registers player to the system)
+Act01_MQ_04_00_Register_Nar_08,"(David operates behind a much more impressive computer setup, and his eyes light up when you enter.)"
+Act01_MQ_04_00_Register_David_09,"Hey, when Katerina said the thing about my browsers, I assure you she was just kidding. *hehe* I'm excited to meet a new recruit though."
+Act01_MQ_04_00_Register_David_10,"I'm David Almanza, but everyone just calls me 'The House'."
+Act01_MQ_04_00_Register_Nar_11,(Katerina interjects through the intercom.)
+Act01_MQ_04_00_Register_Katerina_12,"No one calls you that, David. Stop trying to make 'The House' happen. "
+Act01_MQ_04_00_Register_Nar_13,(David continues through an awkward chuckle.)
+Act01_MQ_04_00_Register_David_14,"Anyway, let's get started. What's your name?"
+Act01_MQ_04_00_Register_Player_15,{PlayerFullName}.
+Act01_MQ_04_00_Register_David_16,"Entered! Though, I must admit you look like a 'Maverick' to me. Has a certain ring to it, right?"
+Act01_MQ_04_00_Register_Nar_17,(David pulls a device resembling a giant magnifying glass from his desk. It is attached to numerous multicolored cables feeding into various systems.)
+Act01_MQ_04_00_Register_David_18,"This will read data from your Omniscope lenses and complete your registration. Stand on the mark, and then look up, up, down, down, left, right, left, right as quickly as possible."
+Act01_MQ_04_00_Register_Nar_19,"(The device shines a laser that stings your lenses slightly, but is over pretty quickly. Streams of data flash in and out of your vision for a moment.)"
+Act01_MQ_04_00_Register_David_20,And that's it. You should now be able to connect to any of our systems or items you might find around camp.
+
+#,캠프 상점 앞으로 이동해서 이야기.
+#,(Screen fades and then player and David appear in front of trade box location.)
+#,"(David explains that using trade box will cost more to the player, but it is quicker and can trade any types of items.)"
+#,(Other NPCs will give better price but can only trade certain types of items)
+#,(David will finish off by asking player to see Lao at the residential)
+Act01_MQ_04_00_CampShop_Nar_01,(David brings you to a yellow box with flashing lights to attract potential buyers. This one says 'David's Emporium.')
+Act01_MQ_04_00_CampShop_David_02,"Now that you're in the system, you can trade various items through aptly named <color=#FFA500>Trade Boxes</color>. This is my store here. While other sellers might be cheaper, my inventory selection can't be beat. I'll buy and sell pretty much anything. Business is business."
+
+

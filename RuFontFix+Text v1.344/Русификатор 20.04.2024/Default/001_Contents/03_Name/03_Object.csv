@@ -1,0 +1,115 @@
+Language,Default
+Object_Bed,Кровать
+Object_Box,Коробка
+Object_Burner,Сжигатель
+Object_Cabinet,шкафчик
+Object_Cabinet_Clothes,Шкаф для Одежды
+Object_Counter,Стойка
+Object_Cramation,Крейматор
+Object_Desk,Рабочий Стол
+Object_Dumpster,Помойка
+Object_FoodBag,Пакет для Еды
+Object_Furniture,Мебель
+Object_GunnySack,"Мещок для Материалов"
+Object_Hanger,Вешалка для Одежды
+Object_MineCart,Вагонетка
+Object_Morgue,Морг
+Object_Pit,Яма
+Object_Refrigerator,Холодильник
+Object_Rubbishbin,Мусорная Корзина
+Object_Shelf,Полка
+Object_Shelf_Book,Книжная Полка
+Object_Sink,Раковина
+Object_Store,Прилавок
+Object_Table,Стол
+Object_Table_Workshop,Стол Мастерской
+Object_WashingMachine,Стиральная Машина
+Object_WorkKit,Рабочий Набор
+Object_AirCirculator,Вентелятор
+Object_EnergyConverterCase,Корпус Преобразователя Энергии
+Object_PowerRelay,Реле Питания
+Object_StrongBox,СейФ??
+Object_Train_FuelDevice,Топливное Устройство
+Obejct_Dampener_B01,Демпфер [B01]
+Obejct_Dampener_B02,Демпфер [B02]
+Obejct_Dampener_B03,Демпфер [B03]
+Obejct_Dampener_B04,Демпфер [B04]
+Obejct_Dampener_B05,Демпфер [B05]
+Obejct_Dampener_B06,Демпфер [B06]
+Obejct_Dampener_B07,Демпфер [B07]
+Obejct_Dampener_B08,Демпфер [B08]
+Obejct_Dampener_B09,Демпфер [B09]
+Obejct_Dampener_B10,Демпфер [B10]
+Object_Panel_Farm,Панель управления:: Ферма
+Object_Panel_MineControl,Панель: Управление Шахты
+Object_Panel_WaterStation,Панель управления:: Насосная
+Object_Panel_Airship,Панель управления: Дирижабль
+Object_Panel_Generator,Панель управления: Генератор
+Object_Panel_Engineering,Панель управления: Инженерия
+Object_Panel_Pub,Панель управления: Бар
+Object_Panel_Clinic,Панель управления: Клиника
+Object_Panel_Residential,Панель управления: Расположение
+Object_Panel_Supply,Панель управления: Снабжение
+Object_Panel_Security,Панель управления: Охрана
+Object_JozefsCar,"Игрушечная машинка Йозефа"
+Object_Terminal,Терминал
+Object_NanoPowderGrinder,Измельчитель Нано Порошка
+Object_NanoGrinder_Broken,Измельчитель Нано Порошка: Сломан
+Object_NanoGrinder_Off,Измельчитель Нано Порошка: ВЫКЛ
+Object_PipePanel_Supply,Трубопровод в Снабжений
+Object_PipePanel_Clinic,Трубопровод в в Клинике
+Object_PipePanel_Generator,Трубопровод в Генераторе
+Object_TauDesk,Рабочий Стол Тау
+Object_TauSword,Меч Тау
+Object_TauFrameSafe,Картинка
+Object_ReactorAccelerator,Ускоритель Реактора
+Object_Statue_Tecc,Статуя TECC 
+Object_Grave,Могила
+Object_ChurchAltar,Церковный Алтарь
+Object_TitanTree,Цветочное Дерево Титана
+Object_Deposit_Methane,Месторождение Метановой Руды
+Object_Deposit_Copper,Месторождение Медной Руды
+Object_Deposit_Iron,Месторождение Железной Руды
+Object_Deposit_Nickel,Месторождение Никелевой Руды
+Object_Deposit_Lithium,Месторождение Литьевой Руды
+Object_Deposit_Titanium,Месторождение Титановой Руды
+Object_Deposit_Geode_Blue,Голубая Жеода
+Object_Deposit_Geode_Purple,Фиолетова Жеода
+Object_Deposit_Geode_Red,Красная Жеода
+Object_Deposit_Glass,Отложение Стекла
+Object_Deposit_Sticky,Липкое Растение
+Object_Plant_Mushroom,Грибная Роща
+Object_Plant_Acid,Кислотное Растение
+Object_Plant_Cannibal,Растение Канибал
+Object_Plant_Explosion,Взрывающиеся Растение
+Object_Plant_General_001,Фиолетова Нано Растение
+Object_Plant_General_002,Красное Нано Растение
+Object_Plant_General_004,Круглое Нано Растение
+Object_Plant_LotusFlower,Цветок Иитанового Лотоса
+Object_Plant_Poison,Ядовитое Растение
+Object_Plant_Cotton,Хлопок
+Object_Plant_Bush,Куст
+Object_Plant_Cactus,Кактус
+Object_Plant_DryBush,Сухой Куст
+Object_Plant_Sticky,Липкое Растение
+Object_Elevator,Подьемник
+Object_Stair,"Лестница"
+Object_Ladder,Стремянка
+Object_Rope_Down,*Проход, для которого требуется веревка
+Object_Rope_Up,*Проход, для которого требуется веревка
+Object_Lift,Лифт
+Object_Door,Дверь
+Obejct_Door_SideWall_Hidden,"Скрытая Дверь"
+Obejct_Bridge,Мост
+Object_NanoWall,"Наностена"
+Object_Tree,Дерево
+Object_Barrel,Бочка
+Object_Breakable_Debrie,Груда Обломков
+Object_Breakable_Rock,Груда Камней
+Object_HeatSink,Теплоотвод
+Supply_Personal,Личное Хранилище
+Supply_Shop,Магазин
+Supply_Donation,Лагерное Хранилище(Пожертвование)
+Researchable_Table,Исследование
+Object_Counter_Supply,Стойка Снабжения
+Object_Switch,Переключатель

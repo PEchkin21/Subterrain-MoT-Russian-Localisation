@@ -1,0 +1,19 @@
+Language,Default
+
+#,Waterstation level 3 upgrade material dialogue.
+#,Material: Improved water filter
+#,Prefix_Key: WaterStation_03
+
+#,Player can find the filter already installed underground farm machine that is responsible to supply water to farm.
+#,Triggers when player obtains the filter.
+
+#,When the player enters the area
+WaterStation_03_Nar_01,"(You step into a long-discarded underground farm. It is fascinating to think anything could grow down here, but this place proves it is possible.)"
+WaterStation_03_AI_02,"{PlayerFullName}, you should search the area for any useful materials for camp."
+
+#,When player gets improved water filter
+WaterStation_03_Nar_03,"(Inspecting the water filtration system, you dig through several broken parts until you reach the primary filter.)"
+WaterStation_03_Player_04,This thing actually looks usable. Is that even possible? 
+WaterStation_03_AI_05,I detect no damage. Maybe luck is on our side. We should be able to produce more of these unique filters at camp.
+WaterStation_03_Player_06,"It'll make Earl happy, if nothing else. "
+WaterStation_03_Nar_07,(You receive an 'Improved Water Filter.')

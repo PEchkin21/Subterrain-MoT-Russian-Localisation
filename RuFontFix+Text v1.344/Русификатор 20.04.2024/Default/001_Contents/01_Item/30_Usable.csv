@@ -1,0 +1,464 @@
+Language,Default
+
+#,[ 01. Food ]
+30_Usable_01_Food_Mushroom_NameKey,Cave Mushroom
+30_Usable_01_Food_Mushroom_DescKey,A mushroom that grows naturally in caves. Dangerous if consumed raw.
+
+30_Usable_01_Food_Plant_General_001_NameKey,Toxic Leaves
+30_Usable_01_Food_Plant_General_001_DescKey,Purple leaves collected from Titan plants polluted by environmental nanobots.
+
+30_Usable_01_Food_Plant_General_002_NameKey,Toxic Red Fruit
+30_Usable_01_Food_Plant_General_002_DescKey,Red fruit picked from a Titan plant polluted by environmental nanobots.
+
+30_Usable_01_Food_Plant_General_004_NameKey,Toxic Berries
+30_Usable_01_Food_Plant_General_004_DescKey,Colorless berries collected from Titan plants polluted by environmental nanobots.
+
+30_Usable_01_Food_Huygen_Bread_NameKey,Huygen Bread
+30_Usable_01_Food_Huygen_Bread_DescKey,"Bread made in Camp Huygen. The ingredients are different, so it tastes... off."
+
+30_Usable_01_Food_Cockroach_Yokan_NameKey,Cockroach Yokan
+30_Usable_01_Food_Cockroach_Yokan_DescKey,"Food made from agar, sugar, and cockroaches? Can't believe they followed us all the way to Titan."
+
+30_Usable_01_Food_Mushroom_Salad_NameKey,Mantar Sote
+30_Usable_01_Food_Mushroom_Salad_DescKey,Sauted cave mushrooms mixed with simple greens. Not bad at all.
+
+30_Usable_01_Food_Potato_NameKey,Potatoes
+30_Usable_01_Food_Potato_DescKey,A huge potato grown and sold from Seoyeon's farm.
+
+30_Usable_01_Food_Carrot_NameKey,Carrot
+30_Usable_01_Food_Carrot_DescKey,A bright orange carrot grown and sold from Seoyeon's farm.
+
+30_Usable_01_Food_Daikon_NameKey,Daikon
+30_Usable_01_Food_Daikon_DescKey,A daikon (radish) grown and sold from Seoyeon's farm.
+
+30_Usable_01_Food_Pumpkin_NameKey,Pumpkin
+30_Usable_01_Food_Pumpkin_DescKey,A pumpkin grown and sold from Seoyeon's farm.
+
+30_Usable_01_Food_Chill_NameKey,Chilis
+30_Usable_01_Food_Chill_DescKey,A few chili peppers grown and sold from Seoyeon's farm.
+
+30_Usable_01_Food_Tomato_NameKey,Tomato
+30_Usable_01_Food_Tomato_DescKey,A fresh tomato grown and sold from Seoyeon's farm.
+
+30_Usable_01_Food_Sweet_Potato_NameKey,Sweet Potatoes
+30_Usable_01_Food_Sweet_Potato_DescKey,Some sweet potatoes grown and sold from Seoyeon's farm.
+
+30_Usable_01_Food_JozefsGoulash_NameKey,Jozef's Goulash
+30_Usable_01_Food_JozefsGoulash_DescKey,"Delicious, nutritious, and made to Jozef's liking."
+
+
+#,[ 02. Drink ]
+30_Usable_02_Drink_Water_NameKey,Water
+30_Usable_02_Drink_Water_DescKey,"Purified water suitable for drinking, unlike most liquids on Titan."
+
+30_Usable_02_Drink_Centipede_Juice_NameKey,Centipede Juice
+30_Usable_02_Drink_Centipede_Juice_DescKey,"Juice made from centipedes. It's... not that bad, surprisingly. A little spicy."
+
+
+#,[ 03. Medical ]
+30_Usable_03_Medical_AidKit_Old_NameKey,TECC First Aid Kit
+30_Usable_03_Medical_AidKit_Old_DescKey,Potent medical supplies from the first TECC settlement. Use this strategically since Camp Huygen cannot replicate this item.
+
+30_Usable_03_Medical_AidKit_Old_First_NameKey,TECC Med Pack
+30_Usable_03_Medical_AidKit_Old_First_DescKey,"Designed by TECC with high-level, advanced healing capabilities. Use this strategically since Camp Huygen cannot replicate this item."
+
+30_Usable_03_Medical_AidKit_NameKey,First Aid Kit
+30_Usable_03_Medical_AidKit_DescKey,A first aid kit that can heal simple wounds.
+
+30_Usable_03_Medical_First-aid_kit_NameKey,Mobile Aid Kit
+30_Usable_03_Medical_First-aid_kit_DescKey,A mobile aid kit (or MAK) has everything needed to treat wounds and diagnose ailments.
+
+30_Usable_03_Medical_AidKit_TitanFlower_NameKey,Titan Flower Serum
+30_Usable_03_Medical_AidKit_TitanFlower_DescKey,"Ingesting this serum created using the Titan Flower massively increases <#FFA500> Health Regen</color> rate and instantly lowers negative status effects, like <#FF0000>Poison</color>, <#FF0000>Fracture</color>, and <#FF0000>Injury</color>."
+
+30_Usable_03_Medical_Neutralizer_001_NameKey,Acid Neutralizer
+30_Usable_03_Medical_Neutralizer_001_DescKey,A spray bottle that quickly neutralizes acids on equipment or clothing when used.
+
+30_Usable_03_Medical_Antidotes_001_NameKey,Antitoxin
+30_Usable_03_Medical_Antidotes_001_DescKey,Medication that quickly neutralizes Earth-born toxins. Has little effect on native Titan toxins.
+
+30_Usable_03_Medical_Antidotes_002_NameKey,Titan Antitoxin
+30_Usable_03_Medical_Antidotes_002_DescKey,This antitoxin works specifically against toxins native to Titan. It also neutralizes Earth-born toxins much faster than normal antitoxins.
+
+30_Usable_03_Medical_Bandage_NameKey,Bandage
+30_Usable_03_Medical_Bandage_DescKey,A basic bandage helpful for stopping minor bleeding. Not great for anything more serious.
+
+30_Usable_03_Medical_Splint_001_NameKey,Splint
+30_Usable_03_Medical_Splint_001_DescKey,Splints are used to hold a broken bone in place so it heals correctly over time.
+
+30_Usable_03_Medical_EnergyDrink_001_NameKey,Energy Drink
+30_Usable_03_Medical_EnergyDrink_001_DescKey,"Developed by TECC to minimize the need for worker breaks. Naturally, it tastes beyond awful."
+
+30_Usable_03_Medical_NanoMedicine_001_NameKey,Anti-Nanobot Shot Type A
+30_Usable_03_Medical_NanoMedicine_001_DescKey,An injection that targets and disables harmful nanobots in the body.
+
+30_Usable_03_Medical_NanoMedicine_002_NameKey,Anti-Nanobot Shot Type B
+30_Usable_03_Medical_NanoMedicine_002_DescKey,An injection of concentrated anti-nano solutions to treat Nano Infection.
+
+30_Usable_03_Medical_Stimulant_001_NameKey,Stimulant
+30_Usable_03_Medical_Stimulant_001_DescKey,A quick injection that boosts the body's adrenaline for those fight-or-flight moments.
+
+30_Usable_03_Medical_Nano_Charger_001_NameKey,Nanobot Booster
+30_Usable_03_Medical_Nano_Charger_001_DescKey,A syringe full of energized nanobots that fuse with existing clusters for more power. Boosts energy without a bad aftertaste.
+
+
+#,[ 04. Install ]
+30_Usable_04_Install_PlasmaTurret_001_NameKey,Plasma Turret (Basic)
+30_Usable_04_Install_PlasmaTurret_001_DescKey,A motion-sensitive plasma cannon designed to inflict immense damage on enemies that approach. Defense turrets are installed in the Reactor Room. 
+
+30_Usable_04_Install_PlasmaTurret_002_NameKey,Plasma Turret (Improved)
+30_Usable_04_Install_PlasmaTurret_002_DescKey,A plasma cannon with improved range and damage-dealing capabilities. Defense turrets are installed in the Reactor Room. 
+
+30_Usable_04_Install_PlasmaTurret_003_NameKey,Plasma Turret (Advanced)
+30_Usable_04_Install_PlasmaTurret_003_DescKey,Blast approaching enemies with extreme prejudice and heavy damage from this advanced plasma cannon. Defense turrets are installed in the Reactor Room.
+
+30_Usable_04_Install_PlasmaTurret_004_NameKey,Plasma Turret (Model X-4)
+30_Usable_04_Install_PlasmaTurret_004_DescKey,"Melt monster faces with an experimental plasma cannon with maximum possible range, damage, and durability. Defense turrets are installed in the Reactor Room."
+
+30_Usable_04_Install_SleepingBag_001_NameKey,Sleeping Bag
+30_Usable_04_Install_SleepingBag_001_DescKey,Catch some ZZZs anywhere with this portable sleeping bag.
+
+30_Usable_04_Install_Barricade_001_NameKey,Barricade
+30_Usable_04_Install_Barricade_001_DescKey,An installable structure that can block paths... until it is destroyed.
+
+30_Usable_04_Install_ClawTrap_001_NameKey,Claw Trap
+30_Usable_04_Install_ClawTrap_001_DescKey,A typical claw trap that captures anything that steps on it within its metal jaws.
+
+30_Usable_04_Install_RatTrap_001_NameKey,Rat Trap
+30_Usable_04_Install_RatTrap_001_DescKey,An iron trap designed to catch ferocious rats. It's a vast improvement on the standard bear trap.
+
+30_Usable_04_Install_Turret_001_NameKey,Gun Turret
+
+30_Usable_04_Install_Drone_Pilot_NameKey,Companion Drone
+30_Usable_04_Install_Drone_Pilot_DescKey,"Installed directly into the Omniscope, this upgrade grants a Pilot a symbiotic companion drone that will fight on their behalf."
+
+#,"This is actually an object name used in the item on the ground."
+30_Usable_04_Install_Drone_Grenade_NameKey,Shock Drone
+
+#,[ 05. Throwing ]
+30_Usable_05_Throwing_HighFrequencyGrenade_NameKey,High Frequency Grenade
+30_Usable_05_Throwing_HighFrequencyGrenade_DescKey,"Enemies in this grenade's blast zone are struck by high-frequency sound waves that disorient their senses, making them easy targets.\n( Range: 3x3 )"
+
+30_Usable_05_Throwing_Grenade_FearBomb_NameKey,Fear Bomb
+30_Usable_05_Throwing_Grenade_FearBomb_DescKey,"This grenade releases a gas that affects an enemy's senses, causing fear and repelling them from an area. What do monsters fear?\n( Range: 3x3 )"
+
+30_Usable_05_Throwing_Grenade_FlashBomb_NameKey,Flash Bomb
+30_Usable_05_Throwing_Grenade_FlashBomb_DescKey,Monsters can't attack what they can't see. Throw this grenade to temporarily blind enemies so you can make a quick retreat or deliver an attack they won't see coming.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Tier01_Acid_001_NameKey,Bottled Acid
+30_Usable_05_Throwing_Tier01_Acid_001_DescKey,It's a bottle with acid in it. DUH! Throw it quick before it starts leaking.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Tier02_Acid_001_NameKey,Acid Grenade
+30_Usable_05_Throwing_Tier02_Acid_001_DescKey,"An acid-proof container attached to an explosive device, activated by removing the safety pin.\n( Range: 3x3 )"
+
+30_Usable_05_Throwing_Tier03_Acid_001_NameKey,Advanced Acid Grenade
+30_Usable_05_Throwing_Tier03_Acid_001_DescKey,This improved acid grenade is guaranteed to cover enemies in acid. Just activate and throw.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Tier01_Burn_001_NameKey,Molotov
+30_Usable_05_Throwing_Tier01_Burn_001_DescKey,"A bottle of liquor with a rag in the opening. It's worked for hundreds of years, so why not now?\n( Range: 3x3 )"
+
+30_Usable_05_Throwing_Tier02_Burn_001_NameKey,Fire Grenade
+30_Usable_05_Throwing_Tier02_Burn_001_DescKey,A container of flammable liquid combined with an explosive device. Destroys and burns.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Tier03_Burn_001_NameKey,Advanced Fire Grenade
+30_Usable_05_Throwing_Tier03_Burn_001_DescKey,This grenade is designed to rain fiery death upon the enemy. Just activate and throw.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Tier01_Poison_001_NameKey,Pouch of Poison
+30_Usable_05_Throwing_Tier01_Poison_001_DescKey,"A simple bag of ground-up poison. It's toxic to the touch, so try not to handle it too much.\n( Range: 3x3 )"
+
+30_Usable_05_Throwing_Tier02_Poison_001_DescKey,A container of liquified poison designed to cover an area when the device goes BOOM.\n( Range: 3x3 )
+30_Usable_05_Throwing_Tier02_Poison_001_NameKey,Poison Grenade
+
+30_Usable_05_Throwing_Tier03_Poison_001_NameKey,Advanced Poison Grenade
+30_Usable_05_Throwing_Tier03_Poison_001_DescKey,This grenade creates an expansive cloud of poison no enemy can ignore. Press activate and throw!\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Grenade_001_NameKey,Basic Grenade
+30_Usable_05_Throwing_Grenade_001_DescKey,A typical grenade that explodes and deals damage.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Grenade_002_NameKey,Improved Grenade
+30_Usable_05_Throwing_Grenade_002_DescKey,A grenade with a bit more explosive power than expected. Use with caution.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Crying_Grenade_001_NameKey,Lure Grenade
+30_Usable_05_Throwing_Crying_Grenade_001_DescKey,"When activated, this grenade releases a scream that attracts nearby monsters.\n( Range: 3x3 )"
+
+30_Usable_05_Throwing_AntiGravity_Grenade_001_NameKey,Anti-Gravity Grenade
+30_Usable_05_Throwing_AntiGravity_Grenade_001_DescKey,"Throw under an enemy's feet to lift them into the air, making it impossible for them to move.\n( Range: 3x3 )"
+
+30_Usable_05_Throwing_Drone_Grenade_001_NameKey,Drone Capsule
+30_Usable_05_Throwing_Drone_Grenade_001_DescKey,This unique capsule transforms into a drone that can serve as an ally in battle.\n( Range: 3x3 )
+
+30_Usable_05_Throwing_Tier01_ThrowingKnife_001_NameKey,Old Throwing Dagger
+30_Usable_05_Throwing_Tier01_ThrowingKnife_001_DescKey,This knife was made for throwing... or it used to be before the rust and broken parts.
+
+30_Usable_05_Throwing_Tier02_ThrowingKnife_001_NameKey,Throwing Dagger
+30_Usable_05_Throwing_Tier02_ThrowingKnife_001_DescKey,There's nothing more dangerous than a balanced throwing dagger and an accurate eye.
+
+30_Usable_05_Throwing_Tier03_ThrowingKnife_001_NameKey,Aerodynamic Throwing Dagger
+30_Usable_05_Throwing_Tier03_ThrowingKnife_001_DescKey,"Lightweight and unrusted, this throwing dagger flies straight and cuts deep."
+
+30_Usable_05_Throwing_Tier04_ThrowingKnife_001_NameKey,Experimental Throwing Dagger
+30_Usable_05_Throwing_Tier04_ThrowingKnife_001_DescKey,A high-tech dagger that vibrates rapidly to cleave through armor. No one is safe from your blades.
+
+30_Usable_05_Throwing_Tier05_ThrowingKnife_001_NameKey,Deadly Dagger of Dim Mak
+30_Usable_05_Throwing_Tier05_ThrowingKnife_001_DescKey,"A special dagger that zeroes in on a target's weak spots automatically, causing massive damage. Judith really is a genius."
+
+30_Usable_05_Throwing_TimerBomb_001_NameKey,Timer Bomb
+30_Usable_05_Throwing_TimerBomb_001_DescKey,An explosive bomb complete with a timer. Make sure you get clear before it goes off.
+
+30_Usable_05_Throwing_TimerBomb_002_NameKey,Improved Timer Bomb
+30_Usable_05_Throwing_TimerBomb_002_DescKey,"If something needs to go KABOOM, just set the timer and let the explosion do the work."
+
+
+#,[ 06. Utility ]
+30_Usable_06_Utility_Rope_001_NameKey,Rope
+30_Usable_06_Utility_Rope_001_DescKey,A length of sturdy rope that should help create new paths to unexplored areas.
+
+30_Usable_06_Utility_Repair_Kit_001_NameKey,Repair Kit
+30_Usable_06_Utility_Repair_Kit_001_DescKey,"A general toolkit with plenty of tools for making minor equipment repairs.\nRepairs up to 30 durability in expense of 20% reduction in maximum durability."
+
+30_Usable_06_Utility_Repair_Kit_002_NameKey,Advanced Repair Kit
+30_Usable_06_Utility_Repair_Kit_002_DescKey,"A specialty toolkit with everything necessary to repair even heavy equipment damage\nRepairs up to 50 durability in expense of 10% reduction in maximum durability." 
+
+
+#,[ 07. Book ]
+30_Usable_07_Book_ComicBook_001_NameKey,Way of Fury: Issue #1
+30_Usable_07_Book_ComicBook_001_DescKey,The first issue of an obscure comic book series following the story of wandering martial artist named Shinzo. 
+
+30_Usable_07_Book_ComicBook_002_NameKey,Way of Fury: Issue #2
+30_Usable_07_Book_ComicBook_002_DescKey,The second issue of an obscure comic book series following the story of wandering martial artist named Shinzo. 
+
+30_Usable_07_Book_ComicBook_003_NameKey,Way of Fury: Issue #3
+30_Usable_07_Book_ComicBook_003_DescKey,The third issue of an obscure comic book series following the story of wandering martial artist named Shinzo. 
+
+30_Usable_07_Book_BFG_Manual_NameKey,Prototype: Plasma Launcher
+30_Usable_07_Book_BFG_Manual_DescKey,"This is a partially intact manual for operating an experimental TECC prototype called the Plasma Launcher. Hopefully, it contains valuable information."
+
+30_Usable_07_Note_TitanFlower_Password_NameKey,Dr. Richard's Note
+30_Usable_07_Note_TitanFlower_Password_DescKey,Dr. Richard's Note containing password to the underground lab.
+
+30_Usable_07_Book_TitanFlower_Location_NameKey,TF Journal 1
+30_Usable_07_Book_TitanFlower_Location_DescKey,Journal #1 of Hendrick Stine
+
+30_Usable_07_Book_TitanFlower_Password_Location_NameKey,TF Journal 2
+30_Usable_07_Book_TitanFlower_Password_Location_DescKey,Journal #5 of Hendrick Stine
+
+30_Usable_07_Book_GridStepPuzzle_NameKey,Poetic Journal
+30_Usable_07_Book_GridStepPuzzle_DescKey,A book of poems written by someone named Felix. There are a few dog-eared pages that seem interesting.
+
+
+#,[ 08. ID Tag ]
+30_Usable_08_IDTag_Male_White_Soldier_02_NameKey,Cezar Vero's ID Tag
+30_Usable_08_IDTag_Male_White_Soldier_02_DescKey,An ID Tag belonging to Cezar Vero.
+
+30_Usable_08_IDTag_Male_White_Soldier_01_NameKey,Francisco Martin's ID Tag
+30_Usable_08_IDTag_Male_White_Soldier_01_DescKey,An ID Tag belonging to Francisco Martin.
+
+30_Usable_08_IDTag_Male_White_Scientist_02_NameKey,David Wright's ID Tag
+30_Usable_08_IDTag_Male_White_Scientist_02_DescKey,An ID Tag belonging to David Wright.
+
+30_Usable_08_IDTag_Male_White_Scientist_01_NameKey,Bruno DaSilva's ID Tag
+30_Usable_08_IDTag_Male_White_Scientist_01_DescKey,An ID Tag belonging to Bruno DaSilva.
+
+30_Usable_08_IDTag_Male_White_Pilot_02_NameKey,Roch Golik's ID Tag
+30_Usable_08_IDTag_Male_White_Pilot_02_DescKey,An ID Tag belonging to Roch Golik.
+
+30_Usable_08_IDTag_Male_White_Pilot_01_NameKey,Stanimir Kolesnik's ID Tag
+30_Usable_08_IDTag_Male_White_Pilot_01_DescKey,An ID Tag belonging to Stanimir Kolesnik.
+
+30_Usable_08_IDTag_Male_White_Miner_02_NameKey,Paz Acosta's ID Tag
+30_Usable_08_IDTag_Male_White_Miner_02_DescKey,An ID Tag belonging to Paz Acosta.
+
+30_Usable_08_IDTag_Male_White_Miner_01_NameKey_Jacob_NameKey,Jacob's ID Tag
+30_Usable_08_IDTag_Male_White_Miner_01_DescKey_Jacob_DescKey,An ID Tag belonging to Jacob Thompson.
+
+30_Usable_08_IDTag_Male_White_Engineer_02_NameKey,Cort Dhalgren's ID Tag
+30_Usable_08_IDTag_Male_White_Engineer_02_DescKey,An ID Tag belonging to Cort Dhalgren.
+
+30_Usable_08_IDTag_Male_White_Engineer_01_NameKey,Felix Zuber's ID Tag
+30_Usable_08_IDTag_Male_White_Engineer_01_DescKey,An ID Tag belonging to Felix Zuber.
+
+30_Usable_08_IDTag_Male_White_Doctor_02_NameKey,Mikhail Popov's ID Tag
+30_Usable_08_IDTag_Male_White_Doctor_02_DescKey,An ID Tag belonging to Mikhail Popov.
+
+30_Usable_08_IDTag_Male_White_Doctor_01_NameKey,Leo Havet's ID Tag
+30_Usable_08_IDTag_Male_White_Doctor_01_DescKey,An ID Tag belonging to Leo Havet.
+
+30_Usable_08_IDTag_Male_Black_Soldier_02_NameKey,Fynn Baddoo's ID Tag
+30_Usable_08_IDTag_Male_Black_Soldier_02_DescKey,An ID Tag belonging to Fynn Baddoo.
+
+30_Usable_08_IDTag_Male_Black_Soldier_01_NameKey,Ateef Mohammed's ID Tag
+30_Usable_08_IDTag_Male_Black_Soldier_01_DescKey,An ID Tag belonging to Ateef Mohammed.
+
+30_Usable_08_IDTag_Male_Black_Scientist_02_NameKey,Chidiadi Lawal's ID Tag
+30_Usable_08_IDTag_Male_Black_Scientist_02_DescKey,An ID Tag belonging to Chidiadi Lawal.
+
+30_Usable_08_IDTag_Male_Black_Scientist_01_NameKey,Uwera Zoto's ID Tag
+30_Usable_08_IDTag_Male_Black_Scientist_01_DescKey,An ID Tag belonging to Uwera.
+
+30_Usable_08_IDTag_Male_Black_Pilot_02_NameKey,Kigongo Wandera's ID Tag
+30_Usable_08_IDTag_Male_Black_Pilot_02_DescKey,An ID Tag belonging to Kigongo Wandera.
+
+30_Usable_08_IDTag_Male_Black_Pilot_01_NameKey,Gregory Adams's ID Tag
+30_Usable_08_IDTag_Male_Black_Pilot_01_DescKey,An ID Tag belonging to Gregory Adams.
+
+30_Usable_08_IDTag_Male_Black_Miner_02_NameKey,Shabaka Faraj's ID Tag
+30_Usable_08_IDTag_Male_Black_Miner_02_DescKey,An ID Tag belonging to Shabaka Faraj.
+
+30_Usable_08_IDTag_Male_Black_Miner_01_NameKey,Elijah Washington's ID Tag
+30_Usable_08_IDTag_Male_Black_Miner_01_DescKey,An ID Tag belonging to Elijah Washington.
+
+30_Usable_08_IDTag_Male_Black_Engineer_02_NameKey,Diego Ortiz's ID Tag
+30_Usable_08_IDTag_Male_Black_Engineer_02_DescKey,An ID Tag belonging to Diego Ortiz.
+
+30_Usable_08_IDTag_Male_Black_Engineer_01_NameKey,Rohan Bakshi's ID Tag
+30_Usable_08_IDTag_Male_Black_Engineer_01_DescKey,An ID Tag belonging to Rohan Bakshi.
+
+30_Usable_08_IDTag_Male_Black_Doctor_02_NameKey,Prince Dube's ID Tag
+30_Usable_08_IDTag_Male_Black_Doctor_02_DescKey,An ID Tag belonging to Prince Dube.
+
+30_Usable_08_IDTag_Male_Black_Doctor_01_NameKey,Selam Haile's ID Tag
+30_Usable_08_IDTag_Male_Black_Doctor_01_DescKey,An ID Tag belonging to Selam Haile.
+
+30_Usable_08_IDTag_Male_Asian_Soldier_02_NameKey,Oudom Thong's ID Tag
+30_Usable_08_IDTag_Male_Asian_Soldier_02_DescKey,An ID Tag belonging to Oudom Thong.
+
+30_Usable_08_IDTag_Male_Asian_Soldier_01_NameKey,Farez Khoury's ID Tag
+30_Usable_08_IDTag_Male_Asian_Soldier_01_DescKey,An ID Tag belonging to Farez Khoury.
+
+30_Usable_08_IDTag_Male_Asian_Scientist_02_NameKey,Amran Ong's ID Tag
+30_Usable_08_IDTag_Male_Asian_Scientist_02_DescKey,An ID Tag belonging to Amran Ong.
+
+30_Usable_08_IDTag_Male_Asian_Scientist_01_NameKey,Ryota Sato's ID Tag
+30_Usable_08_IDTag_Male_Asian_Scientist_01_DescKey,An ID Tag belonging to Ryota Sato.
+
+30_Usable_08_IDTag_Male_Asian_Pilot_02_NameKey,Angelo Villanueva's ID Tag
+30_Usable_08_IDTag_Male_Asian_Pilot_02_DescKey,An ID Tag belonging to Angelo Villanueva.
+
+30_Usable_08_IDTag_Male_Asian_Pilot_01_NameKey,Qian Gao's ID Tag
+30_Usable_08_IDTag_Male_Asian_Pilot_01_DescKey,An ID Tag belonging to Qian Gao.
+
+30_Usable_08_IDTag_Male_Asian_Miner_02_NameKey,Huy Phan's ID Tag
+30_Usable_08_IDTag_Male_Asian_Miner_02_DescKey,An ID Tag belonging to Huy Phan.
+
+30_Usable_08_IDTag_Male_Asian_Miner_01_NameKey,Ho-Seok Kang's ID Tag
+30_Usable_08_IDTag_Male_Asian_Miner_01_DescKey,An ID Tag belonging to Ho-Seok Kang.
+
+30_Usable_08_IDTag_Male_Asian_Engineer_02_NameKey,Kaito Yamamoto's ID Tag
+30_Usable_08_IDTag_Male_Asian_Engineer_02_DescKey,An ID Tag belonging to Kaito Yamamoto.
+
+30_Usable_08_IDTag_Male_Asian_Engineer_01_NameKey,Mingze Yuan's ID Tag
+30_Usable_08_IDTag_Male_Asian_Engineer_01_DescKey,An ID Tag belonging to Mingze Yuan.
+
+30_Usable_08_IDTag_Male_Asian_Doctor_02_NameKey,Niran Ngam's ID Tag
+30_Usable_08_IDTag_Male_Asian_Doctor_02_DescKey,An ID Tag belonging to Niran Ngam.
+
+30_Usable_08_IDTag_Male_Asian_Doctor_01_NameKey,Bingwen Wong's ID Tag
+30_Usable_08_IDTag_Male_Asian_Doctor_01_DescKey,An ID Tag belonging to Bingwen Wong.
+
+30_Usable_08_IDTag_Female_White_Soldier_02_NameKey,Willow Jetton's ID Tag
+30_Usable_08_IDTag_Female_White_Soldier_02_DescKey,An ID Tag belonging to Willow Jetton.
+
+30_Usable_08_IDTag_Female_White_Soldier_01_NameKey,Embla Sigrun's ID Tag
+30_Usable_08_IDTag_Female_White_Soldier_01_DescKey,An ID Tag belonging to Embla Sigrun.
+
+30_Usable_08_IDTag_Female_White_Scientist_02_NameKey,Rhea Onasis's ID Tag
+30_Usable_08_IDTag_Female_White_Scientist_02_DescKey,An ID Tag belonging to Rhea Onasis.
+
+30_Usable_08_IDTag_Female_White_Scientist_01_NameKey,Isla Flores's ID Tag
+30_Usable_08_IDTag_Female_White_Scientist_01_DescKey,An ID Tag belonging to Isla Flores.
+
+30_Usable_08_IDTag_Female_White_Pilot_02_NameKey,Venla Hiltunen's ID Tag
+30_Usable_08_IDTag_Female_White_Pilot_02_DescKey,An ID Tag belonging to Venla Hiltunen.
+
+30_Usable_08_IDTag_Female_White_Pilot_01_NameKey,Juana Navarro's ID Tag
+30_Usable_08_IDTag_Female_White_Pilot_01_DescKey,An ID Tag belonging to Juana Navarro.
+
+30_Usable_08_IDTag_Female_White_Miner_02_NameKey,Catalina Valenzuela's ID Tag
+30_Usable_08_IDTag_Female_White_Miner_02_DescKey,An ID Tag belonging to Catalina Valenzuela.
+
+30_Usable_08_IDTag_Female_White_Miner_01_NameKey,Olivia Rowe's ID Tag
+30_Usable_08_IDTag_Female_White_Miner_01_DescKey,An ID Tag belonging to Olivia Rowe.
+
+30_Usable_08_IDTag_Female_White_Engineer_02_NameKey,Bianca Moreira's ID Tag
+30_Usable_08_IDTag_Female_White_Engineer_02_DescKey,An ID Tag belonging to Bianca Moreira.
+
+30_Usable_08_IDTag_Female_White_Engineer_01_NameKey,Polina Volkov's ID Tag
+30_Usable_08_IDTag_Female_White_Engineer_01_DescKey,An ID Tag belonging to Polina Volkov.
+
+30_Usable_08_IDTag_Female_White_Doctor_02_NameKey,Karin Nilsson's ID Tag
+30_Usable_08_IDTag_Female_White_Doctor_02_DescKey,An ID Tag belonging to Karin Nilsson.
+
+30_Usable_08_IDTag_Female_White_Doctor_01_NameKey,Elsa Koch's ID Tag
+30_Usable_08_IDTag_Female_White_Doctor_01_DescKey,An ID Tag belonging to Elsa Koch.
+
+30_Usable_08_IDTag_Female_Black_Soldier_02_NameKey,Mukamutara Khumalo's ID Tag
+30_Usable_08_IDTag_Female_Black_Soldier_02_DescKey,An ID Tag belonging to Mukamutara Khumalo.
+
+30_Usable_08_IDTag_Female_Black_Soldier_01_NameKey,Meri Urey's ID Tag
+30_Usable_08_IDTag_Female_Black_Soldier_01_DescKey,An ID Tag belonging to Meri Urey.
+
+30_Usable_08_IDTag_Female_Black_Scientist_02_NameKey,Lakshmi Patel's ID Tag
+30_Usable_08_IDTag_Female_Black_Scientist_02_DescKey,An ID Tag belonging to Lakshmi Patel.
+
+30_Usable_08_IDTag_Female_Black_Scientist_01_NameKey,Jalissa Garvey's ID Tag
+30_Usable_08_IDTag_Female_Black_Scientist_01_DescKey,An ID Tag belonging to Jalissa Garvey.
+
+30_Usable_08_IDTag_Female_Black_Pilot_02_NameKey,Giselle Benoit's ID Tag
+30_Usable_08_IDTag_Female_Black_Pilot_02_DescKey,An ID Tag belonging to Giselle Benoit.
+
+30_Usable_08_IDTag_Female_Black_Pilot_01_NameKey,Cendy Dominguez's ID Tag
+30_Usable_08_IDTag_Female_Black_Pilot_01_DescKey,An ID Tag belonging to Cendy Dominguez.
+
+30_Usable_08_IDTag_Female_Black_Miner_02_NameKey,Niesha Davis's ID Tag
+30_Usable_08_IDTag_Female_Black_Miner_02_DescKey,An ID Tag belonging to Niesha Davis.
+
+30_Usable_08_IDTag_Female_Black_Miner_01_NameKey,Olu Iwara's ID Tag
+30_Usable_08_IDTag_Female_Black_Miner_01_DescKey,An ID Tag belonging to Olu Iwara.
+
+30_Usable_08_IDTag_Female_Black_Engineer_02_NameKey,Imani Hendricks's ID Tag
+30_Usable_08_IDTag_Female_Black_Engineer_02_DescKey,An ID Tag belonging to Imani Hendricks.
+
+30_Usable_08_IDTag_Female_Black_Engineer_01_NameKey,Nevaeh Johnson's ID Tag
+30_Usable_08_IDTag_Female_Black_Engineer_01_DescKey,An ID Tag belonging to Nevaeh Johnson.
+
+30_Usable_08_IDTag_Female_Black_Doctor_02_NameKey,Esi Akufo's ID Tag
+30_Usable_08_IDTag_Female_Black_Doctor_02_DescKey,An ID Tag belonging to Esi Akufo.
+
+30_Usable_08_IDTag_Female_Black_Doctor_01_NameKey,Fana Ibrahim's ID Tag
+30_Usable_08_IDTag_Female_Black_Doctor_01_DescKey,An ID Tag belonging to Fana Ibrahim.
+
+30_Usable_08_IDTag_Female_Asian_Soldier_02_NameKey,Zoya Ansari's ID Tag
+30_Usable_08_IDTag_Female_Asian_Soldier_02_DescKey,An ID Tag belonging to Zoya Ansari.
+
+30_Usable_08_IDTag_Female_Asian_Soldier_01_NameKey,Gemi Sinaga's ID Tag
+30_Usable_08_IDTag_Female_Asian_Soldier_01_DescKey,An ID Tag belonging to Gemi Sinaga.
+
+30_Usable_08_IDTag_Female_Asian_Scientist_02_NameKey,Solongo Lkhagvasuren's ID Tag
+30_Usable_08_IDTag_Female_Asian_Scientist_02_DescKey,An ID Tag belonging to Solongo Lkhagvasuren.
+
+30_Usable_08_IDTag_Female_Asian_Scientist_01_NameKey,Siyi Zhao's ID Tag
+30_Usable_08_IDTag_Female_Asian_Scientist_01_DescKey,An ID Tag belonging to Siyi Zhao.
+
+30_Usable_08_IDTag_Female_Asian_Pilot_02_NameKey,Yumi Sonoda's ID Tag
+30_Usable_08_IDTag_Female_Asian_Pilot_02_DescKey,An ID Tag belonging to Yumi Sonoda.
+
+30_Usable_08_IDTag_Female_Asian_Pilot_01_NameKey,Lin Hui Tong's ID Tag
+30_Usable_08_IDTag_Female_Asian_Pilot_01_DescKey,An ID Tag belonging to Lin Hui Tong.
+
+30_Usable_08_IDTag_Female_Asian_Miner_02_NameKey,Junhui Chen's ID Tag
+30_Usable_08_IDTag_Female_Asian_Miner_02_DescKey,An ID Tag belonging to Junhui Chen.
+
+30_Usable_08_IDTag_Female_Asian_Miner_01_NameKey,Jampa Namgang's ID Tag
+30_Usable_08_IDTag_Female_Asian_Miner_01_DescKey,An ID Tag belonging to Jampa Namgang.
+
+30_Usable_08_IDTag_Female_Asian_Engineer_02_NameKey,Dhia Chung's ID Tag
+30_Usable_08_IDTag_Female_Asian_Engineer_02_DescKey,An ID Tag belonging to Dhia Chung.
+
+30_Usable_08_IDTag_Female_Asian_Engineer_01_NameKey,Minhee Mok's ID Tag
+30_Usable_08_IDTag_Female_Asian_Engineer_01_DescKey,An ID Tag belonging to Minhee Mok.
+
+30_Usable_08_IDTag_Female_Asian_Doctor_02_NameKey,Aoi Takara's ID Tag
+30_Usable_08_IDTag_Female_Asian_Doctor_02_DescKey,An ID Tag belonging to Aoi Takara.
+
+30_Usable_08_IDTag_Female_Asian_Doctor_01_NameKey,Tala Baccay's ID Tag
+30_Usable_08_IDTag_Female_Asian_Doctor_01_DescKey,An ID Tag belonging to Tala Baccay.

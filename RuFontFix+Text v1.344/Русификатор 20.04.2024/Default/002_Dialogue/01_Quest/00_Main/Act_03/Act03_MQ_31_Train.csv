@@ -1,0 +1,90 @@
+Language,Default
+
+#,Main Quest Name: Escape to Train
+#,Purpose: Train-related events. 
+#,Actor: Litzi Vogl
+#,KeyPrefix: Act03_MQ_31
+
+#,"Player finds the train for the first time. Curious at first, wonders if it was used to transfer supplies between camp and headquarters"
+Act03_MQ_31_Player_01,"Wow, here it is! Now that's a big train! I've only ever seen pictures, but in person, these things are true wonders."
+Act03_MQ_31_AI_02,I have already accessed the schematics for this <color=#FFFF00>Supply Train</color> make and model. Initiating scan. 
+Act03_MQ_31_Player_03,"Good thinking. I bet this train was used to haul resources mined here back to TECC HQ. Nothing looks terribly damaged, but it's been unattended for a while. Will it work, Cassini?"
+Act03_MQ_31_AI_04,"This part of the train should be operable, but as you said, this is a big train. More exploration is necessary to find the malfunction. "
+Act03_MQ_31_Player_05,Heading in now. 
+
+#,Player finds empty fuel canisters on the train. (Player needs to research this item in order to make more to power up the train.)
+#,Litzi is responsible for researching the empty canister.
+#,"Player communicates with Litzi, and she askes player to bring it back for a research."
+Act03_MQ_31_AI_06,"We found the problem, {PlayerFullName}. This fuel canister is both depleted and damaged."
+Act03_MQ_31_Nar_07,(You receive <color=#66FFCC>Empty Fuel Canisters</color>.)
+Act03_MQ_31_Player_08,"Okay. Open communication with Litzi, Cassini. "
+Act03_MQ_31_AI_09,<color=#FFFF00>Initiating…</color>
+Act03_MQ_31_Litzi_10,"Hey, did you find something?"
+Act03_MQ_31_Player_11,"Yes, the underground train on Level 7 with no power. There are some empty fuel canisters, though. Could you help with researching them?"
+Act03_MQ_31_Litzi_12,"Bring them to camp, put in a <color=#FFA500>Research</color> request, and I'll take it from there."
+Act03_MQ_31_Nar_13,(Communication ends.)
+Act03_MQ_31_Player_14,This train could be the fastest route out of here. Let's get it running.
+
+#,Triggers when empty canister has been researched.
+#,Litzi discovers that the original fuel canister was used as a emergency backup power for the train so it was not powerful enough to send train all the way to the headquarters
+#,"So she developed a new, more powerful version of the fuel canister which requires highly concentrated methane substance."
+Act03_MQ_31_Litzi_15,"Hey, I looked into those canisters like you asked, and... well... do you want the good news or bad news first?"
+Act03_MQ_31_Player_16,Oh no. Hit me with the bad news first.
+Act03_MQ_31_Litzi_17,"The canisters you brought back were for emergency backup only, so they won't be enough to take you all the way to TECC HQ."
+Act03_MQ_31_Player_18,And the good news?
+Act03_MQ_31_Litzi_19,"I just uploaded a <color=#66FFCC>Blueprint</color> for an updated canister for you, which should work for the entire trip to HQ. No worries about breaking down along the way, but I can't guarantee there'll be enough fuel left over to get you back here. "
+Act03_MQ_31_Player_20,At least it's a shot. I'll gather the materials to <color=#FFA500>Craft</color> it ASAP.
+Act03_MQ_31_Player_21,"By the way, you had me going for a minute there. Heh."
+Act03_MQ_31_Litzi_22,I knew I did. *haha* Now go get that train chugging. 
+Act03_MQ_31_Nar_23,(Communication ends.)
+
+#,Event triggered when player meets mutated train warden.
+#,Should describe it to be reconizable as train warden. Killing warden will drop a keycard to open the train barricade.
+Act03_MQ_31_Player_24,"Well, aren't you an ugly one? Cassini?"
+Act03_MQ_31_AI_25,Cross-referencing this creature with TECC personnel data and... this is the previous train warden.
+Act03_MQ_31_Player_26,And he has a keycard embedded in his flesh.
+Act03_MQ_31_AI_27,"Let's take it down, {PlayerFullName}."
+Act03_MQ_31_Player_28,"Well said, Cassini."
+
+#,After killing warden and obtaining the keycard
+Act03_MQ_31_Nar_29,(Obtained <color=#66FFCC>Keycard: Warden</color>.)
+
+#,---------------------------------------
+
+#,Main Quest Name: Escape to Train
+#,Purpose: Departing the train for the headquarters. 
+#,Object: Train's Terminal.
+#,KeyPrefix: Train_Terminal
+
+#,Using the train terminal for the first time.
+Train_Terminal_First_Nar_01,"(You discover the train's main control terminal. Powering it up illuminates the screen, followed by startup text.)"
+Train_Terminal_First_Terminal_02,TECC is the Future. Choose Command.\n\n01.Depart Train\n02.Open Tracks
+Train_Terminal_First_Nar_03,(An error message interrupts the select screen.)
+Train_Terminal_First_Terminal_04,Train CANNOT be Started.\n\n<color=#FFFF00>[Reason]\n-No fuel.\n-Tracks must be opened.</color>
+Train_Terminal_First_Player_05,Okay. Let's work on supplying power and opening the tracks.
+
+#,Train Terminal's Main menu
+Train_Terminal_MainMenu,TECC is the Future. Choose Command.
+
+#,Main menu select option. // S=Select.
+Train_Terminal_S01,Depart Train
+Train_Terminal_S02,Open Tracks
+
+#,Select 01. Depart Train // Text = Terminal screen's text. // '\n' = Next line
+Train_Terminal_S01_Terminal_01,Confirming Destination: TECC HQ (Titan).\n [Emergency Fuel Canister {CurrentFuelCount} out of 4]
+Train_Terminal_S01_Nar_02,(Litzi said this could be a one-way trip. Do you wish to continue?)
+
+Train_Terminal_S01_S01,(Depart to TECC HQ.)
+Train_Terminal_S01_S02,(Not yet... There's still work left to do at camp.)
+
+Train_Terminal_S01_S01_FailText_01,Train CANNOT be Started.\n\n<color=#FFFF00>[Reason]\n-No power.\n-Tracks must be opened.</color>
+Train_Terminal_S01_S01_FailText_02,Train CANNOT be Started.\n\n<color=#FFFF00>[Reason]\n-No power.</color>
+Train_Terminal_S01_S01_FailText_03,Train CANNOT be Started.\n\n<color=#FFFF00>[Reason]\n-Tracks must be opened.</color>
+
+#,Select 02. Open Tracks without keycard
+Train_Terminal_S02_Terminal_01,ERROR... <color=#FFFF00>Requires Warden authorization to continue.</color>
+Train_Terminal_S02_Player_02,"So, we need to find the old warden before we can go? Let's start looking."
+
+#,Select 02. Open Tracks with keycard
+Train_Terminal_S02_S01_Nar_01,(You wave the Warden's Keycard over the authorization sensor.)
+Train_Terminal_S02_S01_Terminal_02,Authentication Successful. Tracks Opening. 

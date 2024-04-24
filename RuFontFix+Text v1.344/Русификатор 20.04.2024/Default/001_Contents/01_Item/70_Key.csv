@@ -1,0 +1,43 @@
+Language,Default
+
+70_Key_MiniGun_NameKey,Ключ карта: Ферма [B03]
+70_Key_MiniGun_DescKey,Ключ карта с выгравированной коровой. Которая может прятаться на <#FFFF00>Ферме</color>
+
+70_Key_ChainSaw_NameKey,Ключ карта: Автостоянка [B02]
+70_Key_ChainSaw_DescKey,Ключ карта с эмблемой лезвия. Ощущяется острым при прикосновении.
+
+70_Key_FlameThrower_NameKey,Ключ карта: Хранилище Шахты [B04]
+70_Key_FlameThrower_DescKey,Красная ключ карта с выгравированой эмблемой огня. Что-то опасное ожидает за дверью. 
+
+70_Key_Air_B01_NameKey,Keycard: Air Circulator [B01]
+70_Key_Air_B01_DescKey,An old blue keycard. <#FFFF00>Air Circulator Access</color> is printed on the front.
+
+70_Key_BedRoom_NameKey,Keycard: Personal Room
+70_Key_BedRoom_DescKey,The keycard to my very own room in the camp's <#FFFF00>Residential</color> area.
+
+70_Key_Power_B01_NameKey,Keycard: Power Relay [B01]
+70_Key_Power_B01_DescKey,An old yellow keycard. <#FFFF00>Power Relay Access</color> is printed on the front.
+
+70_Key_Power_B02_NameKey,Keycard: Power Relay [B02]
+70_Key_Power_B02_DescKey,Looks like an old entry card. <#FFFF00>Power Relay Access</color> is printed on the front.
+
+70_Key_Pub_NameKey,Keycard: Alp's Cellar
+70_Key_Pub_DescKey,A keycard to the basement of <#FFFF00>Alp's Pub</color>. The rats must be nasty if he locked them down there.
+
+70_Key_Train_NameKey,Keycard: Warden
+70_Key_Train_DescKey,A keycard authorized to open the gate blocking the underground train tracks.
+
+70_Key_OperatingRoom_NameKey,Keycard: Operating Room [B04]
+70_Key_OperatingRoom_DescKey,A keycard that opens the locked door in the underground <#FFFF00>Operating Room</color>.
+
+70_Key_Counterfeit_NameKey,Keycard: Counterfeit
+70_Key_Counterfeit_DescKey,One-time use keycard to access the heat sink room at the <#FFFF00>Power Plant</color>. 
+
+70_Key_B05C01_ControlLab_NameKey,Keycard: Control Center Lab
+70_Key_B05C01_ControlLab_DescKey,Keycard that allows to unlock the door to the <#FFFF00>Control Center Lab</color>.
+
+70_Key_Park_NameKey,Keycard: Park Office
+70_Key_Park_DescKey,A keycard that opens the locked door in the underground <#FFFF00>Park Office Room</color>.
+
+70_Key_TECC_NameKey,Keycard: TECC Master
+70_Key_TECC_DescKey,A keycard that opens the locked door in the underground <#FFFF00>Control Center Exit</color>.

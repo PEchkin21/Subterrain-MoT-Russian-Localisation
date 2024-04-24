@@ -1,0 +1,15 @@
+Language,Default
+
+#,Waterstation level 4 upgrade material dialogue.
+#,Material: Nano chemical. (water treating material)
+#,Prefix_Key: WaterStation_04
+
+#,The chemical can be found from the storage next to the underground water treatment facility.
+#,When player obtains the chemical.
+WaterStation_04_Nar_01,"(You find a number of chemical vials, each a different color and some thicker than others.)"
+WaterStation_04_Player_02,"Weird fluids found near the underground water treatment facility, huh? Any guesses, Cassini?"
+WaterStation_04_AI_03,Scanning the vial barcodes now.
+WaterStation_04_Nar_04,(...)
+WaterStation_04_AI_05,"These vials contain chlorine, chloramine, and chlorine dioxide. Common solutions used to kill parasites, bacteria, and viruses in water supplies. "
+WaterStation_04_AI_06,"However, the solutions you have there are also concentrated, which should make them more effective with a longer half-life."
+WaterStation_04_Player_07,Let's get these back to camp ASAP.

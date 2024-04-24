@@ -1,0 +1,67 @@
+Language,Default
+
+#,Main Quest: Power Relay
+#,Purpose: Research the broken power relay fuse
+#,Place: Basement Facility.
+#,"Actor: Judith Taggart, Litzi Vogl"
+#,KeyPrefix: Act02_MQ_21
+
+#,This event triggers the first time player finds the power relay. This particular power relay is still functioning and there is a working fuse installed inside.
+#,"Player sends message to Judith, and she replies back saying Litzi will take a look at it."
+Act02_MQ_21_Nar_01,"(Upon entering the strange room, a large machine gives off dim, flashing lights proving it's still operational. It looks somewhat familiar and instantly draws your curiosity.)"
+Act02_MQ_21_Player_02,What is this...?
+Act02_MQ_21_Player_03,"This machine... Cassini, can you scan it?"
+Act02_MQ_21_AI_04,Scanning. Analyzing with the available data.
+Act02_MQ_21_Nar_05,(...)
+Act02_MQ_21_AI_06,Analysis complete. It is a minimally-operational power relay. It is only partially connected to the camp's grid.
+Act02_MQ_21_Player_07,This is good news if we can use it to send more power to this floor. 
+Act02_MQ_21_Player_08,"Cassini, send this information to Judith."
+Act02_MQ_21_AI_09,<color=#FFFF00>Sending information. Target: Judith…</color>
+Act02_MQ_21_Nar_10,(It doesn't take long to receive a response from Judith.)
+Act02_MQ_21_Judith_11,"Good, you found the power relay. I'll get Litzi in the loop, but if it's a relay, see if you can find more. \n-From Judith-"
+
+#,Player finds second power relay device. But there is no fuse installed inside.
+#,Player is given some hints that one needs to look for a working fuse around.
+Act02_MQ_21_Player_12,Another power relay device... but no lights. Scan it.
+Act02_MQ_21_AI_13,Scanning.
+Act02_MQ_21_Nar,(...)
+Act02_MQ_21_AI_14,Analysis complete. It is not operational. Reason: <color=#FFFF00>Missing fuse</color>.
+Act02_MQ_21_Player_15,"I hope there's a way to fix this. Cassini, contact Judith."
+Act02_MQ_21_AI_16,<color=#FFFF00>Establishing connection. Target: Judith</color>
+Act02_MQ_21_Judith_17,Hey! You find another relay?
+Act02_MQ_21_Player_18,"Yes, but it needs a fuse. Do we have one on hand?"
+Act02_MQ_21_Judith_19,"Most relays keep spare fuses in an internal compartment or a nearby storage container. If the relay has signs of damage, though, those fuses could be long gone. See if you can find a spare or even a broken fuse we can Research."
+Act02_MQ_21_Player_20,Right. I'll see what I can find. 
+Act02_MQ_21_Judith_21,Don't hesitate to ping me. Come back safely.
+Act02_MQ_21_Nar_22,(End of communication.)
+Act02_MQ_21_Player_23,"Spare fuse! Come out, come out, wherever you are!"
+
+#,This triggers when player interacts with container with fuse items inside.
+#,The container has one working fuse and one broken fuse
+#,Player is told that one can use working fuse to fix the power relay on the current floor to power up the elevator to let player return to the camp without walk all the way back
+Act02_MQ_21_Nar_24,(You rummage through the box in hopes of finding a fuse.)
+Act02_MQ_21_Player_25,Is this...?
+Act02_MQ_21_Nar_26,"(The box contains two fuses, one working and one broken.)"
+Act02_MQ_21_Player_27,"Eureka! Contact Judith, Cassini. "
+Act02_MQ_21_AI_28,<color=#FFFF00>Establishing connection. Target: Judith</color>
+Act02_MQ_21_Player_29,"Hey, Judith. You said I can Research a broken fuse, right? I have a working fuse and a busted one."
+Act02_MQ_21_Judith_30,"Wonderful. It should be plug-and-play for the most part, so you can use the working fuse on the elevator to return to camp and then use a workbench to make more."
+Act02_MQ_21_Player_31,Sounds easy enough. 
+Act02_MQ_21_Judith_32,It also sounds like Tau is out of a job. *haha* Don't worry... I'll gladly be the one to tell him. 
+Act02_MQ_21_Nar_33,(End of communication.)
+Act02_MQ_21_Player_34,I tell ya... Those two are gonna kill each other.
+Act02_MQ_21_AI_35,I calculate there is only a 7% chance of that happening.
+Act02_MQ_21_Player_36,"Oh, well, that's comforting. "
+
+#,This is triggered when player interacts with container after obtained all the fuse items from it
+Act02_MQ_21_31_Nar_37,(It's an empty box.)
+
+#,This triggers after broken fuse has been researched. Message from Litzi indicates that player can now produce working fuse.
+#,"Player is just reminded that although working fuse can connect the floor to the upper power generator, they can't afford to send more power than absolute necessary to power the elevator only."
+Act02_MQ_21_AI_38,"<color=#FFFF00>Incoming communication from Litzi, {PlayerFullName}.</color>"
+Act02_MQ_21_Litzi_39,"I finished researching that fuse, so we can reproduce more if you need... with the necessary materials. Installing fuses will make it easier to make your way through the mines."
+Act02_MQ_21_Player_40,Great news! Thanks for your help with that. 
+Act02_MQ_21_Litzi_41,"Don't get too excited. There's no way to send full power underground. Overextending what little energy we currently have may blow the fuses and leave us without power at all. Elevators should be good to go on an as-needed basis, though."
+Act02_MQ_21_Litzi_42,"Now, we both have work to do. Good luck down there. "
+Act02_MQ_21_Nar_43,(End of communication.)
+Act02_MQ_21_AI_44,<color=#66FFCC>Electric Fuse</color> has been added to the crafting list.

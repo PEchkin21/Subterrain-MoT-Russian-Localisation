@@ -1,0 +1,43 @@
+Language,Default
+
+#,Main Quest Name: Alp of pub
+#,"Purpose: First Combat, Food & Water"
+#,Place: Pub
+#,Actor: Alp Demir
+#,"Note: Player, Alp Demir"
+#,KeyPrefix: Act01_MQ_03
+
+#,(Player ask Alp for food. Alp trades some food for taking care of rats in the cellar. Player is given cellar door key card)
+#,(Alp asks for 5 rat tails as a proof)
+Act01_MQ_03_01_Player, Я хотел бы спросить о-
+Act01_MQ_03_02_Alp,"Присаживайся и раскажи что тебя нравиться. Извини за скромное меню. Выбор блюд сократился,после того как мы оказались отрезаны от поставок c Штаб-квартиры на Титане."
+Act01_MQ_03_03_Player,"Вообще-то, Иско говорил, что ваш суп очень вкусный. Можно и мне попробовать."
+Act01_MQ_03_04_Alp,"Простые слова которые хочет слышать каждый повар, а у меня как раз сейчас варится порция мерсимекского супа. Тебе понравится!"
+Act01_MQ_03_05_Narration,"(Альп оглядывается по сторонам, чтобы убедиться, что его никто не подслушивает, хотя в рядом никого и небыло,он заговорил приглушенным голосом.)"
+Act01_MQ_03_06_Alp,"Послушай: у меня есть тарелка супа с твоим именем, если ты сможешь мне помочь."
+Act01_MQ_03_07_Player,"Звучит справедливо, в зависимости от того, нужно сделать."
+Act01_MQ_03_08_Alp,"Семейство крыс устроило лавочку в подвале Паба. Теперь я готовлю свой суп из лучшей в округе чечевицы, и последнее, что мне нужно, - это чтобы это выплыло наружу и испортило мою репутацию. В конце концов, это семейный рецепт. Итак, вот что мне нужно от тебя, друг мой. Принеси мне пять крысиных хвостиков, и получишь суп. "
+Act01_MQ_03_09_Player, Звучит просто. Всего пять?
+Act01_MQ_03_10_Alp,"Ох, это не простые крысы. Вспомни крыс с Земли, а теперь представьте, что это существо развивается в ужасных условиях Титана, и его прапрапрапраправнуки вырасли ужасно деформированными. Итак, пятерых более чем достаточно, и это должно вселить страх божий в остальных. Они будут знать, что в МОЙ паб лучше не соваться. "
+Act01_MQ_03_11_Alp, По рукам?
+Act01_MQ_03_12_Narration,"(Ваш желудок, заурчал как напоминание о том что сейчас не широкий выбор еды. Альп протянул вам руку, и вы пожали её в ответ. Он улыбнулся и вернулся к его обычно, повышенному тону.)"
+
+#,"Original Text: Very good, my friend. Here is a keycard to the cellar, and I even have some supplies for you down there in the box next to the stairs."
+Act01_MQ_03_13_Alp," Вот и отлично друг мой. Вот ключ карта от подвала."
+Act01_MQ_03_14_Alp, Удачи!
+Act01_MQ_03_15_Narration,(Вы получили <color=#66FFCC>Ключ карта: Подвал Альпа</color>.)
+
+#,(Player returns to Alp with rat tails. Alp let player know he is selling food and drink. Alp also ask player to go and see David for registering to camp's system)
+#,(Registering to camp's system allows player to use production UI menu)
+Act01_MQ_03_16_Player,"They were tougher than they looked, but I brought five rat tails. Well, six if you count this one that splits off at the end."
+Act01_MQ_03_17_Alp,Great work! Let me look at you.
+Act01_MQ_03_18_Narration,"(Alp checks you for any lasting wounds and smiles when he finds none. He's the warmest personality you've encountered so far, but there is a mystery behind his eyes as well.)"
+Act01_MQ_03_19_Alp,"A few scratches never hurt nobody, right? As promised, the best soup on Titan, some rations for the road, and I'll even throw in some credits for the extra tail."
+Act01_MQ_03_20_Narration,"(You got <color=#66FFCC>food</color>, <color=#66FFCC>water</color>, and <color=#66FFCC>credits</color>.)"
+Act01_MQ_03_21_Alp,"The first one's free, but if you have a craving for more of my delicious food, I'll have to charge you. Gotta keep the lights on. "
+Act01_MQ_03_23_Alp,Be sure to eat often. I'm sure you're hungry from a long day of checkups and system registration for you.
+Act01_MQ_03_24_Player,"My Omniscope is connected, but nobody mentioned registering."
+Act01_MQ_03_25_Alp,"What? Registering is the only way to fully use the camp's system, my friend. David's in charge of the supply facility. You should go see him. "
+Act01_MQ_03_26_Alp,"And if nobody's said it yet, Welcome to Camp Huygen. Adjusting to life here might take some time, but you'll get there. "
+Act01_MQ_03_27_Alp,"Well, I gotta get ready for the lunch rush, so I'll leave you to it. Come back anytime."
+Act01_MQ_03_28_Narration,(Alp seems like a genuinely kind soul. You wave to the large man as you leave.)

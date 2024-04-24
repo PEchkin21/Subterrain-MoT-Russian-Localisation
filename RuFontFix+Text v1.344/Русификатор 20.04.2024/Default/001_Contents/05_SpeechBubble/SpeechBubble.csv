@@ -1,0 +1,57 @@
+Language,Default
+Speech_stats_thirst_1,I could use a drink.
+Speech_stats_thirst_2,I'm pretty thirsty.
+Speech_stats_thirst_3,My mouth's dry...\n...I need a drink...
+
+Speech_stats_hunger_1,I could use a snack.
+Speech_stats_hunger_2,I need to rustle up some grub.\nI'm getting pretty hungry.
+Speech_stats_hunger_3,I'm feeling pretty weak...\nI need some food.
+
+Speech_stats_sleep_1,I'm a little tired.
+Speech_stats_sleep_2,I'm pretty tired.\nI could use a nap.
+Speech_stats_sleep_3,...I'm exhausted...\n...gotta crash somewhere...
+
+Speech_stats_fracture_1,I think my leg's fractured!
+Speech_stats_fracture_2,This fracture hurts.\nI need to patch it up.
+Speech_stats_fracture_3,...Gotta set this fracture...\n...gonna die otherwise...
+
+Speech_stats_oxygen_1,My oxygen's getting pretty low...
+Speech_stats_oxygen_2,I am getting a low oxygen warning!
+Speech_stats_oxygen_3,I have no oxygen left in my canister!\nI'm going to suffocate down here!
+
+Speech_stats_bleeding_1,I'm bleeding!
+Speech_stats_bleeding_2,This cut's pretty deep...\nI need to stop the bleeding.
+Speech_stats_bleeding_3,...Gonna bleed to death...\n...need a bandage...
+
+Speech_NoPower,It's not powered.
+Speech_NoFuse,"It's not powered.\nMaybe I should check the fuse at the Power Relay\nin this level or previous levels."
+
+Speech_OutOfOrder,It's out of order.
+Speech_OutOfAmmo,Out of ammo.
+Speech_OutOfArrow,Out of arrows.
+Speech_OutOfPellet,Out of pellets.
+
+Speech_NotEnoughCredit,I don't have enough credit right now.
+
+Speech_Activated,Activated.
+Speech_UnableToSleepCombat,I can't sleep right now.\nI hear something nearby.
+Speech_Inventory_Full,My inventory is full.
+Speech_DuplicatedItemTypeUsage,I can't use that right now.\nI have already used the same type of item recently.
+Speech_NoNeedToSleep,I don't need to sleep right now.\nI am not sleepy or tired at the moment.
+Speech_UnableToSave,I can't save the game right now.
+Speech_EndOfDemo,"It's not working...\nIt seems like this world is limited by some mysterious force called ''Demo''.\nPlease consider supporting the full game in the future!"
+Speech_NeedRopeToGetDown,"There is a hole that looks like it is connected to the below,\nbut I will need to use a rope to climb down."
+Speech_CurrentLevel,"That is the level I am currently at..."
+Speech_ThrowDisabledInCamp,"I don't want to do that here.\nSomeone might get hurt."
+Speech_Door_Locked_RequireKeys,"Requires following keycard:"
+Speech_Door_Locked_WithoutKeys,"It looks like the door is locked without any keycard.\nI will need to find another way to open this door."
+Speech_SuperComboAttack,"You're already dead."
+
+Speech_HiddenObject_Spotted,"I feel like I saw something hidden.."
+Speech_HiddenObject_FailToDiscover,"I feel something is hidden nearby, but I am unable to discover it exactly."
+Speech_HiddenObject_Discovered,"I found something!"
+Speech_RequiredPerception,"Requires Perception: "
+
+Speech_Tau_Ending_01,"Hey!"
+Speech_Tau_Ending_02,"Anybody out there?"
+Speech_Tau_Ending_03,"Any-"

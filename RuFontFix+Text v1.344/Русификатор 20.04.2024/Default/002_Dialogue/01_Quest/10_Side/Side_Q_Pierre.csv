@@ -1,0 +1,78 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Pierre Ondo
+#,Quest Name: Pierre's Prototype 
+#,Key_Fix: Side_Q_VisualPrototype
+
+#,"Pierre loves working with computers, as he has a natural knack for it. Player must collect components for a prototype he's working on. "
+
+#,Player receives message from Pierre
+Side_Q_VisualPrototype_AI_01,"Incoming message from Pierre, {PlayerFullName}."
+Side_Q_VisualPrototype_Pierre_02,I'm working on a new prototype that may be useful to you. Let's talk when you get a chance.\n-Pierre Ondo-
+
+#,When player speaks to Pierre
+Side_Q_VisualPrototype_Player_03,"Hey, Pierre! You have something useful for me?"
+Side_Q_VisualPrototype_Pierre_04,"Well, not yet... it's a work in progress. I hope to finish it soon, so Judith can rate its build too. That's something my brother, Lyam, and I used to do back in Gabon. We'd come up with crazy challenges and see whose device worked best. Judith makes for a good 'sister-from-another-mister' here on Titan. *haha*"
+Side_Q_VisualPrototype_Pierre_05,"Then it occurred to me that what I'm building could help you down in the mine too. I want to keep exactly what it is a secret for now, but if you can collect a few components, I can make a second one for you. What do you say?"
+Side_Q_VisualPrototype_Player_06,I don't see why not. What do you need?
+Side_Q_VisualPrototype_Pierre_07,"The first two parts are a fine <color=#66FFCC>Pane of Glass</color> and a <color=#66FFCC>Micro-Battery</color>. There's nothing I can use around camp, so you should check the mines. "
+Side_Q_VisualPrototype_Pierre_08,"I'm adding plans for the third part directly to the camp crafting list. It's a specialized <color=#66FFCC>Processor</color> I hope you could produce for me. Other than that, I have the other necessary components."
+Side_Q_VisualPrototype_Player_09,"Sounds easy enough. I'm excited to see what it is, but I'm patient. "
+Side_Q_VisualPrototype_Pierre_10,You're going to love it. Hurry back. 
+
+#,When player speaks to Pierre before finishing this quest
+#,Replaces Basic_Pierre until end of quest
+Side_Q_VisualPrototype_Pierre_11,My prototype is almost done! Have you found those parts?
+
+#,"A few steps away after speaking with Pierre, Cassini jumps in. "
+Side_Q_VisualPrototype_AI_12,"I believe I know where we can find parts for Pierre, {PlayerFullName}. "
+Side_Q_VisualPrototype_Player_13,"You're always on top of things, Cassini. What's your plan?"
+Side_Q_VisualPrototype_AI_14,The market level may be a place to find glass usable for the project.
+Side_Q_VisualPrototype_AI_15,"TECC has manufactured several micro-battery models, often for portable energy weapons. We may be able to find one or more in the underground security facility. "
+Side_Q_VisualPrototype_AI_16,"And as Pierre noted, we simply need enough craft materials to produce the processor he needs. "
+Side_Q_VisualPrototype_Player_17,Do you have any guesses for what he's building based on these parts?
+Side_Q_VisualPrototype_AI_18,"After analyzing the component list, I have deduced the exact device. However, Pierre wishes it to remain secret for now, so I will honor that."
+Side_Q_VisualPrototype_Player_19,"So you're in on it too, huh? *haha* Oh well, let's go find some parts. "
+
+#,"When player finds micro-battery in underground security, this can just be in a random box. "
+Side_Q_VisualPrototype_Nar_23,"(Inside the box, you find a corroded multi-battery pack. After breaking it open, you find one working micro-battery and secure it in your bag.)"
+Side_Q_VisualPrototype_Player_24,This will be perfect for Pierre's project.
+Side_Q_VisualPrototype_Nar_25,(You receive '<color=#66FFCC>Micro-Battery</color>'.)
+
+#,When player produces processor for Pierre
+Side_Q_VisualPrototype_AI_26,We have successfully produced the special processor requested by Pierre. 
+Side_Q_VisualPrototype_Nar_27,(You receive '<color=#66FFCC>Processor</color>'.)
+
+#,When player has all 3 parts for Pierre
+Side_Q_VisualPrototype_AI_28,"That was the last piece we needed for Pierre's prototype, {PlayerFullName}."
+Side_Q_VisualPrototype_Player_29,"Oh, good! I'll visit him as soon as possible. I can't wait to see what it is, finally!"
+
+#,Need Text-------------
+
+
+#,When player speaks to Pierre again
+Side_Q_VisualPrototype_Player_30,"Hey, Pierre! About the parts..."
+Side_Q_VisualPrototype_Pierre_30,Did you get everything I asked for?
+Side_Q_VisualPrototype_Player_31,"Yes! It took some doing, but I have all three items right here!"
+Side_Q_VisualPrototype_Pierre_32,Perfect! Follow me!
+Side_Q_VisualPrototype_Nar_33,(Pierre leads you to his Engineering workstation.)
+
+
+#,------------------------
+
+#,"Fade in on Engineering. Player, Pierre and Judith are there. "
+#,"I have a vision of the player having an Array button they can hit, which turns the whole screen black except for the body heat of any living creatures on screen. It won't outline walls or anything, but might be good for finding hidden places or just not being surprised by the monster around the corner. This would be a useful toggle."
+Side_Q_VisualPrototype_Nar_34,"(You arrive in Engineering, and Pierre gets right to work. His hands move with precision, grabbing his tools and rotating parts to fit together... no time is wasted in the process. After a few minutes, he is done.)"
+Side_Q_VisualPrototype_Pierre_35,Behold! I call it an <color=#66FFCC>Array Visor</color>. It's smaller than night-vision goggles and more effective as well. The wearer can see others via body heat or other light spectrums within seconds. 
+Side_Q_VisualPrototype_Judith_36,What! That's totally bonzer! Let me see that! 
+Side_Q_VisualPrototype_Nar_37,"(Judith grabs the device, lowers her microscopic eye-piece and starts her own examination. When she's done, she hands it back to Pierre and pats him on the back.)"
+Side_Q_VisualPrototype_Judith_38,"You, mate, have really got something here. I couldn't find a single flaw, but I did see room for improvement. So..."
+Side_Q_VisualPrototype_Judith_39,Challenge accepted!
+Side_Q_VisualPrototype_Nar_40,(She runs to her workstation and starts frantically working on her own build.)
+Side_Q_VisualPrototype_Player_41,"You're a fun pair, I must say. "
+Side_Q_VisualPrototype_Pierre_42,"Thank you, my friend. You helped me finish my build and impress Judith, which is huge. She'll be working on her version for a while, I'm sure. In the meantime, I'm going to start upgrading my design as well. "
+Side_Q_VisualPrototype_Pierre_43,"As promised, you can take version 1.0 with you. It'll serve you well. Oh, and some credits to help cover your expenses."
+Side_Q_VisualPrototype_Nar_44,(You receive '<color=#66FFCC>Credits</color>' and '<color=#66FFCC>Array Visor</color>'.)
+Side_Q_VisualPrototype_Player_45,"It was my pleasure. I'll leave you to it, but we'll talk later. "

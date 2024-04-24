@@ -1,0 +1,76 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Grace Thompson
+#,Quest Name: Ancestry 
+#,Key_Fix: Side_Q_Ancestry
+
+#,This mission introduces the concept of collecting the ID badges of the first TECC crew. 
+#,"After completion of this mission, player should receive tutorial on how all that works. "
+
+#,Player received message from Grace
+Side_Q_Ancestry_AI_01,Incoming message from Grace Thompson.
+Side_Q_Ancestry_Grace_02,"Hello, {PlayerFullName}, I have a sensitive matter I'd like to discuss when you have a moment.\n-Grace Thompson"
+
+#,Player speaks with Grace
+Side_Q_Ancestry_Player_03,"I got your message. What would you like to discuss, Grace?"
+Side_Q_Ancestry_Grace_03,"Oh, yes, of course. I was starting to think you forgot about me. "
+Side_Q_Ancestry_Player_04,Certainly not.
+Side_Q_Ancestry_Grace_05,"Well, I've been thinking about family lately. I come from a long line of miners going back to my great, great grandfather, and my family has been working across the solar system ever since. Including my brother, Jacob. "
+Side_Q_Ancestry_Nar_06,"(The name 'Jacob' rattles around in your head, and a lightbulb goes off.)"
+Side_Q_Ancestry_Player_07,Jacob Thompson... I remember that name... Your brother was a member of the first TECC team on Titan like I was. 
+Side_Q_Ancestry_Grace_08,"Exactly! I'm so glad you remember him. Jacob was the one who encouraged me to come to Titan, but I was already on a contract when the first team set out."
+Side_Q_Ancestry_Grace_09,"And of course, he went missing the same as everyone else. "
+Side_Q_Ancestry_Player_10,I'm so sorry for your loss. 
+Side_Q_Ancestry_Grace_11,"It would mean the world to me if you could find his ID badge down in the mine. Jacob worked as a heavy equipment operator. His favorite to operate were hydraulic shovels, and I can't blame him. They are fun. "
+Side_Q_Ancestry_Grace_12,"Anyway, will you please find it for me? I would search myself, but you're the only one who can descend right now. "
+Side_Q_Ancestry_Player_13,"How could I say no? Not only would I be helping you, but also making sure a fellow crew member isn't forgotten. "
+Side_Q_Ancestry_Grace_14,"Oh, thank you, thank you. I'm sending you what I have. It's basically vague location data based on his last known coordinates that I was able to scrounge. "
+Side_Q_Ancestry_Grace_15,"It's not exact, but hopefully it's a good place to start. Be well."
+
+#,If Player speaks with Grace before finding ID badge
+#,This overrides Basic_Grace until end of quest
+Side_Q_Ancestry_Grace_16,I'm so thankful. Let me know when you have Jacob's ID badge. 
+
+#,"When player approaches Jacob Thompson's body underground. It is with the body of one other victim, and 3 monsters as well."
+Side_Q_Ancestry_Nar_17,"(Checking the area you see five bodies lying on the ground. Three of them are mutants with major head wounds. You also see two other, un-mutated bodies, which were probably these monster's victims.)"
+
+#,Player may choose which body to inspect (2 choices)
+#,"First body is Jacob Thompson, which leads to completion of this mission. "
+#,"Second body is of a miner who grace used to work with. His body was dumped underground, but signs point to murder. If player doesn't examine second body, they cannot unlock Bringing Justice."
+Side_Q_Ancestry_S01,Inspect first body
+Side_Q_Ancestry_S02,Inspect second body
+
+#,Player Inspects first body
+Side_Q_Ancestry_S01_Nar_01,"(You turn over the first body, revealing a pistol in its grip... assumedly used to take out the monsters.)"
+Side_Q_Ancestry_S01_AI_02,Facial recognition confirms this is Jacob Thompson.
+Side_Q_Ancestry_S01_Player_03,At least he went down fighting.
+Side_Q_Ancestry_S01_Nar_04,"(Reaching into his pockets, you pull out an ID Badge.)"
+Side_Q_Ancestry_S01_AI_05,We should return the ID to Grace once we return to camp. 
+Side_Q_Ancestry_S01_Player_06,Right! Let's finish up here and head back. 
+Side_Q_Ancestry_S01_Nar_07,"(You receive '<color=#66FFCC>Jacob Thompson ID Badge</color>'.)"
+
+#,Player inspects second body
+Side_Q_Ancestry_S02_Nar_01,"(The second body seems different. The victim is wearing a more current miner's uniform, and the body is less decomposed. You begin searching the pockets...)"
+Side_Q_Ancestry_S02_Player_02,"I can't find an ID Badge on this guy. Something is weird here, Cassini."
+Side_Q_Ancestry_S02_AI_03,Scanning...
+Side_Q_Ancestry_S02_Nar_04,(...)
+Side_Q_Ancestry_S02_AI_05,"Facial recognition confirms this is Rodrigo Montez, a miner from Camp Huygen. Reported missing along with two other miners before the area was closed. Perhaps a mutant dragged his body here."
+Side_Q_Ancestry_S02_Player_06,And hid it underneath a bunch of other bodies. No... that doesn't pass the smell test. 
+Side_Q_Ancestry_S02_Nar_07,(You turn the body over to reveal Rodrigo was shot in the back.)
+Side_Q_Ancestry_S02_Player_08,Oh my god... this man was murdered. Someone tried to hide him here so no one would find the body. 
+Side_Q_Ancestry_S02_AI_09,This wound could be created using a handheld mining laser. That type of device is only available to members of the mining crew. 
+Side_Q_Ancestry_S02_Player_10,"Dammit! First Katerina suspects we have thieves in camps, and now there may be a murderer too? I thought I only had to worry about the mutants killing people. "
+Side_Q_Ancestry_S02_AI_11,We should report what we have found to Security. 
+Side_Q_Ancestry_S02_Player_12,I'd hate to cause a panic until we know more. Let's keep our eyes open.
+
+#,When player returns to Grace
+Side_Q_Ancestry_Player_18_01,"Hi, I'm back, and I found Jacob."
+Side_Q_Ancestry_Grace_18,Did you find my brother's ID Badge too?
+Side_Q_Ancestry_Player_19,And then some... Jacob was lucky to have someone care so much about him. 
+Side_Q_Ancestry_Grace_20,"Thank you for that. Here are some credits for finding it for me, but you know... Jacob wasn't the only one lost in that mine. "
+Side_Q_Ancestry_Grace_21,"You should look for any other ID Badges while exploring the mines as well. The first TECC team was much larger than ours, and dozens of memories will be lost if we don't recover them. "
+Side_Q_Ancestry_Player_22,Of course... I'll look out for them. I myself was almost lost to these mines. 
+Side_Q_Ancestry_Grace_23,"And one more thing... if you haven't yet, you should register this ID and any others you find in the camp's system. I want Jacob to be remembered beside all the others I hope you will find."
+Side_Q_Ancestry_Player_24,"Will do. Take care of yourself, Grace. "

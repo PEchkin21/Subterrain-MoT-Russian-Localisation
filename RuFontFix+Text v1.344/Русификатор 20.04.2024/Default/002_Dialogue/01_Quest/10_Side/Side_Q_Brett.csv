@@ -1,0 +1,86 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Brett Cassidy
+#,Quest Name: Geode Vibes 
+#,Key_Fix: Side_Q_GeodeVibes
+
+#,"Brett is a geologist, and asks player to find unique geodes underground. He will reward when player gets all 3 of them."
+#,"Since the goal of this quest is to push player to explore every crevice of the underground levels, each one should be out of the way, maybe in their own caves of the main level body"
+
+#,Message from Breet
+Side_Q_GeodeVibes_AI_01,"Incoming message from Brett, {PlayerFullName}."
+Side_Q_GeodeVibes_Brett_02,I heard you've been exploring the underground. Can I discuss something with you?\n-Brett Cassidy-
+
+#,Player talks with Brett
+Side_Q_GeodeVibes_Player_03,"Hi, Brett. You wanted to see me?"
+Side_Q_GeodeVibes_Brett_04,Indeed I did! I envy you and how you get to explore the mines. 
+Side_Q_GeodeVibes_Player_05,"You know there are monsters down there, right?"
+Side_Q_GeodeVibes_Brett_06,"Yes, yes, I know all that. But looking beyond the monsters, you're also having experiences no one else can, and that's quite the gift. "
+Side_Q_GeodeVibes_Brett_07,"Since I can't be down there spelunking myself, I was hoping you'd do me a favor. "
+Side_Q_GeodeVibes_Player_08,"I mean, sure… depends on what it is."
+Side_Q_GeodeVibes_Brett_09,"Whenever I travel, I always bring home a geode as a memento. Unfortunately, we didn't get very deep before the mines shut down, so I didn't find a Titan geode. "
+Side_Q_GeodeVibes_Brett_10,"Could you try to find, let's say, three geodes from the mines. The rarer the better!"
+Side_Q_GeodeVibes_Player_11,"I'm already down there, so I guess I can keep an eye out for geodes for you. "
+Side_Q_GeodeVibes_Brett_12,"Great! Also, I've heard you've encountered something called a NanoStone. I'd love to own one of those as well, if you can!"
+Side_Q_GeodeVibes_Player_13,"Okay then, I'll be off. See you soon. "
+
+#,When player speaks to Brett after taking on quest
+#,Replaces Basic_Brett until end of Quest. 
+Side_Q_GeodeVibes_Brett_14,I wonder what geodes you'll find.
+
+#,"When player finds a blue geode underground, maybe level 2"
+Side_Q_GeodeVibes_Nar_15,(The geode you've found sparkles in the light like a shimmering lake. Very beautiful.)
+Side_Q_GeodeVibes_Player_16,"Oh cool, a geode for Brett. He's gonna like this one. "
+Side_Q_GeodeVibes_Nar_17,"(You receive '<color=#66FFCC>Blue Geode</color>'.)"
+
+#,"When player finds a red geode underground, maybe level 5"
+Side_Q_GeodeVibes_Nar_18,"(The geode you've found is deep crimson, like each crystal fragment is frozen and hardened blood. Unsettling, yet stunning.)"
+Side_Q_GeodeVibes_Player_19,Brett's going to get a kick out of this geode. It's so red.
+Side_Q_GeodeVibes_Nar_20,"(You receive '<color=#66FFCC>Red Geode</color>'.)"
+
+#,"When player finds a blue geode underground, maybe level 8"
+Side_Q_GeodeVibes_Nar_21,(The geode you've found almost sings to you as you pick it up. Its violet shine is royal and gorgeous.)
+Side_Q_GeodeVibes_Player_22,I think this one is my favorite rock down here.
+Side_Q_GeodeVibes_Nar_23,"(You receive '<color=#66FFCC>Purple Geode</color>'.)"
+
+#,When player has all 3 geodes
+Side_Q_GeodeVibes_AI_24,We've collected all 3 geodes Brett asked for. We should visit him next time we return to camp.
+Side_Q_GeodeVibes_Player_25,"Thanks for the reminder, Cassini. Will do. "
+
+#,When player returns to Brett with 3 geodes
+Side_Q_GeodeVibes_Brett_26,"Hey, you're back! What kind of geodes did you find?"
+Side_Q_GeodeVibes_Nar_27,"(You hand Brett the blue, red, and purple geodes and his eyes light up. It's fun to be in the presence of someone geeking out about something they love.)"
+Side_Q_GeodeVibes_Brett_28,"Oh wow! The edges of these geodes are perfect, and each one has such a spectacular shape. I couldn't thank you enough. "
+Side_Q_GeodeVibes_Player_29,"Honestly, I never thought collecting a bunch of rocks could be so much fun. "
+Side_Q_GeodeVibes_Brett_30,"Right? Not everyone gets it, but I'm glad you do. "
+Side_Q_GeodeVibes_Brett_31,Were you able to find a NanoStone for me too?
+
+#,Player choice of whether to give Brett one of their Nanostones.
+Side_Q_GeodeVibes_Brett_32,I'd love to see one of those...
+Side_Q_NanoStoneGive_S01,"Sure, take this NanoStone for your collection."
+Side_Q_NanoStoneGive_S02,"You can look at my NanoStone, but I need it back. "
+
+#,"S01 선택 시 어떤 나노스톤을 줄지 결정할 수 있다."
+Side_Q_NanoStoneGive_Reward_Question_Brett,Which nano stone are you going to give me?
+Side_Q_NanoStoneGive_Reward_NanoStone_001,Give Red NanoStone
+Side_Q_NanoStoneGive_Reward_NanoStone_002,Give Yellow NanoStone
+Side_Q_NanoStoneGive_Reward_NanoStone_003,Give Blue NanoStone
+Side_Q_NanoStoneGive_Reward_NanoStone_004,Give Black NanoStone
+Side_Q_NanoStoneGive_Reward_Question_Get,"(You receive '<color=#66FFCC>50 exp</color>' and '<color=#66FFCC>500</color>' Credits."
+
+#,"Player gives a nanostone If they do, they get bonus XP/Credits on top of the Xp/Credits they would normally receive. "
+#,Should pop up inventory and have player select which one they are essentially destroying/trading for XP.
+Side_Q_NanoStoneGive_S01_Nar_01,"(Grabbing a NanoStone from your bag, you hand it to Brett. His hands are shaking he's so excited.)"
+Side_Q_NanoStoneGive_S01_Brett_02,"Not only did you surprise me with some amazing geodes, but you also gift me a NanoStone! Thank you, {PlayerFullName}. Please take this for everything you've done for me. "
+Side_Q_NanoStoneGive_S01_Nar_03,"(You receive '<color=#66FFCC>Credits</color>' and '<color=#66FFCC>XP</color>'.)"
+Side_Q_NanoStoneGive_S01_Brett_04,"I have to return to duty, so I'll see you later. "
+Side_Q_NanoStoneGive_S01_Player_05,"Later, Brett! Have fun with the geodes. "
+
+#,"Player does NOT give a nanostone. They get normal XP/Credits for this side quest, which should still be a good amount. "
+Side_Q_NanoStoneGive_S02_Nar_01,"(Brett takes a NanoStone from you, and almost drools as he examines it. After a few minutes, he sighs and hands it back to you.)"
+Side_Q_NanoStoneGive_S02_Brett_02,Thanks for letting me see that… and thank you for everything you've done for me. Please take this. 
+Side_Q_NanoStoneGive_S02_Nar_03,"(You receive '<color=#66FFCC>Credits</color>' and '<color=#66FFCC>XP</color>'.)"
+Side_Q_NanoStoneGive_S01_Brett_04,"I have to return to duty, so I'll see you later. "
+Side_Q_NanoStoneGive_S01_Player_05,"Later, Brett! Have fun with the geodes. "

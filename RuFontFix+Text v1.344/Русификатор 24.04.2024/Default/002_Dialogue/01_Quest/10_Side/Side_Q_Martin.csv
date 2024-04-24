@@ -1,0 +1,181 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Martin Lopez
+#,Quest Name: Getting to Know You
+#,Key_Fix: Side_Q_SharingStories
+
+#,"Martin asks questions about some of the more underutilized members of the camp. The info to answer these questions can be obtained by finishing their side quest, from their employee personal logs, or by straight-up guessing. "
+#,"Martin will ask five questions and the player gets XP and credits for each correct answer. If they get 3 wrong, the game ends."
+
+#,Player gets message to start quest
+Side_Q_SharingStories_AI_01,"Incoming message from Martin, {PlayerFullName}."
+Side_Q_SharingStories_Martin_02,"I've heard you've become our fearless camp explorer. Come by when you have a chance, please.\n-Martin Lopez-"
+
+#,Player speaks with Martin 
+Side_Q_SharingStories_Player_03,You wanted to talk?
+Side_Q_SharingStories_Martin_04,"That I did! It's a splendid day, is it not?"
+Side_Q_SharingStories_Player_05,I guess... What's this about?
+Side_Q_SharingStories_Martin_06,"I contend that we are all the heroes of our stories, but you can't forget other people even if they aren't the protagonist. As I said before, I'm a writer, and this is our opportunity to record all the events happening here."
+Side_Q_SharingStories_Player_07,Uh-huh...
+Side_Q_SharingStories_Martin_08,"You might have grand adventures down in the mines, but that's only half the story here in Camp Huygen. I know you have heart, but how can you be a hero to people you don't even know?"
+Side_Q_SharingStories_Player_09,"I say hello when I can, but I'm still new. What is it you want from me?"
+Side_Q_SharingStories_Martin_10,"I've devised a few riddles to see if you can get to know all the residents here, and at the end, you'll receive a great treasure. Are you up for it?"
+Side_Q_SharingStories_Player_11,"Okay, I'll bite. Where do I start?"
+Side_Q_SharingStories_Martin_12,"With your first question, of course. Take your time before you answer. "
+
+#,Question 1
+Side_Q_SharingStories_Martin_13,"I'm a mother and a servant. Afraid at times and courageous at others. Who am I?"
+
+#,Player Choice
+Side_Q_SharingStories_Q1_01,Katerina
+Side_Q_SharingStories_Q1_02,Claudia
+Side_Q_SharingStories_Q1_03,Judith
+Side_Q_SharingStories_Q1_04,I need more info...
+
+#,Player selects Katerina (Correct)
+Side_Q_SharingStories_Q1_01_Martin_01,"Correct! Not everyone knows this, but she came to Titan so she could afford to keep her son in cryostasis back on Earth. "
+Side_Q_SharingStories_Q1_01_Martin_02,"It's tragic when young people fall ill, isn't it? I hope her son survives."
+
+#,Player chooses Claudia 
+Side_Q_SharingStories_Q1_02_Martin_01,Sadly no. Claudia has zero plans on having kids and is scared of others finding out and judging her for that choice. 
+Side_Q_SharingStories_Q1_02_Martin_02,"I think it's an acceptable way to live, personally, since I also have no children. To each their own, though."
+
+#,Player chooses Judith
+Side_Q_SharingStories_Q1_03_Martin_01,"I guess you could say Judith's inventions are her babies, but that's not the answer I was looking for. "
+Side_Q_SharingStories_Q1_03_Martin_02,"Judith primarily serves the interests of her next idea, even if Camp Huygen benefits from her endeavors."
+
+#,Player needs more time 
+Side_Q_SharingStories_Q1_04_Martin_01,"Take some time, and come back when you have the answer. "
+
+#,Player returns after any I need more info selections
+#,Replaces Basic_Martin until end of quest
+Side_Q_SharingStories_Martin_14,Ready for that question again?
+Side_Q_SharingStories_Martin_14_S01,Of course.
+
+#,Preface for Question 2
+Side_Q_SharingStories_Martin_15,"Now that we got the first question out of the way, it's time for question number two!"
+
+#,Question 2
+Side_Q_SharingStories_Martin_16,"I prefer quiet and solitude. When I am aimless, I turn to faith to guide me. Who am I?"
+
+#,Player Choice
+Side_Q_SharingStories_Q2_01,Rana
+Side_Q_SharingStories_Q2_02,Wirat
+Side_Q_SharingStories_Q2_03,Earl
+Side_Q_SharingStories_Q2_04,I need more info...
+
+#,Player selects Rana
+Side_Q_SharingStories_Q2_01_Martin_01,"Rana works closely with Seoyeon in hydroponics, and it's usually just the two of them, but she's actually a huge extrovert."
+Side_Q_SharingStories_Q2_01_Martin_02,"If you get a few drinks in her, she's a blast. So, she's not the correct answer."
+
+#,Player chooses Wirat (correct)
+Side_Q_SharingStories_Q2_02_Martin_01,"Correct! Wirat is wise beyond his years and used to be a monk. Even though he left it behind, it'll always be a part of his life. "
+Side_Q_SharingStories_Q2_02_Martin_02,"He'll sit in meditation for hours. Seriously, I've clocked it."
+
+#,Player chooses Earl
+Side_Q_SharingStories_Q2_03_Martin_01,"Nope. Earl puts on a spiritual front, but when pressed, his knowledge of faith is relatively shallow. Definitely not his moral compass. "
+
+#,Player needs more time 
+Side_Q_SharingStories_Q2_04_Martin_01,"This one's tricky, so take your time. Come back when you have your answer. "
+
+#,Preface for Question 3
+Side_Q_SharingStories_Martin_17,"The last two questions were heavy, so let's lighten the mood with question three. "
+
+#,Question 3
+Side_Q_SharingStories_Martin_18,"I secretly have the biggest laugh in camp, but you'll only hear it if we're close. I'm good at keeping people away, though. Who am I?"
+
+#,Player Choice
+Side_Q_SharingStories_Q3_01,Odette
+Side_Q_SharingStories_Q3_02,Alp
+Side_Q_SharingStories_Q3_03,Mr. Lao
+Side_Q_SharingStories_Q3_04,I need more info...
+
+#,Player selects Odette (correct)
+Side_Q_SharingStories_Q3_01_Martin_01,"Correct! Odette has a hard exterior that can take work to crack, but once you do... oh boy, her laugh is like an explosion."
+
+#,Player chooses Alp
+Side_Q_SharingStories_Q3_02_Martin_01,"It's no secret that Alp's laugh is enormous. So, no, he's not the correct answer. "
+
+#,Player chooses Mr. Lao
+Side_Q_SharingStories_Q3_03_Martin_01,Mr. Lao's laugh has more of a hiss to it. Definitely not a big laugh since he likes to appear unassuming even though he's usually the smartest one in the room. 
+
+#,Player needs more time 
+Side_Q_SharingStories_Q3_04_Martin_01,"Don't go tickling people, okay. That's cheating. Come back soon. "
+
+#,Preface for Question 4
+Side_Q_SharingStories_Martin_19,"Let's keep it fun with question four, shall we?"
+
+#,Question 4
+Side_Q_SharingStories_Martin_20,"I put more effort into my appearance than I let on. When adventure calls, I always answer. Who am I?"
+
+#,Player Choice
+Side_Q_SharingStories_Q4_01,Cyrus
+Side_Q_SharingStories_Q4_02,Vinh
+Side_Q_SharingStories_Q4_03,Brett
+Side_Q_SharingStories_Q4_04,I need more info...
+
+#,Player selects Cyrus 
+Side_Q_SharingStories_Q4_01_Martin_01,"I know Cyrus looks like a model, but I assure you that he 100% wakes up looking that damn good. No effort at all on his part."
+
+#,Player chooses Vinh
+Side_Q_SharingStories_Q4_02_Martin_01,"Vinh is a warrior and also quite the looker, but after talking with her, I've learned that she doesn't care about her beauty at all. "
+Side_Q_SharingStories_Q4_02_Martin_02,All that beauty is just a side-effect of her rigorous training. I might have to start working out again.
+
+#,Player chooses Brett (Correct)
+Side_Q_SharingStories_Q4_03_Martin_01,"Correct! We all got to bring personal items to Titan, and I learned that Brett's suitcases were filled with several years of facial hair grooming tools and supplies. "
+Side_Q_SharingStories_Q4_03_Martin_02,His beauty regimen is something I aspire to take on myself one day. 
+
+#,Player needs more time 
+Side_Q_SharingStories_Q4_04_Martin_01,"They're all beautiful, but who puts in the work? Gather all the info you can, and then come back. "
+
+#,Preface for Question 5
+Side_Q_SharingStories_Martin_21,And now for the final question. 
+
+#,Question 5
+Side_Q_SharingStories_Martin_22,"I have family on Earth, but I care about the people in Camp Huygen more than anyone else. Who am I?"
+
+#,Player Choice
+Side_Q_SharingStories_Q5_01,Miriam
+Side_Q_SharingStories_Q5_02,Pierre
+Side_Q_SharingStories_Q5_03,Ida
+Side_Q_SharingStories_Q5_04,I need more info...
+
+#,Player selects Miriam
+Side_Q_SharingStories_Q5_01_Martin_01,"As motherly as Miriam is for everyone in Camp Huygen, you might be surprised to learn she never had children of her own and has no living Earth family to speak of."
+Side_Q_SharingStories_Q5_01_Martin_02,That might be why she cares for all of us so strongly. 
+
+#,Player chooses Pierre (correct)
+Side_Q_SharingStories_Q5_02_Martin_01,"Correct! Pierre talks about his brother on Earth all the time, and his love for his new Titan family can't be denied. "
+
+#,Player chooses Ida
+Side_Q_SharingStories_Q5_03_Martin_01,"Ida cares about and protects everyone here, sure, but most of that is spurred by her intense curiosity about the previous settlement."
+Side_Q_SharingStories_Q5_03_Martin_02,I wonder if her obsession might one day overcome her. I really hope not. 
+
+#,Player needs more time 
+Side_Q_SharingStories_Q5_04_Martin_01,Keep in mind that we all care. The question is to what degree. Come back with your answer. 
+
+#,Player fails 3 of the questions at any time
+Side_Q_SharingStories_Martin_23,"Oh, I'm sorry! That was three incorrect answers, so now we must say goodbye to you for today."
+Side_Q_SharingStories_Player_24,"You know you sound like a game show host, right?"
+Side_Q_SharingStories_Martin_25,"I do! Glad you got the joke. *haha* In all seriousness, though, wrong answers tell me you don't know anyone here. Like, really and truly know them. "
+Side_Q_SharingStories_Martin_26,"We're all human beings, not just Characters in your story. We all have our passions, loves, and dreams, which are quite beautiful if you take the time to listen to our tales. "
+Side_Q_SharingStories_Player_27,You know what? I'll do that more going forward. Thank you for the wake-up call. 
+Side_Q_SharingStories_Martin_28,"I have a feeling you will. Cheers, {PlayerFullName}."
+
+#,Players makes it through 5 questions without 3 wrong
+Side_Q_SharingStories_Martin_29,"I have to admit that you surprised me. You actually got to know the people of Camp Huygen quite well, and it shows. "
+Side_Q_SharingStories_Player_30,"In truth, I guessed some of the answers."
+Side_Q_SharingStories_Martin_31,"Even then, you knew enough to make educated guesses, and that's more than some people make time for. "
+Side_Q_SharingStories_Player_32,And you mentioned some treasure for me?
+Side_Q_SharingStories_Martin_33,"Why, of course! The greatest treasure there is in all the world..."
+Side_Q_SharingStories_Martin_34,Friendship.
+Side_Q_SharingStories_Player_35,"Oh. I was kind of hoping it'd be something more tangible, like credits or something I could use in the mines. "
+Side_Q_SharingStories_Martin_36,"Listen to me, and understand my words. The most powerful things we have in our lives are the relationships we forge and the memories we carry into the next life. "
+Side_Q_SharingStories_Martin_37,No pair of gloves or giant hammer will give you more protection than knowing you have friends standing behind you. 
+Side_Q_SharingStories_Player_38,"Well, when you put it like that-"
+Side_Q_SharingStories_Martin_39,"-I sound incredibly wise, right? "
+Side_Q_SharingStories_Player_40,"Hehe, yeah. "
+Side_Q_SharingStories_Martin_41,"Good! Take care on your journey, {PlayerFullName}, and know I stand with you."
+Side_Q_SharingStories_Player_42,"I stand with you too. Um, later. "

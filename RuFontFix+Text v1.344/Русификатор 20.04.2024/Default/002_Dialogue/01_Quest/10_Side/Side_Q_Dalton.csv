@@ -1,0 +1,160 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Dalton Wells
+#,Quest Name: Bringing Justice 
+#,Key_Fix: Side_Q_BringingJustice
+
+#,"This SQ triggers only after completing Missing Shipments, Ancestry, and Sneaking In. "
+#,"Once complete, player discusses next steps with Cassini"
+Side_Q_BringingJustice_AI_01,"{PlayerFullName}, I believe we now have enough evidence connected to Tau to bring to security's attention."
+Side_Q_BringingJustice_Player_02,That guy is always up to something. I just hope security believes us.
+Side_Q_BringingJustice_AI_03,"Dalton Wells is the guard responsible for these types of claims, and he takes his job seriously. We should speak with him soon."
+Side_Q_BringingJustice_Player_04,I'll head there as soon as possible.
+
+#,When player speaks with Dalton
+Side_Q_BringingJustice_Player_05,"Dalton, I want to report a crime against the camp, committed by Tau."
+Side_Q_BringingJustice_Dalton_06,Wait... not here. Let's go to my desk. 
+Side_Q_BringingJustice_Nar_07,"(You follow Dalton to his desk, where you can be sure no one is eavesdropping.)"
+
+#,Fade out and then fade back in at Security. Dalton is behind a desk awaiting the player to present evidence. 
+#,"After talking about Missing Shipments, which is pretty straightforward, dialogue goes in 4 ways: 1) player has no more evidence and is asked to get more (mission is left incomplete), 2) player search Tau's desk for documents, found safe in his office, and inspected Rodrigo's body (best outcome), 3) player cracked safe but doesn't have desk documents, and is asked to get more (mission left incomplete), 4) cracked safe, no docs, inspected Rodrigo's body (partial success outcome)"
+Side_Q_BringingJustice_Dalton_08,Now... these are serious allegations. Tau is a camp leader and he holds considerable power. 
+Side_Q_BringingJustice_Dalton_09,"This also isn't the first time someone has tried to report him. Tau is good at getting out of trouble, so all our ducks need to be in a row if we make a move on him."
+Side_Q_BringingJustice_Dalton_10,"So, what do you have?"
+Side_Q_BringingJustice_Player_11,"I've personally seen sketchy activity around Camp, and I don't believe it's all unrelated. "
+Side_Q_BringingJustice_Player_12,The first was with the missing shipments from the Supply Depot. 
+Side_Q_BringingJustice_Dalton_13,"Katerina mentioned crates that went missing, but also that you found them. Good job there."
+Side_Q_BringingJustice_Dalton_14,"I talked her into turning over an inventory report with dates, times, and locations, but it's not enough without a link to Tau. "
+Side_Q_BringingJustice_Player_15,Those crates were hidden too well. Only someone with access to every level and a strong familiarity with the camp could have been behind it. 
+Side_Q_BringingJustice_Dalton_16,"Tau has both of those things, but we need more. What else do you have?"
+
+#,If player did not retrieve a ledger from Tau's office in Sneaking In or inspect Rodrigo's body in Ancestry
+#,"Getting back into Tau's office is impossible after Sneaking In, but the player can still go back to inspect Rodrigo's body if they didn't the firstfirst time. If they don't, this quest is dead in the water. "
+Side_Q_BringingJustice_Player_17,"That's it. Tau is bad news, though, I just know it. "
+Side_Q_BringingJustice_Dalton_18,"I know it too, but he's gotten away with it too many times... "
+Side_Q_BringingJustice_Dalton_19,"I can't build a case with this evidence. If you find more, let me know, but my hands are tied."
+Side_Q_BringingJustice_Player_20,I understand... maybe there's more to the story. 
+
+#,Dalton dialogue If player is still looking for more info
+#,Replaces Basic_Dalton until player finds more info
+Side_Q_BringingJustice_Dalton_21_01,"About Tau..."
+Side_Q_BringingJustice_Dalton_21,Did you get more dirt on Tau?
+
+#,Player found 'Tau's Secret Ledger' in Sneaking In
+#,"This means the player didn't search Tau's desk, so the evidence is missing key information. There's not enough to arrest Tau from this. "
+#,Player must have also found Rodrigo during Ancestry to arrest Tau. 
+Side_Q_BringingJustice_Player_22_01,I found this ledger in Tau's safe.
+Side_Q_BringingJustice_Player_22,I found this ledger in Tau's safe. It's proof that funds were stolen from camp. What if we cross reference Katerina's inventory report with these transaction dates?
+Side_Q_BringingJustice_Dalton_23,"I'm going to ignore the fact that you just admitted to breaking into Tau's office. In honesty, though, we're missing a connecting thread. We need records that might link items from the missing crates to this ledger. "
+Side_Q_BringingJustice_Dalton_24,We're getting closer though. Do we have anything else?
+
+#,Player found 'Stolen Credits Ledger' in Sneaking In
+#,"This means that the player searched the desk in Tau's office, finding the documents that connect the ledger to the missing crates."
+#,The player can move directly to arrest Tau... or can share more information about Rodrigo for bonus XP.
+Side_Q_BringingJustice_Player_25_01,"In Tau's office, I found this ledger along with these documents."
+Side_Q_BringingJustice_Player_25,"In Tau's office, I found this ledger along with these documents. Together with Katerina's records, we might be able to connect Tau to the stolen credits. "
+Side_Q_BringingJustice_Dalton_26,I'm going to ignore that you broke into Tau's office... Let me run these through the system to see what we find. 
+Side_Q_BringingJustice_Nar_27,(Dalton scans Tau's documents and scans the ledger into his system. Results come back quickly.)
+Side_Q_BringingJustice_Dalton_28,"I think you've done it. Clear transaction dates, items sold, credits skimmed off the top for months. This is definitely enough to arrest Tau on embezzlement charges. "
+
+#,"Sharing Stolen credits Ledger is enough to arrest Tau. If player inspected Rodrigo's body, they get a choice below to either move on Tau now or share Rodrigo information. If player shares Rodrigo info, they have to wait to move on Tau until the body is retrieved (more below)"
+#,"If player chooses to arrest Tau now, jump to arrest scene. "
+#,"If player chooses to share Rodrigo info, move to Rodrigo dialogue"
+Side_Q_BringingJustice_Dalton_29,Do we have anything else to strengthen our case?
+Side_Q_JumptheGun_S01,Let's arrest Tau now!
+Side_Q_JumptheGun_S02,Rodrigo's Body...
+
+#,Player shares info about Rodrigo Montez's body found in Ancestry. 
+#,"If Droning On hasn't become available yet through normal play, it is becomes available after this scene automatically."
+Side_Q_BringingJustice_Player_30,"When I was down in the mine, I also found the body of a miner named Rodrigo Montez. He died from a shot in the back, and it looked like someone tried to hide his body."
+Side_Q_BringingJustice_Player_31,"Cassini scanned the wound and said it was from a weapon only a miner would have, but Alexei said the miners are like a family. The only person any of the miners have an issue with is Tau. "
+Side_Q_BringingJustice_Dalton_32,"That alone wouldn't be enough, but..."
+Side_Q_BringingJustice_Player_33,You know more?
+Side_Q_BringingJustice_Dalton_34,"I knew Rodrigo, and he came to talk to me shortly before he disappeared. He suspected Tau was a criminal and was trying to gather evidence to prove it. If what you say is true, then Tau might have killed him to keep his activities secret. That bastard!"
+Side_Q_BringingJustice_Player_35,What can we do to pin this on him?
+Side_Q_BringingJustice_Dalton_36,"I need you to go back to Rodrigo's body and extract his Omniscope, since it should have recorded his last moments. That could prove it was Tau, and we'd be able to arrest him on charges that would stick. "
+Side_Q_BringingJustice_Player_37,"I remember where it was, so I can get there and back pretty quickly."
+Side_Q_BringingJustice_Dalton_38,"Good. Take this extraction tool. It's not suggested to use this on someone living, but we don't have that problem right now. I'll await your return. "
+Side_Q_BringingJustice_Nar_39,"(You receive '<color=#66FFCC>Omniscope Extraction Tool</color>'.)"
+
+#,Player returns to Rodrigo's body and interacts with it
+Side_Q_BringingJustice_Player_40_S01,Extract Rodrigo's Omniscope
+Side_Q_BringingJustice_Player_40,"Poor Rodrigo. He was trying to do the right thing, and he paid a horrible price. *sigh* Let's do this quickly. "
+Side_Q_BringingJustice_Nar_41,"(You insert the Omniscope extraction tool, similar to a corkscrew, into Rodrigo's skull. A motorized rotation mixes the unpleasant sounds of machine scratches and squishing viscera during the process.)"
+Side_Q_BringingJustice_Nar_42,"(A light on the extraction tool lights up green, indicating the Omniscope has been collected.)"
+Side_Q_BringingJustice_Nar_43,"(You receive '<color=#66FFCC>Rodrigo's Omniscope</color>'.)"
+
+#,When player returns to Dalton with Rodrigo's Omniscope.
+#,We should figure out how many Turns it takes for getting the information from the Omniscope 
+Side_Q_BringingJustice_Player_44,"I'm back, and I have the Omniscope. "
+Side_Q_BringingJustice_Dalton_45,"Good, I'll take that and start scrubbing the data. I'll let you know when we have something. "
+Side_Q_BringingJustice_AI_46,"Since this will take some time, I suggest we can take care of other tasks until Dalton signals us. "
+
+#,After X turns pass and Rodrigo's omniscope has been examined
+Side_Q_BringingJustice_AI_47,"Incoming message from Dalton, {PlayerFullName}."
+Side_Q_BringingJustice_Dalton_48,We've found something! Come see me to move forward.\nDalton Wells.
+
+#,Returning to Dalton after Rodrigo's body was inspected
+Side_Q_BringingJustice_Dalton_49_01,"About Rodrigo..."
+Side_Q_BringingJustice_Dalton_49,"Thanks for coming so quickly. Pierre helped me scrub through Rodrigo's Omniscope data, and we've confirmed Tau is indeed behind this murder. "
+Side_Q_BringingJustice_Player_50,How did you link him to it?
+Side_Q_BringingJustice_Dalton_51,"It was obvious that someone tampered with Rodrigo's Omniscope after his death, so the video was useless. We were able to piece together the audio, though, and there was a perfect match to Tau's voice threatening him just before he died."
+Side_Q_BringingJustice_Dalton_52,"Of course, a partial audio file isn't enough, so I also followed up on the handheld mining laser that killed him. Did you know that most operations have at least five of these devices on site? "
+Side_Q_BringingJustice_Dalton_53,"Camp Huygen has never been well-funded though, so I asked around and it turns out there's only one of these lasers on Titan."
+Side_Q_BringingJustice_Dalton_54,And Tau never lets it out of his sight. 
+Side_Q_BringingJustice_Player_55,"So we have an audio recording and proof that he's the only one with a weapon capable of causing Rodrigo's wound? That is some clever detective work, Dalton!"
+Side_Q_BringingJustice_Dalton_56,Thanks... and now we can nail him with this evidence.
+
+#,Player choice to go after Tau
+Side_Q_BringingJustice_Dalton_57,Ready to go after Tau?
+Side_Q_BringingJustice_S01,Let's get him!
+Side_Q_BringingJustice_S02,I'm not ready yet. 
+
+#,Player chooses 'I'm not ready yet.'
+Side_Q_BringingJustice_S02_Player_01,I'll be back when I'm better prepped.
+Side_Q_BringingJustice_S02_Dalton_02,Just let me know when you're ready. 
+
+#,When player interacts with Tau - this overrides Basic_Tau dialogue
+#,"If player only presented Stolen Credit Ledger, Dalton joins battle with Tau (Dalton is 5th strongest guard)"
+#,"If player presented Stolen Credit Ledger and inspected Rodrigo's body, Dalton and Vinh join the battle (Vinh is the strongest security guard). "
+#,"If player presented Tau's Secret Ledger and retrieved Rodrigo's body, Dalton and Claudia join the battle (Claudia is the second strongest guard)"
+#,"If player had no ledger, but did retrieve Rodrigo's body, Dalton and Brett join the battle (Brett is third strongest)"
+#,"If player completed Nina's sidequest'A Night to Remember' with a positive outcome, Nina also joins battle. (Nina is 4th strongest guard)"
+Side_Q_BringingJustice_S01_Dalton_01,"Tau Mogorosi, you are under arrest for crimes against Camp Huygen."
+Side_Q_BringingJustice_S01_Tau_02,"There's no way you got anything on me, so I'm not going anywhere. "
+Side_Q_BringingJustice_S01_Player_03,"I figured you out, and we have the evidence to put you away, Tau."
+Side_Q_BringingJustice_S01_Dalton_04,"You had to know it would eventually catch up with you. Now come peacefully, or we'll have to use force."
+Side_Q_BringingJustice_S01_Tau_05,"None of you know my life, or what I have gone through. I can't let you stop me!"
+Side_Q_BringingJustice_S01_Nar_06,"(Tau sprints away as fast as he can, and your group chases after him.)"
+
+#,"Fade in to the mine entrance, the location of the last major camp battle. Tau runs to the elevator shaft and turns around, making it look like a dead end... but it's actually a trap.  "
+#,"When it's time to confront Tau, the player finds out just how tough he is (very tough) - he has strong protective gear and his handheld mining laser which is very deadly. In addition to turrests"
+Side_Q_BringingJustice_S01_Player_07,"There's nowhere left to run, Tau! This is a dead end!"
+Side_Q_BringingJustice_S01_Nar_08,(Tau takes out a device and smirks as he presses a button on it. Turrets around the vicinity turn around and point their barrels at your group.)
+Side_Q_BringingJustice_S01_Tau_09,"I had these turrets installed just in case the monsters came back, but I guess I gotta use them on you instead. I ain't going down without a fight."
+Side_Q_BringingJustice_S01_Nar_10,"(He pulls a handheld mining laser from his bag and powers it up. That gun looks dangerous, and Tau is now the most dangerous man in the room.)"
+
+#,"When Tau takes his final hit, fade out, the security team surround Tau and haul him off."
+#,Tau's final words when he is down on the floor
+Side_Q_BringingJustice_S01_Tau_11,"I'm down now, but you've started a war, and trust me... you don't want to go to war with me. Even if I don't win... I'll make sure you lose. "
+
+#,Dalton and the player have final dialogue.
+Side_Q_BringingJustice_S01_Dalton_11,"That was intense. Thank you so much for your assistance in pinning Tau down. Without you, he'd still be a menace to camp. "
+Side_Q_BringingJustice_S01_Player_12,You're very welcome. What happens now?
+Side_Q_BringingJustice_S01_Dalton_13,"It'll take some time to interrogate Tau. Maybe we can pin down his motive, or get him to admit to other crimes. The important thing is that he's in custody now, and the turrets he controlled have been decommissioned. "
+Side_Q_BringingJustice_S01_Dalton_14,Don't worry... I'll make sure justice is served. 
+Side_Q_BringingJustice_S01_Player_15,"I trust that you will, Dalton. "
+Side_Q_BringingJustice_S01_Dalton_16,"Before you go, I want you to have these credits and my favorite rifle. It'll help you survive in the mines. Take care."
+Side_Q_BringingJustice_S01_Nar_17,"(You receive '<color=#66FFCC>Rifle of Justice</color>'.)"
+
+#,If player speaks with Tau after completing this quest
+#,Replaces Basic_Tau permanently
+Side_Q_BringingJustice_S01_Tau_18,Go ahead and gawk now. I'm just counting the minutes until I get my revenge.
+
+#,If player interacts with Rodrigo's body before omniscope quest was activated
+Side_Q_BringingJustice_Rodrigo_Nar_01,(You see a dead body with a large hole in the back.)
+
+#,If player interacts with Rodrigo's body after omniscope quest was activated
+Side_Q_BringingJustice_Rodrigo_Nar_02,(You have returned to poor Rodrigo's body)

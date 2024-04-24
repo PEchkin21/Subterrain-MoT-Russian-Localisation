@@ -1,0 +1,302 @@
+Language,Default
+
+#,[ Facility Upgrade ]
+50_Special_01_Upgrade_WaterStation_02_NameKey,Water Station Lv.2
+50_Special_01_Upgrade_WaterStation_02_DescKey,Makes more water available and slightly increases Water production efficiency.
+
+50_Special_01_Upgrade_WaterStation_03_NameKey,Water Station Lv.3
+50_Special_01_Upgrade_WaterStation_03_DescKey,Makes more water available and greatly increases Water production efficiency.
+
+50_Special_01_Upgrade_WaterStation_04_NameKey,Water Station Lv.4
+50_Special_01_Upgrade_WaterStation_04_DescKey,Makes more water available and significantly increases Water production efficiency.
+
+50_Special_01_Upgrade_MineControl_02_NameKey,MineControl Lv.2
+50_Special_01_Upgrade_MineControl_02_DescKey,"Unlocks more possible minerals to Craft and Recycle, and slightly increases item disassembling."
+
+50_Special_01_Upgrade_MineControl_03_NameKey,MineControl Lv.3
+50_Special_01_Upgrade_MineControl_03_DescKey,Unlocks more possible minerals to Craft and Recycle and greatly increases item disassembling.
+
+50_Special_01_Upgrade_MineControl_04_NameKey,MineControl Lv.4
+50_Special_01_Upgrade_MineControl_04_DescKey,Unlocks more possible minerals to Craft and Recycle and significantly increases item disassembling.
+
+50_Special_01_Upgrade_Medical_02_NameKey,Medical Lv.2
+50_Special_01_Upgrade_Medical_02_DescKey,"Unlocks new medical items to Craft and more organic matter (plants, monster loot) that can be broken down for materials."
+
+50_Special_01_Upgrade_Medical_03_NameKey,Medical Lv.3
+50_Special_01_Upgrade_Medical_03_DescKey,"Unlocks new medical items to Craft and more organic matter (plants, monster loot) that can be broken down for materials."
+
+50_Special_01_Upgrade_Medical_04_NameKey,Medical Lv.4
+50_Special_01_Upgrade_Medical_04_DescKey,"Unlocks new medical items to Craft and more organic matter (plants, monster loot) that can be broken down for materials."
+
+50_Special_01_Upgrade_Generator_02_NameKey,Generator Lv.2
+50_Special_01_Upgrade_Generator_02_DescKey,Expands the power grid and slightly increases Power production efficiency.
+
+50_Special_01_Upgrade_Generator_03_NameKey,Generator Lv.3
+50_Special_01_Upgrade_Generator_03_DescKey,Expands the power grid and greatly increases Power production efficiency.
+
+50_Special_01_Upgrade_Generator_04_NameKey,Generator Lv.4
+50_Special_01_Upgrade_Generator_04_DescKey,Expands the power grid and significantly increases Power production efficiency.
+
+50_Special_01_Upgrade_Farm_02_NameKey,Farm Lv.2
+50_Special_01_Upgrade_Farm_02_DescKey,"Unlocks new and more varied plants to Research and Craft, and slightly increases Farm efficiency. "
+
+50_Special_01_Upgrade_Farm_03_NameKey,Farm Lv.3
+50_Special_01_Upgrade_Farm_03_DescKey,"Unlocks new and more varied plants to Research and Craft, and greatly increases Farm efficiency. "
+
+50_Special_01_Upgrade_Farm_04_NameKey,Farm Lv.4
+50_Special_01_Upgrade_Farm_04_DescKey,"Unlocks new and more varied plants to Research and Craft, and significantly increases Farm efficiency. "
+
+50_Special_01_Upgrade_Engineering_02_NameKey,Engineering Lv.2
+50_Special_01_Upgrade_Engineering_02_DescKey,"Unlocks new items to Research, Craft, and Disassemble and slightly increases Engineering efficiency."
+
+50_Special_01_Upgrade_Engineering_03_NameKey,Engineering Lv.3
+50_Special_01_Upgrade_Engineering_03_DescKey,"Unlocks new items to Research, Craft, and Disassemble and greatly increases Engineering efficiency."
+
+50_Special_01_Upgrade_Engineering_04_NameKey,Engineering Lv.4
+50_Special_01_Upgrade_Engineering_04_DescKey,"Unlocks new items to Research, Craft, and Disassemble and significantly increases Engineering efficiency."
+
+
+#,[ Blueprint ]
+50_Special_01_Blueprint_AirShip_Mods_NameKey,Airship Modifications
+50_Special_01_Blueprint_AirShip_Mods_DescKey,"Researching these blueprints allows modifications to the airship's hull, shields, and fuel capacity so everyone will survive the trip to TECC HQ."
+
+50_Special_01_Blueprint_ClawTrap_001_NameKey,Blueprint: Trap
+50_Special_01_Blueprint_ClawTrap_001_DescKey,"Your very first blueprint for quite a helpful item. David's a pal to show you how to make traps, right?"
+
+50_Special_01_Blueprint_JudithIdea_RangeWp_NameKey,Judith's Idea: Range Blueprint
+50_Special_01_Blueprint_JudithIdea_RangeWp_DescKey,Judith designed an excellent Ranged weapon to help you survive. When has she ever steered you wrong? Craft it for new gear.
+
+50_Special_01_Blueprint_JudithIdea_MeleeWp_NameKey,Judith's Idea: Melee Blueprint
+50_Special_01_Blueprint_JudithIdea_MeleeWp_DescKey,This tasty Melee weapon from Judith should be helpful. What are you waiting for?! Craft it for new gear.
+
+50_Special_01_Blueprint_JudithIdea_Armor_NameKey,Judith's Idea: Uniform Blueprint
+50_Special_01_Blueprint_JudithIdea_Armor_DescKey,"Judith's fashion sense is lacking, but her uniform blueprints might just keep you alive. Craft it for new gear."
+
+
+#,[ 02. Special: Quest/Contents Item ]
+50_Special_02_SpecialMat_BFGParts_001_NameKey,Launch Stabilizer
+50_Special_02_SpecialMat_BFGParts_001_DescKey,"The rear piece of the <#66FFCC>Plasma Launcher</color> is a retractable stabilizer essential for using the tool with any degree of accuracy. However, it is useless without the <#66FFCC>Plasma Forge</color> and <#66FFCC>Targeting Barrel</color>.  "
+
+50_Special_02_SpecialMat_BFGParts_002_NameKey,Plasma Forge
+50_Special_02_SpecialMat_BFGParts_002_DescKey,"The body of <#66FFCC>Plasma Launcher</color> contains most of the proprietary technology it utilizes. However, it is useless without a <#66FFCC>Launch Stabilizer</color> and <#66FFCC>Targeting Barrel</color>."
+
+50_Special_02_SpecialMat_BFGParts_003_NameKey,Targeting Barrel
+50_Special_02_SpecialMat_BFGParts_003_DescKey,"The high-tech <#66FFCC>Plasma Launcher</color> barrel allows users to choose suitable targets while firing the tool. However, it is useless without a <#66FFCC>Launch Stabilizer</color> and <#66FFCC>Plasma Forge</color>."
+
+50_Special_02_Side_Q_Whisky_001_NameKey,Whisky
+50_Special_02_Side_Q_Whisky_001_DescKey,Dry whiskey for Ursula. A worthy last drink.
+
+50_Special_02_Side_Q_Temir_HeatSink_NameKey,Heat Sink
+50_Special_02_Side_Q_Temir_HeatSink_DescKey,A segment of heat sink material for Temir's experiments. 
+
+50_Special_02_Side_Q_TauStolenLedger_NameKey,Account Ledger
+50_Special_02_Side_Q_TauStolenLedger_DescKey,"Found in Tau's desk, it contains his shady financial records. It needs corroborating, though."
+
+50_Special_02_Side_Q_TauSecurityHackingDevice_NameKey,Disabling Device
+50_Special_02_Side_Q_TauSecurityHackingDevice_DescKey,"A device made to disable security for Tau's office. It only works for a limited time, so move fast once you activate it."
+
+50_Special_02_Side_Q_TauSecretPad_NameKey,Tau's Secret Ledger
+50_Special_02_Side_Q_TauSecretPad_DescKey,"Found in Tau's secret safe, it reveals his corruption and thievery from everyone in camp."
+
+50_Special_02_Side_Q_TauRatTailSpoil_NameKey,Bucket of Rat Tails
+50_Special_02_Side_Q_TauRatTailSpoil_DescKey,Ever wonder what happened with those rat tails you collected for him? They are rotten and spoiled and ready for Tau's desk.
+
+50_Special_02_Side_Q_Tau_Sword_001_NameKey,Tau's Sword (True)
+50_Special_02_Side_Q_Tau_Sword_001_DescKey,"A masterwork sword that cuts straight and true. Tau crafted it himself, and it's his prized possession."
+
+50_Special_02_Side_Q_Tau_Sword_002_NameKey,Tau's Sword (Fake)
+50_Special_02_Side_Q_Tau_Sword_002_DescKey,A fragile replica of Tau's sword. He'll never know the difference.
+
+50_Special_02_Side_Q_Seble_Drone_Transmitter_NameKey,Drone Transmitter
+50_Special_02_Side_Q_Seble_Drone_Transmitter_DescKey,A drone transmitter found in the mines. Seble can use this for her repairs.
+
+50_Special_02_Side_Q_Seble_Drone_Motor_NameKey,Drone Motor
+50_Special_02_Side_Q_Seble_Drone_Motor_DescKey,A working motor stripped from a mining drone. Seble can use this for her repairs.
+
+50_Special_02_Side_Q_Seble_Drone_Controller_NameKey,Drone Controller
+50_Special_02_Side_Q_Seble_Drone_Controller_DescKey,A possibly resyncable drone controller. Seble can use this for her repairs.
+
+50_Special_02_Side_Q_Sealant_Canister_NameKey,Sealant Canister
+50_Special_02_Side_Q_Sealant_Canister_DescKey,"Used to seal cracks and holes in the camp's plumbing, regardless of the size."
+
+50_Special_02_Side_Q_Rose_NameKey,Red Rose
+50_Special_02_Side_Q_Rose_DescKey,A beautiful red rose to make Nina's night special.
+
+50_Special_02_Side_Q_Rodrigo_OmniScope_NameKey,Rodrigo's OmniScope
+50_Special_02_Side_Q_Rodrigo_OmniScope_DescKey,An OmniScope that once belonged to Rodrigo. Poor Rodrigo.
+
+50_Special_02_Side_Q_Rana_Seeds_SampleSeed_NameKey,Seed Sample
+50_Special_02_Side_Q_Rana_Seeds_SampleSeed_DescKey,A viable seed sample found near an air circulator and helpful for Rana's research.
+
+50_Special_02_Side_Q_Rana_Seeds_BadSeed_NameKey,Bad Seeds
+50_Special_02_Side_Q_Rana_Seeds_BadSeed_DescKey,"Seeds found near an air circulator. Unfortunately, they are entirely irradiated."
+
+50_Special_02_Side_Q_Processor_NameKey,Processor
+50_Special_02_Side_Q_Processor_DescKey,"Tons of processing power in a small package, built precisely to Pierre's specifications."
+
+50_Special_02_Side_Q_PassingNote_NameKey,Octavio's Note
+50_Special_02_Side_Q_PassingNote_DescKey,"A love letter from Octavio to Freyja, expressing his undying love."
+
+50_Special_02_Side_Q_PaneOfGalss_NameKey,Pane Of Glass
+50_Special_02_Side_Q_PaneOfGalss_DescKey,This piece of glass is fine enough for Pierre's invention. What could he be making?
+
+50_Special_02_Side_Q_OmniScope_Extractor_NameKey,OmniScope Extractor
+50_Special_02_Side_Q_OmniScope_Extractor_DescKey,A nasty claw contraption made to remove an Omniscope by force.
+
+50_Special_02_Side_Q_MixTape_001_NameKey,Mix Tape
+50_Special_02_Side_Q_MixTape_001_DescKey,What's a party without music? Litzi's birthday will be a dance party.
+
+50_Special_02_Side_Q_MissingCrate_001_NameKey,TECC Cargo [B02] Residential
+50_Special_02_Side_Q_MissingCrate_001_DescKey,One of Katerina's lost cargo crates that was hidden in Residential.
+
+50_Special_02_Side_Q_MissingCrate_002_NameKey,TECC Cargo [B02] AirShip Garage
+50_Special_02_Side_Q_MissingCrate_002_DescKey,One of Katerina's lost cargo crates that was hidden in the Garage.
+
+50_Special_02_Side_Q_MissingCrate_003_NameKey,TECC Cargo [Ground] Biofarm
+50_Special_02_Side_Q_MissingCrate_003_DescKey,One of Katerina's lost cargo crates that was hidden in Hydroponics.
+
+50_Special_02_Side_Q_MicroBattery_NameKey,Micro-Battery
+50_Special_02_Side_Q_MicroBattery_DescKey,Just as Pierre requested for his invention. The smallest battery on the market.
+
+50_Special_02_Side_Q_Incense_NameKey,Incense Burner
+50_Special_02_Side_Q_Incense_DescKey,Meditation requires a certain smell. That's where incense comes into play.
+
+50_Special_02_Side_Q_Idrissi_FixParts_Water_Nozzle_NameKey,Nozzle
+50_Special_02_Side_Q_Idrissi_FixParts_Water_Nozzle_DescKey,A replacement nozzle to fix the oil separator in the Water Station.
+
+50_Special_02_Side_Q_Idrissi_FixParts_Security_Wire_NameKey,Wire
+50_Special_02_Side_Q_Idrissi_FixParts_Security_Wire_DescKey,A replacement wire needed to fix a security camera feed.
+
+50_Special_02_Side_Q_Idrissi_FixParts_Engineering_OilCanister_NameKey,Oil Canister
+50_Special_02_Side_Q_Idrissi_FixParts_Engineering_OilCanister_DescKey,A canister filled with slick oil used to lubricate machines.
+
+50_Special_02_Side_Q_Idrissi_DataPad_NameKey,Maintenance Datapad
+50_Special_02_Side_Q_Idrissi_DataPad_DescKey,"A datapad specifically designed to interface with Camp Huygen's maintenance systems. Don't break it, or Idrissi will have your head."
+
+50_Special_02_Side_Q_Glass_NameKey,Glass Debris
+50_Special_02_Side_Q_Glass_DescKey,Chunks of glass that might be helpful to repair the glass needed for Pierre's prototype. 
+
+50_Special_02_Side_Q_Glass_Core_NameKey,Glass Debris: Core
+50_Special_02_Side_Q_Glass_Core_DescKey,Chunks of glass that might be helpful to repair the glass needed for Pierre's prototype. 
+
+50_Special_02_Side_Q_Freyja_Camera_NameKey,Freyja's Camera
+50_Special_02_Side_Q_Freyja_Camera_DescKey,"A high-quality digital camera given to you by Freyja. The memory card is almost full, so it only has 3 shots left. Make them good."
+
+50_Special_02_Side_Q_Flower_Sap_001_NameKey,Flower Sap
+50_Special_02_Side_Q_Flower_Sap_001_DescKey,The sap extracted from the Titan Flower collected for Ursula. It can be slathered on weapons to make them deadlier to mutant creatures.
+
+50_Special_02_Side_Q_Flower_001_NameKey,Titan Flower
+50_Special_02_Side_Q_Flower_001_DescKey,"A native flower grown in the deepest underground chamber. It is one of a kind, and Ursula will love it."
+
+50_Special_02_Side_Q_Favors_001_NameKey,Party Favors
+50_Special_02_Side_Q_Favors_001_DescKey,What's a party without takeaways and decorations? The party's theme is colorful gears.
+
+50_Special_02_Side_Q_Dampener_NameKey,Power Dampener
+50_Special_02_Side_Q_Dampener_DescKey,Designed by Fang to improve the efficiency of the underground Power Relay grid.
+
+50_Special_02_Side_Q_Candle_001_NameKey,Romantic Candle
+50_Special_02_Side_Q_Candle_001_DescKey,Light this candle to set the mood for Nina's big night.
+
+50_Special_02_Side_Q_Candle_002_NameKey,Meditation Candle
+50_Special_02_Side_Q_Candle_002_DescKey,Light this candle to set the tone for a productive session of meditation.
+
+50_Special_02_Side_Q_Cake_001_NameKey,Birthday Cake
+50_Special_02_Side_Q_Cake_001_DescKey,What's a party without a cake? Litzi is going to love it!
+
+50_Special_02_Main_Q_Train_Fuel_Canister_Upgrade_NameKey,Modified Fuel Canister
+50_Special_02_Main_Q_Train_Fuel_Canister_Upgrade_DescKey,Judith created a new train fuel canister for concentrated methane extract. Fill it with fuel to power the train.
+
+50_Special_02_Main_Q_Train_Fuel_Canister_Old_NameKey,Damaged Fuel Canister
+50_Special_02_Main_Q_Train_Fuel_Canister_Old_DescKey,"An old, broken fuel canister found on the underground train. It can't be fixed, but it can be researched."
+
+50_Special_02_Main_Q_Save_Device_NameKey,TECC Data Log
+50_Special_02_Main_Q_Save_Device_DescKey,The data on this log should provide clues to the past. Finding a way to recover the corrupted Control Center data is paramount.
+
+50_Special_02_Main_Q_Methane_Fuel_Tier_001_NameKey,Concentrated Methane Extract
+50_Special_02_Main_Q_Methane_Fuel_Tier_001_DescKey,Contains highly-concentrated fuel created by extracting and compressing methane minerals. It can be used to get the underground train running.
+
+50_Special_02_Main_Q_Judith_Note_NameKey,Judith's Notebook
+50_Special_02_Main_Q_Judith_Note_DescKey,"This notebook definitely belongs to an inventor. Most of it is illegible, and the legible bits are confusing."
+
+50_Special_02_Main_Q_Hydrazine_NameKey,Hydrazine
+50_Special_02_Main_Q_Hydrazine_DescKey,This canister contains a solution created by compressing a concentrated methane extract even further. Needed to fuel the airship.
+
+50_Special_02_Main_Q_AirShip_EnergyConverter_NameKey,Energy Converter
+50_Special_02_Main_Q_AirShip_EnergyConverter_DescKey,An essential device that converts <#66FFCC>Hydrazine</color> into energy to power an airship.
+
+50_Special_02_Main_Q_AirCraft_Navigation_NameKey,Navigation Module
+50_Special_02_Main_Q_AirCraft_Navigation_DescKey,Contains the necessary systems for navigating while on an airship. It's a bit damaged but entirely usable.
+
+50_Special_02_Facility_Q_WaterStation_03_Filter_NameKey,Improved Water Filter
+50_Special_02_Facility_Q_WaterStation_03_Filter_DescKey,An improved water filter found intact in the underground water facility. It should be compatible with the camp's water station.
+
+50_Special_02_Facility_Q_WaterStation_04_NanoChemical_NameKey,Treatment Vials
+50_Special_02_Facility_Q_WaterStation_04_NanoChemical_DescKey,These vials of concentrated water treatment solutions are usable at the camp's water station to clean Titan's water.
+
+50_Special_02_Facility_Q_MineControl_03_Insulation_NameKey,Insulation Material
+50_Special_02_Facility_Q_MineControl_03_Insulation_DescKey,Insulation from smelting pipes will help upgrade Mine Control back at camp.
+
+50_Special_02_Facility_Q_Medical_03_TreatLog_NameKey,Mad Doctor's Notebook
+50_Special_02_Facility_Q_Medical_03_TreatLog_DescKey,Contains detailed accounts of unethical medical procedures. It should give some insight into what we're dealing with.
+
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_Plan_Stained_NameKey,A Stained Plan
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_Plan_Stained_DescKey,"A blueprint found in the underground workshop. Looks important, but it's impossible to read."
+
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_NameKey,Compression Machine Plans
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_DescKey,"Plans to build a Methane Compression Machine. It increases energy production from ore, which will make Litzi happy."
+
+50_Special_02_Facility_Q_Farm_03_PlantLog_NameKey,Agriculture Log
+50_Special_02_Facility_Q_Farm_03_PlantLog_DescKey,It contains well-kept secrets on keeping plants alive on Titan. Should improve the camp's Farm.
+
+50_Special_02_Facility_Q_Engineering_03_NanoPowder_NameKey,Nano Powder
+50_Special_02_Facility_Q_Engineering_03_NanoPowder_DescKey,The last of the Nano Powder on Titan. It should help upgrade our Engineering facilities.
+
+50_Special_02_Facility_Q_MineControl_04_SmeltPlan_NameKey,Furnace Blueprints
+50_Special_02_Facility_Q_MineControl_04_SmeltPlan_DescKey,Plans for an improved furnace capable of smelting almost anything. Useful for upgrading Mine Control.
+
+50_Special_02_Facility_Q_Generator_04_HydraDevice_NameKey,Hydrazine Battery
+50_Special_02_Facility_Q_Generator_04_HydraDevice_DescKey,This self-sustaining hydrazine battery should keep the camp's generator chugging along beautifully.
+
+50_Special_02_Facility_Q_Farm_04_FertilizerPlan_NameKey,Nano Fertilizer Log
+50_Special_02_Facility_Q_Farm_04_FertilizerPlan_DescKey,It contains fascinating accounts of combining fertilizer with nanotech to enhance Farm growth. It could help feed everyone in camp.
+
+50_Special_02_Facility_Q_Engineering_04_MicroChip_NameKey,TECC CPU Chip
+50_Special_02_Facility_Q_Engineering_04_MicroChip_DescKey,It took some intense hacking to obtain this microchip. Let's put it to good use in Engineering.
+
+50_Special_02_Facility_Q_DNA_Sample_NameKey,DNA Sample
+50_Special_02_Facility_Q_DNA_Sample_DescKey,An uncontaminated DNA sample cultivated from the ashes of a previous settler. Ida really is a medical marvel.
+
+50_Special_02_Facility_Q_Ashes_Bottle_Filled_NameKey,Sterilized Canister (Filled)
+50_Special_02_Facility_Q_Ashes_Bottle_Filled_DescKey,"A sterilized canister filled with ashes from a previous settler, untouched by the contamination."
+
+50_Special_02_Facility_Q_Ashes_Bottle_Empty_NameKey,Sterilized Canister (Empty)
+50_Special_02_Facility_Q_Ashes_Bottle_Empty_DescKey,A sterilized canister for collecting ashes from the underground medical facility.
+
+#,[ 03/04. Special: Power Fuse & Air Filter ]
+50_Special_03_Power_Fuse_NameKey,Power Relay Fuse
+50_Special_03_Power_Fuse_DescKey,A fuse needed to connect an underground Power Relay to the grid.
+
+50_Special_03_Broken_Power_Fuse_NameKey,Broken Fuse
+50_Special_03_Broken_Power_Fuse_DescKey,A broken power relay fuse.
+
+50_Special_04_Broken_AirFilter_NameKey,Broken Air Filter
+50_Special_04_Broken_AirFilter_DescKey,"A filter for air circulators, except it's broken. If researched, we can make new filters, though."
+
+50_Special_04_Air_Filter_NameKey,Air Filter
+50_Special_04_Air_Filter_DescKey,"A filter for the air circulators reduces the rising speed of nano-pollution underground. (20%)"
+
+50_Special_04_Air_Filter_02_NameKey,Improved Air Filter
+50_Special_04_Air_Filter_DescKey_02,"An Improved filter for the air circulators reduces the rising speed of nano-pollution underground. (40%)"
+
+50_Special_04_Air_Filter_03_NameKey,Advanced Air Filter
+50_Special_04_Air_Filter_DescKey_03,"Advanced filter for the air circulators reduces the rising speed of nano-pollution underground. (60%)"
+
+#,[ 05. Special: Resource ]
+50_Special_05_Resource_Phytochemical_NameKey,Phytochemical
+50_Special_05_Resource_Phytochemical_DescKey,"This chemical is extracted from plants and used to treat Titan's natural water to make it safe to drink."
+
+50_Special_05_Resource_Methane_Fuel_NameKey,Methane Fuel
+50_Special_05_Resource_Methane_Fuel_DescKey,Essential methane fuel that's used to generate power at the camp's generator.
+
+50_Special_05_Resource_Organic_Fertilizer_NameKey,Organic Fertilizer
+50_Special_05_Resource_Organic_Fertilizer_DescKey,An organic fertilizer essential for food production at the Farm.
