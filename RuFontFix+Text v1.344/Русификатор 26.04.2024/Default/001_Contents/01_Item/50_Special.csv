@@ -1,0 +1,302 @@
+Language,Default
+
+#,[ Facility Upgrade ]
+50_Special_01_Upgrade_WaterStation_02_NameKey,насосная станция Ур.2
+50_Special_01_Upgrade_WaterStation_02_DescKey,Обеспечивает больший доступ к воде и немного повышает эффективность её производства.
+
+50_Special_01_Upgrade_WaterStation_03_NameKey,насосная станция Ур.3
+50_Special_01_Upgrade_WaterStation_03_DescKey,Обеспечивает больший доступ к воде и значительно повышает эффективность её производства.
+
+50_Special_01_Upgrade_WaterStation_04_NameKey,насосная станция Ур.4
+50_Special_01_Upgrade_WaterStation_04_DescKey,Обеспечивает больший доступ к воде и серьёзно повышает эффективность её производства.
+
+50_Special_01_Upgrade_MineControl_02_NameKey,Управление Шахтой Ур.2
+50_Special_01_Upgrade_MineControl_02_DescKey,"Открывает больше минералов к Производству и Переработке, также немного повышает количество ресурсов после разборки."
+
+50_Special_01_Upgrade_MineControl_03_NameKey,Управление Шахтой Ур.3
+50_Special_01_Upgrade_MineControl_03_DescKey,Открывает больше минералов к Производству и Переработке, также значительно повышает количество ресурсов после разборки.
+
+50_Special_01_Upgrade_MineControl_04_NameKey,Управление Шахтой Ур.4
+50_Special_01_Upgrade_MineControl_04_DescKey,Открывает больше минералов к Производству и Переработке, также серьёзно повышает количество ресурсов после разборки.
+
+50_Special_01_Upgrade_Medical_02_NameKey,Клиника Ур.2
+50_Special_01_Upgrade_Medical_02_DescKey,"Открывает новые медицинские изделия для Изготовления и больше органических материалов (растения, добыча с монстров), которые можно разобрать на материалы."
+
+50_Special_01_Upgrade_Medical_03_NameKey,Клиника Ур.3
+50_Special_01_Upgrade_Medical_03_DescKey,"Открывает новые медицинские изделия для Изготовления и больше органических материалов (растения, добыча с монстров), которые можно разобрать на материалы."
+
+50_Special_01_Upgrade_Medical_04_NameKey,Клиника Ур.4
+50_Special_01_Upgrade_Medical_04_DescKey,"Открывает новые медицинские изделия для Изготовления и больше органических материалов (растения, добыча с монстров), которые можно разобрать на материалы."
+
+50_Special_01_Upgrade_Generator_02_NameKey,Генератор Ур.2
+50_Special_01_Upgrade_Generator_02_DescKey,Расширяет электросеть и немного повышает эффективность производства энергии.
+
+50_Special_01_Upgrade_Generator_03_NameKey,Генератор Ур.3
+50_Special_01_Upgrade_Generator_03_DescKey,Расширяет электросеть и значительно повышает эффективность производства энергии.
+
+50_Special_01_Upgrade_Generator_04_NameKey,Генератор Ур.4
+50_Special_01_Upgrade_Generator_04_DescKey,Расширяет электросеть и серьёзно повышает эффективность производства энергии.
+
+50_Special_01_Upgrade_Farm_02_NameKey,Ферма Ур.2
+50_Special_01_Upgrade_Farm_02_DescKey,"Открывает доступ к новым и более разнообразным растениям для Исследований и Производства, а также немного повышает эффективность Фермы. "
+
+50_Special_01_Upgrade_Farm_03_NameKeyФерма Ур.3
+50_Special_01_Upgrade_Farm_03_DescKey,"Открывает доступ к новым и более разнообразным растениям для Исследований и Производства, а также значительно повышает эффективность Фермы. "
+
+50_Special_01_Upgrade_Farm_04_NameKey,Ферма Ур.4
+50_Special_01_Upgrade_Farm_04_DescKey,"Открывает доступ к новым и более разнообразным растениям для Исследований и Производства, а также серьёзно повышает эффективность Фермы. "
+
+50_Special_01_Upgrade_Engineering_02_NameKey,Инженерия Ур.2
+50_Special_01_Upgrade_Engineering_02_DescKey,"Открывает новые предметы для Исследования, Изготовления и Разборки и немного повышает эффективность Инженерии."
+
+50_Special_01_Upgrade_Engineering_03_NameKey,Инженерия Ур.3
+50_Special_01_Upgrade_Engineering_03_DescKey,"Открывает новые предметы для Исследования, Изготовления и Разборки и значительно повышает эффективность Инженерии."
+
+50_Special_01_Upgrade_Engineering_04_NameKey,Инженерия Ур.4
+50_Special_01_Upgrade_Engineering_04_DescKey,"Открывает новые предметы для Исследования, Изготовления и Разборки и серьёзно повышает эффективность Инженерии."
+
+
+#,[ Blueprint ]
+50_Special_01_Blueprint_AirShip_Mods_NameKey,Модификации дирижабля
+50_Special_01_Blueprint_AirShip_Mods_DescKey,"Изучение этих чертежей октрывает модификации для корпус дирижабля, щитов и топливных баков, чтобы каждый смог пережить путешествие в штаб-квартиру TECC."
+
+50_Special_01_Blueprint_ClawTrap_001_NameKey,Чертёж: Ловушка
+50_Special_01_Blueprint_ClawTrap_001_DescKey,"Твой первый чертеж для весьма полезной штуки. Дэвид - друг, который расскажет вам, как делать ловушки, правильно?"
+
+50_Special_01_Blueprint_JudithIdea_RangeWp_NameKey,Проект Джудит: Дальний Чертёж
+50_Special_01_Blueprint_JudithIdea_RangeWp_DescKey,Сконструированное Джудит прекрасное Оружие дальнего боя, которое поможет вам выжить. Она хоть когда-нибудь подводила вас? Создайте его, чтобы получить новое снаряжение.
+
+50_Special_01_Blueprint_JudithIdea_MeleeWp_NameKey,Проект Джудит: Ближний Чертёж
+50_Special_01_Blueprint_JudithIdea_MeleeWp_DescKey,Это замечательное оружие ближнего боя от Джудит должно быть полезным. Так чего же ты ждешь?!?! Создайте его, чтобы получить новое снаряжение.
+
+50_Special_01_Blueprint_JudithIdea_Armor_NameKey,Проект Джудит: Чертёж Униформы
+50_Special_01_Blueprint_JudithIdea_Armor_DescKey,"У Джудит нет чувства стиля, но ее чертежи одежды могут сохранить вам жизнь. Создайте его, чтобы получить новое снаряжение."
+
+
+#,[ 02. Special: Quest/Contents Item ]
+50_Special_02_SpecialMat_BFGParts_001_NameKey,Пусковой Стабилизатор
+50_Special_02_SpecialMat_BFGParts_001_DescKey,"Это задняя часть <#66FFCC>Плазменной Установки</color> этот выдвижной стабилизатор необходимый для сколько-нибудь точного использования оружия. Однако он бесполезен без <#66FFCC>Плазменной Кузни</color> и <#66FFCC>Прицельной Планки</color>.  "
+
+50_Special_02_SpecialMat_BFGParts_002_NameKey,Плазменная Кузня
+50_Special_02_SpecialMat_BFGParts_002_DescKey,"Корпус <#66FFCC>Плазменной Установки</color> использует множество применяемых только в ней технологий. Однако он бесполезен без <#66FFCC>Пускового Стабилизатора</color> и <#66FFCC>Прицельной Планки</color>."
+
+50_Special_02_SpecialMat_BFGParts_003_NameKey,Прицельная Планка
+50_Special_02_SpecialMat_BFGParts_003_DescKey,"Высоко технолоничная планка <#66FFCC>Плазменной Установки</color> предоставляет владельцам возможность выбирать подходящие цели при стрельбе.  Однако он бесполезен без <#66FFCC>Пускового Стабилизатора</color> и <#66FFCC>Плазменной Кузни</color>."
+
+50_Special_02_Side_Q_Whisky_001_NameKey,Виски
+50_Special_02_Side_Q_Whisky_001_DescKey,Сухое виски для Урсулы. Достойный последний напиток.
+
+50_Special_02_Side_Q_Temir_HeatSink_NameKey,Теплообменник
+50_Special_02_Side_Q_Temir_HeatSink_DescKey,Участок теплоотвода для экспериментов Темира. 
+
+50_Special_02_Side_Q_TauStolenLedger_NameKey,Бухгалтерская Книга
+50_Special_02_Side_Q_TauStolenLedger_DescKey,"Найденна в столе Тау, она содержит его сомнительные финансовые записи. Но это нуждается в подтверждении."
+
+50_Special_02_Side_Q_TauSecurityHackingDevice_NameKey,Выключающие Устройство
+50_Special_02_Side_Q_TauSecurityHackingDevice_DescKey,"Устройство, предназначенное для отключения сигнализации в офисе Тау. Оно действует только в ограниченное время, поэтому действуйте быстро, после того как активируете его."
+
+50_Special_02_Side_Q_TauSecretPad_NameKey,Тайная Бухгалтерия Тау
+50_Special_02_Side_Q_TauSecretPad_DescKey,"Найденный в секретном сейфе Тау, он раскрывает его продажность и воровство у всех в лагере."
+
+50_Special_02_Side_Q_TauRatTailSpoil_NameKey,Ведро Крысиных Хвостов
+50_Special_02_Side_Q_TauRatTailSpoil_DescKey,Вы когда-нибудь задумывались, что случилось с теми крысиными хвостами, которые вы собрали для него? Они прогнили, испортились и готовы к столу Тау.
+
+50_Special_02_Side_Q_Tau_Sword_001_NameKey,Меч Тай (Настоящий)
+50_Special_02_Side_Q_Tau_Sword_001_DescKey,"Это великолепный меч, который режет прямо и безошибочно. Тау изготовил его сам, и это его драгоценность."
+
+50_Special_02_Side_Q_Tau_Sword_002_NameKey,Меч Тай (Подделка)
+50_Special_02_Side_Q_Tau_Sword_002_DescKey,Хрупкая копия меча Тау. Он никогда не обнаружит разницы.
+
+50_Special_02_Side_Q_Seble_Drone_Transmitter_NameKey,Передатчик Дрона 
+50_Special_02_Side_Q_Seble_Drone_Transmitter_DescKey,Передатчик дрона, найденный в шахтах. Себл может использовать его в ремонте.
+
+50_Special_02_Side_Q_Seble_Drone_Motor_NameKey,Двигатель Дрона
+50_Special_02_Side_Q_Seble_Drone_Motor_DescKey,Рабочий двигатель снятый с дрона. Себл может использовать его в ремонте.
+
+50_Special_02_Side_Q_Seble_Drone_Controller_NameKey,Контроллер Дрона
+50_Special_02_Side_Q_Seble_Drone_Controller_DescKey,Контроллер  дрона с возможностью синхронизации. Себл может использовать его в ремонте.
+
+50_Special_02_Side_Q_Sealant_Canister_NameKey,Канистра Герметика
+50_Special_02_Side_Q_Sealant_Canister_DescKey,"Используется для заделки трещин и отверстий в водопроводе лагеря, независимо от их размера"
+
+50_Special_02_Side_Q_Rose_NameKey,Красная Роза
+50_Special_02_Side_Q_Rose_DescKey,Красивая красная роза, чтобы сделать ночь Нины особенной.
+
+50_Special_02_Side_Q_Rodrigo_OmniScope_NameKey,Омнископ Родриго
+50_Special_02_Side_Q_Rodrigo_OmniScope_DescKey,Омнископ, который когда-то принадлежал Родриго. Бедный Родриго.
+
+50_Special_02_Side_Q_Rana_Seeds_SampleSeed_NameKey,Образец Семян
+50_Special_02_Side_Q_Rana_Seeds_SampleSeed_DescKey,Образец жизнеспособного семени, найденный возле вентиляционного циркулятора и пригодный для исследований Раны.
+
+50_Special_02_Side_Q_Rana_Seeds_BadSeed_NameKey,Плохий Семена
+50_Special_02_Side_Q_Rana_Seeds_BadSeed_DescKey,"Семена найдены рядом с циркулятором воздуха. К сожалению, они полностью облучены."
+
+50_Special_02_Side_Q_Processor_NameKey,Процессор
+50_Special_02_Side_Q_Processor_DescKey,"Тонны вычислительной мощности в небольшом корпусе, созданном в точном соответствии со спецификациями Пьера."
+
+50_Special_02_Side_Q_PassingNote_NameKey,Записка Октавио
+50_Special_02_Side_Q_PassingNote_DescKey,"Любовная записка Октавио к Фрейе, в которой он выражает свою безграничную любовь."
+
+50_Special_02_Side_Q_PaneOfGalss_NameKey,Стеклянная Панель
+50_Special_02_Side_Q_PaneOfGalss_DescKey,Этот кусок стекла достаточно хорош для исследования Пьера. Что он сможет сделать
+
+50_Special_02_Side_Q_OmniScope_Extractor_NameKey,Извлекатель Омнископа
+50_Special_02_Side_Q_OmniScope_Extractor_DescKey,Мерзкое приспособление с когтями, предназначенное для извлечения Омнископа силой.
+
+50_Special_02_Side_Q_MixTape_001_NameKey,Кассета
+50_Special_02_Side_Q_MixTape_001_DescKey,Что за праздник без музыки? День рождения Литси станет танцевальной вечеринкой.
+
+50_Special_02_Side_Q_MissingCrate_001_NameKey,TECC Грузовой Отсек [B02] Жилые Помещения
+50_Special_02_Side_Q_MissingCrate_001_DescKey,Один из потерянных Катериной ящиков с грузом, который был спрятан в Жилых Помещениях.
+
+50_Special_02_Side_Q_MissingCrate_002_NameKey,TECC Грузовой Отсек [B02] Стоянка для Дирижаблей
+50_Special_02_Side_Q_MissingCrate_002_DescKey,Один из потерянных Катериной ящиков с грузом, который был спрятан на Стоянке.
+
+50_Special_02_Side_Q_MissingCrate_003_NameKey,TECC Грузовой Отсек [Ground] Биоферма
+50_Special_02_Side_Q_MissingCrate_003_DescKey,Один из потерянных Катериной ящиков с грузом, который был спрятан в Гидропонике.
+
+50_Special_02_Side_Q_MicroBattery_NameKey,Micro-Battery
+50_Special_02_Side_Q_MicroBattery_DescKey,Как и просил Пьер для своего изобретения. Самая маленькая батарея на рынке.
+
+50_Special_02_Side_Q_Incense_NameKey,Курильница для Благовоний
+50_Special_02_Side_Q_Incense_DescKey,Медитация требует определенного запаха. Именно здесь на помощь приходят благовония
+
+50_Special_02_Side_Q_Idrissi_FixParts_Water_Nozzle_NameKey,Насадка
+50_Special_02_Side_Q_Idrissi_FixParts_Water_Nozzle_DescKey,Сменная насадка для починки маслоотделителя на Насосной станции.
+
+50_Special_02_Side_Q_Idrissi_FixParts_Security_Wire_NameKey,Провод
+50_Special_02_Side_Q_Idrissi_FixParts_Security_Wire_DescKey,Замена провода, необходимая для ремонта камеры наблюдения.
+
+50_Special_02_Side_Q_Idrissi_FixParts_Engineering_OilCanister_NameKey,Масляная Канистра
+50_Special_02_Side_Q_Idrissi_FixParts_Engineering_OilCanister_DescKey,Канистра, наполненная маслом, используемым для смазки механизмов.
+
+50_Special_02_Side_Q_Idrissi_DataPad_NameKey,Датапад Обслуживания
+50_Special_02_Side_Q_Idrissi_DataPad_DescKey,"Датапад, специально разработанный для взаимодействия с системами технического обслуживания лагеря Гюйген. Не сломайте его, иначе Идрисси заберет вашу голову."
+
+50_Special_02_Side_Q_Glass_NameKey,Обломки Стекла
+50_Special_02_Side_Q_Glass_DescKey,Куски стекла, которые могут быть полезны для ремонта стекла, необходимого для прототипа Пьера. 
+
+50_Special_02_Side_Q_Glass_Core_NameKey,Обломки Стекла: Ядро
+50_Special_02_Side_Q_Glass_Core_DescKey,Куски стекла, которые могут быть полезны для ремонта стекла, необходимого для прототипа Пьера. 
+
+50_Special_02_Side_Q_Freyja_Camera_NameKey,Фотоаппарат Фрейи
+50_Special_02_Side_Q_Freyja_Camera_DescKey,"Высококачественный цифровой фотоаппарат, подаренный вам Фрейей. Карта памяти почти заполнена, поэтому осталось всего 3 снимка. Сделайте их хорошо."
+
+50_Special_02_Side_Q_Flower_Sap_001_NameKey,Цветочный Сок
+50_Special_02_Side_Q_Flower_Sap_001_DescKey,Сок, добываемый из цветов Титана, собранных для Урсулы. Им можно смазывать оружие, чтобы сделать его более смертоносным для мутировавших существ.
+
+50_Special_02_Side_Q_Flower_001_NameKey,Цветок Титана
+50_Special_02_Side_Q_Flower_001_DescKey,"A native flower grown in the deepest underground chamber. It is one of a kind, and Ursula will love it."
+
+50_Special_02_Side_Q_Favors_001_NameKey,Подарки для Вечеринки
+50_Special_02_Side_Q_Favors_001_DescKey,Какая же вечеринка без закусок и декораций? Тема вечеринки - разноцветные шестеренки.
+
+50_Special_02_Side_Q_Dampener_NameKey,Силовой Демпфер
+50_Special_02_Side_Q_Dampener_DescKey,Разработанный Фангом для повышения эффективности подземного Энергореле.
+
+50_Special_02_Side_Q_Candle_001_NameKey,Романтическая Свеча
+50_Special_02_Side_Q_Candle_001_DescKey,Зажгите эту свечу, дабы создать настроение для знаменательной ночи Нины.
+
+50_Special_02_Side_Q_Candle_002_NameKey,Свеча для Медитации
+50_Special_02_Side_Q_Candle_002_DescKey,Зажгите эту свечу, чтобы задать тон плодотворной медитации.
+
+50_Special_02_Side_Q_Cake_001_NameKey,Праздничный Торт
+50_Special_02_Side_Q_Cake_001_DescKey,Какой же праздник без торта? Литси будет в восторге!
+
+50_Special_02_Main_Q_Train_Fuel_Canister_Upgrade_NameKey,Модифицированная Топливная Канистра
+50_Special_02_Main_Q_Train_Fuel_Canister_Upgrade_DescKey,Джудит создала новую канистру для концентрированного метана. Заполните ее топливом, чтобы запитать поезд.
+
+50_Special_02_Main_Q_Train_Fuel_Canister_Old_NameKey,Поврежденная Топливная Канистра
+50_Special_02_Main_Q_Train_Fuel_Canister_Old_DescKey,"Старая, сломанная топливная канистра, найденная в подземном поезде. Ее нельзя починить, но можно исследовать."
+
+50_Special_02_Main_Q_Save_Device_NameKey,Журнал данных TECC
+50_Special_02_Main_Q_Save_Device_DescKey,Данные в этом журнале должны дать ключ к разгадке прошлого. Поиск способа восстановления поврежденных данных Центра управления имеет первостепенное значение.
+
+50_Special_02_Main_Q_Methane_Fuel_Tier_001_NameKey,Концентрированный Метановый Экстракт
+50_Special_02_Main_Q_Methane_Fuel_Tier_001_DescKey,Содержит высококонцентрированное топливо, созданное путем добычи и сжатия минералов метана. Его можно использовать для запуска подземного поезда.
+
+50_Special_02_Main_Q_Judith_Note_NameKey,Блокнот Джудит
+50_Special_02_Main_Q_Judith_Note_DescKey,"Этот блокнот определенно принадлежит изобретателю. Большая часть текста неразборчива, а разборчивые фрагменты перепутаны."
+
+50_Special_02_Main_Q_Hydrazine_NameKey,Гидразин
+50_Special_02_Main_Q_Hydrazine_DescKey,В этой канистре содержится раствор, созданный путем еще большего сжатия концентрированного метанового экстракта. Необходим для заправки дирижабля.
+
+50_Special_02_Main_Q_AirShip_EnergyConverter_NameKey,Конвертер Энергии
+50_Special_02_Main_Q_AirShip_EnergyConverter_DescKey,Незаменимое устройство, преобразующее <#66FFCC>Гидразин</color> в энергию для питания дирижабля.
+
+50_Special_02_Main_Q_AirCraft_Navigation_NameKey,Модуль Навигации
+50_Special_02_Main_Q_AirCraft_Navigation_DescKey,Содержит необходимые системы для навигации во время полета на дирижабле. Он немного поврежден, но вполне пригоден для использования.
+
+50_Special_02_Facility_Q_WaterStation_03_Filter_NameKey,Улучшенный Водяной Фильтр
+50_Special_02_Facility_Q_WaterStation_03_Filter_DescKeyВ подземном хранилище воды обнаружен улучшенный фильтр для воды. Он должен быть совместим с Насосной станцией лагеря.
+
+50_Special_02_Facility_Q_WaterStation_04_NanoChemical_NameKey,Флакон с Дезинфикатом
+50_Special_02_Facility_Q_WaterStation_04_NanoChemical_DescKey,Эти флаконы с концентрированными растворами для очистки воды, можно использовать на Насосной станции лагеря для очистки воды Титана.
+
+50_Special_02_Facility_Q_MineControl_03_Insulation_NameKey,Изоляционный Материал
+50_Special_02_Facility_Q_MineControl_03_Insulation_DescKey,Изоляция от выплавочных труб поможет улучшить Управление Шахтой в лагере.
+
+50_Special_02_Facility_Q_Medical_03_TreatLog_NameKey,Блокнот Мэд Дока
+50_Special_02_Facility_Q_Medical_03_TreatLog_DescKey,Содержит подробные рассказы о неэтичных медицинских процедурах. Это должно дать некоторое понимание того, с чем мы столкнулись.
+
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_Plan_Stained_NameKey,Испачканный План
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_Plan_Stained_DescKey,"Чертеж, найденный в подземной мастерской. Выглядит важным, но прочитать его невозможно."
+
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_NameKey,Чертежы Компрессионной Машины 
+50_Special_02_Facility_Q_Generator_03_MethaneDevice_DescKey,"Чертежы для Машины для сжатия метана. Она увеличивает производство энергию из руды, что порадует Литси."
+
+50_Special_02_Facility_Q_Farm_03_PlantLog_NameKey,Сельскохозяйственный журнал
+50_Special_02_Facility_Q_Farm_03_PlantLog_DescKey,В ней содержатся секреты сохранения жизни растений на Титане. Должно помочь улучшить Ферму лагеря.
+
+50_Special_02_Facility_Q_Engineering_03_NanoPowder_NameKey,Нано пыль
+50_Special_02_Facility_Q_Engineering_03_NanoPowder_DescKey,Последний нанопорошок на Титане. Это должно помочь модернизировать наш Инженерный Комплекс.
+
+50_Special_02_Facility_Q_MineControl_04_SmeltPlan_NameKey,Чертежи Печи
+50_Special_02_Facility_Q_MineControl_04_SmeltPlan_DescKey,Чертежи улучшенной печи, способной выплавлять практически все. Пригодится для улучшения Управление Шахтой.
+
+50_Special_02_Facility_Q_Generator_04_HydraDevice_NameKey,Гидразиновая Батарея
+50_Special_02_Facility_Q_Generator_04_HydraDevice_DescKey,Эта самовосстанавливающаяся гидразиновая батарея должна поддерживать генератор лагеря в рабочем состоянии.
+
+50_Special_02_Facility_Q_Farm_04_FertilizerPlan_NameKey,Журнал о Нано Удобрениях
+50_Special_02_Facility_Q_Farm_04_FertilizerPlan_DescKey,В ней содержатся захватывающие рассказы о сочетании удобрений с нанотехнологиями для улучшения роста на Ферме. Это может помочь накормить всех в лагере.
+
+50_Special_02_Facility_Q_Engineering_04_MicroChip_NameKey,Процессорный чип TECC
+50_Special_02_Facility_Q_Engineering_04_MicroChip_DescKey,Чтобы получить этот микрочип, пришлось приложить немало усилий для взлома. Давайте используем его в инженерном деле..
+
+50_Special_02_Facility_Q_DNA_Sample_NameKey,Образец ДНК
+50_Special_02_Facility_Q_DNA_Sample_DescKey,Незагрязненный образец ДНК, выращенный из пепла предыдущего поселенца. Ида - настоящее чудо медицины.
+
+50_Special_02_Facility_Q_Ashes_Bottle_Filled_NameKey,Стерильная Колба (Заполненная)
+50_Special_02_Facility_Q_Ashes_Bottle_Filled_DescKey,"Стерильная Колба заполненая пеплом предыдущего поселенца, не тронутым загрязнением."
+
+50_Special_02_Facility_Q_Ashes_Bottle_Empty_NameKey,Стерильная Колба (Пустая)
+50_Special_02_Facility_Q_Ashes_Bottle_Empty_DescKey,Стерильная колба для сбора пепла из подземного медицинского комплекса.
+
+#,[ 03/04. Special: Power Fuse & Air Filter ]
+50_Special_03_Power_Fuse_NameKey,Предохранитель Силового Реле
+50_Special_03_Power_Fuse_DescKey,Предохранитель, необходимый для подключения подземного Силового Реле к сети.
+
+50_Special_03_Broken_Power_Fuse_NameKey,Перегоревший Предохранитель
+50_Special_03_Broken_Power_Fuse_DescKey,Перегоревший предохранитель Силового Реле.
+
+50_Special_04_Broken_AirFilter_NameKey,Сломанный Воздушный Фильтр
+50_Special_04_Broken_AirFilter_DescKey,"Фильтр для Циркуляции Воздуха, только вот он сломан. Если мы исследуем его, мы сможем сделать новые фильтры."
+
+50_Special_04_Air_Filter_NameKey,Воздушный Фильтр
+50_Special_04_Air_Filter_DescKey,"Фильтр для Циркуляции Воздуха, уменьшает скорость распространения Нано загрязнения подземлей. (20%)"
+
+50_Special_04_Air_Filter_02_NameKey,Улучшенный Воздушный Фильтр
+50_Special_04_Air_Filter_DescKey_02,"Улучшенный фильтр для Циркуляции Воздуха, уменьшает скорость распространения Нано загрязнения подземлей. (40%)"
+
+50_Special_04_Air_Filter_03_NameKey,Усовершенствованный Воздушный Фильтр
+50_Special_04_Air_Filter_DescKey_03,"Усовершенствованный фильтр fдля Циркуляции Воздуха, уменьшает скорость распространения Нано загрязнения подземлей. (60%)"
+
+#,[ 05. Special: Resource ]
+50_Special_05_Resource_Phytochemical_NameKey,Фитохимикаты
+50_Special_05_Resource_Phytochemical_DescKey,"Этот химикат извлекаемые из растений и используется для очистки вод Титана, чтобы сделать ее пригодной для питья."
+
+50_Special_05_Resource_Methane_Fuel_NameKey,Метановое Топливо
+50_Special_05_Resource_Methane_Fuel_DescKey,Незаменимое метановое топливо, которое используется для выработки электроэнергии Генератором лагеря.
+
+50_Special_05_Resource_Organic_Fertilizer_NameKey,Органические Удобрения
+50_Special_05_Resource_Organic_Fertilizer_DescKey,Органическое удобрение, необходимое для производства продуктов питания на Ферме.

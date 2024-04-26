@@ -1,0 +1,99 @@
+Language,Default
+
+#,[ Mineral ]
+Codex_Mineral_Methane_DescKey,Methane is necessary to generate <color=#FFA500>Power</color> for the camp. 
+
+Codex_Mineral_Iron_DescKey,Refined iron can be used to craft many basic <color=#66FFCC>Tier 1</color> items. 
+
+Codex_Mineral_Copper_DescKey,Refined copper can be used to craft <color=#66FFCC>Tier 2</color> items (stronger than <color=#66FFCC>Iron</color>). 
+
+Codex_Mineral_Nickel_DescKey,Refined nickel can be used to craft <color=#66FFCC>Tier 3</color> items (stronger than <color=#66FFCC>Copper</color>). 
+
+Codex_Mineral_Lithium_DescKey,Refined lithium can be used to craft <color=#66FFCC>Tier 4</color> items (stronger than <color=#66FFCC>Nickel</color>).
+
+Codex_Mineral_Titanium_DescKey,Refined titanium can be used to craft <color=#66FFCC>Tier 5</color> items (stronger than <color=#66FFCC>Lithium</color>). 
+
+Codex_Mineral_Geode_Blue_DescKey,"This blue crystal is too brittle for crafting, but can be sold for a small amount of <color=#66FFCC>Credits</color>."
+
+Codex_Mineral_Geode_Purple_DescKey,"This purple crystal is too brittle for crafting, but can be sold for <color=#66FFCC>Credits</color>."
+
+Codex_Mineral_Geode_Red_DescKey,"This red crystal is too brittle for crafting, but can be sold for a healthy sum of <color=#66FFCC>Credits</color>."
+
+#,[ Monster ]
+Codex_Rat_DescKey,"Descendants of stowaway rats aboard TECC's shuttle that have now made their home in Alp's basement. After thousands of accelerated spawning generations and exposure to Titan's environments, these rats have evolved to be larger and more ferocious."
+
+Codex_Worm_DescKey,The original TECC settlement cultivated several worm species on Titan as an alternate food source. These evolved Titan Worms have now developed a taste for human blood and are ready to return the favor.
+
+Codex_Slug_DescKey,"Almost nothing like Earth slugs, these Titan Slugs possess short limbs, an organic shell for protection, and poisonous secretions. They also show signs of more than animal intelligence after nanobot intervention. Who knows what their future holds?"
+
+Codex_Beetle_DescKey,"Many Earth insects, such as beetles and roaches, share an evolutionary arc to become the Titan Beetle. They are difficult to squish due to a hardened exoskeleton, sometimes accompanied by wings for increased mobility or spikes for extra damage dealing."
+
+Codex_Rat_Evolved_DescKey,"Titan Rats evolve quickly, and they have invaded Alp's basement again in a more snarly, more savage form. It's next to impossible to eradicate the entire nest, but pushing them out of camp should be doable."
+
+Codex_Evolved_Base_A_DescKey,"Mutants are humanoid monsters with decaying skin and exposed skeletons as hard as steel. Their inhuman strength and speed make them terribly deadly, even though they are the most basic evolved creature found underground."
+
+Codex_Evolved_Base_B_DescKey,"Brawlers possess augmented muscles like a wrestler, making them stronger and tougher than normal mutants. They are built like walking tanks with attacks that pack a wallop."
+
+Codex_Evolved_Bomber_A_DescKey,"While a Belcher's legs are humanoid, their pustule-covered body has mutated into an oozing maw that launches acid projectiles. A lack of arms suggests an intricate internal firing system that explains the Belcher's firing range despite not having eyes or ears."
+
+Codex_Evolved_Bomber_B_DescKey,"An advanced form of Belchers, a Spewer's legs have evolved further for increased mobility, and its sensitive antennae help to boost attack accuracy. Their external acid sacs are harder to burst through force, and their projectiles fire like missiles."
+
+Codex_Evolved_Buffer_A_DescKey,"A monster created from nanobot clusters too powerful to be contained by a physical form. It clings to decaying hunks of flesh it flings at enemies, but the real threat is its ability to boost other monsters' abilities and even heal them."
+
+Codex_Evolved_Buffer_B_DescKey,"A Floater that accumulates enough flesh eventually becomes a Drifter. Its nanobots self-destruct when attacking, destroying its target's nanobots simultaneously. A Drifter's boost/healing range to aid other monsters is also vastly superior."
+
+Codex_Evolved_Explosive_DescKey,"A monster filled with a mixture of blood and liquid explosives that possesses zero survival instincts. When an Exploder sees an enemy, it creeps forward and self-destructs with a maniacal laugh when close enough."
+
+Codex_Evolved_Grabber_DescKey,"A four-legged beast with a scorpion-like tail capable of beheading a human. Its prey may attempt to retreat, but a Stabber's elongated tongue will reach out to drag the target closer."
+
+Codex_Evolved_Reaper_A_DescKey,"Slicers are mutants with animalistic legs, one sharpened arm built for killing, and its other arm is helpful for balance while it delivers deadly blows. Its intimidating mandibles look like a leftover from an alternate evolutionary track it might have traveled."
+
+Codex_Evolved_Reaper_B_DescKey,"An advanced form of Slicers, a Carver's blade-arm has grown so large that it now exists as a tri-pedal creature. With increased size and strength, it can carve through any enemy, cutting it into easily digestible chunks."
+
+Codex_Evolved_Shooter_A_DescKey,"Spitters eat their victims' bones to create powerful projectiles in their bellies that can be spit from their mouths. Releasing natural pockets of compressed air in their spines propel their attacks, so close combat is suggested."
+
+Codex_Evolved_Shooter_B_DescKey,"The evolved form of Spitters, a Blaster can also digest a victim's flesh into various poisonous or flammable excretions, making their ranged attacks even deadlier. Their mandibles are nasty, but resist the urge to keep your distance."
+
+Codex_Evolved_Spawner_DescKey,"Hulking monsters with elongated limbs and sharp claws. A Spawner cries out as if they are constantly in pain, especially when birthing offspring from its belly orifice. After devouring a victim, it can spawn up to a dozen Creepers within minutes."
+
+Codex_Evolved_Spawner_Minion_DescKey,"A Creeper resembles a human head attached to four prickly spider legs. Its fangs bite deep, and Creepers from the same 'mother' share an empathic link, enhancing each one's combat ability when launching a coordinated assault."
+
+Codex_Evolved_Tanker_A_DescKey,"A monster built entirely of muscle, spikes, and aggression. Piercing a Crusher's defenses is difficult, and getting close runs the risk of being caught in its formidable clutches. They take sadistic pleasure in leaving their prey in a pile of body parts."
+
+Codex_Evolved_Tanker_B_DescKey,"The evolved form of Crushers, a Smasher possesses more armor, spikes, and animalistic ferocity. With advanced movement and a penchant to leap and smash their enemies, these mutants are some of the deadliest on Titan."
+
+Codex_Evolved_Tower_DescKey,"A mutant grown from the contaminated roots found throughout the underground, often in heavily trafficked tunnels or doorways for easy feeding. When an enemy gets close, spikes protrude from the Spindlers head to attack."
+
+Codex_Parasite_01_DescKey,"Crawlers are diminutive creatures housing a mutant egg upon their back. Its bites are painful, but it is less aggressive than other monsters, preferring to defend its egg first and foremost."
+
+Codex_Parasite_02_DescKey,"When a Crawler is captured by the underground's contaminated roots, it becomes a Popper. The egg it once protected can be attacked to release the creature inside without the need for a fight."
+
+Codex_Maggot_DescKey,A Muncher is spawned from a Crawler's or Popper's parasitic egg. It is overall harmless but can devour contaminated or diseased flesh quickly. Munchers can be useful in crafting unique items.
+
+Codex_Lurker_DescKey,"Monsters that have evolved to survive in almost any environment. Lurkers possess claws they use to hang from elevated positions to launch deadly surprise attacks and cut their prey to ribbons. Watch for a shadow, or you'll be the next victim."
+
+Codex_Burrower_DescKey,"Monsters evolved from specific species of Earth beetles. A Burrower lives in the dirt, using tunnels under its victim's feet to great advantage. Look for holes in the ground to anticipate a Burrower attack."
+
+Codex_Burrower_Minion_DescKey,"Few insects survive in solitude, and Burrowers are no different. Diggers are a Burrower's offspring, possessing many of the same abilities in a small package to more successfully ambush a target."
+
+Codex_Detector_DescKey,"A bat-like monster living underground, known for the high-pitched siren they release when in danger. While a Screamer has no eyes, its enhanced radar senses can quickly detect an enemy's approach."
+
+Codex_Plant_Mushroom_DescKey,"Uncooked mushrooms. They can be consumed in a pinch but are slightly poisonous, so be careful. "
+
+Codex_Plant_Acid_DescKey,"Several Titan plants secrete acid, usable in crafting. <color=#FFA500>Recycled</color> this plant into <color=#66FFCC>Organic Acid</color>."
+
+Codex_Plant_Poison_DescKey,A strange plant containing dangerous poison. <color=#FFA500>Recycle</color> this plant into <color=#66FFCC>Poison Extract</color>.
+
+Codex_Plant_Cotton_DescKey,"Resembling Earth cotton, its majestic bushels can similarly be used to make clothing. <color=#FFA500>Recycle</color> this plant into <color=#66FFCC>Titan Cotton</color>. "
+
+Codex_Plant_Bush_DescKey,"This lush bush has sprouted many branches, which are quite useful. <color=#FFA500>Recycle</color> this plant into <color=#66FFCC>Leaves</color>. "
+
+Codex_Plant_DryBush_DescKey,"A dried-out, nearly dead bush. <color=#FFA500>Recycle</color> this plant into <color=#66FFCC>Sticks</color> for crafting."
+
+Codex_Plant_LotusFlower_DescKey,A strange yet beautiful plant made of vines and flat leaves. Can be <color=#FFA500>Recycled</color> into the <color=#66FFCC>Nano Lotus</color>. 
+
+Codex_Plant_General_001_DescKey,"A corrupted purple plant with long, delectable leaves. While extremely tasty, the leaves slightly increase <color=#FF0000>Nano Infection</color> when eaten."
+
+Codex_Plant_General_002_DescKey,"Its bright red color is a warning to stay away, but the fruit can be consumed. However, each bite slightly increases <color=#FF0000>Nano Infection</color>."
+
+Codex_Plant_General_004_DescKey,"A snakelike plant sprouting berries on its branches. They are pretty tasty, but slightly increase <color=#FF0000>Nano Infection</color> as well."

@@ -1,0 +1,390 @@
+Language,Default
+
+#,[ Quest: Main ]
+M_Q_01_Awaken,"Awaken"
+M_Q_01_Awaken_Desc,"Going out of the room." 
+M_Q_01_Guide_Move,"Going out of the room. (Use WASD or LMB to move)"
+
+M_Q_02_Equipment,Get Dressed
+M_Q_02_Equipment_Desc,"Doctor Shahane has clothes for you inside a clinic box behind the medical curtain. Open the box, grab the clothes, and put them on. Don't worry; it's not stealing. She said it was okay."
+M_Q_02_Guide_Equipment,Equip clothes from a box located in the clinic.
+
+M_Q_03_AlpOfPub,Alp's Pub
+M_Q_03_AlpOfPub_Desc,"Doctor Shahane suggests you visit Alp's Pub to meet the proprietor, Alp Demir, and get something in your belly. He's a pleasant guy but doesn't often give food away for free. The pub is located down the leftmost stairs in the Hub."
+M_Q_03_Guide_Talk_Alp_01,Ask Alp for a meal.
+M_Q_03_Guide_Inventory_RatTail,Collect rat tails from the basement.
+M_Q_03_Guide_Talk_Alp_02,Give rat tails to Alp.
+
+M_Q_04_00_Register,Camp Huygen Registry
+M_Q_04_00_Register_Desc,"Feeling a bit disconnected? You can rectify this by registering in the camp's systems! Find David at the Supply Depot for processing. Access The Supply Depot by using the rightmost stairs in Hub. David is a busy man, so you'll need to check in first."
+M_Q_04_00_Guide_David,Check in with Supply Depot Reception.
+
+M_Q_04_01_Production,Item Production
+M_Q_04_01_Production_Desc,"David wants to test your ability to Recycle, Research, and Craft items. Mastering this skill is vital to making it in Camp Huygen, so make sure you take this seriously."
+
+M_Q_04_01_Guide_PutInJunk,Put junk in Storage.
+M_Q_04_01_Guide_Recycle,Recycle junk. {KeyboardControl_Production}
+M_Q_04_01_Guide_PutInBluePrint,Put Blueprint in storage.
+M_Q_04_01_Guide_Research,Research blueprint. {KeyboardControl_Production}
+M_Q_04_01_Guide_Craft,Craft item. {KeyboardControl_Production}
+M_Q_04_01_Guide_Inventory,Move crafted item from Storage to your bag.
+
+M_Q_05_Room,Get a Room
+M_Q_05_Room_Desc,"It's getting late, and you need a bed... David suggests talking to Mr. Lao, who might have a spare room for you. He can be found on the Residential level. Go now, before you fall asleep in the hallway."
+
+M_Q_05_Guide_Talk_Lao,Ask Mr. Lao about a room.
+M_Q_05_Guide_Door,Unlock door.
+M_Q_05_Guide_UseBed,Go to sleep.
+
+M_Q_06_Work_01_Mushroom,A Meal Without Mushrooms
+M_Q_06_Work_01_Mushroom_Desc,"Credits make the world go round, so finding a job is priority #1. Alp might have another job you can take, as Mr. Lao suggested. Hopefully, it involves more food... Alp's a great cook."
+
+M_Q_06_Guide_Talk_Alp_01,Talk to Alp about another job.
+M_Q_06_Guide_Inventory_Mushroom,Collect Cave Mushrooms.
+M_Q_06_Guide_Talk_Alp_02,Bring mushrooms to Alp.
+
+M_Q_07_Work_02_Mineral,Feed the Machine
+M_Q_07_Work_02_Mineral_Desc,"Litzi Vogl needs someone to collect minerals for the camp's power supply, and why can't it be you? She can be found at the Power Plant on the bottom floor of the Generator Facility, located northwest of camp. Maybe she'll give you the job. "
+
+M_Q_07_Guide_Talk_Litzi_01,Talk to Litzi about a job.
+M_Q_07_Guide_Inventory_Methane,Collect Methane Ore from the cave.
+M_Q_07_Guide_Talk_Litzi_02,Bring Methane Ore to Litzi.
+
+M_Q_08_JudithNote,Judith's Notebook
+M_Q_08_JudithNote_Desc,"Judith wants you to return to the cave (again) to retrieve her lost notebook. Maybe someone taped a sign that says 'Delivery Service' on your back? It's good money, at least. "
+
+M_Q_08_Guide_Talk_Judith_01,Talk to Judith about a job.
+M_Q_08_Guide_Inventory_JudithNote,Find Judith's Notebook in the cave.
+M_Q_08_Guide_Talk_Judith_02,Bring notebook to Judith.
+
+M_Q_09_Nanobot,Nanobot Activation
+M_Q_09_Nanobot_Desc,"From her urgent message, Doctor Shahane wants to speak with you about something very important. Could it be about your past? Your health? The effects of cryostasis? There's only one way to find out..."
+M_Q_09_Guide_Talk_Ida,Talk to Ida.
+
+M_Q_10_MineControl,A 'Miner' Problem
+M_Q_10_MineControl_Desc,"Ida says you (and only you) can enter the mine after your nanobot upgrade, but nothing's ever easy around here. Speak with Tau Mogorosi at Mine Control (east of camp) for your next steps."
+
+M_Q_10_Guide_Talk_Tau_01,Talk to Tau about the mines.
+M_Q_10_Guide_Talk_Judith_01,Talk to Judith about Tau's mining equipment.
+M_Q_10_Guide_Talk_Judith_02,Buy equipment from Judith for {cec22ced-cec0-440e-9c4e-ff738c0664c5} credits.
+M_Q_10_Guide_Credit,*Buy equipment from Judith for {cec22ced-cec0-440e-9c4e-ff738c0664c5} credits.
+M_Q_10_Guide_Talk_Tau_02,Return to Tau.
+M_Q_10_Guide_Talk_Tau_03,Talk to Tau.
+
+M_Q_23_ClueOfPast,Clues From the Past
+M_Q_23_ClueOfPast_Desc,This could change everything! You've uncovered evidence that the underground facility beneath Camp Huygen is much larger than it initially appeared. Exploring the various levels may uncover clues to what happened to the previous TECC settlement.
+M_Q_23_Guide_Location,Get to the Underground Facility.
+
+M_Q_25_ControlCenter,Control Center
+M_Q_25_ControlCenter_Desc,"You need to endure a long journey and many obstacles to get to the Control Center on Basement Level 5. Since it's the heart of the first TECC colony, there's bound to be loads of useful information there, right?"
+M_Q_25_Guide_Location,Get to the Control Center.
+M_Q_25_Guide_Inventory_Device,Obtain TECC Log.
+
+M_Q_26_Assembly02,Restoring the Data
+M_Q_26_Assembly02_Desc,"You found a damaged TECC Data Log in the old Control Center. It's not useful in its current condition, but Judith can help restore the data. Hey... you better go see her right away!"
+M_Q_26_Guide_Talk_Judith,Bring TECC Log to Judith.
+
+M_Q_31_Train,Escape by Train
+M_Q_31_Train_Desc,"Reports have confirmed a TECC Supply Train on Level 7. It might be possible for you to fix it and ride it all the way to TECC HQ, but you'd have to go it alone. Investigate the train and see if it's really as easy as it sounds."
+M_Q_31_Train_Guide_TrainFind,"Find the Train"
+M_Q_31_Train_Guide_Investigate,"Investigate the train."
+M_Q_31_Train_Guide_Prepare,"Preparing the train for departure. (Fill the fuel and open the tracks.)"
+M_Q_31_Train_Guide_FillFuel,"Install the Train's Fuel Canister."
+M_Q_31_Train_Guide_Depart,"The departure of a train."
+
+M_Q_32_Train_Fuel,Train Fuel
+M_Q_32_Train_Fuel_Desc,"Machines don't run without fuel, and the supply train is currently bone dry. Its emergency power system requires a unique canister, so at least you know how to resolve the issue."
+M_Q_32_Guide_ResearchFuel,Research Empty Fuel Canister.
+
+M_Q_33_Train_Gate,Through the Barricade
+M_Q_33_Train_Gate_Desc,"The train can only depart if you lower the security barricades that keep it in place. The terminal requires the previous Warden's keycard, so it's time to go hunting. "
+M_Q_33_Guide_FindKey,Obtain Warden Keycard.
+M_Q_33_Guide_OpenGate,Open Train Barricade.
+M_Q_31_Guide_TrainDepart,Depart to TECC HQ
+
+M_Q_41_AirShip,Escape by Airship
+M_Q_41_AirShip_Desc,"If you want to leave for TECC HQ and take all your friends in Camp Huygen with you, the airship is the only option. Cyrus is the airship expert, so start by talking with him."
+M_Q_41_Guide_AirShipPrepare_Talk_01,Talk to Cyrus.
+M_Q_41_Guide_AirShipPrepare_Upgrade,Craft the new airship.
+M_Q_41_Guide_AirShipPrepare_Talk_02,"Talk to Cyrus, take off the plane."
+
+M_Q_42_AirShip_Navigation,Navigation Module
+M_Q_42_AirShip_Navigation_Desc,"The airship is repairable, but you'll still need to steer it. Cyrus says he needs a working navigation module, but sadly, he provided little to no direction on where to find one. Good luck!"
+M_Q_42_Guide_Navigation,Obtain Navigation Module.
+
+M_Q_43_AirShip_EnergyConverter,Energy Converter
+M_Q_43_AirShip_EnergyConverter_Desc,"Even after repair, the airship still requires massive amounts of power to get to TECC HQ. Cyrus needs a specific hydrazine energy converter, and he says it's the most important piece of the airship puzzle. Better get one!"
+M_Q_43_Guide_EnergyConver,Obtain Energy Converter.
+M_Q_44_AirShip_Modify,Airship Modifications
+M_Q_44_AirShip_Modify_Desc,Cyrus requested several mandatory airship modifications to upgrade the hull and weight limits to accommodate everyone. Research these modifications once you have all the necessary materials.
+M_Q_44_Guide_AirShipModify,Complete Airship Modifications.
+M_Q_41_Guide_AirShipDepart,Talk to Cyrus to Depart for TECC HQ.
+
+M_Q_61_HeadQuarter,The Truth Behind TECC HQ
+M_Q_61_HeadQuarter_Desc,"After many trials, your journey has led to TECC HQ! Exploring the area should uncover what really happened on Titan and -if lucky- provide a way to escape. Either is good, but both would be great. "
+
+M_Q_61_Guide_Location,Explore TECC HQ.
+
+M_Q_70_Boss04,The Secret Weapon
+M_Q_70_Boss04_Desc,"The TECC AI became worse than the monster it sought to defeat and killed hundreds in the process. Its actions cannot be forgiven, and it must be destroyed. Draw your weapon!"
+M_Q_70_Guide_Boss04,Destroy the Titanian Prototype.
+
+M_Q_80_Boss05,Final Showdown
+M_Q_80_Boss05_Desc,"It was a tough fight, but you managed to defeat the Titanian prototype... and that just leaves the alien currently destroying its way through TECC HQ. Leaving it alive could lead to the death of millions, so you should probably take care of it."
+M_Q_81_Boss05,Final Showdown
+M_Q_81_Boss05_Desc,"Accepting the TECC AI's offer was a necessary evil and the only logical choice for permanently ridding Titan of the alien! Now it's time for the final battle, hopefully leading to your escape Titan with your life and saving humanity! So, yeah, no pressure."
+M_Q_81_Guide_Pod,Enter Modification Pod.
+M_Q_80_Guide_Boss05_Location,- Get to the Nanobot Factory
+M_Q_80_Guide_Boss05_Destroy,- Destroy Alien Creature
+
+
+#,[ Quest: Side ]
+Side_Q_Alexei,Become the Wolf
+Side_Q_Alexei_Desc,"Alexei says, 'Live like the wolf, howl like the wolf.' A wolf must rise to the apex predator position to become the perfect hunter. Alexei has tasked you with defeating every type of creature found on Titan. Only then will your howls be authentic. "
+Side_Q_Alexei_BecomeTheWolf_Talk_Alexei_01,Talk to Alexei.
+Side_Q_Alexei_BecomeTheWolf_CreatureLog,Log codex by Researching the monster spoils.
+Side_Q_Alexei_BecomeTheWolf_Talk_Alexei_02,Return to Alexei.
+
+Side_Q_Alp_JozefsFavorite,Jozef's Favorite
+Side_Q_Alp_JozefsFavorite_Desc,"Alp hasn't cooked a single meal that Jozef can stomach, and it's driving him batty. He's enlisted your help to convince Jozef to share his favorite goulash recipe, so Alp can cook something Jozef will love! How good of a spy are you?"
+Side_Q_Alp_JozefsFavorite_Talk_Alp_01,Talk to Alp.
+Side_Q_Alp_JozefsFavorite_Talk_Jozef_02,Talk to Jozef.
+Side_Q_Alp_JozefsFavorite_Talk_Alp_03,Return to Alp.
+
+Side_Q_Brett_GeodeVibes,Geode Vibes
+Side_Q_Brett_GeodeVibes_Desc,"The underground is filled with hundreds of untold dangers, but one can also find true elegance in the rare crevices. Brett has asked you to gather geodes for his personal collection since you're the only one who can enter the mines. Please let him live vicariously through you!"
+Side_Q_Brett_Geode_Talk_01,Talk to Brett.
+Side_Q_Brett_Geode_Inventory,Collect geodes.
+Side_Q_Brett_Geode_Talk_02,Return to Brett.
+
+Side_Q_Cristhyan_GoingPlumb,Going Plumb
+Side_Q_Cristhyan_GoingPlumb_Desc,"Since the Reactor Room quakes, Camp Huygen's sanitation system has suffered several backups. By sharing the load, you and Cristhyan can quickly check out the major plumbing locations for any apparent issues. You might want to bring a raincoat, just in case."
+Side_Q_Cristhyan_Talk_01,Talk to Cristhyan.
+Side_Q_Cristhyan_Check_PipePanel,Check the water system panel.
+Side_Q_Cristhyan_Craft_Sealant_Canister,Craft the sealant canister.
+Side_Q_Cristhyan_Guide_Inventory_Sealant_Canister,Get the 'Sealant Canister' from personal storage.
+Side_Q_Cristhyan_Guide_Fix_Pipe,Repair the pipe.
+Side_Q_Cristhyan_Talk_02,Return to Cristhyan.
+Side_Q_Cristhyan_Failed,Failed to fix the pipe in time.
+
+Side_Q_Cyrus,Take to the Air 
+Side_Q_Cyrus_Desc,"Cyrus misses his days as a pilot and soaring through the clouds. At this point, his mental state is even starting to affect his work. There has to be something you can do to raise his spirits, right? Maybe check in with Judith for some ideas."
+Side_Q_Cyrus_TakeAir_Talk_01_Cyrus,Talk to Cyrus.
+Side_Q_Cyrus_TakeAir_Talk_01_Judith,Talk to Judith.
+Side_Q_Cyrus_ReadyToWork,Collect the materials for Judith.
+Side_Q_Cyrus_TakeAir_Talk_02_Judith,Return to Judith.
+
+Side_Q_Dalton_BringingJustice,Bringing Justice
+Side_Q_Dalton_BringingJustice_Desc,"The evidence has piled up, and it's finally time to report Tau's crimes to Security. With their help and a compelling case, Tau should be put out of business for good. Dalton is the one who takes crime reports, and he's been looking for a reason to arrest Tau anyway."
+Side_Q_Dalton_BringingJustice_Guide_01,Talk to Dalton.
+Side_Q_Dalton_BringingJustice_Guide_Evidence_Collect,"<sprite name=Quest_Find_Item_Icon_002>Gather evidence and confront Tau."
+Side_Q_Dalton_BringingJustice_Guide_Evidence_Talk,"After collecting evidence of Tau's crime, talk to Dalton."
+Side_Q_Dalton_BringingJustice_Guide_02,"After collecting evidence of Tau's crime, talk to Dalton."
+Side_Q_Dalton_Rodrigo,Dear Rodrigo
+Side_Q_Dalton_Rodrigo_Desc,Find Rodrigo's body underground and retrieve his Omniscope data. Warning... it's not a pretty process. 
+Side_Q_Dalton_Rodrigo_Guide_01,Get Rodrigo's data.
+Side_Q_Dalton_Rodrigo_Guide_02,Talk to Dalton about data.
+Side_Q_Dalton_Rodrigo_Guide_03,Wait for Dalton's call.
+Side_Q_Dalton_Rodrigo_Guide_04,Talk to Dalton.
+
+Side_Q_Fang,Needs More Power
+Side_Q_Fang_02,Needs More Power Part 2
+Side_Q_Fang_03,Needs More Power Part 3
+Side_Q_Fang_Desc,"Odette is trying to be Litzi's favorite apprentice by throwing a party, but Fang won't go down without a fight. He has developed a series of power dampeners that should catapult him to Litzi's #1 apprentice position, but he needs your help to place them in key positions at underground Power Relays. To get started, place dampeners on Levels 1-3. "
+Side_Q_Fang_02_Desc,"Good job with the power dampeners so far. Fang is excited to prove his device is the best! Keep going, and place dampeners on Levels 4-6 now. "
+Side_Q_Fang_03_Desc,"Almost done! We just need the final dampeners placed on the Power Relays on levels 7-10, and the power grid is fully connected. Fang is waiting!  "
+Side_Q_Fang_MorePower_Talk_01_Fang,Talk to Fang.
+Side_Q_Fang_MorePower_Craft_Dampener,Craft the dampener.
+Side_Q_Fang_MorePower_Install_Dampener,Install the dampeners.
+Side_Q_Fang_MorePower_Talk_02_Fang,Return to Fang.
+
+Side_Q_Freyja,The Beauty Beneath
+Side_Q_Freyja_Desc,Freyja sees a hint of beauty in everything and hopes you see the world in the same way. She has tasked you with taking snapshots while you traverse the underground mines. Can you find beauty in all the chaos?
+Side_Q_Freyja_TheBeauty_Talk_Freyja_01,Talk to Freyja.
+Side_Q_Freyja_TheBeauty_Inven_Camera_01,Get Freyja's camera.
+Side_Q_Freyja_TheBeauty_Location_01,Take the pictures.
+Side_Q_Freyja_TheBeauty_Talk_Freyja_02,Return to Freyja.
+
+Side_Q_Grace_Ancestry,Ancestry
+Side_Q_Grace_Ancestry_Desc,"Grace's brother served as a miner in the first TECC settlement, so she has asked you to find his ID Badge as a memento. What could his final moments have been like? It's up to you to find out. "
+Side_Q_Grace_Ancestry_Guide_01,Talk to Grace.
+Side_Q_Grace_Ancestry_Guide_02,Find Jacob's ID badge.
+Side_Q_Grace_Ancestry_Guide_03,Return to Grace.
+
+Side_Q_Idrissi,Maintenance
+Side_Q_Idrissi_Desc,"Word on the street is that you need work, and Idrissi has just the job. Grab the diagnostic datapad from Idrissi, then visit maintenance panels around camp to see if anything needs fixing. If they don't, great! If they do, then it's on you to repair the problem. Idrissi pays well if you do a good job."
+Side_Q_Idrissi_01,Maintenance Part 1
+Side_Q_Idrissi_02,Maintenance Part 2
+Side_Q_Idrissi_03,Maintenance Part 3
+Side_Q_Idrissi_Desc_01,"Set of maintenance panels to check is the Airship, Generator, and Engineering levels."
+Side_Q_Idrissi_Desc_02,"Idrissi won't be 'happy' until you're finished. You still have the panels at the Pub, Clinic, Residential, Supply, and Security left to do, but then you're done!"
+Side_Q_Idrissi_Desc_03,"Idrissi says the most urgent panels to check would be those at the Farm, Mine Control, and Water Station. Hit those first."
+
+Side_Q_Maintenance_Talk_01_Idrissi,Talk to Idrissi.
+Side_Q_Maintenance_Panel_All_Confirm,Check all maintenance panels.
+Side_Q_Maintenance_Panel_Confirm,Check maintenance panels.
+Side_Q_Maintenance_Panel_Fix_WaterStation,Repair the maintenance panel.(Item: Nozzle)
+Side_Q_Maintenance_Panel_Fix_Engineering,Repair the maintenance panel.(Item: Oil Canister)
+Side_Q_Maintenance_Panel_Fix_Security,Repair the maintenance panel.(Item: Wire)
+Side_Q_Maintenance_Talk_02_Idrissi,Return to Idrissi
+Side_Q_Maintenance_Inven_DataPad,"Get Idrissi's Pad in inventory."
+
+Side_Q_Jozef_GameNight,Game Night
+Side_Q_Jozef_GameNight_Desc,"Jozef is known for throwing Camp Huygen's famous Game Night, and only a select few are ever invited. Tonight, you are one of the lucky ones! There's just one twist... YOU are also responsible for inviting other players to fill a table. You'll have the chance to win big, but only if you're popular. "
+Side_Q_Jozef_GameNight_Guide_01,Talk to Jozef.
+Side_Q_Jozef_GameNight_Guide_02,Invite at least 3 people to play.
+Side_Q_Jozef_GameNight_Guide_03,Talk to Jozef to begin the game night.
+Side_Q_Jozef_GameNight_Guide_04,Talk to Jozef after the game.
+
+Side_Q_Katerina_MissingShipments,Missing Shipments
+Side_Q_Katerina_MissingShipments_Desc,"Three crates of indispensable supplies are missing from the Supply Depot. Katerina is keeping this whole affair quiet, so she's asked you to help locate and retrieve the crates. Your <#FFA500>'Discover'</color> Perk may come in handy for this. "
+Side_Q_Katerina_MissingShipments_Guide_01,Talk to Katerina.
+Side_Q_Katerina_MissingShipments_Guide_02,Find missing shipments. (Use the 'Discover' Perk.)
+Side_Q_Katerina_MissingShipments_Guide_03,Return to Katerina.
+
+Side_Q_Martin_GettingToKnowYou,Getting to Know You
+Side_Q_Martin_GettingToKnowYou_Desc,"Martin has devised a few clever riddles based on the residents of Camp Huygen, and if you can answer them... you'll receive a treasure. If you get to know the others on Titan before giving your answers, you'll do fine."
+Side_Q_Martin_GettingToKnowYou_Talk_Martin_01,Talk to Martin.
+Side_Q_Martin_GettingToKnowYou_Talk_Martin_02,Return for Martin's next riddle.
+
+Side_Q_Miriam_RatTraps,Rat Traps
+Side_Q_Miriam_RatTraps_Desc,"Miriam is frantic and won't return to Alp's Pub! Even though you gave them a proper thrashing last time, the pub's basement rats are back, and you need to get rid of them again... this time, for good. We're gonna need a bigger rat trap!"
+Side_Q_Miriam_RatTraps_Talk_Miriam_01,Talk to Miriam.
+Side_Q_Miriam_RatTraps_Talk_Judith_01,Talk to Judith.
+Side_Q_Miriam_RatTraps_Craft_Trap,Craft the rat trap.
+Side_Q_Miriam_RatTraps_Inven,Get the rat trap.
+Side_Q_Miriam_RatTraps_Install_Basement,Setup the rat trap.
+Side_Q_Miriam_RatTraps_Talk_Miriam_02,Return to Miriam.
+
+Side_Q_Nina_NightToRemember,A Night to Remember
+Side_Q_Nina_NightToRemember_Desc,"Nina has always dreamed of having an evening of romance and dancing, but fate never let it become a reality. It's up to you to make her dreams come true and give her a night to remember. Will true love win? Who is the best suitor for the darling of the security team?"
+Side_Q_Nina_NightToRemember_Guide_01,Talk to Nina.
+Side_Q_Nina_NightToRemember_Guide_02,Confirm Nina's suitor.
+Side_Q_Nina_NightToRemember_Guide_03,Obtain rose from Seoyeon.
+Side_Q_Nina_NightToRemember_Guide_04,Obtain candle from David.
+Side_Q_Nina_NightToRemember_Guide_05,Speak with Miriam to use Alp's Pub.
+Side_Q_Nina_NightToRemember_Guide_06,Place Nina's note.
+
+Side_Q_Octavio,Passing Notes
+Side_Q_Octavio_desc,"Your next quest is a mission of LOVE! Octavio has yearned for a chance to woo the lovely Freyja, the girl of his dreams, and is convinced you can help him do just that. Playing Cupid isn't easy, though… Will you choose to help love blossom or let it wither on the vine?"
+Side_Q_Octavio_Note_Talk_Octavio_01,Talk to Octavio.
+Side_Q_Octavio_Note_Talk_Freyja_01,Give Octavio's note to Freyja.
+Side_Q_Octavio_Note_Talk_Octavio_02,Return to Octavio.
+Side_Q_Octavio_Note_Talk_Freyja_02,Talk to Freyja.
+Side_Q_Octavio_Note_Talk_Octavio_03,Return to Octavio
+Side_Q_Octavio_Note_Wait,Wait for Octavio's message.
+
+Side_Q_Odette,Surprise Party
+Side_Q_Odette_Desc,"Odette is planning a surprise party for Litzi and has recruited you to secretly gather the necessary party supplies. Litzi would surely catch on to her plans if she did it herself, which would ruin the surprise. Yet another fetch quest, but at least this one may end with a fun party!"
+Side_Q_Odette_Party_Talk_Odette_01,Talk to Odette.
+Side_Q_Odette_Party_Ready,Get the party items.
+Side_Q_Odette_Party_Talk_Miriam_01,Talk to Miriam for cake.
+Side_Q_Odette_Party_Cake,Get cake from the kitchen.
+Side_Q_Odette_Party_MixTape,Get mixtape from Octavio.
+Side_Q_Odette_Party_Talk_Grace_01,Get favors from Grace.
+Side_Q_Odette_Party_Favors,Find Grace's hidden favors.
+Side_Q_Odette_Party_Talk_Odette_02,Return to Odette.
+
+Side_Q_Pierre,Visual Prototype
+Side_Q_Pierre_Desc,"Pierre has been working on a new prototype that he thinks you'll really love. While he's keeping it a secret for now, Pierre's tasked you with gathering a few components to finish the design. Whatever you think it is, it's better than that!"
+Side_Q_Pierre_Prototype_Talk_01,Talk to Pierre.
+Side_Q_Pierre_Prototype_Inven,Get the materials for Pierre's prototype.
+Side_Q_Pierre_Prototype_Talk_02,Return to Pierre.
+
+Side_Q_Rana,Seeds for the Future
+Side_Q_Rana_Desc,"You're trampling on the old TECC settlers' graves with every step taken in the mines. Death is everywhere you look, but as fate would have it, Rana has asked you to find new life underground. Uncontaminated seeds can be found near the various Air Circulators if you look hard enough."
+Side_Q_Rana_Seeds_Talk_Rana_01,Talk to Rana.
+Side_Q_Rana_Seeds_Inventory_Seeds,Obtain uncontaminated seeds.
+Side_Q_Rana_Seeds_Talk_Rana_02,Return to Rana.
+
+Side_Q_Seble,Droning On
+Side_Q_Seble_Desc,"Drones were once the life's blood of the Titan mining operation, but that day is long gone after most of the drones were lost. Seble wants... no, NEEDs to fix her favorite drone since it was her only friend for a while. Explore the mines for parts to help repair her drone. "
+Side_Q_Seble_Talk_01,Talk to Seble.
+Side_Q_Seble_Invetory_Parts,Collect the drone parts.
+Side_Q_Seble_Talk_02,Return to Seble.
+
+Side_Q_Temir,Sinking Feeling
+Side_Q_Temir_Desc,"Temir made a breakthrough in his experimental thermodynamics research but needs to procure a heat sink to prove his theory. Heat sinks aren't exactly easy to come by, though, so how will you get one for him? The power plant is the most obvious place to check first."
+
+Side_Q_SinkingFleeling_Talk_Temir_01,Talk to Temir.
+Side_Q_SinkingFleeling_Talk_Litzi_01,Ask Litzi for a heat sink.
+Side_Q_SinkingFleeling_AnotherWay,Look for another way to obtain a heat sink.
+Side_Q_SinkingFleeling_Talk_Ulf_01,Talk to Ulf for a keycard.
+Side_Q_SinkingFleeling_Credit,Get Credits for the keycard.
+Side_Q_SinkingFleeling_Talk_Ulf_02,Talk to Ulf for a counterfeit keycard.
+Side_Q_SinkingFleeling_Unlocke_Door,Open the locked door to the heat sink room.
+Side_Q_SinkingFleeling_Inventory_HeatSink,Take the heat sink.
+Side_Q_SinkingFleeling_Talk_Temir_02,Return to Temir with a heat sink.
+Side_Q_SinkingFleeling_Wait_End,Wait for Temir's message.
+
+Side_Q_Ulf_SneakingIn,Sneaking In
+Side_Q_Ulf_SneakingIn_Desc,Ulf has gotten wind of Tau's behavior toward the mining team and wants revenge. He's hatched a two-pronged plan to get back at Tau to steal a sword from his office (usually under high security) and leave him a little smelly present. Perhaps there's even more to be found there?
+Side_Q_Ulf_SneakingIn_Guide_01,Talk to Ulf.
+Side_Q_Ulf_SneakingIn_Guide_02,Sneak into Tau's office.
+Side_Q_Ulf_SneakingIn_Guide_03,Spoil Tau's desk and swap the sword at his office.
+Side_Q_Ulf_SneakingIn_Guide_04,Return to Ulf.
+
+Side_Q_Ursula_LastDays,Last Days
+Side_Q_Ursula_LastDays_Desc,"Ursula's sickness advanced rapidly and finally caught up with her. Before she dies, Ursula has asked you to retrieve a flower native to Titan and a dry whiskey to remind her of her youth. Do it quickly, though! Who knows how much time she has left?"
+
+Side_Q_LastDays_Talk_Ursula_01,Talk to Ursula.
+Side_Q_LastDays_Inventory_01,Obtain flower and whiskey.
+Side_Q_LastDays_Talk_Ursula_02,Return to Ursula.
+Side_Q_LastDays_Inventory_02,Get the flower.
+Side_Q_LastDays_Talk_Ida_01,Talk to Ida about flower.
+Side_Q_LastDays_Wait,Wait for Ida's message.
+
+Side_Q_Vinh_ToBeTheBest,To Be the Best
+Side_Q_Vinh_ToBeTheBest_Desc,A challenge awaits you... Vinh has bested almost everyone at Camp Huygen in battle and has her sights on you as her next opponent. Only by walking the way of the warrior can you dream of being strong enough to beat her. Train hard!
+Side_Q_Vinh_Tobethebest_Talk_01,Talk to Vinh.
+Side_Q_Vinh_Tobethebest_Attribute_01,Base Stats reach 80 (combined).
+Side_Q_Vinh_Tobethebest_Attribute_02,Base Stats reach 120 (combined).
+Side_Q_Vinh_Tobethebest_Attribute_03,Base Stats reach 160 (combined).
+Side_Q_Vinh_Tobethebest_Talk_02,Return to Vinh.
+Side_Q_Vinh_Tobethebest_Win,Fight Vinh.
+
+Side_Q_Wirat_Meditation,Guided Meditation
+Side_Q_Wirat_Meditation_Desc,"Taking the time to reflect on prior actions often illuminates a path you have yet to walk. Wirat wants to perform a guided meditation with you to help center your spirit and clarify your future. He's going to need some supplies first, though. "
+Side_Q_Wirat_GuidedMetitation_Talk_Wirat_01,Talk to Wirat.
+Side_Q_Wirat_GuidedMetitation_Inventory_Candle,Obtain candle from David's Emporium.
+Side_Q_Wirat_GuidedMetitation_Inventory_Incense,Obtain incense from the underground church.
+Side_Q_Wirat_GuidedMetitation_Inventory,Add to Inventory.
+Side_Q_Wirat_GuidedMetitation_Guide_Talk_Wirat_02,Return to Wirat.
+
+#,[ Guide ]
+Guide_Q_NanoInfection,"Nano Infection?"
+Guide_Q_NanoInfection_Desc,"Talk to Ida about Nano Infection Cure."
+Guide_Q_NanoInfection_Guide_Talk_01,"Talk to Ida."
+
+Guide_Q_PowerRelayFuse,Power Relay Repair
+Guide_Q_PowerRelayFuse_Desc,You've located the first of a series of Power Relays connected to the underground power grid. Find a way to power them up again to supply the energy needed to use the elevator. That's certainly a better option than counting on Tau to bring you up every time.
+
+Guide_Q_Power_Guide_Direction,Find another Power Relay. ( <sprite name=Quest_Find_Item_Icon_002> <sprite name=PowerRelay_Icon_Mini> )
+Guide_Q_Power_Guide_Inventory_BrokenFuse,Obtain Broken Fuse.
+Guide_Q_Power_Guide_Research_BrokenFuse,Research Broken Fuse.
+
+Guide_Q_AirCirculator,Air Circulator Repair
+Guide_Q_AirCirculator_Desc,"The Air Circulator you found is in disrepair. If fixed, it can lower underground contamination levels and make your life much easier. Breathing without pain is a beautiful goal. "
+
+Guide_Q_Air_Guide_Direction,Find another Air Circulator. ( <sprite name=Quest_Find_Item_Icon_002> <sprite name=AirCirculator_Icon_Mini> )
+Guide_Q_Air_Guide_Research,Research Broken Filter.
+
+Guide_Q_NanoStone,NanoStone
+Guide_Q_NanoStone_Desc,"Defeating monsters usually just makes dead monsters. This time, however, you found a strange crystal in the remains. Judith might know how to make something useful out of this after some Research."
+Guide_Q_NanoStone_Guide_Reseach,Research the NanoStone. ( <sprite name="Quest_Research_Item_Icon_002"> <sprite name="Nano_Stone_Mini_001"><sprite name="Nano_Stone_Mini_002"><sprite name="Nano_Stone_Mini_003"><sprite name="Nano_Stone_Mini_004">)
+
+Guide_Q_Invasion,Panic! at the Reactor Room
+Guide_Q_Invasion_Desc,"The Reactor Room was already damaged, but now it's under siege by waves of monsters. Get there quickly, and use strategy to defeat the baddies before they can destroy the reactor. If that happens, the whole camp goes up in flames. "
+Guide_Q_Invasion_Guide_Location,Get to the Reactor Room.
+
+Guide_Q_10_Resource_01_Power_NameKey,We Need More Power!
+Guide_Q_10_Resource_01_Power_DescKey,"Litzi says the Camp is running out of power, which could leave all the residents in the dark. Monsters love the dark… You need to generate more energy now!"
+Guide_Q_10_Resource_01_Power_Guide_01,Raise Camp Power to {e6516e5c-7207-4f99-a80e-39ed71b3f04c}.
+
+Guide_Q_10_Resource_02_Water_NameKey,Is Your Water Running?
+Guide_Q_10_Resource_02_Water_DescKey,"You got a message from Earl about the water reserves running low. It only takes 3 days to die without water, so you better get on top of the problem."
+Guide_Q_10_Resource_02_Water_Guide_01,Raise Camp Water to {6a691866-7656-4b08-a262-0da9df66ba1f}.
+
+Guide_Q_10_Resource_03_Ration_NameKey,"Feed Me, Some More!"
+Guide_Q_10_Resource_03_Ration_DescKey,Feeling hungry? So is everyone else in Camp Huygen! Seoyeon reports a lack of rations and needs you to gather more edibles from the mine. 
+Guide_Q_10_Resource_03_Ration_Guide_01,Raise Camp Rations to {78cb0b2c-6544-4d11-b307-4f46f90ecd8c}.

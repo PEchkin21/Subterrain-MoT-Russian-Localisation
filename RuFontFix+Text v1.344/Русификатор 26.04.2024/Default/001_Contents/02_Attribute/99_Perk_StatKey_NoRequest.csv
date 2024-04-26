@@ -1,0 +1,410 @@
+Language,Default
+
+#,[ One Hand Melee ]
+#,( Passive )
+OHM_P_Mastery_StatKey_001,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy + ( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Dodge_Icon> Dodge Chance + ( 0.5 <#FFA500>+ 0.15 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 0.5 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_P_Mastery_StatKey_002,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy + ( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Dodge_Icon> Dodge Chance + ( 1.0 <#FFA500>+ 0.15 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 1.1 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_P_Mastery_StatKey_003,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy + ( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Dodge_Icon> Dodge Chance + ( 1.5 <#FFA500>+ 0.15 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 1.8 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_P_Mastery_StatKey_004,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy + ( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Dodge_Icon> Dodge Chance + ( 2.0 <#FFA500>+ 0.15 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 2.6 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_P_Mastery_StatKey_005,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Dodge_Icon> Dodge Chance + ( 3.0 <#FFA500>+ 0.15 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 3.5 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+
+OHM_P_ShieldMastery_StatKey_001,<#66FFCC><sprite name=blockChance_Icon> Block Chance + ( 3 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=blockPower_Icon> Block Power + ( 3 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )
+OHM_P_ShieldMastery_StatKey_002,<#66FFCC><sprite name=blockChance_Icon> Block Chance + ( 6 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=blockPower_Icon> Block Power + ( 6 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )
+OHM_P_ShieldMastery_StatKey_003,<#66FFCC><sprite name=blockChance_Icon> Block Chance + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=blockPower_Icon> Block Power + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )
+
+OHM_P_BlockStrike_StatKey_001,[ Immediate Counter Chance ]\n<sprite name=Counter_Icon> <#66FFCC>Counter Chance + ( 40 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_P_BlockStrike_StatKey_002,[ Immediate Counter Chance ]\n<sprite name=Counter_Icon> <#66FFCC>Counter Chance + ( 60 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_P_BlockStrike_StatKey_003,[ Immediate Counter Chance ]\n<sprite name=Counter_Icon> <#66FFCC>Counter Chance + ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+
+OHM_P_IntensiveCounter_StatKey_001,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 40 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Info_KnockBackTile_Icon> Knockback Tile: 2</color>\n<sprite name=Trait_State_Confusion_icon><#FFFF00> Confusion </color><#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+OHM_P_IntensiveCounter_StatKey_002,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 60 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Info_KnockBackTile_Icon> Knockback Tile: 2</color>\n<sprite name=Trait_State_Confusion_icon><#FFFF00> Confusion </color><#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+OHM_P_IntensiveCounter_StatKey_003,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=Info_KnockBackTile_Icon> Knockback Tile: 2</color>\n<sprite name=Trait_State_Confusion_icon><#FFFF00> Confusion </color><#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+
+OHM_P_Concussion_StatKey_001,<#66FFCC><sprite name=CriticalChance_Icon> Critical Chance + ( 1.5 <#FFA500>+ 0.3 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<sprite name=Trait_State_Disorient_icon> <#FFFF00>Dizzy </color><#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+OHM_P_Concussion_StatKey_002,<#66FFCC><sprite name=CriticalChance_Icon> Critical Chance + ( 3.0 <#FFA500>+ 0.3 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<sprite name=Trait_State_Disorient_icon> <#FFFF00>Dizzy </color><#886A35>( Duration <sprite name=Turn_Icon>8 )</color>
+OHM_P_Concussion_StatKey_003,<#66FFCC><sprite name=CriticalChance_Icon> Critical Chance + ( 6.0 <#FFA500>+ 0.3 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<sprite name=Trait_State_Disorient_icon> <#FFFF00>Dizzy </color><#886A35>( Duration <sprite name=Turn_Icon>10 )</color>
+
+#,( Active )
+OHM_A_UpperHand_Desc_001,[ On Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 10 <#FFA500>+ 2 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+OHM_A_UpperHand_Desc_002,[ On Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 17 <#FFA500>+ 2 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+OHM_A_UpperHand_Desc_003,[ On Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 25 <#FFA500>+ 2 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+
+OHM_A_ReadyToCounter_StatKey_001,<#886A35>( Instantly )</color><sprite name=maxAdrenaline_Icon><#66FFCC> Adrenaline +2</color>\n<sprite name=Counter_Icon><#66FFCC> Counter Chance + ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+OHM_A_ReadyToCounter_StatKey_002,<#886A35>( Instantly )</color><sprite name=maxAdrenaline_Icon><#66FFCC> Adrenaline +3</color>\n<sprite name=Counter_Icon><#66FFCC> Counter Chance + ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+OHM_A_ReadyToCounter_StatKey_003,<#886A35>( Instantly )</color><sprite name=maxAdrenaline_Icon><#66FFCC> Adrenaline +4</color>\n<sprite name=Counter_Icon><#66FFCC> Counter Chance + ( 30 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+OHM_A_ReadyToCounter_StatKey_001_01,<sprite name=Counter_Icon><#66FFCC> Counter Chance + ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_A_ReadyToCounter_StatKey_002_01,<sprite name=Counter_Icon><#66FFCC> Counter Chance + ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+OHM_A_ReadyToCounter_StatKey_003_01,<sprite name=Counter_Icon><#66FFCC> Counter Chance + ( 30 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>
+
+OHM_A_ShieldAttack_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage ( 4 <#FFA500>x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=knockbackDamage_Icon> Knockback Damage +20~30</color>\n<sprite name=Trait_State_Stun_icon><#FFFF00> Stun</color> <#886A35>( Duration <sprite name=Turn_Icon>2 )</color>
+OHM_A_ShieldAttack_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage ( 5 <#FFA500>x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=knockbackDamage_Icon> Knockback Damage +35~50</color>\n<sprite name=Trait_State_Stun_icon><#FFFF00> Stun</color> <#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+OHM_A_ShieldAttack_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage ( 6 <#FFA500>x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%\n<sprite name=knockbackDamage_Icon> Knockback Damage +50~65</color>\n<sprite name=Trait_State_Stun_icon><#FFFF00> Stun</color> <#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+
+OHM_A_CombinationAttack_StatKey_001,[ Per Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-50)</color> <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#66FFCC><sprite name=Info_MoveDistance_Icon> Move Distance: 2 Tile.\n<sprite name=Info_AttackCount_Icon> Attack Count: 3 Times.</color>
+OHM_A_CombinationAttack_StatKey_002,[ Per Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-40)</color> <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#66FFCC><sprite name=Info_MoveDistance_Icon> Move Distance: 3 Tile.\n<sprite name=Info_AttackCount_Icon> Attack Count: 3 Times.</color>
+OHM_A_CombinationAttack_StatKey_003,[ Per Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-30)</color> <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<#66FFCC><sprite name=Info_MoveDistance_Icon> Move Distance: 4 Tile.\n<sprite name=Info_AttackCount_Icon> Attack Count: 3 Times.</color>
+
+OHM_A_SawshankBoomerang_StatKey_001,[ Per Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-60)</color> <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<sprite name=Info_DistanceRange_Icon> Distance: 4 Tile.\n<sprite name=Info_AttackCount_Icon> Attack Count: 4 Times.</color>
+OHM_A_SawshankBoomerang_StatKey_002,[ Per Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-50)</color> <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<sprite name=Info_DistanceRange_Icon> Distance: 4 Tile.\n<sprite name=Info_AttackCount_Icon> Attack Count: 4 Times.</color>
+OHM_A_SawshankBoomerang_StatKey_003,[ Per Attack ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-40)</color> <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHM_Mini> One Hand Melee</color> )%</color>\n<sprite name=Info_DistanceRange_Icon> Distance: 4 Tile.\n<sprite name=Info_AttackCount_Icon> Attack Count: 4 Times.</color>
+
+
+#,[ Two Hand Melee ]
+#,( Passive )
+
+THM_P_Mastery_StatKey_001,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy +( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )% \n<sprite name=MeleeCriticalEfficiency_Icon> Melee Critical Efficiency + ( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_Mastery_StatKey_002,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy +( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )% \n<sprite name=MeleeCriticalEfficiency_Icon> Melee Critical Efficiency + ( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_Mastery_StatKey_003,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy +( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )% \n<sprite name=MeleeCriticalEfficiency_Icon> Melee Critical Efficiency + ( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_Mastery_StatKey_004,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy +( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )% \n<sprite name=MeleeCriticalEfficiency_Icon> Melee Critical Efficiency + ( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_Mastery_StatKey_005,<#66FFCC><sprite name=MeleeAccuracy_Icon> Melee Accuracy +( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )% \n<sprite name=MeleeCriticalEfficiency_Icon> Melee Critical Efficiency + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+
+THM_P_InsideOut_StatKey_001,<#66FFCC>[ <sprite name=injuriedDamage_Icon> Injury Damage / <sprite name=fractureDamage_Icon> Fracture Damage ]\n+ ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_InsideOut_StatKey_002,<#66FFCC>[ <sprite name=injuriedDamage_Icon> Injury Damage / <sprite name=fractureDamage_Icon> Fracture Damage ]\n+ ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_InsideOut_StatKey_003,<#66FFCC>[ <sprite name=injuriedDamage_Icon> Injury Damage / <sprite name=fractureDamage_Icon> Fracture Damage ]\n+ ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+
+THM_P_ArenalineMaster_StatKey_001,( On Enemy Kill )\n<sprite name=maxAdrenaline_Icon><#66FFCC>Adrenaline +50%</color>\n( On Combat Ended )\n<#66FFCC><sprite name=maxAdrenaline_Icon> Reduced Adrenaline Decrease Rate -20% ( Per Turn )</color>
+THM_P_ArenalineMaster_StatKey_002,( On Enemy Kill )\n<sprite name=maxAdrenaline_Icon><#66FFCC>Adrenaline +100%</color>\n( On Combat Ended )\n<#66FFCC><sprite name=maxAdrenaline_Icon> Reduced Adrenaline Decrease Rate -40% ( Per Turn )</color>
+THM_P_ArenalineMaster_StatKey_003,( On Enemy Kill )\n<sprite name=maxAdrenaline_Icon><#66FFCC>Adrenaline +150%</color>\n( On Combat Ended )\n<#66FFCC><sprite name=maxAdrenaline_Icon> Reduced Adrenaline Decrease Rate -60% ( Per Turn )</color>
+
+THM_P_IntensiveStand_StatKey_001,[ When 'Adrenaline' is greater than 6 ]\n<sprite name=meleeDamage_Icon><#66FFCC> Melee Damage + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )</color>
+THM_P_IntensiveStand_StatKey_002,[ When 'Adrenaline' is greater than 6 ]\n<sprite name=meleeDamage_Icon><#66FFCC> Melee Damage + ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )</color>
+THM_P_IntensiveStand_StatKey_003,[ When 'Adrenaline' is greater than 6 ]\n<sprite name=meleeDamage_Icon><#66FFCC> Melee Damage + ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )</color>
+
+THM_P_QuickHand_StatKey_001,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: + ( 40 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_QuickHand_StatKey_002,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: + ( 60 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_P_QuickHand_StatKey_003,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: + ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+
+#,( Active )
+THM_A_HitHard_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 35 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=knockbackDamage_Icon> Knockback Damage +20~35</color>
+THM_A_HitHard_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 70 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=knockbackDamage_Icon> Knockback Damage +35~50</color>
+THM_A_HitHard_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 110 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=knockbackDamage_Icon> Knockback Damage +45~60</color>
+
+THM_A_Tension_StatKey_001,<#886A35>( Instantly )</color><sprite name=maxAdrenaline_Icon><#66FFCC> Adrenaline +2</color>\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 10 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+THM_A_Tension_StatKey_002,<#886A35>( Instantly )</color><sprite name=maxAdrenaline_Icon><#66FFCC> Adrenaline +3</color>\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 20 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+THM_A_Tension_StatKey_003,<#886A35>( Instantly )</color><sprite name=maxAdrenaline_Icon><#66FFCC> Adrenaline +4</color>\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 30 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+THM_A_Tension_StatKey_004,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 10 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color><#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+THM_A_Tension_StatKey_005,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 20 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color><#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+THM_A_Tension_StatKey_006,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 30 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color><#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+
+THM_A_BrutalSmash_StatKey_001,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 35 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_A_BrutalSmash_StatKey_002,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 75 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+THM_A_BrutalSmash_StatKey_003,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 120 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%</color>
+
+THM_A_RushBash_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 40 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=Info_MoveDistance_Icon> Move Distance: 3 Tiles</color>
+THM_A_RushBash_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 80 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=Info_MoveDistance_Icon> Move Distance: 4 Tiles</color>
+THM_A_RushBash_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 125 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=Info_MoveDistance_Icon> Move Distance: 5 Tiles</color>
+
+THM_A_BigSwing_StatKey_001,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 30 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=Info_Area_Icon> Range: 3 Adjacent Tiles.</color>
+THM_A_BigSwing_StatKey_002,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 60 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=Info_Area_Icon> Range: 4 Adjacent Tiles.</color>
+THM_A_BigSwing_StatKey_003,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 95 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_THM_Mini> Two Hand Melee</color> )%\n<sprite name=Info_Area_Icon> Range: 3x3\n<sprite name=Info_DistanceRange_Icon> Distance: 5 Adjacent Tiles</color>
+
+
+#,[ One Hand Range ]
+#,( Passive )
+
+OHR_P_Mastery_StatKey_001,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy +( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 0.5 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_Mastery_StatKey_002,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy +( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 1.1 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_Mastery_StatKey_003,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy +( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 1.8 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_Mastery_StatKey_004,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy +( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 2.6 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_Mastery_StatKey_005,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy +( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 3.5 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+
+OHR_P_PistolTechnician_StatKey_001,<sprite name=JammingChance_Icon><#66FFCC> Jamming Chance -3%\n<sprite name=Durability> Chance for preserving durability: ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_PistolTechnician_StatKey_002,<sprite name=JammingChance_Icon><#66FFCC> Jamming Chance -6%\n<sprite name=Durability> Chance for preserving durability: ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_PistolTechnician_StatKey_003,<sprite name=JammingChance_Icon><#66FFCC> Jamming Chance -10%\n<sprite name=Durability> Chance for preserving durability: ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+
+OHR_P_Reload_StatKey_001,<sprite name=Info_PistolAmmo_Icon><#66FFCC> (Pistol) Additional Ammo Capacity +1\n<sprite name=Info_TriggerChance_Icon> Chance for preserving a turn after reload: ( 40 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_Reload_StatKey_002,<sprite name=Info_PistolAmmo_Icon><#66FFCC> (Pistol) Additional Ammo Capacity +2\n<sprite name=Info_TriggerChance_Icon> Chance for preserving a turn after reload: ( 60 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+OHR_P_Reload_StatKey_003,<sprite name=Info_PistolAmmo_Icon><#66FFCC> (Pistol) Additional Ammo Capacity +3\n<sprite name=Info_TriggerChance_Icon> Chance for preserving a turn after reload: ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>
+
+OHR_P_SmoothDraw_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )</color>
+OHR_P_SmoothDraw_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )</color>
+OHR_P_SmoothDraw_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 30 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )</color>
+
+OHR_P_AccurateAim_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 2 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> <#FFFF00>+ 10 x <sprite name=RangeAccuracy_Icon> Range Accuracy</color> )</color>
+OHR_P_AccurateAim_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> <#FFFF00>+ 20 x <sprite name=RangeAccuracy_Icon> Range Accuracy</color> )</color>
+OHR_P_AccurateAim_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> <#FFFF00>+ 30 x <sprite name=RangeAccuracy_Icon> Range Accuracy</color> )</color>
+
+#,( Active )
+
+OHR_A_Target_StatKey_001,<#66FFCC><sprite name=Damage_Icon> Physical Damage +( 35 <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + 100%</color>
+OHR_A_Target_StatKey_002,<#66FFCC><sprite name=Damage_Icon> Physical Damage +( 55 <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + 100%</color>
+OHR_A_Target_StatKey_003,<#66FFCC><sprite name=Damage_Icon> Physical Damage +( 90 <#FFA500>+ 1.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + 100%</color>
+
+OHR_A_Hero_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + 25%</color>\n<#66FFCC> <sprite name=Dodge_Icon> Dodge Chance + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+OHR_A_Hero_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + 45%</color>\n<#66FFCC> <sprite name=Dodge_Icon> Dodge Chance + ( 9 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+OHR_A_Hero_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + 70%</color>\n<#66FFCC> <sprite name=Dodge_Icon> Dodge Chance + ( 15 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+
+OHR_A_MovingShot_StatKey_001,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ((-60) + <#FFA500>0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Info_MaxAttackCount_Icon> Max Attack Count: 3 Times.\n<sprite name=Info_MoveDistance_Icon> Move Distance: 2 Tiles</color>
+OHR_A_MovingShot_StatKey_002,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ((-50) + <#FFA500>0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Info_MaxAttackCount_Icon> Max Attack Count: 3 Times.\n<sprite name=Info_MoveDistance_Icon> Move Distance: 2 Tiles</color>
+OHR_A_MovingShot_StatKey_003,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ((-40) + <#FFA500>0.5 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=Info_MaxAttackCount_Icon> Max Attack Count: 3 Times.\n<sprite name=Info_MoveDistance_Icon> Move Distance: 2 Tiles</color>
+
+OHR_A_ChainBullet_StatKey_001,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 25 + <#FFA500>0.75 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=injuriedDamage_Icon> Injury Damage +20\n<sprite name=fractureDamage_Icon> Fracture Damage+20\n<sprite name=Info_ChainCount_Icon> Chain Count: 2 \n<sprite name=Info_ChainDistance_Icon> Chain Distance: 3 Tiles</color>
+OHR_A_ChainBullet_StatKey_002,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 50 + <#FFA500>0.75 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=injuriedDamage_Icon> Injury Damage +26\n<sprite name=fractureDamage_Icon> Fracture Damage+26\n<sprite name=Info_ChainCount_Icon> Chain Count: 3 \n<sprite name=Info_ChainDistance_Icon> Chain Distance: 3 Tiles</color>
+OHR_A_ChainBullet_StatKey_003,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 85 + <#FFA500>0.75 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=injuriedDamage_Icon> Injury Damage +32\n<sprite name=fractureDamage_Icon> Fracture Damage+32\n<sprite name=Info_ChainCount_Icon> Chain Count: 4 \n<sprite name=Info_ChainDistance_Icon> Chain Distance: 3 Tile.</color>
+
+OHR_A_LastShot_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 50 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=burnDamage_Icon> Burn Damage + 35~55</color>
+OHR_A_LastShot_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=burnDamage_Icon> Burn Damage + 50~70</color>
+OHR_A_LastShot_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 130 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_OHR_Mini> Pistol</color> )%\n<sprite name=burnDamage_Icon> Burn Damage + 65~90</color>
+
+
+#,[ Two Hand Range ]
+#,( Passive )
+
+THR_P_Mastery_StatKey_001,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )% \n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_Mastery_StatKey_002,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )% \n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_Mastery_StatKey_003,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )% \n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_Mastery_StatKey_004,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )% \n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_Mastery_StatKey_005,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )% \n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+
+THR_P_RifleTechnician_StatKey_001,<sprite name=JammingChance_Icon><#66FFCC> Jamming Chance -3%\n<sprite name=Durability> Chance for preserving durability: ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle </color>)%</color>
+THR_P_RifleTechnician_StatKey_002,<sprite name=JammingChance_Icon><#66FFCC> Jamming Chance -6%\n<sprite name=Durability> Chance for preserving durability: ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle </color>)%</color>
+THR_P_RifleTechnician_StatKey_003,<sprite name=JammingChance_Icon><#66FFCC> Jamming Chance -10%\n<sprite name=Durability> Chance for preserving durability: ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle </color>)%</color>
+
+THR_P_FocusedStand_StatKey_001,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 3/4/5/6/7 ]\n<#66FFCC><sprite name=Damage_Icon><#66FFCC> Physical Damage + ( [1/3/5/7/9] <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( [1/3/5/7/9] <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_001_01,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 3 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 1 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 1 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_001_02,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 4 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 3 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 3 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_001_03,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 5 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_001_04,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 6 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 7 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 7 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_001_05,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 7 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 9 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 9 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_002,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 3/4/5/6/7 ]\n<#66FFCC><sprite name=Damage_Icon><#66FFCC> Physical Damage + ( [2/4/6/8/10] <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( [3/5/7/9/11] <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_002_01,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 3 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 2 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 3 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_002_02,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 4 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 4 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_002_03,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 5 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 6 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 7 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_002_04,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 6 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 8 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 9 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_002_05,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 7 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 11 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_003,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 3/4/5/6/7 ]\n<#66FFCC><sprite name=Damage_Icon><#66FFCC> Physical Damage + ( [3/5/7/9/11] <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( [5/7/9/11/13] <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_003_01,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 3 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 3 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_003_02,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 4 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 5 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 7 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_003_03,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 5 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 7 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 9 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_003_04,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 6 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 9 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 11 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_FocusedStand_StatKey_003_05,[ <sprite name=maxAdrenaline_Icon> When 'Adrenaline' is greater than 7 ]\n<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 11 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )\n<sprite name=RangeAccuracy_Icon> Range Accuracy + ( 13 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+
+THR_P_QuickShot_StatKey_001,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: + ( 4 <#FFA500>+ 0.25 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_QuickShot_StatKey_002,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: + ( 8 <#FFA500>+ 0.25 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_QuickShot_StatKey_003,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: + ( 12 <#FFA500>+ 0.25 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+
+THR_P_BrutalShot_StatKey_001,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 40 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_BrutalShot_StatKey_002,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 60 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+THR_P_BrutalShot_StatKey_003,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>
+
+#,( Active )
+THR_A_Sinpe_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 25 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +100%</color>
+THR_A_Sinpe_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 45 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +100%</color>
+THR_A_Sinpe_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=CriticalChance_Icon> Critical Chance +100%</color>
+
+THR_A_Alert_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 10 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=Protection_Icon> Protection +3\n<sprite name=Fortitude_Icon> Fortitude +15%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+THR_A_Alert_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 20 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=Protection_Icon> Protection +6\n<sprite name=Fortitude_Icon> Fortitude +30%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+THR_A_Alert_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 30 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=Protection_Icon> Protection +10\n<sprite name=Fortitude_Icon> Fortitude +50%</color>\n<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+
+THR_A_PiercingShot_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 15 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=Info_DistanceRange_Icon> Distance: 4 Tile.</color>
+THR_A_PiercingShot_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 35 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=Info_DistanceRange_Icon> Distance: 5 Tile.</color>
+THR_A_PiercingShot_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage + ( 55 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<sprite name=Info_DistanceRange_Icon> Distance: 6 Tile.</color>
+
+THR_A_BurstShot_StatKey_001,[ Per Attack ]<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-70)</color> <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<#FFA500><sprite name=RangeAccuracy_Icon> Range Accuracy = 75%\n<sprite name=CriticalChance_Icon> Critical Chance = 50%</color>\n<sprite name=Info_AttackCount_Icon> Attack Count: 6 Times.</color>
+THR_A_BurstShot_StatKey_002,[ Per Attack ]<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-60)</color> <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<#FFA500><sprite name=RangeAccuracy_Icon> Range Accuracy = 75%\n<sprite name=CriticalChance_Icon> Critical Chance = 50%</color>\n<sprite name=Info_AttackCount_Icon> Attack Count: 6 Times.</color>
+THR_A_BurstShot_StatKey_003,[ Per Attack ]<sprite name=Damage_Icon><#66FFCC> Physical Damage + (<#FF0000>(-50)</color> <#FFA500>+ 1.0 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%\n<#FFA500><sprite name=RangeAccuracy_Icon> Range Accuracy = 75%\n<sprite name=CriticalChance_Icon> Critical Chance = 50%</color>\n<sprite name=Info_AttackCount_Icon> Attack Count: 6 Times.</color>
+
+THR_A_Magazine_StatKey_001,"[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-90)</color> <#FFA500>+ 0.25 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>\n<#FFA500><sprite name=RangeAccuracy_Icon> Range Accuracy = 80%\n<sprite name=CriticalChance_Icon> Critical Chance = 50%\n<sprite name=Fumble_Icon> Fumble Chance = 25%</color></color>"
+THR_A_Magazine_StatKey_002,"[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-85)</color> <#FFA500>+ 0.25 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>\n<#FFA500><sprite name=RangeAccuracy_Icon> Range Accuracy = 80%\n<sprite name=CriticalChance_Icon> Critical Chance = 50%\n<sprite name=Fumble_Icon> Fumble Chance = 25%</color></color>"
+THR_A_Magazine_StatKey_003,"[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-80)</color> <#FFA500>+ 0.25 x <sprite name=Perk_Pro_THR_Mini> Rifle</color> )%</color>\n<#FFA500><sprite name=RangeAccuracy_Icon> Range Accuracy = 80%\n<sprite name=CriticalChance_Icon> Critical Chance = 50%\n<sprite name=Fumble_Icon> Fumble Chance = 25%</color></color>"
+
+#,[ Bow ]
+#,( Passive )
+
+Bow_P_Mastery_StatKey_001,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 1 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( <#FFA500>1 + 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 0.5 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_P_Mastery_StatKey_002,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( <#FFA500>2 + 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 1.1 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_P_Mastery_StatKey_003,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 4 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( <#FFA500>4 + 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 1.8 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_P_Mastery_StatKey_004,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 7 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( <#FFA500>7 + 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 2.6 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_P_Mastery_StatKey_005,<#66FFCC><sprite name=RangeAccuracy_Icon> Range Accuracy + ( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=RangeCriticalEfficiency_Icon> Range Critical Efficiency + ( <#FFA500>10 + 0.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Fumble_Icon> Fumble Chance - ( 3.5 <#FFA500>+ 0.175 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+
+Bow_P_UndetectedAttack_StatKey_001,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 40 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_P_UndetectedAttack_StatKey_002,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 60 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_P_UndetectedAttack_StatKey_003,<#66FFCC><sprite name=Info_TriggerChance_Icon> Trigger Chance: ( 80 <#FFA500>+ 1.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+
+
+Bow_P_BlindingShot_StatKey_001,<#66FFCC><sprite name=CriticalChance_Icon> Critical Chance + ( 1 <#FFA500>+ 0.3 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>\n<sprite name=Trait_State_Blind_Icon><#FFFF00> Blindness</color> <#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+Bow_P_BlindingShot_StatKey_002,<#66FFCC><sprite name=CriticalChance_Icon> Critical Chance + ( 3 <#FFA500>+ 0.3 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>\n<sprite name=Trait_State_Blind_Icon><#FFFF00> Blindness</color> <#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+Bow_P_BlindingShot_StatKey_003,<#66FFCC><sprite name=CriticalChance_Icon> Critical Chance + ( 6 <#FFA500>+ 0.3 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>\n<sprite name=Trait_State_Blind_Icon><#FFFF00> Blindness</color> <#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+
+Bow_P_HiddenKill_StatKey_001,<sprite name=Invisible_Icon><#FFFF00> Hidden</color> <#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+Bow_P_HiddenKill_StatKey_002,<sprite name=Invisible_Icon><#FFFF00> Hidden</color> <#886A35>( Duration <sprite name=Turn_Icon>6 )</color>
+Bow_P_HiddenKill_StatKey_003,<sprite name=Invisible_Icon><#FFFF00> Hidden</color> <#886A35>( Duration <sprite name=Turn_Icon>10 )</color>
+
+#,( Active )
+Bow_A_AimLeg_Desc_001,<sprite name=Trait_State_LegFracture_Icon> <#FFFF00>Leg Fracture</color> <#886A35>( Duration <sprite name=Turn_Icon>10 )</color>
+Bow_A_AimLeg_Desc_002,<sprite name=Trait_State_LegFracture_Icon> <#FFFF00>Leg Fracture</color> <#886A35>( Duration <sprite name=Turn_Icon>20 )</color>
+Bow_A_AimLeg_Desc_003,<sprite name=Trait_State_LegFracture_Icon> <#FFFF00>Leg Fracture</color> <#886A35>( Duration <sprite name=Turn_Icon>30 )</color>
+
+Bow_A_MultipleShot_Desc_001,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 20 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_A_MultipleShot_Desc_002,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 35 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_A_MultipleShot_Desc_003,<#66FFCC><sprite name=Damage_Icon> Physical Damage + ( 60 <#FFA500>+ 2.5 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+
+Bow_A_UngardableAttack_StatKey_001,<#66FFCC><sprite name=Damage_Icon> (Ignores target's protection) Physical Damage + ( 15 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_A_UngardableAttack_StatKey_002,<#66FFCC><sprite name=Damage_Icon> (Ignores target's protection) Physical Damage + ( 30 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+Bow_A_UngardableAttack_StatKey_003,<#66FFCC><sprite name=Damage_Icon> (Ignores target's protection) Physical Damage + ( 50 <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>
+
+Bow_A_TraceArrow_Desc_001,[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-70)</color> <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Info_AttackCount_Icon> Attack Count: 4 Times.</color>
+Bow_A_TraceArrow_Desc_002,[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-60)</color> <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Info_AttackCount_Icon> Attack Count: 4 Times.</color>
+Bow_A_TraceArrow_Desc_003,[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-50)</color> <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%\n<sprite name=Info_AttackCount_Icon> Attack Count: 4 Times.</color>
+
+Bow_A_ArrowRain_Desc_001,[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-60)</color> <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>\n<sprite name=Info_DurablityCost_Icon> Durability Cost: 3</color>
+Bow_A_ArrowRain_Desc_002,[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-50)</color> <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>\n<sprite name=Info_DurablityCost_Icon> Durability Cost: 3</color>
+Bow_A_ArrowRain_Desc_003,[ Per Attack ]<#66FFCC><sprite name=Damage_Icon> Physical Damage + (<#FF0000>(-40)</color> <#FFA500>+ 2.0 x <sprite name=Perk_Pro_Bow_Mini> Bow</color> )%</color>\n<sprite name=Info_DurablityCost_Icon> Durability Cost: 3</color>
+
+
+#,[ Nano ]
+#,( Passive )
+
+Nano_P_Drain_StatKey_001,(On Enemy Kill)\n<sprite name=MaxNanoEnergy_Icon> <#66FFCC> Nano Energy +( 1 <#FFA500>+ 0.05 x <sprite name=Perk_Pro_Nano_Mini> Nanobot</color> )</color>
+Nano_P_Drain_StatKey_002,(On Enemy Kill)\n<sprite name=MaxNanoEnergy_Icon> <#66FFCC> Nano Energy +( 2 <#FFA500>+ 0.05 x <sprite name=Perk_Pro_Nano_Mini> Nanobot</color> )</color>
+Nano_P_Drain_StatKey_003,(On Enemy Kill)\n<sprite name=MaxNanoEnergy_Icon> <#66FFCC> Nano Energy +( 3 <#FFA500>+ 0.05 x <sprite name=Perk_Pro_Nano_Mini> Nanobot</color> )</color>
+
+Nano_P_BioFusion_StatKey_001,<sprite name=nano_Resistance_Icon><#66FFCC> Nano Resistance +( 2 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Nano_Mini> Nanobot </color>)\n<sprite name=NanoInfection_Value_Icon> Nano Infection -0.002%(Per Turn)</color>
+Nano_P_BioFusion_StatKey_002,<sprite name=nano_Resistance_Icon><#66FFCC> Nano Resistance +( 5 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Nano_Mini> Nanobot </color>)\n<sprite name=NanoInfection_Value_Icon> Nano Infection -0.004%(Per Turn)</color> 
+Nano_P_BioFusion_StatKey_003,<sprite name=nano_Resistance_Icon><#66FFCC> Nano Resistance +( 10 <#FFA500>+ 0.5 x <sprite name=Perk_Pro_Nano_Mini> Nanobot </color>)\n<sprite name=NanoInfection_Value_Icon> Nano Infection -0.006%(Per Turn)</color> 
+
+#,( Active )
+Nano_A_NanoStimulation_StatKey_001,<#66FFCC><sprite name=HealthRegen_Icon> Health Regen +( 1 <#FFA500>+ 0.1 x <sprite name=Perk_Pro_Nano_Mini>  Nanobot </color>)\n<#886A35>( Duration <sprite name=Turn_Icon>10 )</color></color>
+Nano_A_NanoStimulation_StatKey_002,<#66FFCC><sprite name=HealthRegen_Icon> Health Regen +( 2.5 + <#FFA500>0.1 x <sprite name=Perk_Pro_Nano_Mini>  Nanobot </color>)\n<#886A35>( Duration <sprite name=Turn_Icon>10 )</color></color>
+Nano_A_NanoStimulation_StatKey_003,<#66FFCC><sprite name=HealthRegen_Icon> Health Regen +( 5 + <#FFA500>0.1 x <sprite name=Perk_Pro_Nano_Mini>  Nanobot </color>)\n<#886A35>( Duration <sprite name=Turn_Icon>10 )</color></color>
+
+Nano_A_NanoMissile_StatKey_001,[ Per Attack ]<sprite name=Damage_Icon><#66FFCC> Physical Damage +20~40</color>\n<#FFA500><sprite name=Info_AttackCount_Icon> Attack Count: 2 Times.\n<sprite name=Info_DistanceRange_Icon> Distance: 5 Tile.</color>
+Nano_A_NanoMissile_StatKey_002,[ Per Attack ]<sprite name=Damage_Icon><#66FFCC> Physical Damage +45~60</color>\n<#FFA500><sprite name=Info_AttackCount_Icon> Attack Count: 3 Times.\n<sprite name=Info_DistanceRange_Icon> Distance: 5 Tile.</color>
+Nano_A_NanoMissile_StatKey_003,[ Per Attack ]<sprite name=Damage_Icon><#66FFCC> Physical Damage +70~90</color>\n<#FFA500><sprite name=Info_AttackCount_Icon> Attack Count: 4 Times.\n<sprite name=Info_DistanceRange_Icon> Distance: 5 Tile.</color>
+
+Nano_A_ForcePush_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage +35~65</color>\n<sprite name=knockbackDamage_Icon><#66FFCC> Knockback Damage +20~40\n<sprite name=Trait_State_Stun_icon><#FFFF00> Stun</color> <#886A35>( Duration <sprite name=Turn_Icon>2 )</color>
+Nano_A_ForcePush_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage +110~135</color>\n<sprite name=knockbackDamage_Icon><#66FFCC> Knockback Damage +35~55\n<sprite name=Trait_State_Stun_icon><#FFFF00> Stun</color> <#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+Nano_A_ForcePush_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage +210~255</color>\n<sprite name=knockbackDamage_Icon><#66FFCC> Knockback Damage +45~70\n<sprite name=Trait_State_Stun_icon><#FFFF00> Stun</color> <#886A35>( Duration <sprite name=Turn_Icon>4 )</color>
+
+Nano_A_Burster_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage +65~90</color>
+Nano_A_Burster_StatKey_002,<sprite name=Damage_Icon><#66FFCC> Physical Damage +135~170</color>
+Nano_A_Burster_StatKey_003,<sprite name=Damage_Icon><#66FFCC> Physical Damage +255~290</color>
+
+Nano_A_Cameleon_StatKey_001,<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+Nano_A_Cameleon_StatKey_002,<#886A35>( Duration <sprite name=Turn_Icon>10 )</color>
+Nano_A_Cameleon_StatKey_003,<#886A35>( Duration <sprite name=Turn_Icon>20 )</color>
+
+Nano_A_Confusion_StatKey_001,<#886A35>( Duration <sprite name=Turn_Icon>5 )</color>
+Nano_A_Confusion_StatKey_002,<#886A35>( Duration <sprite name=Turn_Icon>10 )</color>
+Nano_A_Confusion_StatKey_003,<#886A35>( Duration <sprite name=Turn_Icon>15 )</color>
+
+Nano_A_Wall_StatKey_001,<#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+Nano_A_Wall_StatKey_002,<#886A35>( Duration <sprite name=Turn_Icon>6 )</color>
+Nano_A_Wall_StatKey_003,<#886A35>( Duration <sprite name=Turn_Icon>10 )</color>
+
+
+#,[ Physical ]
+#,( Passive )
+
+Phy_P_PhysicalEfficiency_StatKey_001,<#66FFCC>[ <sprite name=Hunger_Icon><sprite name=Thirst_Icon><sprite name=Sleepness_Attribute_Icon> ] Rate in 12.5% Reduction.</color>
+Phy_P_PhysicalEfficiency_StatKey_002,<#66FFCC>[ <sprite name=Hunger_Icon><sprite name=Thirst_Icon><sprite name=Sleepness_Attribute_Icon> ] Rate in 25% Reduction.</color>
+Phy_P_PhysicalEfficiency_StatKey_003,<#66FFCC>[ <sprite name=Hunger_Icon><sprite name=Thirst_Icon><sprite name=Sleepness_Attribute_Icon> ] Rate in 50% Reduction.</color>
+
+Phy_A_SuperComboAttack_StatKey,Target is instantly killed (Cannot be used on Boss monsters.)
+
+Phy_P_UnarmedDamage_StatKey_001,<sprite name=Damage_Icon><#66FFCC> Physical Damage +2~8</color>
+
+Phy_P_Adrenaline_StatKey_001,[ <sprite name=maxAdrenaline_Icon>When 'Adrenaline' is greater than 7 ]\n<sprite name=MeleeAccuracy_Icon><#66FFCC> Melee Accuracy +3%</color>\n<sprite name=RangeAccuracy_Icon><#66FFCC> Range Accuracy +2%</color>\n<sprite name=Fumble_Icon><#66FFCC> Fumble Chance -3%</color>\n<sprite name=Tired_Attribute_Icon><#FF0000> Tired +1 (Per Turn)</color>
+
+
+#,( Active )
+Phy_A_QuickMove_StatKey_001,<#FFA500><sprite name=Info_MoveDistance_Icon> Move Distance: 2 Tile.</color>
+Phy_A_QuickMove_StatKey_002,<#FFA500><sprite name=Info_MoveDistance_Icon> Move Distance: 3 Tile.</color>
+Phy_A_QuickMove_StatKey_003,<#FFA500><sprite name=Info_MoveDistance_Icon> Move Distance: 4 Tile.</color>
+
+
+#,[ Survival ]
+#,( Passive )
+Sur_P_HarvestUp_StatKey_001,<#66FFCC><sprite name=HarvestEfficiency_Icon> Harvest Efficiency\n+ 10% <#FFA500>+ ( 0.05 x <sprite name=Base_Perception> Perception )%</color> <#FFFF00>+ ( 0.25 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+Sur_P_HarvestUp_StatKey_002,<#66FFCC><sprite name=HarvestEfficiency_Icon> Harvest Efficiency\n+ 15% <#FFA500>+ ( 0.1 x <sprite name=Base_Perception> Perception )%</color> <#FFFF00>+ ( 0.5 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+Sur_P_HarvestUp_StatKey_003,<#66FFCC><sprite name=HarvestEfficiency_Icon> Harvest Efficiency\n+ 20% <#FFA500>+ ( 0.2 x <sprite name=Base_Perception> Perception )%</color> <#FFFF00>+ ( 1 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+
+Sur_P_MiningUp_StatKey_001,<#66FFCC><sprite name=MiningEfficiency_Icon> Mining Efficiency\n+ 10% <#FFA500>+ ( 0.05 x <sprite name=Base_Strength> Strength )%</color> <#FFFF00>+ ( 0.25 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+Sur_P_MiningUp_StatKey_002,<#66FFCC><sprite name=MiningEfficiency_Icon> Mining Efficiency\n+ 15% <#FFA500>+ ( 0.1 x <sprite name=Base_Strength> Strength )%</color> <#FFFF00>+ ( 0.5 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+Sur_P_MiningUp_StatKey_003,<#66FFCC><sprite name=MiningEfficiency_Icon> Mining Efficiency\n+ 20% <#FFA500>+ ( 0.2 x <sprite name=Base_Strength> Strength )%</color> <#FFFF00>+ ( 1 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+
+Survival_P_HeatSink_StatKey,[ Additional Ammo Capacity ]\n<#66FFCC><sprite name=Info_PistolAmmo_Icon> Pistol +2\n<sprite name=Info_RifleAmmo_Icon> Rifle +5\n<sprite name=Info_ShotgunAmmo_Icon> Shotgun +1\n<sprite name=Info_MinigunAmmo_Icon> Minigun / <sprite name=Info_FlameAmmo_Icon> Flamethrower +20\n<sprite name=Info_LauncherAmmo_Icon> Launcher +1</color>
+
+Survival_P_ProjectileRecovery_StatKey_001,<#66FFCC><sprite name=Perk_Sur_P_ProjectileRecovery_Icon_Mini> Projectile Recovery Chance\n+ 15 %</color><#FFA500> + ( 0.5 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+Survival_P_ProjectileRecovery_StatKey_002,<#66FFCC><sprite name=Perk_Sur_P_ProjectileRecovery_Icon_Mini> Projectile Recovery Chance\n+ 30 %</color><#FFA500> + ( 1.0 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+Survival_P_ProjectileRecovery_StatKey_003,<#66FFCC><sprite name=Perk_Sur_P_ProjectileRecovery_Icon_Mini> Projectile Recovery Chance\n+ 40 %</color><#FFA500> + ( 1.5 x <sprite name=Perk_Pro_Survival_Mini> Survival )%</color>
+
+
+#,( Active )
+Survival_A_DetectHidden_StatKey,<#FFA500><sprite name=Info_Area_Icon> Range: 3x3</color>
+
+#,( Job's Perk )
+Sur_Job_Doctor_Material_StatKey,[Starting Items: Personal Storage]\n<#FFA500>-First Aid Kit(3) x 3</color>
+
+Sur_Job_Doctor_Stat_StatKey,<sprite name=HealthRegen_Icon><#66FFCC> Health Regen +0.1</color>\n<sprite name=injuried_Resistance_Icon><#66FFCC> Injury Resistance +3</color>\n<sprite name=fracture_Resistance_Icon><#66FFCC> Fracture Resistance +3</color>
+
+Sur_Job_Doctor_StatMod_StatKey,<#66FFCC>Perception Exp +10%\nNanobot Exp +10%</color>
+
+
+Sur_Job_Engineer_Material_StatKey,[Starting Items: Personal Storage]\n<#FFA500>-Electronics(100)\n-Machinery(100)</color>
+
+Sur_Job_Engineer_Stat_StatKey,<sprite name=MaxHealth_Icon><#66FFCC> Max Health +20</color>\n<sprite name=HealthRegen_Icon><#66FFCC> Health Regen +0.1</color>
+
+Sur_Job_Engineer_StatMod_StatKey,<#66FFCC>Endurance Exp +10%\n<sprite name=Perk_Pro_OHM_Mini> One Hand Melee Proficiency Exp +10%</color>
+
+
+Sur_Job_Miner_Material_StatKey,[Starting Items: Personal Storage]\n<#FFA500>-Refined Iron(100)\n-Refined Copper(100)</color>
+
+Sur_Job_Miner_Stat_StatKey,<sprite name=Damage_Icon><#66FFCC> Physical Damage +1~4\n<sprite name=MiningEfficiency_Icon> Mining Efficiency +15%</color>
+
+Sur_Job_Miner_StatMod_StatKey,<#66FFCC>Strength Exp +10%\n<sprite name=Perk_Pro_THM_Mini> Two Hand Melee Proficiency Exp +10%</color>
+
+
+Sur_Job_Pilot_Material_StatKey,[Starting Items: Personal Storage]\n<#FFA500>-Pilot Drone(3)\n-Electronics(80)\n-Machinery(80)</color>
+
+Sur_Job_Pilot_Stat_StatKey,<sprite name=Counter_Icon><#66FFCC> Counter Chance +2%\n<sprite name=DarkVision_Icon> Dark Vision +1</color>
+
+Sur_Job_Pilot_StatMod_StatKey,<#66FFCC>Perception Exp +10%\nPistol Proficiency Exp +10%</color>
+
+
+
+Sur_Job_Scientist_Material_StatKey,[Starting Items: Personal Storage]\n<#FFA500>-Blood Extract(100)\n-Osseous Extract(100)\n-Tissue Extract(100)</color>
+
+Sur_Job_Scientist_Stat_StatKey,<sprite name=acid_Resistancce_Icon><#66FFCC> Acid Resistance +3\n<sprite name=poison_Resistance_Icon> Poison Resistance +3\n<sprite name=HarvestEfficiency_Icon> Harvest Efficiency +15%</color>
+
+Sur_Job_Scientist_StatMod_StatKey,<#66FFCC>Mutation Exp +10%\nNanobot Exp +10%</color>
+
+
+Sur_Job_Soldier_Material_StatKey,[Starting Items: Personal Storage]\n<#FFA500>-Security Pistol(1)\n-Old Pistol Ammo(30) x 2</color>
+
+Sur_Job_Soldier_Stat_StatKey,<sprite name=MeleeAccuracy_Icon><#66FFCC> Melee Accuracy +4%\n<sprite name=RangeAccuracy_Icon> Range Accuracy +4%\n<sprite name=Dodge_Icon> Dodge Chance +4%</color>
+
+Sur_Job_Soldier_StatMod_StatKey,<#66FFCC>Agility Exp +10%\nRifle Proficiency Exp +10%</color>
+
+
+
+#,[ Item Perk ]
+Perk_00_MeleeWp_01_OneHand_WolfsFang_StatKey,<#66FFCC><sprite name=Damage_Icon>Physical Damage +5~15 (Per Attack)\n<sprite name=injuriedDamage_Icon> Injury Damage +5~15 (Per Attack)</color>\n<#FFA500><sprite name=Info_AttackCount_Icon> Attack Count: 2 Times.</color>
+
+Perk_00_MeleeWp_01_OneHand_Whip_StatKey,<sprite name=Damage_Icon><#66FFCC>Physical Damage +5~15</color>\n<sprite name=Trait_State_Fear_Icon><#FFFF00> Fear</color>\n<#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+
+Perk_00_MeleeWp_01_OneHand_Katana_StatKey,<sprite name=Damage_Icon><#66FFCC>Physical Damage +8~15</color>\n<#FFA500><sprite name=Info_Area_Icon>Range: 3 Tiles</color>
+
+Perk_00_MeleeWp_01_OneHand_GlassSword_StatKey,<#FFA500>Target is instantly killed (Cannot be used on Boss monsters.)</color>
+
+Perk_00_MeleeWp_02_TwoHand_Spear_StatKey,<sprite name=Damage_Icon><#66FFCC>Physical Damage +5~20</color>\n<#FFA500><sprite name=Info_Area_Icon> Range: 2 Tiles</color>
+
+Perk_00_MeleeWp_02_TwoHand_GrabArm_StatKey,<#FFA500><sprite name=Info_Area_Icon> Range: 4x4 (May not affect enemies with 'Bulky' status)</color>
+
+Perk_00_MeleeWp_02_TwoHand_Chainsaw_StatKey,<#FFA500>Attack Count: 8</color>
+
+Perk_10_RangeWp_02_OneHand_AttachBomb_StatKey,<sprite name=Damage_Icon><#66FFCC> Physical Damage +35~60</color>\n<#FFA500><sprite name=Info_Area_Icon> Range: 3x3</color>
+
+Perk_10_RangeWp_05_Special_BFG_StatKey,<#FFA500><sprite name=Info_Area_Icon> Range: 5x5</color>
+
+Perk_20_Equip_05_Accessory_SuperVisor_StatKey,<#FFA500><sprite name=Info_Area_Icon> Detection Range: 17x17</color>
+
+Perk_20_Equip_05_Accessory_StickyBomb_StatKey,<#FFA500><sprite name=Info_Area_Icon> Range: 3x3\n<#886A35>( Duration <sprite name=Turn_Icon>3 )</color>
+
+Perk_20_Equip_05_Accessory_LaserVisor_StatKey,<sprite name=Damage_Icon><#66FFCC>Physical Damage +10~30\n<sprite name=burnDamage_Icon>Burn Damage +40~70</color>
+
+Perk_20_Equip_05_Accessory_PoisonEmitter_StatKey,<sprite name=Damage_Icon><#66FFCC>Physical Damage +10~30\n<sprite name=poisonDamage_Icon>Poison Damage +40~70</color>
+
+Perk_20_Equip_05_Accessory_AcidSpitter_StatKey,<sprite name=Damage_Icon><#66FFCC>Physical Damage +10~30\n<sprite name=acidDamage_Icon>Acid Damage +40~70</color>
+
+Perk_20_Equip_05_Accessory_SlingShotLauncher_StatKey,<sprite name=Damage_Icon><#66FFCC>Physical Damage +20~45</color>
