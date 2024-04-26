@@ -1,0 +1,202 @@
+Language,Default
+Guide_Move_ShortKey,Movement
+Guide_Move_LongKey,Movement
+Guide_Move_DescKey,<align=center>Press the following keys to move horizontally and vertically: {KeyboardControl_MoveUp}{KeyboardControl_MoveLeft}{KeyboardControl_MoveDown}{KeyboardControl_MoveRight}\nPress following keys to move diagonally: {KeyboardControl_MoveLeftUp}{KeyboardControl_MoveRightUp}{KeyboardControl_MoveLeftDown}{KeyboardControl_MoveRightDown}\nPlayers may also select a location with the left mouse button to move there.</align>
+
+Guide_Equipment_ShortKey,Equipment
+Guide_Equipment_LongKey,How to Equip Items
+Guide_Equipment_DescKey,"<align=center>First, open your Inventory. Then, left-click on the gear item to pick it up, move it to the appropriate equipment slot on the right, and then left-click again to equip the item.\n\nInventory shortcut key: {KeyboardControl_Inventory}\n\nIf you already have an item of the same type equipped in the slot, the old item will be swapped out and moved to Inventory. For items of different types (i.e., equipping a two-handed weapon instead of a sword and shield), you must unequip the old items first. </align>"
+
+Guide_Quest_Outline_ShortKey,Tasks
+Guide_Quest_Outline_LongKey,Tasks
+Guide_Quest_Outline_DescKey,"<align=center>'Open [Journal] and select [Task] tab' to show a queue of Current Tasks and already completed Tasks. Selecting a Task displays who the Task is for, a short description, and a list of todos to progress through the Task.\n\nTask shortcut key: {KeyboardControl_Journal}</align>"
+
+Guide_Quest_TraceLocation_ShortKey,Task Tracking
+Guide_Quest_TraceLocation_LongKey,Task: Track Location
+Guide_Quest_TraceLocation_DescKey,"<align=center>Press the <sprite name=Tracking_1> button for help Tracking a specific object, character, or place related to the Task. This displays a path the player can follow to reach their destination. Only one path can be displayed at a time.</align>"
+
+Guide_Quest_AddInfo_ShortKey,Task: Additional Info
+Guide_Quest_AddInfo_LongKey,Task: Additional Information
+Guide_Quest_AddInfo_DescKey_001,"<align=center>'Open [Journal] and select [Task] tab' to further check for any additional information related to the Task, such as item locations.</align>"
+
+Guide_Key_ShortKey,Keycards
+Guide_Key_LongKey,Keycards
+Guide_Key_DescKey,"<align=center>Many doors on Titan are locked, requiring specific keycards to unlock them. The keycard must be in the Inventory to be used.</align>"
+
+Guide_DropItem_ShortKey,Drop Items
+Guide_DropItem_LongKey,Drop Items
+Guide_DropItem_DescKey,"<align=center>After defeating an enemy, they might leave behind a Drop Item. Left-click on the item on the ground to move it to the Inventory.</align>"
+
+Guide_DropItem_Shorcut_ShortKey,Take All
+Guide_DropItem_Shorcut_LongKey,Drop Items: Take All
+Guide_DropItem_Shorcut_DescKey,"<align=center>If there are multiple Drop Items nearby, press {KeyboardControl_InventoryScanGround} to display a list.\n\nPlayers may then individually select which Drop Items they want to take or press {KeyboardControl_InventoryTakeAll} to move all Drop Items to Inventory.</align>"
+
+Guide_Combat_ShortKey,Combat: Attack
+Guide_Combat_LongKey,How to Attack
+Guide_Combat_DescKey_001,<align=center>Left-click on an enemy to move into position to perform a default attack using the currently equipped weapon.</align>
+Guide_Combat_DescKey_002,<align=center>Moving into the same location as an enemy also triggers a default attack automatically.</align>
+
+Guide_Perk_ShortKey,Perks
+Guide_Perk_LongKey,Perks
+Guide_Perk_DescKey,"<align=center>The Perk window shows available special abilities, including information on each Perk's effect, cooldown (for Active Perks), and Adrenaline Cost (if any). Passive Perks are ongoing and always in effect. Active Perks must be equipped into a Quick Slot and activated when needed.\n\nPerk keyboard shortcut: {KeyboardControl_Perk}</align>"
+
+Guide_Perk_Unlock_ShortKey,Perks: Unlock
+Guide_Perk_Unlock_LongKey,Unlocking Perks
+Guide_Perk_Unlock_DescKey,<align=center>Characters earn 1 Perk Point each time they gain a Level. These points can be spent to unlock any available Perks from the Perk window. Perk point costs vary depending on the specific effect.</align>
+
+Guide_Perk_Slot_ShortKey,Perk: Quick Slot
+Guide_Perk_Slot_LongKey,Using Quick Slots
+Guide_Perk_Slot_DescKey,"<align=center>Active Perks must be equipped to a Quick Slot in order to be used. A character may have up to six Active Perks and/or Items equipped in Quick Slots at any time.\n\nOpen the Perk window, select the Perk you want to equip, then drag and drop it into the preferred Quick Slot at the bottom of the screen.\n\nThe player may either left-click on the Perk icon or press #1-6 on the keyboard to use the corresponding Perk.</align>"
+
+Guide_Perk_Adrenaline_ShortKey,Perks: Adrenaline
+Guide_Perk_Adrenaline_LongKey,Adrenaline Costs
+Guide_Perk_Adrenaline_DescKey,"<align=center>Some perks require Adrenaline points for activation. Adrenaline points are gained when attacking, being damaged, or after defeating an enemy, meaning more powerful Perks aren't usable at the start of combat. Adrenaline then fades over time when not in combat.</align>"
+
+Guide_ItemUse_ShortKey,Item Use
+Guide_ItemUse_LongKey,How to Use Items
+Guide_ItemUse_DescKey,"<align=center>Items can be used directly from the Inventory. First, right-click on the item to bring up the Options dropdown, and then left-click one of the following:\n\nQuick Slot: Assign an Item to a Quick Slot for later use (does not remove it from Inventory). A character may have up to six Items and/or Active Perks equipped in Quick Slots at any time.\nUse: To immediately use the item.\nDrop: Leave the item on the ground, removing it from Inventory.\nCancel: Do nothing.</align>"
+
+Guide_Needs_ShortKey,Needs
+Guide_Needs_LongKey,Physical Needs
+Guide_Needs_DescKey,"<align=center>The character must contend with Hunger, Thirst, Sleep needs.\nWhen these gauge levels increase, it can lead to various negative effects.</align>"
+Guide_Needs_DescKey_01,<align=center><sprite name="Hunger_Icon"> Hunger / <sprite name="Thirst_Icon"> Thirst / <sprite name="Sleepness_Attribute_Icon"> Sleep</align>
+
+Guide_Needs_Food_ShortKey,Needs: Hunger
+Guide_Needs_Food_LongKey,Needs: Hunger
+Guide_Needs_Food_DescKey,"<align=center>As time passes, the character will need to eat.\nSupplement your appetite with food items.\nA greater appetite can significantly reduce combat efficiency. In severe cases, HP can decrease, leading to death.</align>"
+
+Guide_Needs_Water_ShortKey,Needs: Thirst
+Guide_Needs_Water_LongKey,Needs: Thirst
+Guide_Needs_Water_DescKey,"<align=center>Over time, the character's Thirst will increase.\nSupplement your Thirst with drink items. Clean water is best. Consuming contaminated drinks still lowers the Thirst gauge but may inflict other side effects (i.e., sickness).\nA greater Thirst can significantly reduce combat efficiency. In severe cases, HP can decrease, leading to death.</align>"
+
+Guide_Needs_Bed_ShortKey,Needs: Sleep
+Guide_Needs_Bed_LongKey,Needs: Sleep
+Guide_Needs_Bed_DescKey,"<align=center>Everyone needs to sleep, even the hero of Titan.\nUse a bed/Sleeping Bag to get a good night's sleep.\nA greater sleeplessness significantly reduces combat efficiency. Passing out in the mines leads to certain death.</align>"
+
+Guide_Harvest_ShortKey,Gathering
+Guide_Harvest_LongKey,Gathering Plants
+Guide_Harvest_DescKey,"<align=center>Left-click on the plants to add them to Inventory.\nA higher Gather Efficiency yields extra rewards from a single gather action.\nPlants can be gathered multiple times and will grow back over time, so be sure to revisit locations for specific ingredients.</align>"
+Guide_Harvest_DescKey_01,<align=center><sprite name="HarvestEfficiency_Icon"> Gather Efficiency</align>
+
+Guide_Mining_ShortKey,Mining
+Guide_Mining_LongKey,Mining Minerals
+Guide_Mining_DescKey,"<align=center>Left-click on mineral deposits to add them to Inventory.\nA higher Mining Efficiency yields extra rewards from a single mining action.\nDeposits can be mined multiple time and regenerate slowly over time, so be sure to revisit locations for a specific ore.</align>"
+Guide_Mining_DescKey_01,<align=center><sprite name="MiningEfficiency_Icon"> Mining Efficiency</align>
+
+Guide_Vision_ShortKey,Vision
+Guide_Vision_LongKey,Vision Range
+Guide_Vision_DescKey,"<align=center>Caves and underground locations offer little light, shortening one's range of vision.\n The Dark Vision Perk can increase the character's natural vision in the darkness.</align>"
+Guide_Vision_DescKey_01,<align=center><sprite name="Vision_Range_Icon"> Vision Range\n<sprite name="DarkVision_Icon"> Dark Vision</align>
+Guide_Vision_Lamp_ShortKey,Vision: Lamps
+Guide_Vision_Lamp_LongKey,Vision: Lamps
+Guide_Vision_Lamp_DescKey,"<align=center>Equipping a Lamp can increase the character's range of vision while operating in the dark.\nThe Lamp can be turned on and off using the {KeyboardControl_ToggleLight} key.\nContinuous use of the Lamp drains the battery each Turn, so be sure to carry extra Lamps just in case.\nYou can craft the lamp or purchase them from camp's shop or Judith.</align>"
+Guide_Vision_Lamp_DescKey_01,<align=center><sprite name="Vision_Range_Icon"> Vision Range</align>
+
+Guide_Oxygen_ShortKey,Oxygen
+Guide_Oxygen_LongKey,Oxygen
+Guide_Oxygen_DescKey,"<align=center>If oxygen in the area is less than 70%, Suffocation can occur.\n Lack of oxygen can cause various negative effects on the body and lead to quick death.</align>"
+Guide_Oxygen_DescKey_01,<align=center><sprite name="LackOfOxygen_Icon"> Suffocation</align>
+Guide_Oxygen_Canister_ShortKey,Oxygen: Canister
+Guide_Oxygen_Canister_LongKey,Oxygen: Canister
+Guide_Oxygen_Canister_DescKey,"<align=center>Oxygen Canisters allow the character to operate in oxygen-poor areas.\nAn equipped Oxygen Canister is automatically drained each Turn when needed to keep the Suffocation gauge low, so be sure to keep extra canisters in your inventory.\nThe oxygen canister can be crafted or purchase them from camp's shop or Running Wolf Earl.</align>"
+Guide_Oxygen_Canister_DescKey_01,<align=center><sprite name="LackOfOxygen_Icon"> Suffocation</align>
+
+Guide_Production_ShortKey,Production
+Guide_Production_LongKey,Production
+Guide_Production_DescKey,"<align=center>Opening the Item Production UI offers the following options:\nResearch / Craft / Recycle.\nCarrying out a Production request requires some combination of credits, camp member/facility efficiency, time, and/or the proper items/parts.\n(Production UI shortcut key: {KeyboardControl_Production}</align>"
+Guide_Production_DescKey_01,<align=center><sprite name="Research_icon_002"> Research / <sprite name="Craft_icon_001"> Craft / <sprite name="Recycling_icon_001"> Recycle</align>
+
+Guide_Production_Storage_ShortKey,Production: Storage
+Guide_Production_Storage_LongKey,Production: Storage
+Guide_Production_Storage_DescKey,"<align=center>Any items that character wants to research, craft or recycle needs to be put into the personal storage.</align>"
+
+Guide_Production_Research_ShortKey,Production: Research
+Guide_Production_Research_LongKey,Production: Research
+Guide_Production_Research_DescKey,"<align=center>Once a researchable item has been acquired, the character can Research it to unlock a new item for crafting.\n\n</align>How to Research:\n 1. Place the item to be Researched into personal storage.\n 2. Open the Item Production UI and select Research.\n 3. Left-click the Research icon to add it to the Request Queue.\n\n<align=center>Note: Researchables are consumed during the Research process.</align>"
+
+Guide_Production_Researchable_ShortKey,Production: Researchables
+Guide_Production_Researchable_LongKey,Production: Researchable Items
+Guide_Production_Researchable_DescKey,"<align=center>Some items are marked with a Research icon, denoting their ability to be Researched from the Item Production UI.</align>"
+Guide_Production_Researchable_DescKey_01,<align=center><sprite name="Research_icon_001"> Research Icon</align>
+
+Guide_Production_Craft_ShortKey,Production: Craft
+Guide_Production_Craft_LongKey,Production: Craft
+Guide_Production_Craft_DescKey,"<align=center>Tons of items and gear can be created from the Craft portion of the Production UI.\n\n</align>How to Craft:\n 1. Place the necessary crafting materials into personal storage.\n 2. Open the Item Production UI and select Craft.\n 3. Left-click the Craft icon to add it to the Request Queue.\n\n<align=center>Note: Crafting materials used to make the new item are consumed.\nThe newly crafted item are automatically added to personal storage when the request is complete.</align>"
+
+Guide_Production_Recycle_ShortKey,Production: Recycle
+Guide_Production_Recycle_LongKey,Production: Recycle
+Guide_Production_Recycle_DescKey,"<align=center>Some items can be Recycled, which breaks them down into other usable parts.\n\n</align>How to Recycle\n 1. Place items to be recycled into personal storage.\n 2. Open the Item Production UI and select Recycle.\n 3. Left-click the Recycle icon to add it to the Request Queue.</align>\n\n<align=center>Note: New items produced through Recycling are automatically added to personal storage when the request is complete.</align>"
+
+Guide_Message_ShortKey,Message
+Guide_Message_LongKey,Message
+Guide_Message_DescKey,"<align=center>Message may arrive from time to time from people at the camp.\nClick on the messages button to check any unchecked, newly arrived messages. Opening a message will show contents of message in form of dialogue or cut scene.</align>"
+
+Guide_Nano_ShortKey,Nano Energy
+Guide_Nano_LongKey,Nano Energy
+Guide_Nano_DescKey,"<align=center>Some Nano Perks require the expenditure of Nano Energy to use.\nThe amount of Nano Energy the character has is affected by their Mutation.</align>"
+Guide_Nano_DescKey_01,<align=center><sprite name="MaxNanoEnergy_Icon"> Nano Energy\n<sprite name="Base_Mutation"> Mutation</align>
+Guide_NanoInfection_ShortKey,Nano Infection
+Guide_NanoInfection_LongKey,Nano Infection
+Guide_NanoInfection_DescKey,"<align=center>Certain enemies or environmental traps can inflict Nano Infection, which creeps into the body and self-replicates over time. The more Nano Infection present, the faster Nano Infection overtakes the Nano Energy gauge.\n\nNano Infection does not fade without using Anti-Nano Shots, which can be crafted normally.\n\nOne's max Nano Energy is reduced by the amount of Nano Infection they possess. High levels of Nano Infection can also cause other side effects or even death.)</align>"
+Guide_NanoInfection_DescKey_01,<align=center><sprite name="nano_Resistance_Icon"> Nano Resistance\n<sprite name="nanoInfectionDamage_Icon"> Nano Infection</align>
+
+Guide_Codex_ShortKey,Codex
+Guide_Codex_LongKey,Codex
+Guide_Codex_DescKey,"<align=center>After defeating an enemy, the character can collect and then Research their spoils to register the creature into the Codex.\nA Codex can be researched multiple times to unlock various advantages against the same enemies during combat.</align>"
+
+Guide_IDTag_ShortKey,ID Tag
+Guide_IDTag_LongKey,ID Tag
+Guide_IDTag_DescKey,"<align=center>ID Tags are special items containing data about the people from past TECC settlement.\n\nAfter adding an ID Tag to the Inventory, right-click the item and choose 'Register' to register it to the ID Tag log.\nID Tag acquisition is permanent, allowing you to keep your progress across multiple playthroughs.</align>"
+Guide_IDTag_Job_ShortKey,Id Tag: Job type
+Guide_IDTag_Job_LongKey,Id Tag: Job type
+Guide_IDTag_Job_DescKey,<align=center>Each ID Tag is connected to a settler with a specific Job Type. Collecting and registering ID Tags of the same Job type improves starting conditions when a New Game is started.</align>
+
+Guide_CampManangement_ShortKey,Camp
+Guide_CampManangement_LongKey,Camp
+Guide_CampManangement_DescKey,"<align=center>The Camp UI oversees all aspects of camp life and gives quick access to Power, Water, and Ration resource information.</align>"
+Guide_CampManangement_Resource_ShortKey,Camp: Resources
+Guide_CampManangement_Resource_LongKey,Camp: Managing resources
+Guide_CampManangement_Resource_DescKey,"<align=center>Through the Camp Management UI, you can control the camp's resource production and consumption.\nResources are consumed every Turn, and insufficient resources lower the efficiency of camp residents and the facility itself.\nResource Items can be obtained in caves or underground and Recycled to raise Resource levels.</align>"
+Guide_CampManangement_BasementPower_ShortKey,Camp: Underground Power
+Guide_CampManangement_BasementPower_LongKey,Camp: Underground Power
+Guide_CampManangement_BasementPower_DescKey,"<align=center>With the Underground Power control, players can adjust the amount of power sent to the mining levels. Elevators cannot travel to the underpowered levels; deeper levels require more energy consumption.</align>"
+
+Guide_PowerRelay_ShortKey,Power Relays
+Guide_PowerRelay_LongKey,Power Relays
+Guide_PowerRelay_DescKey,"<align=center>Electricity (Power) is supplied by Power Relays (one on each floor) to operate underground elevators, air circulators, and other facilities.\n\nPower Supply Conditions:\n1. (Power Required) The Power Relay must contain a fuse.\n2. The Power Relay on the previous floor must be powered.</align>"
+
+Guide_AirCirculator_ShortKey,Air Circulator
+Guide_AirCirculator_LongKey,Air Circulator
+Guide_AirCirculator_DescKey,"<align=center>Activating air circulators reduces the contamination rate (i.e., pollution or Nano Infection) in a specific area. Multiple air circulators can be found on each floor, so be sure to activate them all.\n\nUnit Operating Conditions.\n\n1. Air Circulator must contain a filter.\n2. Power Relay for the floor must be powered.</align>"""
+
+Guide_Invasion_ShortKey,Invasion
+Guide_Invasion_LongKey,Invasion
+Guide_Invasion_DescKey,"<align=center>The Reactor Room is a critical facility in the camp located under the Generator. It is also invaded from time to time by mobs of underground monsters.\nPlayers can install defense systems, such as gun turrets and traps, to keep the hordes at bay.\nIf all the Reactors are destroyed, the Generator will melt down and cause a catastrophic explosion. GAME OVER.</align>"
+Guide_Invasion_Time_ShortKey,Invasion: Arrival Turns
+Guide_Invasion_Time_LongKey,Invasion: Arrival Turns
+Guide_Invasion_Time_DescKey,"<align=center>When an Invasion triggers, the Camp Management UI will display the number of Turns remaining before monsters arrive at the Reactor Room. Players must act fast to keep the camp from going up in flames.</align>"
+
+#,[Guide Text]
+
+Guide_State_Gauge_NameKey,Status: Gauge
+Guide_State_Turn_NameKey,Status: Turn
+
+Guide_State_Gauge_Desc,Corresponding effects will trigger from 30%.
+Guide_State_Gauge_Injuried,"<sprite name=Injuried_State_Icon_0> <#66FFCC>Injury</color>\n-Decrease in Protection and Health Rate."
+Guide_State_Gauge_Fracture,"<sprite name=Fracture_State_Icon_0> <#66FFCC>Fracture</color>\n-Decrease in Accuracy and Dodge Chance. Increase in  Flinch Chance."
+Guide_State_Gauge_Burn,"<sprite name=Burn_State_Icon_0> <#66FFCC>Burn</color>\n-Decrease in Health and Health Rate."
+Guide_State_Gauge_Acid,"<sprite name=Acid_State_Icon_0> <#66FFCC>Acid</color>\n-Decrease in Equipment Durability, Protection and Health."
+Guide_State_Gauge_Poison,"<sprite name=Poison_State_Icon_0> <#66FFCC>Poison</color>\n-Decrease in Health, Health Rate and Damage Stats."
+Guide_State_Gauge_NanoInfection,"<sprite name=NanoInfection_State_Icon_0> <#66FFCC>Nano Infection</color>\n-Decrease in Nano and Nano Rate. High Nano Infection can lead to total mutation of the body into a monster state."
+
+Guide_State_Turn_Desc,Corresponding effects will trigger over the turns.
+Guide_State_Turn_Fear,"<sprite name=Trait_State_Fear_Icon> <#66FFCC>Fear</color>\n-Causes to flee from the attackers."
+Guide_State_Turn_NerveConfusion,"<sprite name=Trait_State_NerveConfusion_Icon> <#66FFCC>Nerve Confusion</color>\n-Decrease in Damage Stat and Protection."
+Guide_State_Turn_Dizzy,"<sprite name=Trait_State_Disorient_icon> <#66FFCC>Dizzy</color>\n-Decrease in Accuracy and Increase in Fumble Chance."
+Guide_State_Turn_Blind,"<sprite name=Trait_State_Blind_Icon> <#66FFCC>Blind</color>\n-Decrease in Accuracy and Vision Range."
+Guide_State_Turn_Down,"<sprite name=Trait_State_Knockdown_icon> <#66FFCC>Down</color>\n-Knocked down to the ground and unable to perform any action."
+Guide_State_Turn_Stun,"<sprite name=Trait_State_Stun_icon> <#66FFCC>Stun</color>\n-Stunned and unable to perform any action."
+Guide_State_Turn_LegFracture,"<sprite name=Trait_State_LegFracture_Icon> <#66FFCC>Leg Fracture</color>\n-Increase in Flinch Chance and Decrease in Dodge Chance."
+Guide_State_Turn_AntiGravity,"<sprite name=Trait_State_AntiGravity_Icon> <#66FFCC>Anti-Gravity</color>\n-Floats in the air and to perform any action."
+Guide_State_Turn_Confusion,"<sprite name=Trait_State_Confusion_icon> <#66FFCC>Confusion</color>\n-Increase in chance of moving into random direction and Decrease in Accuracy."
+Guide_State_Turn_Invisible,"<sprite name=Invisible_Icon> <#66FFCC>Hidden</color>\n-Invisible to enemies. Performing Attack, using Perk Skills or Items and Receiving Damage will make the player visible again."

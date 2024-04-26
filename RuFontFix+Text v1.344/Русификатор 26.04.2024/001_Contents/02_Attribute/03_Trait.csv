@@ -1,0 +1,258 @@
+Language,Default
+
+#,[ State ]
+Trait_State_Acid_01_NameKey,Light Acid ( <sprite name=Acid_Value_Icon>: <#FF0000>{UDI_Acid_Value}</color> )
+Trait_State_Acid_01_DescKey,Your equipped gear (or your skin) was splashed with acid that reduces your gear's durability or eats through your flesh each Turn. Find a neutralizing agent quickly!
+
+Trait_State_Acid_02_NameKey,Acid ( <sprite name=Acid_Value_Icon>: <#FF0000>{UDI_Acid_Value}</color> )
+Trait_State_Acid_02_DescKey,"Your body is covered with acid! Each Turn, your equipment further dissolves (lowering durability) or your skin blisters (dealing damage)."
+
+Trait_State_Acid_03_NameKey,Serious Acid ( <sprite name=Acid_Value_Icon>: <#FF0000>{UDI_Acid_Value}</color> )
+Trait_State_Acid_03_DescKey,"You're soaking in acid. If you don't neutralize it, you'll lose your gear... or your life!"
+
+Trait_State_Fracture_01_NameKey,Sprain ( <sprite name=Fracture_Value_Icon>: <#FF0000>{UDI_Fracture_Value}</color> )
+Trait_State_Fracture_01_DescKey,"You've sprained one of your joints. It hurts, but you can walk it off."
+
+Trait_State_Fracture_02_NameKey,Hairline Fracture ( <sprite name=Fracture_Value_Icon>: <#FF0000>{UDI_Fracture_Value}</color> )
+Trait_State_Fracture_02_DescKey,Physical stress has caused a hairline fracture in one of your bones. Take care of it before it worsens.
+
+Trait_State_Fracture_03_NameKey,Broken Bones ( <sprite name=Fracture_Value_Icon>: <#FF0000>{UDI_Fracture_Value}</color> )
+Trait_State_Fracture_03_DescKey,"One of your bones is broken, which is severely painful. See a doctor!"
+
+Trait_State_Injuried_01_NameKey,Cut ( <sprite name=Injuried_Value_Icon>: <#FF0000>{UDI_Injuried_Value}</color> )
+Trait_State_Injuried_01_DescKey,Just a flesh wound! It barely broke the skin.
+
+Trait_State_Injuried_02_NameKey,Bleeding ( <sprite name=Injuried_Value_Icon>: <#FF0000>{UDI_Injuried_Value}</color> )
+Trait_State_Injuried_02_DescKey,A deep cut with quite a bit of blood. Get that bandaged!
+
+Trait_State_Injuried_03_NameKey,Excessive Bleeding ( <sprite name=Injuried_Value_Icon>: <#FF0000>{UDI_Injuried_Value}</color> )
+Trait_State_Injuried_03_DescKey,"You're covered in your own blood. The bleeding will stop soon, though, one way or another."
+
+Trait_State_Poison_01_NameKey,Light Poison ( <sprite name=Poison_Value_Icon>: <#FF0000>{UDI_Poison_Value}</color> )
+Trait_State_Poison_01_DescKey,"You've been dosed with a small amount of poison. With time, your body can naturally expel it, but an antidote would help you recover faster."
+
+Trait_State_Poison_02_NameKey,Poison ( <sprite name=Poison_Value_Icon>: <#FF0000>{UDI_Poison_Value}</color> )
+Trait_State_Poison_02_DescKey,Even more poison makes you feel light-headed and dazed. Find an antidote!
+
+Trait_State_Poison_03_NameKey,Serious Poison ( <sprite name=Poison_Value_Icon>: <#FF0000>{UDI_Poison_Value}</color> )
+Trait_State_Poison_03_DescKey,"Your veins now contain more poison than blood. Without an antidote, you're sure to die!"
+
+Trait_State_Burn_01_NameKey,Light Burn ( <sprite name=Burn_Value_Icon>: <#FF0000>{UDI_Burn_Value}</color> )
+Trait_State_Burn_01_DescKey,"You've been burned, but the fire was small and did no permanent damage."
+
+Trait_State_Burn_02_NameKey,Burn ( <sprite name=Burn_Value_Icon>: <#FF0000>{UDI_Burn_Value}</color> )
+Trait_State_Burn_02_DescKey,"You are currently on fire! Stop, drop, and roll before your flesh melts!"
+
+Trait_State_Burn_03_NameKey,Serious Burn ( <sprite name=Burn_Value_Icon>: <#FF0000>{UDI_Burn_Value}</color> )
+Trait_State_Burn_03_DescKey,A flame has engulfed you! Don't just stand there! Do something!
+
+Trait_State_NanoInfection_01_NameKey,Light Nano Infection ( <sprite name=NanoInfection_Value_Icon>: <#FF0000>{UDI_NanoInfection_Value}</color> )
+Trait_State_NanoInfection_01_DescKey,"A nano-virus has infected you, but you can still operate normally."
+
+Trait_State_NanoInfection_02_NameKey,Serious Nano Infection ( <sprite name=NanoInfection_Value_Icon>: <#FF0000>{UDI_NanoInfection_Value}</color> )
+Trait_State_NanoInfection_02_DescKey,The nano-virus has started taking hold. Controlling your mind and body seems more difficult.
+
+Trait_State_NanoInfection_03_NameKey,Critical Nano Infection ( <sprite name=NanoInfection_Value_Icon>: <#FF0000>{UDI_NanoInfection_Value}</color> )
+Trait_State_NanoInfection_03_DescKey,A nano-virus has critically infected your body. You will soon no longer be you.
+
+#,[ Needs ]
+Trait_Needs_Hunger_01_NameKey,Peckish ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_01_DescKey,You're feeling a bit peckish for a bite to eat.
+
+Trait_Needs_Hunger_02_NameKey,Hungry ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_02_DescKey,Food sounds good right about now.
+
+Trait_Needs_Hunger_03_NameKey,Empty Stomach ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_03_DescKey,Your stomach is growling. Give it food.
+
+Trait_Needs_Hunger_04_NameKey,Famished ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_04_DescKey,You are weakened from hunger. Find food now!
+
+Trait_Needs_Hunger_05_NameKey,Starving to Death ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_05_DescKey,"If you don't eat soon, you will die! Eat something!"
+
+Trait_Needs_Thirst_01_NameKey,Dry Throat ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_01_DescKey,Your throat feels a little dry. A drink would be nice.
+
+Trait_Needs_Thirst_02_NameKey,Thirsty ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_02_DescKey,You could go for a drink to quench your thirst.
+
+Trait_Needs_Thirst_03_NameKey,Parched ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_03_DescKey,"Find something to drink, even if it's not water."
+
+Trait_Needs_Thirst_04_NameKey,Dehydrated ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_04_DescKey,Dehydration is dragging you down. Grab a drink right now!
+
+Trait_Needs_Thirst_05_NameKey,Dying of Thirst ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_05_DescKey,You'll die without a drink soon!
+
+Trait_Needs_Sleepness_01_NameKey,Yawning ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_01_DescKey,You've been yawning. A nap may help.
+
+Trait_Needs_Sleepness_02_NameKey,Drowsy ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_02_DescKey,It's becoming difficult to keep your eyes open.
+
+Trait_Needs_Sleepness_03_NameKey,Sleepy ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_03_DescKey,Your body is slowing down. It could be a hint that you need some sleep.
+
+Trait_Needs_Sleepness_04_NameKey,Lethargic ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_04_DescKey,"Your whole body feels heavy, and it's hard to think. Only sleep will help."
+
+Trait_Needs_Sleepness_05_NameKey,Mental Stupor ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_05_DescKey,Sleep is the only thing on your mind. Your bed beckons!
+
+Trait_Needs_Tired_01_NameKey,Tired ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_01_DescKey,All that hard work has left you in need of a nap.
+
+Trait_Needs_Tired_02_NameKey,Sore ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_02_DescKey,"Your muscles are sore, but that'll go away with some rest."
+
+Trait_Needs_Tired_03_NameKey,Aching ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_03_DescKey,Everything hurts all the time. Your body needs rest.
+
+Trait_Needs_Tired_04_NameKey,Overworked ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_04_DescKey,Your body is weakened and ready to give up. Find a bed and rest!
+
+Trait_Needs_Tired_05_NameKey,Exhausted ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_05_DescKey,"You are about to work yourself to death, literally! Stop and sleep!"
+
+Trait_Needs_LackOfOxygen_01_NameKey,Short of Breath ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_01_DescKey,Your breathing is slightly staggered due to shortness of breath.
+
+Trait_Needs_LackOfOxygen_02_NameKey,Winded ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_02_DescKey,You're finding it harder (and slightly painful) to catch your breath.
+
+Trait_Needs_LackOfOxygen_03_NameKey,Hypoxia ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_03_DescKey,Lack of oxygen makes you dizzy. This isn't safe!
+
+Trait_Needs_LackOfOxygen_04_NameKey,Oxygen Deprived ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_04_DescKey,You're delirious! Get the oxygen your brain needs soon.
+
+Trait_Needs_LackOfOxygen_05_NameKey,Suffocating ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_05_DescKey,You are suffocating! Find an Oxygen Canister or get to breathable air right now!
+
+#,( State )
+Trait_State_NanoInfectionTransformation_NameKey,Nano Monster
+Trait_State_NanoInfectionTransformation_DescKey,"Your body has been overrun with Nano Infection, transforming you into a ravenous monster of teeth and claws. If Nano Infection is not significantly reduced in time, you wholly become a monster (Game Over). "
+
+Trait_State_Fear_NameKey,Fear
+Trait_State_Fear_DescKey,"You are filled with <#FF0000>Fear</color>, forced to retreat away from your attacker (in the opposite direction)."
+
+Trait_State_NerveConfusion_NameKey,Nerve Confusion
+Trait_State_NerveConfusion_DescKey,"Your nervous system is sending confusing signals, reducing your <#FF0000>Physical Damage</color> and <#66FFCC>Protection</color>."
+
+Trait_State_Dizzy_NameKey,Dizziness
+Trait_State_Dizzy_DescKey,"Your head is swimming, making it difficult to survive in combat. Increased <#66FFCC>Fumble Chance</color>, and reduced <#66FFCC>Melee Accuracy</color>, and <#66FFCC>Ranged Accuracy</color>."
+
+Trait_State_Blind_NameKey,Blindness
+Trait_State_Blind_DescKey,"Your vision is obscured, reducing <#66FFCC>Vision Range</color>, <#66FFCC>Melee Accuracy</color>, and <#66FFCC>Ranged Accuracy</color>."
+
+Trait_State_Down_NameKey,Down
+Trait_State_Down_DescKey,You've been knocked off your feet. Moving and attacking is only possible once you stand back up.
+
+Trait_State_Stun_NameKey,Stun
+Trait_State_Stun_DescKey,You're seeing stars. Skip this Turn to regain your senses back.
+
+Trait_State_LegFracture_NameKey,Damaged Leg
+Trait_State_LegFracture_DescKey,You've suffered a severe leg injury that makes walking more difficult.
+
+Trait_State_AntiGravity_NameKey,Anti Gravity
+Trait_State_AntiGravity_DescKey,The reversal of gravity and hovering in the air makes it impossible to act.
+
+Trait_State_Confusion_NameKey,Confusion
+Trait_State_Confusion_DescKey,"You are Confused, making it hard to operate and causing a reduction in <#66FFCC>Melee Accuracy</color> and <#66FFCC>Ranged Accuracy</color>. Movement may happen randomly, not at all, or in the wrong direction."
+
+Trait_State_Invisible_NameKey,Hidden
+Trait_State_Invisible_DescKey,You are invisible to enemies and cannot be directly targeted. This Status immediately ends after launching an attack or if you are damaged (often by area damage or environments).
+
+Trait_State_Concentration_NameKey,Concentration
+Trait_State_Concentration_DescKey,You take a moment to view the situation from all angles.
+
+
+#,[ Item: Equip ]
+Trait_00_MeleeWp_01_OHM_Nunchucks_NameKey,Double Counter
+Trait_00_MeleeWp_01_OHM_Nunchucks_DescKey,"When <#66FFCC>Counterattack</color> is triggered, the wielder attacks twice."
+
+Trait_10_RangeWp_03_TwoHand_JusticeRifle_NameKey,Eye for an Eye
+Trait_10_RangeWp_03_TwoHand_JusticeRifle_DescKey,Inflicts bonus <#66FFCC>Physical Damage</color> per <#66FFCC>HP</color> player has lost. (Lower HP = More Damage)
+Trait_10_RangeWp_03_TwoHand_JusticeRifle_Info,"<sprite name=WpRange_THR_JusticeRifle_Icon><#66FFCC>Eye for an Eye</color>"
+
+Trait_20_Equip_01_Head_WolfsHalo_NameKey,Fanged Feast
+Trait_20_Equip_01_Head_WolfsHalo_DescKey,Gain a small amount of HP after killing an enemy.
+
+Trait_20_Equip_05_Accessory_CombatInitializer_NameKey,First Blood
+Trait_20_Equip_05_Accessory_CombatInitializer_DescKey,Inflict additional <#FF0000>Physical Damage</color> (based on <#66FFCC>Perception</color>) to undamaged targets (those with full <#66FFCC>HP</color>).
+
+Trait_20_Equip_05_Accessory_StickyBomb_NameKey,Immobility
+Trait_20_Equip_05_Accessory_StickyBomb_DescKey,Affected target is unable to move.
+
+Trait_20_Equip_05_Accessory_LoversGrip_NameKey,Angel Strike
+Trait_20_Equip_05_Accessory_LoversGrip_DescKey,"With each successful attack, heal a small amount of <#66FFCC>HP</color> (based on <#66FFCC><sprite name=Base_Strength> Strength</color>)."
+
+Trait_20_Equip_05_Accessory_SoldierHeadBand_NameKey,Know Thy Enemy
+Trait_20_Equip_05_Accessory_SoldierHeadBand_DescKey,Gain additional <#66FFCC>Exp</color> for killing an enemy.
+
+
+#,[ Item: Usable ]
+
+Trait_ItemUse_HealthRecovery_NameKey,HP Recovery
+Trait_ItemUse_HealthRecovery_DescKey,Regain some <color=#FFA500>Health</color> each Turn while active.
+
+Trait_ItemUse_Cure_Acid_NameKey,Acid Neutralization
+Trait_ItemUse_Cure_Acid_DescKey,Lowers <color=#FF0000>Acid Gauge</color> each Turn while active.
+
+Trait_ItemUse_Cure_Poison_NameKey,Counter-Poison
+Trait_ItemUse_Cure_Poison_DescKey,Lowers <color=#FF0000>Poison Gauge</color> each Turn while active.
+
+Trait_ItemUse_Cure_Injuried_NameKey,Blood Clotting
+Trait_ItemUse_Cure_Injuried_DescKey,Lowers <color=#FF0000>Injury Gauge</color> each Turn while active.
+
+Trait_ItemUse_Cure_Fracture_NameKey,Bone Strengthening
+Trait_ItemUse_Cure_Fracture_DescKey,Lowers <color=#FF0000>Fracture Gauge</color> each Turn while active.
+
+Trait_ItemUse_Cure_Tired_NameKey,Pep in Your Step
+Trait_ItemUse_Cure_Tired_DescKey,Lowers <color=#FF0000>Tiredness</color> each Turn while active.
+
+Trait_ItemUse_Cure_NanoInfection_NameKey,Nano Realignment
+Trait_ItemUse_Cure_NanoInfection_DescKey,Lowers <color=#FF0000>Nano Infection</color> each Turn while active.
+
+Trait_ItemUse_Charge_Adrenaline_NameKey,Fight or Flight
+Trait_ItemUse_Charge_Adrenaline_DescKey,Increased <color=#FFA500>Adrenaline</color> each Turn while active.
+
+Trait_ItemUse_Charge_NanoEnergy_NameKey,Nano Energy Charge
+Trait_ItemUse_Charge_NanoEnergy_DescKey,Increased <color=#FFA500>Nano Energy</color> each Turn while active.
+
+Trait_ItemUse_Food_NameKey,Consume Food
+Trait_ItemUse_Food_DescKey,Your <color=#FF0000>Hunger</color> is being reduced.
+
+Trait_ItemUse_Water_NameKey,Drank Water
+Trait_ItemUse_Water_DescKey,Your <color=#FF0000>Thirst</color> is being reduced.
+
+#,[ Monster ]
+Trait_Mon_BossFortitude_NameKey,Impassible Fortitude
+Trait_Mon_BossFortitude_DescKey,Cannot be targeted by Instant Kill weapons or abilities.
+
+Trait_Mon_DeathExplosion_NameKey,Bomb Stuck
+Trait_Mon_DeathExplosion_DescKey,You have successfully attached a Sticky Bomb to the monster. It will explode upon death.
+
+Trait_Mon_Bulky_NameKey,Bulky
+Trait_Mon_Bulky_DescKey,This target is too large to move with the Grab Arm.
+
+Trait_Mon_Boss004_Pattern003_Buff_NameKey,Downloaded
+Trait_Mon_Boss004_Pattern003_Buff_DescKey,"The TECC AI has downloaded into the Titanian Prototype, significantly increasing ALL of its stats. "
+
+Trait_Mon_Boss005_Weakness_NameKey,Weakened
+Trait_Mon_Boss005_Weakness_DescKey,The alien's <#FF0000>Weakened</color> state takes a lot of energy. Attack now before it recovers!
+
+Trait_Mon_Boss005_Buff_NameKey,Adaptive Alien
+Trait_Mon_Boss005_Buff_DescKey,The alien has enhanced its shielding and damage dealing ability. Look out!
+
+Trait_Mon_Boss005_Resistance_NameKey,Fortified
+Trait_Mon_Boss005_Resistance_DescKey,"While in this state, the alien is almost impossible to damage. "
+
+Trait_Boss004_Cooperate_PlayerBuff_NameKey,Titanian Enhancement
+Trait_Boss004_Cooperate_PlayerBuff_DescKey,Incredible power given by AI:Nine to stand against Alien entity.
+
+#,[Extra Key]
+PerMaxHealth_Key,-1% of max health
+RandomDurability_Decrease_Key,Random Equipment <sprite name=Durability><#FF0000> Durability -2 (Per Turn)
