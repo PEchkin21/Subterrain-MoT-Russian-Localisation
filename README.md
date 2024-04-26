@@ -1,5 +1,5 @@
-#Прогресс Перевода
-
+# Прогресс Перевода
+```
 Localization
 	Contents 0.2
 		Item 0.2.1 
@@ -12,6 +12,8 @@ Localization
 	UI&Achivement 0.5
 	Image 0.6
 	MigrationToRelease 1.0
+```
+ # Контакты для связи
  
 На случай если захотите указать на ошибку в переводе отправьте скрин мне в 
 Мой Discord: abaturthelibrarian
