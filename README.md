@@ -21,7 +21,7 @@ Localization
 ## Когда перевод на новую версию?
 После Релиза 12 Марта
 ## А где тогда взять нужную версию версию?
-Тут>>	[Google.Drive](drive.google.com/file/d/1JwfXQo4XE--dago5ylfpS4Puco4C_1Za/view?usp=drive_link)
+Тут>>	[Google.Drive](https://drive.google.com/file/d/1JwfXQo4XE--dago5ylfpS4Puco4C_1Za/view?usp=drive_link)
 
 Тут>>	[Яндекс.Диск](disk.yandex.ru/d/1NU-3W4TJT3X-Q)
 ## Контакты для связи
