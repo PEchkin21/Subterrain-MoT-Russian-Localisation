@@ -23,7 +23,7 @@ Localization
 ## А где тогда взять нужную версию версию?
 Тут>>	[Google.Drive](https://drive.google.com/file/d/1JwfXQo4XE--dago5ylfpS4Puco4C_1Za/view?usp=drive_link)
 
-Тут>>	[Яндекс.Диск](disk.yandex.ru/d/1NU-3W4TJT3X-Q)
+Тут>>	[Яндекс.Диск](https://disk.yandex.ru/d/1NU-3W4TJT3X-Q)
 ## Контакты для связи
 На случай если захотите указать на ошибку в переводе отправьте скрин мне в 
 Мой Discord: abaturthelibrarian
