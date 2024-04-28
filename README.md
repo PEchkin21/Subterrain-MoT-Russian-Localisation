@@ -3,8 +3,8 @@
 Localization
 	Contents 0.2
 		Item 0.2.1 
-		Attribute 0.2.2		<< Translation Here
-		Name 0.2.3
+		Attribute 0.2.2	
+		Name 0.2.3		<< Translation Here
 		Journal 0.2.4
 		SpeechBubble 0.2.5
 	Dialogue 0.3
