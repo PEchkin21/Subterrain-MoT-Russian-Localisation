@@ -1,0 +1,48 @@
+Language,Default
+
+#,Main Quest: Air Circulator
+#,Purpose: Research the broken Air Circulator Fuse
+#,Place: Basement Facility
+#,"Actor: Ida Shahane, Judith Taggart"
+#,KeyPrefix: Act02_MQ_22
+
+#,This triggers when player finds the air circulator for the first time. But there is no filter inside.
+#,Purpose of the air circulator for the game is that one can install a working filter to slow down the nanobot infection from spreading.
+#,Player send the information to Ida.
+Act02_MQ_22_Player_01,"Another familiar device... Was I an engineer in my past life? Judith would love that, I bet. *sigh* Anyway, Cassini, scan, please."
+Act02_MQ_22_AI_02,Scanning. Analyzing with available data.
+Act02_MQ_22_Nar_03,(...)
+Act02_MQ_22_AI_04,"Analysis complete. This is an air circulator, {PlayerFullName}, but it is not operational. <color=#FFFF00>Reason: Filter Failure.</color>"
+Act02_MQ_22_Nar_05,"(You eject the machine's old filter, which is caked with previously-extracted contaminants that have left it corroded.)"
+Act02_MQ_22_Player_06,"Shit! It's too corroded for reproduction. If we could make this work, though, it would likely reduce my contamination levels. Maybe. Cassini, send this info to Ida."
+Act02_MQ_22_AI_07,<color=#FFFF00>Sending information. Target: Ida...</color>
+Act02_MQ_22_Nar_08,(...)
+Act02_MQ_22_AI_09,<color=#FFFF00>Transfer complete.</color>
+Act02_MQ_22_Nar_10,"(After a short while, Ida responds to your message.)"
+Act02_MQ_22_Ida_11,"An air circulator? Yes, that could be useful. Let me confer with Judith and come up with a plan.\n-From Ida-"
+
+#,Player finds the second air circulator. There is broken filter inside.
+#,Player makes call to Ida and she tells player to bring back the broken filter and they can make altered filters to suppress contamination rate.
+Act02_MQ_22_Player_12,Another air circulator.
+Act02_MQ_22_Nar_13,(You examine the air circulator and notice it is networked with several others on this level.)
+Act02_MQ_22_Player_14,"Looks like there's one of these in each major area. Cassini, is this one operational?"
+Act02_MQ_22_AI_15,Scanning.
+Act02_MQ_22_Nar_16,(...)
+Act02_MQ_22_AI_17,"Analysis completed. Sorry, {PlayerFullName}, it is not operational. <color=#FFFF00>Same reason: Filter failure.</color>"
+Act02_MQ_22_Player_18,"This filter is broken but not nearly as corroded as the other. Cassini, contact Ida."
+Act02_MQ_22_AI_19,<color=#FFFF00>Establishing communication. Target: Ida</color>
+Act02_MQ_22_Ida_20,"Hey, I was just about to contact you. Good news: We have a plan to make use of the air circulator."
+Act02_MQ_22_Ida_21,"Judith and I concur with your earlier theory. Your nanobots are working overtime right now, but modifying the air circulator filters will make the air more breathable and slow the rate you experience nanobot contamination while underground."
+Act02_MQ_22_Player_22,Really? I just found another air circulator with a broken filter inside.
+Act02_MQ_22_Ida_23,"That works. Bring it back to camp, and Judith will research it. Every filter we install down there is another step closer to slowing down contamination levels for everyone. Great find!"
+Act02_MQ_22_Player_24,"Thank you. Okay, I'm heading back. "
+Act02_MQ_22_Nar_25,(End of communication.)
+Act02_MQ_22_Player_26,I really hope this works.
+Act02_MQ_22_AI_27,"If Doctor Shahane is correct, then everyone will BREATHE a sigh of relief."
+Act02_MQ_22_Player_28,"...I didn't know you could tell jokes, Cassini. That was a pretty good one."
+
+#,This triggers afrer working filter has been researched.
+#,Player is noted that working filter can be produced.
+Act02_MQ_22_AI_29,"<color=#FFFF00>Incoming message from Judith, {PlayerFullName}.</color>"
+Act02_MQ_22_Judith_30,Research on the new filters is done. So get the materials together and make as many as you need. \n-From Judith-
+Act02_MQ_22_AI_31,<color=#66FFCC>Air Filter</color> has been added to the crafting list.

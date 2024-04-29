@@ -1,0 +1,323 @@
+﻿Language,Default
+Trade,[Торговать] Что у тебя в наличие?
+Leave_Text,(Уйти.)
+Confirm_Text,(Принять)
+Continue_Text,(Продолжить.)
+
+#,Ft_Alexei=First Talk
+Ft_Alexei_Alexei_01,"Ты новенький, не так ли? Я Алексей, один из шахтёров. Хотя мы последнее время не так уж много копаем. Тебе что-то нужно?"
+#,Basic_Alexei=Before Act01_MQ_11
+Basic_Alexei_Alexei_02,Старый друг лучше новых двух.
+Basic_Alexei_Player_03,Ааа?
+Basic_Alexei_Alexei_04,Я занят.
+#,A11=After Act01_MQ_11
+Basic_Alexei_05,"'Живи как волк, рычи как волк.' Помни это. "
+
+#,Ft_Alp=First Talk
+Ft_Alp_Alp_01,"Новенький! Меня зовут Альп Демир, владелец Паба у Альпа."
+Ft_Alp_Alp_02,"Присядь и попробую чего-нибудь. Ты не будешь разочарован."
+#,Basic_Alp=Before Act01_MQ_06
+Basic_Alp_01,Ты уже поел? Моя готовка напомнит тебе о доме.  
+#,A06_Alp=After Act01_MQ_06
+Basic_Alp_02,Спасибо за грибы. Поешь сейчас, чтобы не бродить на голодный желудок. 
+
+#,Ft_Brett=First Talk
+Ft_Brett_Brett_01,Привет... мы раньше не виделись?
+Ft_Brett_Player_02,"Думаю что нет. Я {PlayerFullName}, я здесь новенький. "
+Ft_Brett_Brett_03,"Ну, я Бретт Кэссиди. Я присоединился к этой небольшой авантюре, чтобы стаь первым исследователем неизведанных пещер Титана. Но вместо этого, мне пришлось стать охранником после того как шахта закрылась, "
+Ft_Brett_Brett_04,"Кстати, мне пора бежать. Было приятно познакомиться. "
+#,Basic_Brett=After Ft
+Basic_Brett_Brett_01,"Извини. Нельзя чтобы меня застукали за бездельем."
+
+#,Ft_Claudia=First Talk
+Ft_Claudia_Claudia_01,"Разве это не эксперемент Иды. "
+Ft_Claudia_Player_02,"Ты меня знаешь?"
+Ft_Claudia_Claudia_03,"Я Клаудия, глава службы безопасности. Охранники - последние сотрудники TECC на Титане. Все остальные работают здесь по контракту. Так что, да, здесь ничего не происходит без моего ведома."
+Ft_Claudia_Player_04,"Какие нибудь советы по выживанию в лагере?"
+Ft_Claudia_Claudia_05,"Держись подальше от меня и моих друзей, держись подальше, и у нас не будет проблем. "
+#,Basic_Claudia=After Ft
+Basic_Claudia_Claudia_06,"Иди дальше."
+
+#,Ft_Cristhyan=First Talk
+Ft_Cristhyan_Cristhyan_01,"I'm Cristhyan Soler, in charge of the plumbing around here. Earl takes care of the water, and I make sure everyone who needs it gets it. "
+Ft_Cristhyan_Cristhyan_02,Nice to meet you. This place needed some new faces.
+#,Basic_Cristhyan=After Ft
+Basic_Cristhyan_Cristhyan_03,A plumber's job is never done.
+
+#,Ft_Cyrus=First Talk
+Ft_Cyrus_Player_01,"Hello, I'm {PlayerFullName}, the one who-"
+Ft_Cyrus_Cyrus_02,"-I know you. I helped Ida rig a pod-opener after she dug you up. Quite the sophisticated contraption, but after some creative sledgehammer usage, here you are."
+Ft_Cyrus_Player_03,So no previous cryostasis experience then?
+Ft_Cyrus_Cyrus_04,"No. I'm Cyrus, head of the garage for now, but I'm also a world-renowned pilot. "
+Ft_Cyrus_Cyrus_05,"But since the airship is out of commission, you know where to find me. Glad you are back among the living. "
+#,Basic_Cyrus=After Ft
+Basic_Cyrus_Cyrus_06,Enjoying the waking world?
+
+#,Ft_Dalton=First Talk
+Ft_Dalton_Dalton_01,"Yo, I'm Dalton. Don't take anything Claudia says too personally. Us guards are here to keep the camp safe and seek justice. We have your back. "
+#,Basic_Dalton=Ft
+Basic_Dalton_Dalton_02,Can't stop. On patrol. 
+
+#,Ft_A04_David=First Talk
+Ft_A04_David_David_10,"Hello again, Maverick! "
+Ft_A04_David_David_11,"You're all set in the system, so you can buy, sell, and use the storage boxes. My store is the best, though."
+Ft_A04_David_Player_12,Thank you!
+Ft_A04_David_David_13,No problem.
+#,Basic_A04_David=Basic text
+Basic_A04_David_David_14,Check out David's Emporium for the best selection on Titan!
+
+#,Ft_Earl=First Talk
+Ft_Earl_Earl_01,"Oh? You are the pod person Ida was working on. I am Earl Running Wolf, and I maintain this holy place."
+Ft_Earl_Player_02,I'm {PlayerFullName}. Holy place? Like a church?
+Ft_Earl_Earl_03,"It's a place to bask in the beauty of life itself. I keep our water as clean as I do my own soul, using chemicals for one and prayer for the other."
+Ft_Earl_Player_04,Is the local water dangerous if it's untreated?
+Ft_Earl_Earl_05,"Let's just say that Titan's water can disintegrate buildings, so you can imagine what it'd do to your insides."
+Ft_Earl_Earl_06,"Despite what others think, there's no water shortage. On the other hand, the chemicals used to treat the water are running low. Everyone needs water, especially Seoyeon's farm, and rationing correctly avoids causing panic. Water is life, and I don't want to leave anyone high and dry. "
+Ft_Earl_Earl_07,"Anyway, welcome. I have something to attend to. "
+#,Basic_Earl=After Ft
+Basic_Earl_Earl_08,Are you here for water or to join me in prayer?
+
+#,Ft=First Talk
+Ft_Fang_Fang_01,"I'm Fang. I can do it all, but I'm primarily responsible for maintaining our mining equipment. Since the mine shut down, I've been helping at the power plant. "
+Ft_Fang_Player_02,It sounds like they're still keeping you busy.
+Ft_Fang_Fang_03,"My dad said it was a mistake to come to Titan, but it's honest work and calms me. Can't beat that. "
+#,Basic Talk
+Basic_Fang,I can't wait to get back to the mines.
+
+#,Ft=First Talk
+Ft_Freyja_Player_01,"Hi, I'm {PlayerFullName}. Can I ask your name?"
+Ft_Freyja_Freyja_02,"Freyja Johannsson, just one of many out-of-work miners. Not that I miss it, but they're just being so damn secretive about what's happening down there."
+Ft_Freyja_Freyja_03,"Whatever it is, I hope the higher-ups don't miss the beauty of it all. "
+Ft_Freyja_Player_04,"Me too, and it was nice to meet you. "
+#,Basic_Freyja=After Ft
+Basic_Freyja_Freyja_05,There's beauty in everything.
+
+#,Ft_Lao=First Talk
+Ft_Lao_Player_01,"Hello, I'm {PlayerFullName}."
+Ft_Lao_Lao_02,I know. I was wondering when you'd arrive.
+Ft_Lao_Player_03,Were you… expecting me?
+Ft_Lao_Lao_04,"Of course! I make it my business to know everyone in camp. Knowledge is key to humanity's survival, know what I mean? Let me balance the scales by introducing myself."
+Ft_Lao_Lao_05,"You can call me Mr. Lao, and I run Huygen Camp's residential quarter. If you notice how comfortable it feels around here, it is due to my expert leadership. My little favor to everyone in the camp."
+Ft_Lao_Player_06,Favor?
+Ft_Lao_Lao_07,"Yes. It isn't cheap to keep the lights on, and I'm practically in the red trying to make sure everyone gets a good night's sleep."
+Ft_Lao_Player_08,W-wait... in the red?
+Ft_Lao_Lao_09,"You know, losing money. Oh my goodness, the camp would've collapsed after closing the mine had I not implemented my 'credits' system. It's a transparent local currency system that rewards the most significant contributors, and now you're also a part of the system. It might seem like a relic of the past, but history can teach valuable lessons."
+Basic_Lao_Lao_10,"I'm preoccupied right now, so if you don't mind…"
+
+#,Ft_Grace=First Talk
+Ft_Grace_Grace_01,"G'day, I'm Grace Thompson, in charge of processing all the ore we find. I've heard there are heaps of extremely rare minerals in the mine. I hope it opens up again soon. "
+#,Basic_Grace=After Ft
+Basic_Grace_Grace_02,"If you find any cool minerals, I'd love to see them. "
+
+#,Ft_Ida=First Talk
+Ft_Ida_Ida_01,"Hello again. I'm monitoring your vitals remotely and keeping a close eye on you. If I detect any changes, you'll be the first to know."
+Ft_Ida_Player_02,"Thank you, Doctor Shahane. "
+#,Basic Talk
+Basic_Ida,...I wonder what happened here...
+
+#,Ft_Idrissi=First Talk
+Ft_Idrissi_Idrissi_01,I'm Idrissi. I maintain the machines until the mine opens again. 
+Ft_Idrissi_Player_02,"Well, it's nice to meet you, Idrissi. I'm {PlayerFullName}."
+Ft_Idrissi_Idrissi_03,"No time, no time. I have machines to work on. Excuse me. "
+#,Basic_Idrissi=After Ft
+Basic_Idrissi_Idrissi_04,Excuse me.
+
+#,Ft=First Talk
+Ft_Isko_Player_01,"Hi, Isko."
+Ft_Isko_Isko_02,If it isn't my favorite patient. Do you need something?
+Ft_Isko_Player_03,Just learning my way around. Can you tell me more about Camp Huygen?
+Ft_Isko_Isko_04,"Well, you already know I take care of the camp's medical needs. We're on Titan, the largest of Saturn's moons. We're also pretty far from TECC headquarters."
+Ft_Isko_Player_05,Wait… isn't Doctor Shahane the head of Medical.
+Ft_Isko_Isko_06,"Officially, yes, but I took over most of Ida's responsibilities when she changed focus to her current research project. "
+Ft_Isko_Player_07,What's she studying?
+Ft_Isko_Isko_08,"She's been looking into the circumstances surrounding the previous settlers here, which eventually led her to you. You should've seen her face when she found you, hehe."
+Ft_Isko_Isko_09,"I mainly tend to injuries and treat anyone showing symptoms from exposure to the mine, but I'm also an expert in medical tech. All the while, Ida is giving her all to something even bigger. She's constantly pushing herself, which is one of the reasons I admire her so much. "
+Ft_Isko_Player_10,You mentioned mine exposure. Can you elaborate?
+Ft_Isko_Isko_11,"We don't yet know why, but some miners who went underground came back ill. Some were beyond medical intervention, and the remaining survivors are quarantined in medically-induced comas to decelerate their sickness. The mine was closed, but we're still researching a cure. Again, something Ida will crack one day."
+Ft_Isko_Isko_12,"Without the mine, though, our supplies are limited. That's part of why your Omniscope was built from used parts instead of brand-new ones. If something doesn't change soon, we won't last long here."
+Ft_Isko_Player_13,And TECC HQ has cut off support? How can they do that?
+Ft_Isko_Isko_14,I wish I could tell you more. Not really my department.
+Ft_Isko_Player_15,Thanks for the talk. 
+#,Basic_Isko=After Ft
+Basic_Isko_Isko_16,I'm pretty busy. Can this wait?
+
+#,Ft_Jozef=First Talk
+Ft_Jozef_Nar_01,"(As you approach, the older man is startled and accidentally blows smoke in your face.)"
+Ft_Jozef_Jozef_02,*cough* Sorry! Mind your backs! *cough* You snuck up on me!
+Ft_Jozef_Player_03,"I didn't mean to, sorry. I'm {PlayerFullName} *cough* I just wanted to introduce myself."
+Ft_Jozef_Jozef_04,"Sure, sure. I'm Jozef, and I work with Cyrus 'round here. Gotta head back to work, though. Let's talk again later. "
+#,Basic_Jozef=After Ft
+Basic_Jozef,If you see my car in the garage… don't touch it. It's mine. 
+
+#,Ft_B08_Judisth=First Talk before Act01_MQ_08
+Ft_B08_Judith_Judith_01,"Hmm? I don't recognize you... oh! You're the medical wonder Ida brought back from the dead, right?"
+Ft_B08_Judith_Player_02,That's one way to put it. I'm {PlayerFullName}.
+Ft_B08_Judith_Judith_03,"Oh, darn! You said it too fast; I was going to try to guess your name. Do you wanna guess mine?"
+Ft_B08_Judith_Nar_04,(...)
+Ft_B08_Judith_Judith_05,"*Buzzzzz* Too slow. I'm Judith Taggart, Camp Huygen's chief engineer and inventor."
+Ft_B08_Judith_Player_06,Quite the resume. Nice to meet you. 
+Ft_B08_Judith_Judith_07,"You too, and welcome to Engineering, me'home away from home. Talk to me if you need any tools; they're my specialty."
+Ft_B08_Judith_Judith_08,"Anyway, I gotta get back to work. We'll be seeing ya."
+#,Basic_B11_Judith=Basic talk before Act01_MQ_11
+Basic_B11_Judith_ Judith_14,"Humm."
+#,Basic_A11_Judith=Basic talk after Act01_MQ_11
+Basic_A11_Judith_Judith_15,"Hey there, {PlayerFullName}! Have fun in the mines!"
+
+#,Ft_Katerina=First Talk
+Ft_Katerina_Nar_01,(Katerina ignores you and returns to her work.)
+Ft_Katerina_Player_02,Hello?
+Ft_Katerina_Katerina_04,"Look, just because I work at the Supply Depot and not in the mine anymore, that doesn't mean I'm here to take orders. Talk to David if you need something. "
+Ft_Katerina_Player_05,"Oh, okay, sure. "
+#,Basic_Katerina=After First Talk
+Basic_Katerina_Katerina_06,What?
+
+#,Ft_B07_Litzi=First Talk before Act01_MQ_07
+Ft_B07_Litzi_Player_01,Hello.
+Ft_B07_Litzi_Litzi_02,"Huh? Didn't know HQ was sending a new worker. I'm Litzi Vogl, and I keep the generator running. Or I try to anyway."
+Ft_B07_Litzi_Player_03,My name is {PlayerFullName}. Is there something wrong with the generator?
+Ft_B07_Litzi_Litzi_04,"It runs fine for now, but closing the mine has eaten into our fuel reserves. I've been rationing power for months to ensure we don't get stuck with zero power. And since Titan's original reactors are damaged, this generator is all we have."
+Ft_B07_Litzi_Player_05,What's wrong with the reactors?
+Ft_B07_Litzi_Litzi_06,"They're unstable. Even with Judith's help, we still lack the materials to fix it. The mine probably had resources we could utilize, but that ship has sailed. I just hope the instability doesn't get worse…"
+Ft_B07_Litzi_Player_07,Oh... that sounds bad…
+Ft_B07_Litzi_Litzi_08,"Yeah, sorry… didn't mean to unload all of that on you. But if things are dire, it's better to not be in the dark. "
+Ft_B07_Litzi_Litzi_09,Is there anything else you need?
+#,Basic_Litzi=Basic talk
+Basic_Litzi_Litzi_10,"Sorry, can this wait? I'm a little busy keeping the plant online."
+
+#,Ft_Martin=First Talk
+Ft_Martin_Martin_01,"Hola, I'm Martin, a writer by trade, but I dabble in many other things. Just as everyone should! The mine is closed, and I am out of a job, but now I have more time to write."
+Ft_Martin_Player_02,And what do you write about?
+Ft_Martin_Martin_03,"My adventures! I've been a bus driver, a repossession agent, and even a spy… but that's a story for another time. We'll have to talk more over cafe con leche sometime. But for now, I must go. "
+Ft_Martin_Player_04,That sounds wonderful. Nice to meet you.
+#,Basic_Martin=After Ft
+Basic_Martin_Martin_01,I wonder what it's like in the mines. 
+
+#,Ft_B06_Miriam=First Talk before Act01_MQ_06
+Ft_B06_Miriam_Miriam_01,"Oh, hello. I'm Miriam, a server at the pub. Stop by if you haven't already. Alp is a great cook. "
+#,Ft_A06_Miriam=First Talk after Act01_MQ_06
+Ft_A06_Miriam_Miriam_02,"I'm Miriam. We have yet to meet, but Alp speaks highly of you. Those mushrooms have put a genuine smile on his face. "
+#,After completing mushroom quest.
+Ft_A06_Miriam_Miriam_03,Alp speaks highly of you. Those mushrooms have put a genuine smile on his face.
+#,Basic_Miriam=After First talk
+Basic_Miriam_Miriam_03,I hope you are well. Can I help you?
+
+#,Ft_Nina=First Talk
+Ft_Nina_Nina_01,What are you looking at?
+Ft_Nina_Player_02,Just learning my way around camp. I'm {PlayerFullName}.
+Ft_Nina_Nina_03,"Yeah, the cryo-newb. I'm Nina."
+Ft_Nina_Player_04,Pleased to meet you. 
+Ft_Nina_Nina_05,(...)
+Ft_Nina_Player_06,(...)
+Ft_Nina_Nina_07,Did you want something?
+Ft_Nina_Player_08,I guess not. 
+#,Basic_Nina=After Ft
+Basic_Nina_Nar_09,"(She eyes you, but says nothing.)"
+
+#,Ft_Octavio=First Talk
+Ft_Octavio_Octavio_01,"You look like someone who knows how to have fun! I'm Octavio Cardoso, ex-miner and resident partier."
+Ft_Octavio_Player_02,I'm {PlayerFullName}. So you also lost your job when the mine closed?
+Ft_Octavio_Octavio_03,"Oh yeah, but it doesn't matter. There's always fun to be had. Later!"
+#,Basic_Octavio=After Ft
+Basic_Octavio_Octavio_04,Having fun yet?
+
+#,Ft_Odette=First Talk
+Ft_Odette_Odette_01,"I'm Odette, Litzi's apprentice electrical engineer. No matter what others think of Titan, I'd take my worst day here over my best day on Earth."
+#,Basic Talk
+Basic_Odette_Odette_01,Happiness is perspective. 
+
+#,Ft_Pierre=First Talk
+Ft_Pierre_Pierre_01,"Hello there, I am Pierre Ondo. Judith holds the spot as the best engineer on Titan, but I also specialize in computers and analytics. We've worked on several prototypes together."
+Ft_Pierre_Pierre_02,"I hope you find your time here pleasant. We are a dysfunctional family, yes, but we are family nonetheless. "
+#,Basic_Pierre=After Ft
+Basic_Pierre_ Pierre_03,Your presence gives us hope. 
+
+#,Ft_Rana=First Talk
+Ft_Rana_Rana_01,Hello. Were you interested in learning about hydroponics? 
+Ft_Rana_Player_02,"Um, not really. Just introducing myself. I'm {PlayerFullName}."
+Ft_Rana_Rana_03,"Interesting. Well, my name is Rana Quadir. I push green initiatives to expand usable land for crops and care for Seoyeon when she needs it. Speaking of which, I have things to attend to, so if you'll excuse me..."
+#,Basic_Rana=After Ft
+Basic_Rana_Rana_02,Green initiatives don't run themselves. 
+
+#,Ft_Seble=First Talk
+Ft_Seble_Seble_01,You from the first settlement team? I heard you were found outside camp.
+Ft_Seble_Player_02,"Yes, but my memories are still pretty hazy. I'm {PlayerFullName}."
+Ft_Seble_Seble_03,"Interesting… well, I'm Seble Kebede, a mining drone pilot, but my job is on hold at the moment with the mine lockdown. My drones are in pieces from creature attacks, anyway, so whatever. Gotta fix those, so I'll see you later. "
+#,Basic_Seble=After Ft
+Basic_Seble,I wish I could pilot the drones again... Maybe one day.
+
+#,Ft_Seoyeon=First Talk
+Ft_Seoyeon_Seoyeon_01,"Oh, um, hello. I wasn't expecting visitors today. Did Mr. Lao send you?"
+Ft_Seoyeon_Player_02,"My name is {PlayerFullName}, and I was recently revived by Doctor Shahane. I'm introducing myself to everyone. "
+Ft_Seoyeon_Seoyeon_03,"The one from the stasis pod? Wow, Ida truly is the best. But yeah, that makes more sense, since nobody ever visits this corner of the camp."
+Ft_Seoyeon_Seoyeon_04,"Oh, how terribly rude of me. I'm Seoyeon Nam, and I run the farm here."
+Ft_Seoyeon_Player_05,A farm? I'm surprised you can grow anything on this rock.
+Ft_Seoyeon_Seoyeon_06,"Of course, we can. Even shorthanded, this farm keeps us fed day in and day out. I keep telling Earl I need more water or the plants will whither, but he's trying his best with rationing too. We will persist, despite his hard-headedness."
+Ft_Seoyeon_Seoyeon_07,I'm sorry. Please don't tell Earl I said that. I'm letting my emotions get the better of me. 
+Ft_Seoyeon_Player_08,My lips are sealed. But do you even use all these plants? The plant-to-stomach ratio seems skewed at the moment.
+Ft_Seoyeon_Seoyeon_09,"Sadly, no. Most of these are for medicinal purposes since they require less water than food rations. With more water and a bit of experimentation, we could accelerate the growth of even more valuable plants."
+Ft_Seoyeon_Seoyeon_10,"You're welcome to check out the store, of course, if you need supplies. Thanks for stopping by. "
+#,Basic_Seoyeon=After Ft
+Basic_Seoyeon_Seoyeon_11,Plants are wondrous things. Do you agree?
+
+#,Ft_Tau=First Talk
+Ft_Tau_Tau_01,And you are?
+Ft_Tau_Player_02,"Hi, I'm {PlayerFullName}. Doctor Shahane just pulled me out of hibernation, so I'm still getting used to not being frozen."
+Ft_Tau_Tau_03,"After she locked the clinic doors and fixated on you, I hadn't seen her for a while. I'm Overseer Mogorosi, and this is my mine."
+Ft_Tau_Player_04,Seems quiet for a mine. I would expect heavy machinery and lots of noise. 
+Ft_Tau_Tau_05,"Yeah, I had to close the mine since some of my workers got sick. Real talk: It's just an excuse to not work. Bunch'a lazy bastards. Mining Titan ain't no different than Earth or Mars, and they're costing me credits every day they aren't working."
+Ft_Tau_Player_06,The mine made them sick? How does that work?
+Ft_Tau_Tau_07,"Do I look like a doctor? Hell, even the doctors don't know what's happening. One worker coughs, and all the others pretend their throats hurt too. "
+Ft_Tau_Tau_08,"Now I recycle people's crap for credits. We'll be back to business soon enough, though. "
+#,Basic_Tau=After First Talk
+Basic_Tau_Tau_09,"Unless you're paying, I got nothing to say. "
+#,If player speaks with Tau after completing Dalton quest
+#,Replaces Basic_Tau permanently
+Side_Q_BringingJustice_S01_Tau_18,Go ahead and gawk. I'm counting the minutes until I get my revenge.
+
+#,Ft_Temir=First Talk
+Ft_Temir_Player_01,"Hi, I'm {PlayerFullName}…"
+Ft_Temir_Temir_02,"Oh, hello, my name's Temir. Are you, by chance, interested in thermodynamics? Strange question, I know, but it's a fascinating subject once you get into it."
+Ft_Temir_Player_03,"Can't say I know much about it, sadly. "
+Ft_Temir_Temir_04,"Bummer. I want to help the camp with my research, but there's no room for a hobbyist like me. And now, even the mining positions are gone. I feel like I'm cursed…"
+Ft_Temir_Temir_05,"*sigh* Anyway, I have some reading to do. Excuse me. "
+#,Basic_Temir=After Ft
+Basic_Temir_Temir_06,Sometimes I feel cursed.
+
+#,Ft_Ulf=First Talk
+Ft_Ulf_Ulf_01,"Name's Ulf, the mixologist at the pub. I used to be a miner, but who wasn't nowadays. *hehe* Who you were isn't who you are, though, right?"
+#,Basic_Ulf=After First Talk
+Basic_Ulf_Ulf_02,Need a drink?
+
+#,Ft_Ursula=First Talk
+Ft_Ursula_Ursula_01,"Look at you… you're so young, with so much life still left in you."
+Ft_Ursula_Player_02,I'm {PlayerFullName}. Are you okay? Do you need anything?
+Ft_Ursula_Ursula_03,"No, don't worry about me. I'm used to the solitude. "
+Ft_Ursula_Nar_04,"(You're a little concerned, but the woman simply walks away.)"
+#,After player has left Ursula
+Ft_Ursula_AI_05,"Observing her behavior, I discreetly scanned Ursula's bio-signs while you spoke with her. "
+Ft_Ursula_Player_06,She was acting strange. Did you find anything?
+Ft_Ursula_AI_07,"Yes, {PlayerFullName}… she is dying. Cancerous cells are accumulating in her stomach. "
+Ft_Ursula_Player_08,"Oh, no. Is there anything that can be done?"
+Ft_Ursula_AI_09,"Her condition is stage 4, beyond medical intervention. Cross-referencing employee records, she was a miner but was relieved of her job long before the mine was closed."
+Ft_Ursula_Player_10,No one should suffer alone. I'll have to circle back later. 
+#,Basic_Ursula=After Ft
+Basic_Ursula_Ursula_11,"Oh, don't mind me."
+
+#,Ft_Vinh=First Talk
+Ft_Vinh_Player_01,"Hi, I'm {PlayerFullName}, I just wanted to-"
+Ft_Vinh_Vinh_02,"I am Vinh, but I can't talk. I take my job seriously, as everyone should."
+Ft_Vinh_Player_03,"Sorry, I'm new here and trying to learn my way around. "
+Ft_Vinh_Vinh_04,I hope you find purpose at camp. I must return to work. 
+#,Basic_Vinh=After Ft
+Basic_Vinh_Vinh_05,I must focus on my duties. 
+
+#,Ft_Wirat=First Talk
+Ft_Wirat_Player_01,"Hello, I'm meeting people around camp. I'm {PlayerFullName}."
+Ft_Wirat_Wirat_02,The one recovered from cryostasis? You have accumulated a lot of karma through your experiences. 
+Ft_Wirat_Player_03,Karma? Is that a Buddhist thing?
+Ft_Wirat_Wirat_04,"Wise as well as strong, {PlayerFullName}. *haha* I am Wirat, an ex-miner, and I am thankful to have walked a path that has led me to you today."
+Ft_Wirat_Player_05,So you were down in the mine? Did you encounter anything weird?
+Ft_Wirat_Wirat_06,"Yes, but every human is the author of his own health or disease. Be sure to make the right choices. "
+Ft_Wirat_Player_07,Thank you. Let's talk again soon. 
+#,Basic_Wirat=After Ft
+Basic_Wirat_Wirat_08,One who acts on truth is happy in this world and beyond.

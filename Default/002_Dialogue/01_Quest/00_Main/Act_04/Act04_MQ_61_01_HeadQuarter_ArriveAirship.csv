@@ -1,0 +1,40 @@
+Language,Default
+
+#,Main Quest Name: Arrive at HQ by airship
+#,Purpose: To describe the HQ upon arrival by airship
+#,"Actor: Player, other NPCs"
+#,KeyPrefix: Act04_MQ_61_01
+
+#,Airship lands and dialogue triggers
+#,Dialogue triggers with everyone still in the airship.
+#,Describes the situation. Landing was rough but successful. Everyone is nervous. Only player gets off the ship. Others asks player to 'scout' the area. (Done)
+#,Claudia and her guards are still not risking their life over anything. (Done)
+#,Main excuse is that HQ may be overrun by infection. (Done)
+#,Directs player to investigate further inside. (Done)
+#,"When dialogue is over, player will pop outside of airship and game play begins."
+Act04_MQ_61_01_Nar_01,"(TECC HQ's airship dock shows degradation upon landing, jostling everyone inside. The accommodations are standing room only on the main deck, but there is also sufficient railing to keep everyone stable. The trip was rough, but at least you are all together.)"
+Act04_MQ_61_01_Cyrus_02,"Sorry, sorry! That was a bumpy landing! Is everyone okay back there?"
+Act04_MQ_61_01_Alp_03,"I've got extra padding to help me, but the skinny people look relatively unharmed. *hehe* All is good, my friend! "
+Act04_MQ_61_01_Nar_04,(Leave it to Alp to lighten the mood and lift spirits.)
+Act04_MQ_61_01_David_05,"I don't think I'm part of the skinny people group, but I'm also okay."
+Act04_MQ_61_01_David_06,"Come to think of it, someone has to check our stocks in the hold for potential damage too. Wanna help me, Litzi?"
+Act04_MQ_61_01_Litzi_07,Of course.
+Act04_MQ_61_01_Nar_08,"(David and Litzi leave while Ida stands to address the rest of the group. Her expression is tense, meaning this isn't good news.)"
+Act04_MQ_61_01_Ida_09,"HQ is right outside that door, so there are a number of things that could happen now that we've arrived. "
+Act04_MQ_61_01_Player_10,We're listening. 
+Act04_MQ_61_01_Ida_11,"The best-case scenario is a ticker-tape parade and a party waiting on the other side. Streamers, confetti, trumpets, the whole works."
+Act04_MQ_61_01_Lao_12,"Mr. Lao is all for wishful thinking, but that is a bit much."
+Act04_MQ_61_01_Player_13,I have to agree that doesn't sound very likely. Got another guess?
+Act04_MQ_61_01_Ida_14,"Chances are that you'll be walking into enemy territory. We won't know <color=#FFA500>Contamination Levels</color> or monster population until you go outside, {PlayerFullName}."
+Act04_MQ_61_01_Player_15,"Okay, good... Wait... <b>I'm</b> walking into enemy territory?"
+Act04_MQ_61_01_Player_16,"Any chance the security team can back me up, Claudia?"
+Act04_MQ_61_01_Claudia_17,"Sorry, {PlayerFullName}, but we can't risk our people out there without more info. Consider the fort held down until you return, though. "
+Act04_MQ_61_01_Ida_18,Claudia is right. Scout the area first so we know our options. 
+Act04_MQ_61_01_Judith_19,"Besides, 'Handling these creatures isn't a problem for you,' remember? "
+Act04_MQ_61_01_Nar_20,(Judith gives you a big hug.)
+Act04_MQ_61_01_Judith_21,"<color=#FFFF00>You're the hero of this story</color>, and we're just a dog's hair away from finding out how it ends. Just go for it!"
+Act04_MQ_61_01_Seoyeon_22,Don't worry about us. We have plenty of food and water.
+Act04_MQ_61_01_Ida_23,"Right! Explore the building, get a handle on the situation, and come back alive. Then we'll join you if we can. "
+Act04_MQ_61_01_Player_24,Sounds like a plan. Cross your fingers for me. 
+Act04_MQ_61_01_Alp_25,I'm even crossing my toes. Good luck!
+Act04_MQ_61_01_Nar_26,"(After you collect your things, the airship doors creak open, and you take your first steps into TECC HQ.)"

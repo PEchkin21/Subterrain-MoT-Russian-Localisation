@@ -1,0 +1,49 @@
+Language,Default
+
+#,Main Quest Name: Invasion
+#,Purpose: Invasion event dialogue and tutorial
+#,"Actor: Litzi Vogl, Judith Taggart"
+#,KeyPrefix: Act02_MQ_Invasion
+
+#,This triggers when invasion event has been triggered for the first time.
+#,Game screen shakes violently and the following dialogue shows
+#,Communication between Judith and Litzi shows that there the reactor room has been compromised.
+#,"Litzi is especially in a panic state telling that if generator goes, so does the camp and everything that surrounds it."
+#,Player is known that there is chance for the mobs to creep up to the reactor room so it has to be defended.
+#,"Player is also able to produce defensive items such as barricades and turrets, told by Judith."
+Act02_MQ_Invasion_Nar_01,"(The ground quakes beneath your feet, almost knocking you down.)"
+Act02_MQ_Invasion_Player_02,What the hell was that?
+Act02_MQ_Invasion_AI_03,<#FFFF00>Establishing communication...</color> 
+Act02_MQ_Invasion_Nar_04,"(Judith and Litzi, both looking frantic, appear on the screen.)"
+Act02_MQ_Invasion_Judith_05,"This isn't good, this isn't good. "
+Act02_MQ_Invasion_Litzi_06,You're telling me! This isn't where I want to meet my maker!
+Act02_MQ_Invasion_Player_07,Hold on a sec. What's going on? Talk to me!
+Act02_MQ_Invasion_Nar_08,(Litzi takes a moment to catch her breath.)
+Act02_MQ_Invasion_Judith_09,"We got you just in time. I'll explain, since I'm the calmest one here... not that there isn't reason to be scared. Those tremors just now are destabilizing the camp, creating fissures in our reactor facility, and causing heaps of damage down there. Literally cracks in the ground opening up to the deeper underground."
+Act02_MQ_Invasion_Judith_10,"We're all hands on deck in researching the cause. So far, we've traced whatever is happening to <color=#FFFF00>Mine Control</color>. It could be a monster, or it could just be an after-effect of the tremors. Either way, the reactor cores are degenerating, which could cause a chain reaction, so we need to stop it."
+Act02_MQ_Invasion_Litzi_11,"You can't let us all die! The reactor cores are already unstable, so more damage means this whole rock could go up!"
+Act02_MQ_Invasion_Judith_12,Ida also alerted us to contamination in the Reactor room since the fissures are exposing it to the underground. That means you have to bite the bullet and be the hero yet again.
+Act02_MQ_Invasion_Judith_13,"Okay, since you know the sitch now, I'm updating your camp management software to detect contaminated areas and creatures in camp. On top of that, I'm adding <color=#66FFCC>Barricades</color> and <color=#66FFCC>Defense turrets</color> to your production options, just in case you need them to defend the reactors."
+Act02_MQ_Invasion_Judith_14,"This is end-of-days levels of urgency, {PlayerFullName}. Rattle your dags and <color=#FFFF00>get down there</color>! Don't let anything happen to the reactor cores!"
+Act02_MQ_Invasion_Litzi_15,"Please... Don't let my Generator die... If it dies, we all die!"
+Act02_MQ_Invasion_Nar_16,(Communication Ended.)
+Act02_MQ_Invasion_AI_17,<#FFFF00>Omniscope Update: Barricade and Defense Cannon Production.</color>
+Act02_MQ_Invasion_Player_18,"...We need to book it, Cassini."
+Act02_MQ_Invasion_AI_19,"Instead of reading, maybe we should just head to the reactor right away."
+Act02_MQ_Invasion_Player_20,Thanks for trying to lighten the mood. 
+Act02_MQ_Invasion_AI_21,I try.
+
+#,Triggers when player enters the reactor room after the first invasion event has been triggered.
+Act02_MQ_Invasion_Player_22,Oh no! There's a ton of damage everywhere.
+
+#,(Repeated) This triggers every time an invasion has been triggered.
+Act02_MQ_Invasion_AI_23,<#FFFF00>Mass bioactivity detected and headed toward camp. Prepare fortifications against the incoming invasion.</color>
+
+#,(Repeated) This triggers every time enemies have arrived at reactor room.
+Act02_MQ_Invasion_AI_24,<#FFFF00>Mass bioactivity detected at the reactor facility. Prepare fortifications to protect the reactor.</color>
+
+#,(Repeated) This triggers every time all the enemies have been defeated in the reactor room.
+Act02_MQ_Invasion_AI_25,<#FFFF00>Mass bioactivity has been eliminated.</color>
+
+#,(Repeated) This triggers every time all the reactor cores are destroyed and game over event is triggered.
+Act02_MQ_Invasion_AI_26,"<#FFFF00>Reactor system is critical. Imminent facility meltdown initiated. I'm sorry, {PlayerFullName}.</color>"

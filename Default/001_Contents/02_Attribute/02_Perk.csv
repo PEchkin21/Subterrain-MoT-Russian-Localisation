@@ -1,0 +1,422 @@
+Language,Default
+
+#DeepL
+
+#,[ Proficiency ]
+Perk_Pro_OneHandMelee,Одноручное Оружие
+Perk_Pro_TwoHandMelee,Двуручное Оружие
+Perk_Pro_OneHandRange,Пистолеты
+Perk_Pro_TwoHandRange,Винтовки
+Perk_Pro_Bow,Лук
+Perk_Pro_Nanobot,Наноботы
+Perk_Pro_Physical,Физические
+Perk_Pro_Survival,Выживаемость
+
+#,[ One Hand Melee ]
+#,( Passive )
+OHM_P_Mastery_NameKey,Владение Одноручным Оружием
+OHM_P_Mastery_DescKey,"Увеличены <sprite name=MeleeAccuracy_Icon> <#66FFCC>Точность В Ближнем Бою</color> и <sprite name=Dodge_Icon> <#66FFCC>Шанс Уклонения</color>, также снижен <sprite name=Fumble_Icon> <#66FFCC>Шанс Промаха</color> при использовании Одноручного Оружия. "
+
+OHM_P_ShieldMastery_NameKey,Владение Шитами
+OHM_P_ShieldMastery_DescKey,Увеличены <sprite name=blockPower_Icon> <#66FFCC>Сила Блока</color> и <sprite name=blockChance_Icon> <#66FFCC>Шанс Блока</color> при использовании щита.
+
+OHM_P_BlockStrike_NameKey,Ответный Удар
+OHM_P_BlockStrike_DescKey,Увеличен <#66FFCC><sprite name=Counter_Icon> Шанс Контратаки</color> против атак, наносимых после успешного блока.
+
+OHM_P_IntensiveCounter_NameKey,Возмездие
+OHM_P_IntensiveCounter_DescKey,Увеличен шанс <#FFA500><sprite name=Info_KnockBackTile_Icon> Отталкивания</color> и статус <#FFFF00><sprite name=Trait_State_Confusion_icon> Замешательства</color> после успешной контратаки.
+
+OHM_P_Concussion_NameKey,Тяжелые удары
+OHM_P_Concussion_DescKey,Крит теперь также накладывает на противника статус <#FFFF00><sprite name=Trait_State_Disorient_icon> Головокружение</color>.
+
+#,( Active )
+OHM_A_UpperHand_NameKey,Тяжелая Рука
+OHM_A_UpperHand_DescKey,"Благодаря интенсивным тренировкам в ближнем бою одноручным оружием вы получили способность, повышать свои показатели на несколько ходов."
+
+OHM_A_ReadyToCounter_NameKey,Встречная стойка
+OHM_A_ReadyToCounter_DescKey,Встаньте в оборонительную стойку, чтобы быть готовым для контратаки.
+
+OHM_A_ShieldAttack_NameKey,Удар Шитом
+OHM_A_ShieldAttack_DescKey,"Ударьте противника своим щитом, отбрасывая его назад и нанося оглушающий урон."
+
+OHM_A_CombinationAttack_NameKey,Комбо Рывок
+OHM_A_CombinationAttack_DescKey,Бросьтесь на врага, нанося шквал быстрых атак.
+
+OHM_A_SawshankBoomerang_NameKey,Бумеранг Шоушенка
+OHM_A_SawshankBoomerang_DescKey,"Метая свое оружие, поражайте несколько целей, прежде чем оно вернется к вам. Очень полезно."
+
+
+#,[ Two Hand Melee ]
+#,( Passive )
+THM_P_Mastery_NameKey,Владение Двуручным Оружием
+THM_P_Mastery_DescKey,"Увеличены <#66FFCC><sprite name=MeleeAccuracy_Icon> Точность В Ближнем Бою</color>, <#66FFCC><sprite name=CriticalChance_Icon> Крит Шанс</color>, а также <#66FFCC><sprite name=MeleeCriticalEfficiency_Icon> Эффективность Крита в Ближнем Бою</color> при использовании Двуручного Оружия."
+
+THM_P_InsideOut_NameKey,Внутрь и Наружу
+THM_P_InsideOut_DescKey, "Повышен шанс нанести эффекты <#66FFCC><sprite name=injuriedDamage_Icon> Травирующего Урона</color> и <#66FFCC><sprite name=fractureDamage_Icon> Переломного Урона</color> при использовании Двуручного Оружия.  "
+
+THM_P_AdrenalineMaster_NameKey,На Взводе
+THM_P_AdrenalineMaster_DescKey, "<#66FFCC><sprite name=maxAdrenaline_Icon> Адреналин</color> увеличивается быстрее после убийства противника, а также \n<#66FFCC><sprite name=maxAdrenaline_Icon>Адреналин</color> медленнее уменьшается вне боя.  "
+
+THM_P_IntensiveStand_NameKey,Боевой Запал
+THM_P_IntensiveStand_DescKey, "Увеличен <#66FFCC>Урон в Ближнем Бою</color>, наносимый когда <#66FFCC>Адреналина больше чем 6</color>.  "
+
+THM_P_QuickHand_NameKey,Быстрые Руки
+THM_P_QuickHand_DescKey,"Позволяет переключиться с Двуручного Оружия Ближнего Боя во время боя, не теряя хода. "
+
+#,( Active )
+THM_A_HitHard_NameKey,Отталкивающий Удар
+THM_A_HitHard_DescKey,"Дезориентирущий противника удар наносящий большой урон, а также <#FFA500><sprite name=Info_KnockBackTile_Icon>Отталкивающий</color> врага. "
+
+THM_A_Tension_NameKey,Адреналиновый Всплеск
+THM_A_Tension_DescKey,"Моментальная подготовка к бою, дающая<#66FFCC><sprite name=maxAdrenaline_Icon>  Уровни Адреналина</color> и повышаюшая <#66FFCC><sprite name=maxAdrenaline_Icon>скорость выработки Адреналина</color> на короткий период. "
+
+THM_A_BrutalSmash_NameKey,Брутальный Удар
+THM_A_BrutalSmash_DescKey,"Наносит мощную атаку по одной цели, которая при добивании врага вызывает 'Брутальное Убийство'.\n(Брутальное Убийство: враг взрывается после смерти и наносит урон соседним противникам). "
+
+THM_A_RushBash_NameKey,Рыцарский Рывок
+THM_A_RushBash_DescKey,"Мчитесь вперед в одном направлении, наносящий урон всем врагам на вашем пути. Необходимо свободное пространство позади врагов, чтобы не разбиться об стену. "
+
+THM_A_BigSwing_NameKey,Сметающий Удар
+THM_A_BigSwing_DescKey,"Взмахните оружием по широкой траектории, поражая нескольких ближайших врагов. На Третьем уровне вы сможете скачком менять свою позицию перед ударом. "
+
+
+#,[ One Hand Range ]
+#,( Passive )
+OHR_P_Mastery_NameKey,Владение Пислолетами
+OHR_P_Mastery_DescKey, "Повышены <sprite name=RangeAccuracy_Icon><#66FFCC> Точность Дальнего Боя</color> и <sprite name=CriticalChance_Icon><#FFA500> Крит Шанс</color>, также снижен<sprite name=Fumble_Icon><#66FFCC> Шанс Промаха</color> когда вы держите Пистолет.  "
+
+OHR_P_PistolTechnician_NameKey,Пистолетный Мастер
+OHR_P_PistolTechnician_DescKey, "<#66FFCC>Снижен <sprite name=JammingChance_Icon> Шанс Клина</color> и <#FFA500>больший шанс сохранить <sprite name=Durability> Прочность</color> оружия при использовании Пстолета.  "
+
+OHR_P_Reload_NameKey,Трюк с Перезарядкой
+OHR_P_Reload_DescKey,"Во время перезарядок <sprite name=pistolReloadBonus_Icon><#66FFCC> вы научились необычному приему, позволяющему загрузить несколько дополнительных пуль</color>, также  <#FFA500><sprite name=Info_TriggerChance_Icon>возможно без траты хода.</color>"
+
+OHR_P_SmoothDraw_NameKey,Первый Выстрел
+OHR_P_SmoothDraw_DescKey, "Вы нанесёте дополнительный урон в первый ход после смены оружия на Пистолет.  "
+
+OHR_P_AccurateAim_NameKey,Точный Прицел
+OHR_P_AccurateAim_DescKey,"<sprite name=Damage_Icon> Навык повышаюший урон с Пистолета, в зависимости от <#66FFCC><sprite name=RangeAccuracy_Icon> Точности Дальнего Боя</color>. "
+
+#,( Active )
+OHR_A_Target_NameKey,Захват Цели
+OHR_A_Target_DescKey,"Нацельтесь на врага и выстрелите с увеличенной <#66FFCC>Точностью</color> и смертоносностью."
+
+OHR_A_Hero_NameKey,Буллет-Тайм
+OHR_A_Hero_DescKey,"Интенсивные тренировки с пистолетом, сделали любые уклонения от атак  легче. "
+
+OHR_A_MovingShot_NameKey,Стреляй и Беги
+OHR_A_MovingShot_DescKey,Выстреливайте несколько выстрелов перед тем как быстро перейти на соседнюю клетку.
+
+OHR_A_ChainBullet_NameKey,Цепная Пуля
+OHR_A_ChainBullet_DescKey,Выстрели который рикошетит от одного врага, к другому, стоящему рядом.
+
+OHR_A_LastShot_NameKey,Последний Выстрел
+OHR_A_LastShot_DescKey,"Сконцентрируйте свою Нано Энергию в один мощный выстрел из Пистолета."
+
+
+#,[ Two Hand Range ]
+#,( Passive )
+THR_P_Mastery_NameKey,Владение Винтовками
+THR_P_Mastery_DescKey,"Повышены <#66FFCC><sprite name=RangeAccuracy_Icon> Точность Дальнего Боя</color>, <#66FFCC><sprite name=CriticalChance_Icon> Крит Шанс</color>, и <#66FFCC><sprite name=RangeCriticalEfficiency_Icon>  Эффективность Крита в Дальнем Бою</color>  при использовании Винтовок."
+
+THR_P_RifleTechnician_NameKey,Винтовочный Мастер
+THR_P_RifleTechnician_DescKey,"Снижен <#66FFCC><sprite name=JammingChance_Icon>Шанс Клина</color>и <#FFA500><sprite name=Durability> больший шанс сохранить <sprite name=Durability> Прочность</color> оружия при использовании Винтовки. "
+
+THR_P_FocusedStand_NameKey,Прицельная Стойка
+THR_P_FocusedStand_DescKey,"Чем выше уровень вашего Адреналина, тем острее ваш глаз... что приводит к<#66FFCC><sprite name=RangeAccuracy_Icon>увеличению урона </color>и<#66FFCC><sprite name=RangeAccuracy_Icon> Точности</color>."
+
+THR_P_QuickShot_NameKey,Быстрый Выстрел
+THR_P_QuickShot_DescKey,"Наделяет шансом сохранить ход при стрельбе по врагу обычной атакой."
+
+THR_P_BrutalShot_NameKey,Брутальный Выстрел
+THR_P_BrutalShot_DescKey,"Шанс вызвать <#66FFCC>Брутальное Убийство</color> если противник был убит из Винтовки. (Брутальное Убийство: враг взрывается после смерти и наносит урон соседним противникам).  "
+
+#,( Active )
+THR_A_Sinpe_NameKey,Снайперский Выстрел
+THR_A_Sinpe_DescKey, "Прицельтесь поточнее, чтобы подстрелить цель.  <#66FFCC><sprite name=RangeAccuracy_Icon> Точность Дальнего Боя</color> остаётся той же на любой дистанции.  "
+
+THR_A_Alert_NameKey,Держать Строй
+THR_A_Alert_DescKey,"Присядьте и сконцентрируитесь на бое, что увеличит ваши характеристик. Эффект исчезает если вы двигаетесь. "
+
+THR_A_PiercingShot_NameKey,Сквозной Выстрел
+THR_A_PiercingShot_DescKey,Искусный выстрел наносящий урон всем врагам на линии огня из вашей Винтовки.
+
+THR_A_BurstShot_NameKey,Серия Выстрелов
+THR_A_BurstShot_DescKey,"Разнесите врага в клочья, быстро выпустив несколько пуль. "
+
+THR_A_EmptyMagazine_NameKey,Всё во Врага
+THR_A_EmptyMagazine_DescKey,Прицельтесь во врага и стреляйте пока магазин вашей Винтовки не опустеет. Не гарантирует попадания 100%. 
+
+
+#,[ Bow ]
+#,( Passive )
+Bow_P_Mastery_NameKey,Владение Луком
+Bow_P_Mastery_DescKey,"Повышены <#66FFCC><sprite name=RangeAccuracy_Icon>Точность Дальнего Боя и <sprite name=RangeCriticalEfficiency_Icon> Эффективность Крита Дальнего Боя </color> , а также снижает<#FF0000><sprite name=Fumble_Icon> Шанс Промаха</color> при использовании Лука. "
+
+Bow_P_UndetectedAttack_NameKey,Из Тени
+Bow_P_UndetectedAttack_DescKey,"Уменьшает вероятность того, что враги обнаружат ваше присутствие после атаки. "
+
+Bow_P_ArrowCraftmanship_Acid_NameKey,Стрельник: Кислота
+Bow_P_ArrowCraftmanship_Acid_DescKey,Позволяет делать <#FFA500>Кислотные Стрелы</color>.
+Bow_P_ArrowCraftmanship_Burn_NameKey,Стрельник: Огонь
+Bow_P_ArrowCraftmanship_Burn_DescKey,Позволяет делать  <#FFA500>Огненые Стрелы</color>.
+Bow_P_ArrowCraftmanship_Posion_NameKey,Стрельник: Яд
+Bow_P_ArrowCraftmanship_Poison_DescKey,Позволяет делать  <#FFA500>Отравленные Стрелы</color>.
+
+Bow_P_BlindingShot_NameKey,Ослепляющий Выстрел
+Bow_P_BlindingShot_DescKey,Critical Критические попадания теперь также накладывают на врага эффект <sprite name=Trait_State_Blind_Icon>Слепоты на врагов.
+
+Bow_P_HiddenKill_NameKey,Выстрел Ассасина
+Bow_P_HiddenKill_DescKey,Активирует эффект <#FFFF00><sprite name=Invisible_Icon> Скрытности</color>после убийства противника.
+
+#,( Active )
+Bow_A_AimLeg_NameKey,Стрелой в Колено
+Bow_A_AimLeg_DescKey,"Прицельтесь в ноги противника, чтобы нанести ему Травму и затруднить передвижение. "
+
+Bow_A_MultipleShot_NameKey,Мультивыстрел
+Bow_A_MultipleShot_DescKey,Выпускайте несколько стрел  одновременно.
+
+Bow_A_UngardableAttack_NameKey,Проникающий Выстрел
+Bow_A_UngardableAttack_DescKey,Дальняя атака которая игнорирует броню противника (если игрок небыл замечен) нанося дополнительный урон.
+
+Bow_A_TraceArrow_NameKey,Голодная Стрела
+Bow_A_TraceArrow_DescKey,Выпускайте стрелу которая крутиться вокруг противника нанося урон снова и снова.
+
+Bow_A_ArrowRain_NameKey,Дождь из Стрел
+Bow_A_ArrowRain_DescKey,"Выпускайте 20 стрел, ранящие случайные цели в радиусе атаки."
+every
+
+#,[ Nano ]
+#,( Passive )
+Nano_P_Mastery_NameKey,Владение Нано Силами
+Nano_P_Mastery_DescKey,Более высокая синхронизация с вашим наноботами, также увеличивает <#66FFCC><sprite name=NanoRegen_Icon> Нано Реген</color> rate.
+
+Nano_P_Drain_NameKey,Откачивание Нано
+Nano_P_Drain_DescKey,"После убийства противника этот Навык поглощает его наноботов, чтобы восстановить собственную <#66FFCC><sprite name=MaxNanoEnergy_Icon> Нано Энергию</color>."
+
+Nano_P_BioFusion_NameKey,Нано Синтез
+Nano_P_BioFusion_DescKey,Лучший контроль над вашими наноботами повышает сопротивление к  <#66FFCC><sprite name=nano_Resistance_Icon> Нано Инфекции</color> и уменьшает <#66FFCC><sprite name=NanoInfection_Value_Icon> Распространение Нано Инфекции</color> rate.
+
+#,( Active )
+Nano_A_NanoStimulation_NameKey,Нано Регенерация
+Nano_A_NanoStimulation_DescKey,Activate your nanobots to continuously repair your injuries and heal wounds.
+
+Nano_A_NanoMissile_NameKey,Нано Ракеты
+Nano_A_NanoMissile_DescKey,"Выпускайте внутреннюю Нано Энергию из рук, поражая одиночную цель энергетическими ракетами."
+
+Nano_A_ForcePush_NameKey,Нано Толчок
+Nano_A_ForcePush_DescKey,"Выпускает волну Нано Энергии, которая наносит урон и отталкивает противника с шансом оглушить врага. "
+
+Nano_A_Burster_NameKey,Нано Бомба
+Nano_A_Burster_DescKey,"Бросьте шар заряженный Нано Энергией, который взрывается и наносит урон всему в радиусе 3x3. "
+
+Nano_A_Cameleon_NameKey,Нано Хамелеон
+Nano_A_Cameleon_DescKey,"Наноботы управляют вашими клетками, так чтобы сделать вас незаметным для врагов. Сохраняйте спокойствие, потому что агрессивные действия заканчивают действие этого эффекта. "
+
+Nano_A_Confusion_NameKey,Нано Доминирование
+Nano_A_Confusion_DescKey,"Получите контроль над наноботами противника, заставив его временно сражаться в качестве союзника."
+
+Nano_A_Wall_NameKey,Нано Стена
+Nano_A_Wall_DescKey,"Создайте временную стену из наноботов, чтобы сдержать врагов, заблокировать путь или использовать в качестве укрытия."
+
+
+#,[ Physical ]
+#,( Passive )
+Phy_P_WildBody_NameKey,Крепкое Тело
+Phy_P_WildBody_DescKey,Интенсивные физические тренировки повысили вашу<#66FFCC><sprite name=Fortitude_Icon> Крепость</color> .
+
+Phy_P_StrengthUp_NameKey,Силовые Тренировки
+Phy_P_StrengthUp_DescKey,Физические нагрузки еще больше увеличивают вашу <#66FFCC><sprite name=Base_Strength> Силу</color> .
+
+Phy_P_AgilityUp_NameKey,Развитые Рефлексы
+Phy_P_AgilityUp_DescKey,Тренировки на скорость реакции и на точность стрельбы увеличили вашу <#66FFCC><sprite name=Base_Agility> Ловкость</color>.
+
+Phy_P_EnduranceUp_NameKey,Высокая Выносливость
+Phy_P_EnduranceUp_DescKey,Получение раз за разом ударов по телу увеличилило вашу <#66FFCC><sprite name=Base_Endurance> Выносливость</color>.
+
+Phy_P_PerceptionUp_NameKey,Высокая Бдительность
+Phy_P_PerceptionUp_DescKey,Увеличение осведомленности о том что вас окружает увеличило <#66FFCC><sprite name=Base_Perception> Восприятие</color>.
+
+Phy_P_VisionUp_NameKey,Зрительная Адаптация
+Phy_P_VisionUp_DescKey,"Чем больше времени вы проводите под землей, тем легче вам видеть(увеличивает <#66FFCC><sprite name=Vision_Range_Icon>  Дальность Обзора</color> Stat)."
+
+Phy_P_PhysicalEfficiency_NameKey,Не Сдавайся
+Phy_P_PhysicalEfficiency_DescKey,"С помощью строго контролируемых режимов можно уменьшить такие потребности как<#FF0000><sprite name=Hunger_Icon> Голод</color>, <#FF0000><sprite name=Thirst_Icon> Жажда</color> и <#FF0000><sprite name=Sleepness_Attribute_Icon> Сонливость</color>."
+
+Phy_A_SuperComboAttack_NameKey,Five Finger Fury Attack
+Phy_A_SuperComboAttack_DescKey,"Learned by compiling all three 'Way of Fury' comic books. After this special unarmed attack, the target is instantly paralyzed and dies after 3 Turns."
+
+Phy_P_UnarmedDamage_NameKey,Голые Руки
+Phy_P_UnarmedDamage_DescKey,Наносите урон без оружия.
+
+Phy_P_Adrenaline_NameKey,Адреналин
+Phy_P_Adrenaline_DescKey,"Вырабатывайте адреналин каждый раз, когда атакуете, или подвергаетесь атакам или убиваете кого-либо. При 7+ Адреналине увеличиваются как ваши боевые способности, так и Усталость."
+
+Phy_P_RunAway_NameKey,Отступление
+Phy_P_RunAway_DescKey,"Улучшает вашу способность безопасно отступать, избегая  вражеских атак. "
+
+Phy_P_OwlEye_NameKey,Совиный Глаз
+Phy_P_OwlEye_DescKey,Улучшает Ночное Зрение по мере того как ваши глаза привыкают к подземелью.
+
+#,( Active )
+Phy_A_QuickMove_NameKey,Быстрый Рывок
+Phy_A_QuickMove_DescKey,"Быстрый бег,  нужен для  того чтобы пройти несколько клеток за 1 Ход. "
+
+
+#,[ Survival ]
+#,( Passive )
+Sur_P_HarvestUp_NameKey,Уход за Зеленью
+Sur_P_HarvestUp_DescKey,"Изучение навыков садоводства повышает <#66FFCC><sprite name=HarvestEfficiency_Icon> Эффективность Сбора</color> ( зависит от <#FFA500><sprite name=Base_Perception> Восприятии</color>/<#FFFF00><sprite name=Perk_Pro_Survival_Mini>Выживаемости</color> ). "
+
+Sur_P_MiningUp_NameKey,Дробитель Камней
+Sur_P_MiningUp_DescKey,"Просто знание того где нужно бить по минералам, повышает <#66FFCC><sprite name=MiningEfficiency_Icon> Эффективность Добычи</color> ( зависит от  <#FFA500><sprite name=Base_Strength> Силы</color>/<#FFFF00><sprite name=Perk_Pro_Survival_Mini>Выживаемости</color> ). "
+
+Survival_P_HeatSink_NameKey,Heat Sink Efficiency
+Survival_P_HeatSink_DescKey,Temir's research allows you to increase the <#66FFCC>Max Ammo Capacity</color> of any ranged weapon.
+
+Survival_P_ProjectileRecovery_NameKey,Эксперт по Возвратам
+Survival_P_ProjectileRecovery_DescKey,"Увеличивает <#66FFCC><sprite name=ProjectileRecoveryChance_Icon> Шанс Возврата Снарядов</color> ?как только вы научитесь бережно обращаться со своими боеприпасами?.  "
+
+Survival_P_Discount_Alp_NameKey,Всё Что Сможешь Съесть
+Survival_P_Discount_Alp_DescKey,"Вы - один из постоянных клиентов Альпа, поэтому он предоставил вам значительную скидку при покупке в Пабе у Альпа."
+
+Survival_P_Discount_David_NameKey,Друзья и Близкие
+Survival_P_Discount_David_DescKey, "Воспользуйтесь скидкой, торгуя в магазине  Торговый Центр Дэвида  на Складе Снабжения. Полезно знать владельца.  "
+
+#,( Active )
+Survival_A_DetectHidden_NameKey,Иcследовать
+Survival_A_DetectHidden_DescKey,"Обнаружьте скрытые объекты, двери и цели. Более высокий уровень Восприятия открывает все больше и больше секретов."
+
+#,( Job's Perk )
+Sur_Job_Doctor_Material_NameKey,Профессия: Доктор (Предмет)
+Sur_Job_Doctor_Stat_NameKey,Профессия: Доктор
+Sur_Job_Doctor_StatMod_NameKey,Профессия: Доктор (Growth)
+Sur_Job_Doctor_DescKey,"Вы - Доктор, отправленный на Титан, обладающий особыми знаниями и умением пользоваться медицинским оборудованием. "
+
+Sur_Job_Engineer_Material_NameKey,Профессия: Инженер (Предмет)
+Sur_Job_Engineer_Stat_NameKey,Профессии: Инженер
+Sur_Job_Engineer_StatMod_NameKey,Профессия: Инженер (Growth)
+Sur_Job_Engineer_DescKey,"Вы - Инженер, отправленный на Титан, вы обладаете любопытной натурой и склонностью к изобретательству. "
+
+Sur_Job_Miner_Material_NameKey,Профессия: Шахтер (Предмет)
+Sur_Job_Miner_Stat_NameKey,Профессия: Шахтер
+Sur_Job_Miner_StatMod_NameKey,Профессия: Шахтер (Growth)
+Sur_Job_Miner_DescKey,"Вы - Шахтер, отправленный на Титан, с опытом выживания под землей и использования горного оборудования. "
+
+Sur_Job_Pilot_Material_NameKey,Профессия: Пилот (Предмет)
+Sur_Job_Pilot_Stat_NameKey,Профессия: Пилот
+Sur_Job_Pilot_StatMod_NameKey,Профессия: Пилот (Growth)
+Sur_Job_Pilot_DescKey,"Вы - Пилот, отправленный на Титан с сердцем, жаждущим приключений, и быстрыми рефлексами. "
+
+Sur_Job_Scientist_Material_NameKey,Профессия: Учёный (Предмет)
+Sur_Job_Scientist_Stat_NameKey,Профессия: Учёный
+Sur_Job_Scientist_StatMod_NameKey,Профессия: Учёный (Growth)
+Sur_Job_Scientist_DescKey,"Вы - Учёный, отправленный на Титан с жаждой знаний и талантом к успешным экспериментам. "
+
+Sur_Job_Soldier_Material_NameKey,Профессия: Солдат (Предмет)
+Sur_Job_Soldier_Stat_NameKey,Профессия: Солдат
+Sur_Job_Soldier_StatMod_NameKey,Профессия: Солдат (Growth)
+Sur_Job_Soldier_DescKey,"Вы - Солдат, отправленный на Титан с физической подготовкой и оружием, чтобы уничтожить врага. "
+
+#,[ Item Perk ]
+Perk_00_MeleeWp_01_OneHand_WolfsFang_NameKey,Волчий Клык
+Perk_00_MeleeWp_01_OneHand_WolfsFang_DescKey,Пожертвуйте ХП, чтобы нанести двойную атаку с шансом вызвать Кровотечение у противника.
+
+Perk_00_MeleeWp_01_OneHand_Whip_NameKey,Терзающий Хлыст
+Perk_00_MeleeWp_01_OneHand_Whip_DescKey,"Может атаковать цель в радиусе 2 клеток, а убийство врага с помощью Хлыста увеличивает количество выпавших предметов."
+
+Perk_00_MeleeWp_01_OneHand_Katana_NameKey,Ломтиками и Кубиками
+Perk_00_MeleeWp_01_OneHand_Katana_DescKey,Наносит повышенный урон целям на 3 соседних клетках в указанном направлении.
+
+Perk_00_MeleeWp_01_OneHand_GlassSword_NameKey,Мгновенная Смерть
+Perk_00_MeleeWp_01_OneHand_GlassSword_DescKey,"Мгновенно убивает одного врага одной атакой, но используемое оружие тут же разбивается вдребезги."
+
+Perk_00_MeleeWp_02_TwoHand_Spear_NameKey,Пронзающий Удар
+Perk_00_MeleeWp_02_TwoHand_Spear_DescKey,Наносит повышенный урон ряду врагов в указанном направлении.
+
+Perk_00_MeleeWp_02_TwoHand_GrabArm_NameKey,Иди Сюда!
+Perk_00_MeleeWp_02_TwoHand_GrabArm_DescKey,Притяните одного врага на соседнюю с игроком клетку.
+
+Perk_00_MeleeWp_02_TwoHand_Chainsaw_NameKey,Hazardous
+Perk_00_MeleeWp_02_TwoHand_Chainsaw_DescKey,Атака бензопилой наносит цели непрерывный урон.
+
+Perk_10_RangeWp_02_OneHand_AttachBomb_NameKey,Прикрепить Бомбу
+Perk_10_RangeWp_02_OneHand_AttachBomb_DescKey,"Потратьте <#66FFCC>Нано Энергию</color>, чтобы запустить бомбу, которая цепляется к врагу. Когда цель умирает бомба взрывается и наносит урон окружающим врагам."
+
+Perk_10_RangeWp_05_Special_Minigun_Baisc_NameKey,Артиллерия
+Perk_10_RangeWp_05_Special_Minigun_Baisc_DescKey,"Выстреливает до 20 раз по намеченной области, поражая все цели (часто несколько раз). "
+
+Perk_10_RangeWp_05_Special_FlameThrower_Basic_NameKey,Способность Огнемётчика
+Perk_10_RangeWp_05_Special_FlameThrower_Basic_DescKey,"Окутайте врага огнем, нанося ему урон и накладывая статус <#66FFCC>Ожог</color>."
+
+Perk_10_RangeWp_05_Special_BFG_NameKey,Опустошение!
+Perk_10_RangeWp_05_Special_BFG_DescKey,Наносит тяжелый урон по широкой области. Убедитесь, что вы не находитесь в собственном перекрестье.
+
+Perk_10_RangeWp_05_Special_Launcher_Basic_NameKey,Пусковая Установка
+Perk_10_RangeWp_05_Special_Launcher_Basic_DescKey,"Звуковые волны разрушают камни под врагами, нанося урон в области 3x3."
+
+Perk_10_RangeWp_05_Special_Shotgun_Basic_NameKey,Выстрел из Дробовика
+Perk_10_RangeWp_05_Special_Shotgun_Basic_DescKey,Выстрелите в нескольких врагов пулями с короткого расстояния.
+
+Perk_20_Equip_05_Accessory_SuperVisor_NameKey,Сканировать Визором
+Perk_20_Equip_05_Accessory_SuperVisor_DescKey,"Мгновенно обнаруживает всех ближайших врагов или скрытые объекты, независимо от источников света или физических преград. "
+
+Perk_20_Equip_05_Accessory_StickyBomb_NameKey,Застрял на Месте
+Perk_20_Equip_05_Accessory_StickyBomb_DescKey,"Цель не может двигаться в течение 3 ходов, но может атаковать соседних врагов."
+
+Perk_20_Equip_05_Accessory_LaserVisor_NameKey,Экстремальное Пламя
+Perk_20_Equip_05_Accessory_LaserVisor_DescKey,"Потратьте <#66FFCC>Нано Энергию</color>, чтобы выстрелить лазером наносящим огромный <#FFA500>Урон Ожогом</color>. "
+
+Perk_20_Equip_05_Accessory_PoisonEmitter_NameKey,Экстремальный Яд
+Perk_20_Equip_05_Accessory_PoisonEmitter_DescKey,"Потратьте<#66FFCC>Нано Энергию</color> чтобы выстрелить во врага , нанося ему огромный <#FF0000>Ядовитый Урон</color>. "
+
+Perk_20_Equip_05_Accessory_AcidSpitter_NameKey,Экстремальная Кислота
+Perk_20_Equip_05_Accessory_AcidSpitter_DescKey,Потратьте <#66FFCC>Нано Энергию</color> чтобы нанести противнику огромный <#FF0000>Кислотный Урон</color>.
+
+Perk_20_Equip_05_Accessory_SlingShotLauncher_NameKey,Трудный Выстрел
+Perk_20_Equip_05_Accessory_SlingShotLauncher_DescKey,"Потратьте <#66FFCC>Нано Энергию</color> чтобы нанести атаку, наносящую огромный <#FF0000>Физический Урон</color>. "
+
+
+#,[Extra Key]
+DurabilityPreserveChance_Key,Шанс сохранить прочность: 20%
+ReloadTurnPreserveChance_Key,Шанс сохранит ход после перезарядки: 20%
+
+MaxAttackCount_Key,Максимальное Количество Атак: 3
+AttackCount_Key,Количество Атак: 3
+
+MoveDistance_Key,Дистанция Движения: 1 Клетка
+AttackDistance_Key,Дистанция Атаки 1  Клетка
+KnockDistance_Key,Дистанция Отталкивания: 1  Клетка
+
+Range_Key,Радиус: 3x3 Клетки
+AdjacentRange_Key,Радиус: 3 Прилегающие Клетки
+DetectRange_Key,Радиус Обнаружения: 17 x 17
+
+ChainCount_Key,Количество Атак в Цепи: 3
+ChainDistance_Key,Растояние Цепной Атаки: 3 Tiles
+
+IgnoreProtection_Key,( Игнорирует защиту цели )
+
+OnAttack_Key,( При Атаке )
+PerkAttack_Key,( Во Время Атаки )
+PerTurn_Key,( Во Время Хода )
+OnEnemyKilled_Key,( При Смерти Врага )
+OutOfCombat_Key,( После Боя )
+
+TriggerChance_Key,Шанс на Срабатывание: 30%
+DurabilityCost_Key,Стоимость в Прочности: 3
+ImmediateCounterChance_Key,Шанс Немедленной Контератаки: 30%
+
+Instantly_Key,( Моментально )
+Target_Key,( На Цель )
+Self_Key,( На Cебя )
+
+GratherThan_Key,Когда 'Адреналин' превышает 5
+Reduction_Key,[ Голод ] Rate in 12.5% Reduction. 
+AdrenalineReduceRate_Key,Уменьшена скорость снижения Адреналина -20%
+
+OneKill_Key,Цель мгновенно умирает (не может быть использовано на Боссах).
+NotableGrab_Key,(Не действует на врагов чертой " Массивный?".)
+
+Duration_Value_Key,Duration Value
+HeatSink_Value_Key,[Дополнительная Вместимоть Магазина ]\nПистолет +2 /Винтовк +5 / Дробовик +1 / Миниган +10 / Огнемёт +20 / Пусковые Установки +1

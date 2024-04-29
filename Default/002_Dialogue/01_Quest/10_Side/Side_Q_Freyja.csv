@@ -1,0 +1,53 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Freyja Johannsson
+#,Quest Name: The Beauty Beneath 
+#,Key_Fix: Side_Q_TheBeautyBeneath
+
+#,gives player a camera to take a picture of something beautiful. Maybe 3 pics of some major landmarks underground.
+
+#,"Player utterly failed Octavio's quest leaving both Octavio and Freyja hating the player, then this quest does not activate."
+#,Player receives message from Freyja to start quest
+Side_Q_TheBeautyBeneath_AI_01,"Incoming message from Freyja, {PlayerFullName}."
+Side_Q_TheBeautyBeneath_Freyja_02,"I heard you can enter the mine, but I'm sure there's more to the story. Please come see me.\n-Freyja Johannsson-"
+
+#,Player speaks to Freya
+Side_Q_TheBeautyBeneath_Player_03,Hey Freyja! You wanted to talk?
+Side_Q_TheBeautyBeneath_Freyja_04,Yes! Is it true that the contamination doesn't instantly kill you in the mine?
+Side_Q_TheBeautyBeneath_Player_05,"More or less. Too much exposure still hurts, but I'm resistant. "
+Side_Q_TheBeautyBeneath_Freyja_06,Splendid! I joined this mining operation to see what has never been seen! Can you draw some of the stuff you've seen for me?
+Side_Q_TheBeautyBeneath_Player_07,"Not an artist, sadly. "
+Side_Q_TheBeautyBeneath_Freyja_08,Then here...
+Side_Q_TheBeautyBeneath_Nar_09,(Freyja digs through her bag and grabs a camera. She puts it into your hands.)
+Side_Q_TheBeautyBeneath_Freyja_10,"...take some pictures for me. I just know there is beauty underground, and the mining team only scratched the surface before we were forced to leave. "
+Side_Q_TheBeautyBeneath_Player_11,What kind of pictures should I take?
+Side_Q_TheBeautyBeneath_Freyja_12,"Any snapshots with an element of beauty; That's what I want to see. A landscape, a structure, whatever catches your eye and that you think might catch my eye too."
+Side_Q_TheBeautyBeneath_Player_13,Sounds fun. I'll come back when I have some good pics. 
+Side_Q_TheBeautyBeneath_Freyja_14,At least three pictures please! See you then!
+
+#,Replaces Basic_Freyja until end of quest
+Side_Q_TheBeautyBeneath_Freyja_15,I can't wait to see the pictures you take. 
+
+#,Player encounters first beauty location (crystal cave)
+Side_Q_TheBeautyBeneath_Nar_16,"(Before you is a crystal cave of sparkling rainbow color. They appear too fragile to cultivate and bring back to camp, but it's quite the sight to behold.)"
+Side_Q_TheBeautyBeneath_Nar_17,(You take out the camera Freyja gave you and snap a shot.)
+
+#,Player encounters second beauty location (concert stage)
+Side_Q_TheBeautyBeneath_Nar_18,"(The sidewalk leads to a concert stage. The shows here must have been epic, especially if you had the view in the front row.)"
+Side_Q_TheBeautyBeneath_Nar_19,(You take out the camera Freyja gave you and snap a shot.)
+
+#,Player encounters third beauty location (dock)
+Side_Q_TheBeautyBeneath_Nar_20,"(You approach a quaint little fishing dock. The water is still, and there's something beautiful in the silence.)"
+Side_Q_TheBeautyBeneath_Nar_21,(You take out the camera Freyja gave you and snap a shot.)
+
+#,Player returns after taking 3 pictures
+#,"Gives player XP, Credits, and Trailblazer Boots"
+Side_Q_TheBeautyBeneath_Player_22,I'm here to return your camera.
+Side_Q_TheBeautyBeneath_Freyja_23,You don't even know how excited I am to see what pics you've taken. I bet they're breathtaking.
+Side_Q_TheBeautyBeneath_Nar_24,(She takes the camera from you and starts scrolling.)
+Side_Q_TheBeautyBeneath_Player_25,I hope you like them. I tried envisioning what you'd find beautiful and let the camera do the rest. 
+Side_Q_TheBeautyBeneath_Freyja_26,These are wonderful! Great stuff! 
+Side_Q_TheBeautyBeneath_Freyja_27,"Take these credits, and I also have a pair of reliable boots for you. They'll get you wherever you need to go."
+Side_Q_TheBeautyBeneath_Player_28,"I appreciate it, Freyja. See you around. "

@@ -1,0 +1,19 @@
+Language,Default
+
+#,Medical level 3 upgrade material dialogue.
+#,Material: Record of patient data
+#,Prefix_Key: Medical_03
+
+#,Player finds area with still roaming mad doctor and obtain data.
+#,"Could describe some fun facts about the mad doctor and what he was trying to do before he turned. Apparently he seem to have evolved, but not to the extreme state"
+
+#,Upon entering the area with the mad doctor
+Medical_03_Nar_01,"(You notice a roaming monster wearing a lab coat. It is less horrifying than the others, but it shouldn't be underestimated.)"
+Medical_03_Nar_02,"(Hanging from his coat pocket is an ID badge that reads 'Dr. Leonard Stubbs MD, DABMG.')"
+Medical_03_Player_03,That one looks… different. What does that last acronym stand for?
+Medical_03_AI_04,"DABMG is 'Diplomate, American Board of Medical Genetics.' Dr. Stubbs was an expert in genetics. Ida might find his research useful. "
+Medical_03_Nar_05,"(Suddenly, the monster sees you and attacks!)"
+
+#,After defeating the mad doctor
+Medical_03_TreatLog_Nar_06,"(As the monster's remains dissolve, a notebook falls from its pocket.)"
+Medical_03_TreatLog_Nar_07,(You receive 'Genetics Notebook.')

@@ -1,0 +1,185 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Ulf Wiklund
+#,Quest Name: Sneaking In 
+#,Key_Fix: Side_Q_SneakingIn
+
+#,Player receives message from Ulf
+Side_Q_SneakingIn_AI_01,"Incoming message from Ulf, {PlayerFullName}."
+Side_Q_SneakingIn_Ulf_02,"Alexei just told me some BS about what Tau did, and I have a plan to get him back. Come by the pub.\n-Ulf Wiklund"
+
+#,"When Player speaks to Ulf"
+Side_Q_SneakingIn_Player_03,"Hey, I heard the message. What's going on?"
+Side_Q_SneakingIn_Ulf_03,"Oh my god, why didn't anyone tell me until now?!"
+Side_Q_SneakingIn_Player_04,Tell you what?
+Side_Q_SneakingIn_Ulf_05_01,"Come by the counter will ya?"
+
+#,Ulf has a plan to break into Tau's office and drop a bucket of rattails on his desk. 
+Side_Q_SneakingIn_Ulf_05,"Look, I was lucky enough to find a gig here with Alp when the mine closed, but the mining crew is still my family. I hadn't talked to Alexei for a while, so I called him up, and he told me what Tau did to him, Seble, and you down at the mine entrance. "
+Side_Q_SneakingIn_Player_06,"Yeah, trapping us with a monster was the last straw. Alexei really let him have it. "
+Side_Q_SneakingIn_Ulf_07,"Alexei is like a brother to me, so that's just not enough. I know just the thing to get back at Tau. "
+Side_Q_SneakingIn_Nar_08,"(From under the counter, Ulf produces a beautiful long sword.)"
+Side_Q_SneakingIn_Ulf_09,In Tau's office is a sword he forged himself. It's incredibly sharp and his prized possession. 
+Side_Q_SneakingIn_Ulf_10,"This here is a replica of that sword I made. It's not nearly as sturdy and, quite frankly, a piece of crap, but it looks the same as Tau's Blade."
+Side_Q_SneakingIn_Player_11,Let me guess... you want me to steal his sword and put this one in its place. 
+Side_Q_SneakingIn_Ulf_12,Bingo. He probably won't even notice the sword missing for a while either.
+Side_Q_SneakingIn_Player_13,Why?
+Side_Q_SneakingIn_Ulf_14,Because of step two of my plan.
+Side_Q_SneakingIn_Nar_15,(Ulf pulls out a bucket and plops it on the bar. You see it is full of rat tails as its stink wafts over you.)
+Side_Q_SneakingIn_Player_16,Yuck! Has Alp just kept those around?
+Side_Q_SneakingIn_Ulf_17,"Actually, I dug them out of the compost pile, because I know something others don't... Tau is scared of rats. "
+Side_Q_SneakingIn_Ulf_18,I want you to dump this bucket of rotten rat tails all over his desk too. It'll distract him from the blade.
+Side_Q_SneakingIn_Player_19,"You can be quite devious, Ulf. Remind me not to become enemies with you. "
+Side_Q_SneakingIn_Ulf_20,Damn right! I can't wait to hear him freak out about this. 
+Side_Q_SneakingIn_Player_21,"But wait, doesn't Tau have security on his office?"
+Side_Q_SneakingIn_Ulf_22,"Yes, but there is a back door to his office which has a security panel that connects to his entire office."
+Side_Q_SneakingIn_Ulf_23,But guess who installed his security in the first place? Here's a device you can use to disable the alarm temporarily. It will also unlock the back door.
+Side_Q_SneakingIn_Player_23,"I'll get in, get out, and get back here ASAP. See you soon. "
+Side_Q_SneakingIn_Nar_24,"(You receive '<color=#66FFCC>Disabling Device</color>'.)"
+
+#,Player talks to Ulf before finishing the side quest
+#,Replaces Basic_Ulf until end of side quest
+Side_Q_SneakingIn_Ulf_25,"This is the prank of a lifetime. Do it quickly, though. Those rat tails aren't getting any fresher. "
+
+#,Player attempts to enter Tau's office with Tau nearby (player needs to sneak in while Tau isn't there)
+#,Replaces Basic_Tau while player is sneaking in and stops after he is outside of a certain radius. 
+Side_Q_SneakingIn_Nar_25,"Suddenly, a security alarm activates and you are met with Tau rushing into his office."
+Side_Q_SneakingIn_Tau_26,Hey! Get out of my office!
+
+#,Player interacts with security device
+Side_Q_SneakingIn_Security_Nar_01,"(This security panel seems to be linked to the door to the right, but it will be almost impossible to bypass it without the proper device.)"
+
+#,Player interacts with security device choice
+Side_Q_SneakingIn_Security_S01,Attempt to disable security using Ulf's device
+
+#,Security is disabled
+Side_Q_SneakingIn_Security_Nar_02,Security disabled.
+Side_Q_SneakingIn_Nar_27,"(Tau's office is empty, but he'll likely be back soon. Now's the time to act!)"
+
+#,Player interacts Tau's Blade
+Side_Q_SneakingIn_Nar_28_01,"(You see a well crafted two handed sword on pedestal)"
+Side_Q_SneakingIn_Sword_S01,"Replace it using Ulf's replica"
+Side_Q_SneakingIn_Nar_28,"(You gently raise Tau's Blade from its pedestal, and then replace it with the replica Ulf made. Tau's going to be so mad when he figures this out.)"
+Side_Q_SneakingIn_Nar_29,"(You receive '<color=#66FFCC>Tau's Blade</color>'.)"
+
+#,Player interacts with Tau's Desk Before Spoil
+Side_Q_SneakingIn_Nar_30,"(Tau's desk is just begging to be covered in rotten rat tails, but should you search it first?)"
+
+#,Player interacts with Tau's Desk After Spoil
+Side_Q_SneakingIn_Nar_30_01,(Tau's desk is already completely covered in rotten rat tails.)
+
+#,Player desk choice
+#,"If player chooses to dump the rat tails, the option to search desk cannot be selected. They have to do that first. "
+Side_Q_Desk_S01,Search Tau's Desk
+Side_Q_Desk_S02,Dump Rat Tails
+
+#,Player selects Search Tau's Desk
+Side_Q_TauDesk_S01_Nar_01,"(Rifling through Tau's desk is easy enough. Eventually, you uncover some financial records hidden within a secret drawer compartment and start flipping through them.)"
+Side_Q_TauDesk_S01_AI_02,"{PlayerFullName}, according to these numbers, Tau has been embezzling funds from everyone in camp. "
+Side_Q_TauDesk_S01_Player_03,That bastard! How do we get those credits back for the camp?
+Side_Q_TauDesk_S01_AI_04,"If we can locate Tau's financial datapad with the credits on it, it is possible. "
+Side_Q_TauDesk_S01_Player_05,I see a code here...6892. Maybe for a safe?
+Side_Q_TauDesk_S01_Player_06,Let's look around!
+
+#,Player dumps rat tails
+#,"After dumping rat tails, the smell starts to attract Tau."
+#,"Suggestion: Player has X number of moves before Tau will re-enter his office and catch them in the act. If they haven't already found the safe, X should be enough that they can reasonably find it, crack it, and escape. If that's too complicated, we can totally use skip it. "
+Side_Q_TauDesk_S02_Nar_01,"(The disgusting stench of slimy, rotten rat tails fills the room. You make sure to cover the entirety of Tau's desk, with blood and muck seeping into every drawer and crevice. You even throw some on his office chair for good measure.)"
+Side_Q_TauDesk_S02_Nar_02,"(You get the feeling that the pungent smell is going to spread quickly, so you might want to get out while you can.)"
+
+#,Player interacts with portrait of Tau on wall.
+Side_Q_SneakingIn_Nar_31,(What kind of person has a portrait of themselves up on their office wall?)
+Side_Q_SneakingIn_AI_32,I'm detecting something hidden behind the portrait. What could it be?
+Side_Q_SneakingIn_Nar_33,(You remove the portrait to reveal a safe in the wall.)
+Side_Q_SneakingIn_Player_34,Of course Tau has hidden safe. 
+
+#,Player choice with the safe
+#,"If player chooses Enter Safe Code, they can use the code they got from the desk. "
+#,"If player chooses Crack Safe, they enter safe cracking mini-game "
+#,"If player chooses Do Nothing, they replace the portrait, but no need for dialogue. "
+Side_Q_TauSafe_S01_Choice,( Upon inspecting the safe you decide to )
+Side_Q_TauSafe_S01,Enter Safe Code
+Side_Q_TauSafe_S02,Crack Safe
+Side_Q_TauSafe_S03,Do Nothing
+
+#,Player opens safe with code from desk
+Side_Q_TauSafe_S01_Nar_01,(You enter the safe code and swing the door open.)
+Side_Q_TauSafe_S01_Nar_02,"(Inside the safe, you find a ledger reporting several thousands of credits stolen from Camp Huygen.)"
+Side_Q_TauSafe_S01_AI_03,The credit records and dates on this ledger align perfectly with the theory that Tau is an embezzler. 
+Side_Q_TauSafe_S01_Player_04,We have to turn this over to security and nail him for good. 
+Side_Q_TauSafe_S01_AI_05,"That would certainly make Judith happy, I assume. "
+Side_Q_TauSafe_S01_Player_06,Let's go. 
+Side_Q_TauSafe_S01_Nar_07,"(You receive '<color=#66FFCC>Stolen Credits Ledger</color>'.)"
+
+#,"Player selects enter code, but didn't get code from desk. "
+Side_Q_TauSafe_S01_Player_08,I don't know the code. Maybe it's around here somewhere?
+
+#,"Player did not search desk yet, so they cracked safe. "
+Side_Q_TauSafe_S02_Nar_01,"(After successfully cracking the safe, you find a ledger containing several thousands of credits stored inside.)"
+Side_Q_TauSafe_S02_AI_02,"Analyzing the ledger, it is unlikely Tau has acquired this amount of credits through normal channels. "
+Side_Q_TauSafe_S02_Player_03,You think he stole them?
+Side_Q_TauSafe_S02_AI_04,"From our interactions, he certainly seems like the kind of person who might do such a thing. "
+Side_Q_TauSafe_S02_Player_05,"To be on the safe side, let's bring this to security and see what they say. "
+Side_Q_TauSafe_S02_AI_06,Good plan. 
+Side_Q_TauSafe_S02_Nar_07,"(You receive '<color=#66FFCC>Stolen Credits Ledger</color>'.)"
+
+#,Player returns to Ulf after finishing the breakin
+Side_Q_SneakingIn_Player_35_01,I am back from Tau's office
+Side_Q_SneakingIn_Ulf_35,So did you do it?
+Side_Q_SneakingIn_Player_36,"Of course, and it smelled so bad. *haha* Here's the sword I took from Tau too. "
+Side_Q_SneakingIn_Ulf_37,"You keep it. It really is a great weapon, I guess you'll put it to better use than Tau ever did. However, I suggest that you alter it somehow so it isn't obvious to Tau when he sees you carrying it around."
+Side_Q_SneakingIn_Ulf_38,I have some credits for you too... for a job well done. 
+Side_Q_SneakingIn_Ulf_39,Thanks so much for helping me get back at Tau. Cheers!
+
+#,If security timer runs out and player is still in office
+Side_Q_SneakingIn_AI_40,"{PlayerFullName}, Tau's security has come back online. We need to get out of here before-"
+Side_Q_SneakingIn_Nar_41,(Suddenly a shadow looms over you. You look up to see Tau standing there looking quite disapprovingly at your presence.)
+Side_Q_SneakingIn_Tau_42,What the hell are you doing in my office? No one is supposed to be in here without my permission. 
+Side_Q_SneakingIn_Player_43,"Oh, I was just, admiring the... decor?"
+Side_Q_SneakingIn_Tau_44,I don't think so!
+Side_Q_SneakingIn_Nar_45,(Tau grabs you by your arm and hip tosses you across the room and out of his office. You slam against the wall... and it hurts. Looks like Tau really is as tough as he looks.)
+Side_Q_SneakingIn_Tau_46,"If I ever catch you even breathing near my office again, I'll snap you in two. You got that!"
+Side_Q_SneakingIn_Nar_47,(The office door slams.)
+
+#,"If player spoiled desk, Tau screams through the slammed door"
+Side_Q_SneakingIn_Tau_48,WHAT THE FUCK DID YOU DO TO MY OFFICE?!?!?!?
+Side_Q_SneakingIn_AI_49,I suggest we leave expeditiously before he comes after us. 
+Side_Q_SneakingIn_Player_50,You don't have to tell me twice. 
+
+#,Player returns to Ulf but didn't finish mission
+Side_Q_SneakingIn_Player_51,I am back from Tau's office
+Side_Q_SneakingIn_Ulf_52,Did you do it?
+Side_Q_SneakingIn_Player_53,"No... there just wasn't enough time."
+Side_Q_SneakingIn_Ulf_54,What? We only had one shot at this! His system is way too sophisticated for us to get another crack at our revenge.
+
+#,If player didn't swap sword
+Side_Q_SneakingIn_Ulf_55,So you didn't swap out Tau's sword?
+Side_Q_SneakingIn_Nar_56,(You shake your head and lower your eyes.)
+Side_Q_SneakingIn_Ulf_57,Dammit! That was the main part of the plan!
+Side_Q_SneakingIn_Player_58,"I know, I know! I'm so sorry. "
+
+#,If player didn't spoil desk
+Side_Q_SneakingIn_Ulf_59,And I can tell by the smell that you're still walking around with a bucket of rat tails.
+Side_Q_SneakingIn_Player_60,"Oh god, I almost forgot. "
+Side_Q_SneakingIn_Ulf_61,You better get rid of those before the stench permeates your body permanently. 
+
+#,"Ulf conclusion if player did swap sword, but not spoiled desk"
+Side_Q_SneakingIn_Ulf_62,"Well, as much as I would have loved to spoil Tau's perfect office, you at least swapped the sword."
+Side_Q_SneakingIn_Player_63,"I did do that, yeah. Here's the sword. "
+Side_Q_SneakingIn_Ulf_64,"You keep it. It really is a great weapon, I guess you'll put it to better use than Tau ever did. However, I suggest that you alter it somehow so it isn't obvious to Tau when he sees you carrying it around."
+Side_Q_SneakingIn_Ulf_65,"I have some credits for you too, though it's not much."
+Side_Q_SneakingIn_Ulf_66,"Thanks for helping get back at Tau, at least somewhat. Cheers!"
+
+#,"Ulf conclusion if player did spoiled desk, but not swapped sword"
+Side_Q_SneakingIn_Ulf_67,"Damn, Tau really doesn't deserve that sword, but oh well..."
+Side_Q_SneakingIn_Ulf_68,"...at least he'll smell for weeks. *hehe* And somehow, that's kind of enough for me. "
+Side_Q_SneakingIn_Ulf_69,"I have some credits for you too, though it's not much."
+Side_Q_SneakingIn_Ulf_70,"Thanks for helping get back at Tau, at least somewhat. Cheers!"
+
+#,Ulf conclusion if player utterly failed the whole thing
+Side_Q_SneakingIn_Ulf_71,"Well, this was entirely a bust."
+Side_Q_SneakingIn_Player_72,I don't know what else to say besides sorry. 
+Side_Q_SneakingIn_Ulf_73,No need to say anything. Thanks for nothing.
+Side_Q_SneakingIn_Ulf_74,"Here's some credits for your time, and I guess I'll get back to work. Later."

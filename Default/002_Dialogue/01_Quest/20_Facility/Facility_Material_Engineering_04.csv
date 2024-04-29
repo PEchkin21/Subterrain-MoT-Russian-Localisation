@@ -1,0 +1,37 @@
+Language,Default
+
+#,Engineering level 4 upgrade material dialogue.
+#,Material: TECC CPU chip.
+#,Prefix_Key: Engineering_04
+
+#,Player can obtain TECC CPU chip from the server room
+#,Server Room door is locked with security.
+#,Player finds enternance to the server room
+
+#,Player access the server room door security.
+Engineering_04_ServerDoorlock_Main_01,[Please enter password.]
+Engineering_04_ServerDoorlock_Player_02,"Is there any way to get in without the password, Cassini?"
+Engineering_04_ServerDoorlock_Cassini_03,Yes. We can initiate Hacking Protocol when you are ready.
+
+#,Player has no way to find out the password and has to attempt to hack the system with Cassini.
+#,Player choice hack the system
+Engineering_04_ServerDoorlock_S01,(Attempt to hack the system.)
+
+#,Player plays hacking mini game.
+#,Player successfully hacks the system.
+Engineering_04_ServerDoorlock_Success_01,[Password Successful]
+Engineering_04_ServerDoorlock_Success_02,"(It takes a moment, but the door eventually opens, releasing a cold mist that brushes over you.)"
+
+#,Player fails to hack the system. We may introduce further penalties to the player but for now let's just keep it locked.
+Engineering_04_ServerDoorlock_Fail_01,[Incorrect Password]
+Engineering_04_ServerDoorlock_Fail_02,(The Door remains locked.)
+
+#,Player finds the TECC CPU Chip still intact from one of the computer.
+Engineering_04_Chip_Nar_01,(You receive 'TECC CPU Chip'.)
+Engineering_04_Chip_Cassini_02,Diagnostics confirm it is intact.
+Engineering_04_Chip_Player_03,Excellent.
+
+Door_State_Open,(The door is Open.)
+Door_State_Closed,(The door is Closed.)
+Open_Door,Open the door.
+Close_Door,Close the door.

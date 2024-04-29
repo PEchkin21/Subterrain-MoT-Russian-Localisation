@@ -1,0 +1,258 @@
+Language,Default
+
+#,[ State ]
+Trait_State_Acid_01_NameKey,Лёгкая Кислотность ( <sprite name=Acid_Value_Icon>: <#FF0000>{UDI_Acid_Value}</color> )
+Trait_State_Acid_01_DescKey,На вашем снаряжение (или коже) кислота, которая снижает прочность снаряжения или разъедает вашу плоть каждый Ход. Быстро найдите нейтрализующее средство!
+
+Trait_State_Acid_02_NameKey,Кислотность ( <sprite name=Acid_Value_Icon>: <#FF0000>{UDI_Acid_Value}</color> )
+Trait_State_Acid_02_DescKey,"Ваше тело покрыто кислотой! Каждый Ход ваше снаряжение разрушается (снижается прочность) или кожа покрывается волдырями (наносит урон)."
+
+Trait_State_Acid_03_NameKey,Серьёзная Кислотность ( <sprite name=Acid_Value_Icon>: <#FF0000>{UDI_Acid_Value}</color> )
+Trait_State_Acid_03_DescKey,"Вы пропитаны кислотой. Если вы не нейтрализуете ее, то лишитесь своего снаряжения... или жизни!"
+
+Trait_State_Fracture_01_NameKey,Растяжение ( <sprite name=Fracture_Value_Icon>: <#FF0000>{UDI_Fracture_Value}</color> )
+Trait_State_Fracture_01_DescKey,"Вы растянули одну из связок. Больно, но вы можете ходить."
+
+Trait_State_Fracture_02_NameKey,Усталостный Перелом( <sprite name=Fracture_Value_Icon>: <#FF0000>{UDI_Fracture_Value}</color> )
+Trait_State_Fracture_02_DescKey,"Длитльное физическое воздействие привело к перелому одной из ваших костей. Займитесь им, прежде чем состояние не ухудшилось."
+
+Trait_State_Fracture_03_NameKey,Сломанная Кость ( <sprite name=Fracture_Value_Icon>: <#FF0000>{UDI_Fracture_Value}</color> )
+Trait_State_Fracture_03_DescKey,"У вас сломана одна из костей, что вызывает жуткую боль. Обратитесь к врачу!"
+
+Trait_State_Injuried_01_NameKey,Порез ( <sprite name=Injuried_Value_Icon>: <#FF0000>{UDI_Injuried_Value}</color> )
+Trait_State_Injuried_01_DescKey,Просто царапина! Она едва рассекла кожу.
+
+Trait_State_Injuried_02_NameKey,Кровотечение ( <sprite name=Injuried_Value_Icon>: <#FF0000>{UDI_Injuried_Value}</color> )
+Trait_State_Injuried_02_DescKey,Глубокий порез с немалым количеством крови. Перевяжитесь!
+
+Trait_State_Injuried_03_NameKey,Чрезвычайное Кровотечение ( <sprite name=Injuried_Value_Icon>: <#FF0000>{UDI_Injuried_Value}</color> )
+Trait_State_Injuried_03_DescKey,"Ты весь в собственной крови. Но кровотечение скоро прекратится, так или иначе."
+
+Trait_State_Poison_01_NameKey,Лёгкое Отравление ( <sprite name=Poison_Value_Icon>: <#FF0000>{UDI_Poison_Value}</color> )
+Trait_State_Poison_01_DescKey,"Вам ввели небольшое количество яда. Со временем ваше тело сможет вывести его самостоятельно, но противоядие поможет восстановиться вам быстрее."
+
+Trait_State_Poison_02_NameKey,Отравление ( <sprite name=Poison_Value_Icon>: <#FF0000>{UDI_Poison_Value}</color> )
+Trait_State_Poison_02_DescKey,Еще больше яда вызывает головокружение и оцепенение. Примите противоядие!
+
+Trait_State_Poison_03_NameKey,Тяжёлое Отравление ( <sprite name=Poison_Value_Icon>: <#FF0000>{UDI_Poison_Value}</color> )
+Trait_State_Poison_03_DescKey,"В ваших жилах теперь больше яда, чем крови. Без противоядия вы непременно умрете!"
+
+Trait_State_Burn_01_NameKey,Легкий Ожог ( <sprite name=Burn_Value_Icon>: <#FF0000>{UDI_Burn_Value}</color> )
+Trait_State_Burn_01_DescKey,"Вы получили ожоги, но огонь был небольшим и не нанес серьезного урона."
+
+Trait_State_Burn_02_NameKey,Ожог ( <sprite name=Burn_Value_Icon>: <#FF0000>{UDI_Burn_Value}</color> )
+Trait_State_Burn_02_DescKey,"Вы сейчас в огне! Остановитесь, упадите и катайтесь, пока ваша плоть не расплавилась!"
+
+Trait_State_Burn_03_NameKey,Тяжёлый Ожог ( <sprite name=Burn_Value_Icon>: <#FF0000>{UDI_Burn_Value}</color> )
+Trait_State_Burn_03_DescKey,Вас охватило сильное пламя! Не стойте просто так! Сделайте что-нибудь!
+
+Trait_State_NanoInfection_01_NameKey,Легкая Нано Инфекция ( <sprite name=NanoInfection_Value_Icon>: <#FF0000>{UDI_NanoInfection_Value}</color> )
+Trait_State_NanoInfection_01_DescKey,"Вас заразил Нано Вирус, но на вас это не сильно сказывается."
+
+Trait_State_NanoInfection_02_NameKey,Тяжёлая Нано Инфекция( <sprite name=NanoInfection_Value_Icon>: <#FF0000>{UDI_NanoInfection_Value}</color> )
+Trait_State_NanoInfection_02_DescKey,Нано вирус начал распространяться. Контролировать свой разум и тело становится все сложнее.
+
+Trait_State_NanoInfection_03_NameKey,Фатальная Нано Инфекция ( <sprite name=NanoInfection_Value_Icon>: <#FF0000>{UDI_NanoInfection_Value}</color> )
+Trait_State_NanoInfection_03_DescKey,Нано вирус глубоко поразил ваше тело. Скоро вы перестанете быть собой.
+
+#,[ Needs ]
+Trait_Needs_Hunger_01_NameKey,Аппетит ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_01_DescKey,Вам хочется немного перекусить.
+
+Trait_Needs_Hunger_02_NameKey,Голод ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_02_DescKey,Сейчас бы чего-нибудь съесть.
+
+Trait_Needs_Hunger_03_NameKey,Пустой Желудок ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_03_DescKey,Ваш желудок урчит. Наполните его.
+
+Trait_Needs_Hunger_04_NameKey,Изголодавшийся ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_04_DescKey,Вы ослабли от голода. Поешьте сейчас же!
+
+Trait_Needs_Hunger_05_NameKey,Голодная Смерть ( <sprite name=Hunger_Icon>: <#FF0000>{UDI_Hunger}</color> )
+Trait_Needs_Hunger_05_DescKey,"Если ты вскоре не начнёте есть, то умрёте! Съешьте что-нибудь!"
+
+Trait_Needs_Thirst_01_NameKey,Сухость в Горле ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_01_DescKey,В горле немного пересохло. Неплохо было бы выпить.
+
+Trait_Needs_Thirst_02_NameKey,Жажда ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_02_DescKey,"Вы могли бы пойти выпить, чтобы утолить жажду. "
+
+Trait_Needs_Thirst_03_NameKey,Сухость ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_03_DescKey,"Найдите что-нибудь выпить, даже если это не вода"
+
+Trait_Needs_Thirst_04_NameKey,Обезвожевание ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_04_DescKey,"Обезвоживание тянет вас к земле. Выпейте прямо сейчас!"
+
+Trait_Needs_Thirst_05_NameKey,Смерть от Жажды ( <sprite name=Thirst_Icon>: <#FF0000>{UDI_Thirst}</color> )
+Trait_Needs_Thirst_05_DescKey,Ты скоро умрешь без воды!
+
+Trait_Needs_Sleepness_01_NameKey,Зевота ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_01_DescKey,Вы зеваете. Вам может быть полезно вздремнуть.
+
+Trait_Needs_Sleepness_02_NameKey,Сонливость ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_02_DescKey,Становится трудно удерживать глаза открытыми.
+
+Trait_Needs_Sleepness_03_NameKey,Сонный ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_03_DescKey,"Вы заторможены. Это может быть признаком того, что вам нужно поспать. "
+
+Trait_Needs_Sleepness_04_NameKey,Летаргия ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_04_DescKey,"Все тело кажется тяжелым, а также трудно мыслить. Только сон может помочь."
+
+Trait_Needs_Sleepness_05_NameKey,Ментальный Ступор ( <sprite name=Sleepness_Attribute_Icon>: <#FF0000>{UDI_Sleepness}</color> )
+Trait_Needs_Sleepness_05_DescKey,Сон - единственное, о чем вы можете думать. Ваша кровать манит вас!
+
+Trait_Needs_Tired_01_NameKey,Усталость ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_01_DescKey,После тяжелой работы вам захотелось вздремнуть.
+
+Trait_Needs_Tired_02_NameKey,Лёгкая Боль ( <sp rite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_02_DescKey,"Ваши мышцы побаливают, но это пройдет после отдыха."
+
+Trait_Needs_Tired_03_NameKey,Боль ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_03_DescKey,У вас постоянно все болит. Вашему телу нужен отдых.
+
+Trait_Needs_Tired_04_NameKey,Переутомление ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_04_DescKey,Ваш тело ослаблено и готово сдаться. Найдите кровать и отдохните!
+
+Trait_Needs_Tired_05_NameKey,Истощенние ( <sprite name=Tired_Attribute_Icon>: <#FF0000>{UDI_Tiredness}</color> )
+Trait_Needs_Tired_05_DescKey,"Вы что собрались работать до смерти?! Остановитесь и поспите!"
+
+Trait_Needs_LackOfOxygen_01_NameKey,Отдышка ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_01_DescKey,Ваше дыхание слегка затруднено из-за одышки.
+
+Trait_Needs_LackOfOxygen_02_NameKey,Прерывистое Дыхание ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_02_DescKey,Вам становится все труднее (и немного больнее) делать вдох.
+
+Trait_Needs_LackOfOxygen_03_NameKey,Гипоксия ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_03_DescKey,От недостатка кислорода начинает кружиться голова. Это небезопасно!
+
+Trait_Needs_LackOfOxygen_04_NameKey,Кислородная Недостаточность ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_04_DescKey,Вы в бреду! Поскорее обеспечьте свой мозг кислородом.
+
+Trait_Needs_LackOfOxygen_05_NameKey,Удушье ( <sprite name=LackOfOxygen_Icon>: <#FF0000>{UDI_Oxygen}</color> )
+Trait_Needs_LackOfOxygen_05_DescKey,Вы задыхаетесь! Найдите Кислородный Баллон или туда где он есть, прямо сейчас!
+
+#,( State )
+Trait_State_NanoInfectionTransformation_NameKey,Нано МОНСТР!
+Trait_State_NanoInfectionTransformation_DescKey,"Всё ваше тело поразила Нано Инфекция, превратив вас в хищного монстра с зубами и когтями. Если уровень Нано Инфекции не начнёт значительно снижаться, вскоре вы полностью превратитесь в монстра ( Game Over). "
+
+Trait_State_Fear_NameKey,Страх
+Trait_State_Fear_DescKey,"Вас охватывает <#FF0000>Страх</color>, и вы начинаете отступать от нападающего (в противоположном направлении)."
+
+Trait_State_NerveConfusion_NameKey,Нервная Путаница
+Trait_State_NerveConfusion_DescKey,"Ваша нервная система посылает беспорядочные импульсы, снижая ваш <#FF0000>Физический Урон</color> и <#66FFCC>Защиту</color>."
+
+Trait_State_Dizzy_NameKey,Головокружение
+Trait_State_Dizzy_DescKey,"У вас кружится голова, что затруднит выживание в бою. Увеличен <#66FFCC>Шанс Промаха</color> а также снижены <#66FFCC>Точность в Ближнем Бою</color> и <#66FFCC>Точность в Дальнем Бою</color>."
+
+Trait_State_Blind_NameKey,Слепота
+Trait_State_Blind_DescKey,"Ваше зрение затруднено, уменьшается <#66FFCC>Дальность Обзора</color>, <#66FFCC>Точность в Ближнем Бою</color> и <#66FFCC>Точность в Дальнем Бою</color>."
+
+Trait_State_Down_NameKey,На Земле
+Trait_State_Down_DescKey,"Вы были сбиты с ног. Двигаться и атаковать можно только после того, как вы встанете на ноги."
+
+Trait_State_Stun_NameKey,Оглушение
+Trait_State_Stun_DescKey,"Вы видите звёзды. Пропустите этот Ход, чтобы прийти в себя. "
+
+Trait_State_LegFracture_NameKey,Травма Ноги
+Trait_State_LegFracture_DescKey,Вы получили серьезную травму ноги, которая затрудняет ходьбу.
+
+Trait_State_AntiGravity_NameKey,Анти Гравитация
+Trait_State_AntiGravity_DescKey,Искажённая гравитация и парение в воздухе делают невозможным какие-либо действия.
+
+Trait_State_Confusion_NameKey,Замешательство
+Trait_State_Confusion_DescKey,"Вы сбиты с толку, что затрудняет действия и приводит к снижению <#66FFCC>Точности в Ближнем Бою</color> и <#66FFCC>Точности в Дальнем Бою</color>. Движение могут быть беспорядочными, отсутствовать вообще или двигаться в неправильном направлении."
+
+Trait_State_Invisible_NameKey,В Укрытии
+Trait_State_Invisible_DescKey,Вы невидимы для врагов и не можете быть напрямую атакованы. Этот статус немедленно заканчивается после любой атаки или если вы получите урон (часто от урона по области или от окружения).
+
+Trait_State_Concentration_NameKey,Концентрация
+Trait_State_Concentration_DescKey,На мгновение вы пытаетесь оценить сложившуюся ситуацию со всех сторон.
+
+
+#,[ Item: Equip ]
+Trait_00_MeleeWp_01_OHM_Nunchucks_NameKey,Двойная Контратака
+Trait_00_MeleeWp_01_OHM_Nunchucks_DescKey,"Во время <#66FFCC>Контератаки</color>, персонаж атакует дважды."
+
+Trait_10_RangeWp_03_TwoHand_JusticeRifle_NameKey,Око за Око
+Trait_10_RangeWp_03_TwoHand_JusticeRifle_DescKey,Наносит дополнительный <#66FFCC>Физический Урон</color> за каждый <#66FFCC>ХП</color>, который потерял игрок. (Меньше ХП = Больше Урона)
+Trait_10_RangeWp_03_TwoHand_JusticeRifle_Info,"<sprite name=WpRange_THR_JusticeRifle_Icon><#66FFCC>Око за Око</color>"
+
+Trait_20_Equip_01_Head_WolfsHalo_NameKey,Клыкастое Пиршество
+Trait_20_Equip_01_Head_WolfsHalo_DescKey,Получайте небольшое количество ХП после убийства врага.
+
+Trait_20_Equip_05_Accessory_CombatInitializer_NameKey,Первая Кровь
+Trait_20_Equip_05_Accessory_CombatInitializer_DescKey,Наносит дополнительный <#FF0000>Физический Урон</color> (в зависимости от <#66FFCC>Восприятия</color>) по не поврежденным целям (тем, у кого полный <#66FFCC>ХП</color>).
+
+Trait_20_Equip_05_Accessory_StickyBomb_NameKey,Неподвижность
+Trait_20_Equip_05_Accessory_StickyBomb_DescKey,Пораженная цель не может двигаться.
+
+Trait_20_Equip_05_Accessory_LoversGrip_NameKey,Ангельский Удар
+Trait_20_Equip_05_Accessory_LoversGrip_DescKey,"После каждой успешной атаки исцеляет небольшое количество ХП <#66FFCC>ХП</цвет> (в зависимости от <#66FFCC><sprite name=Base_Strength> Силы</color>)"
+
+Trait_20_Equip_05_Accessory_SoldierHeadBand_NameKey,Знай Врага Своего
+Trait_20_Equip_05_Accessory_SoldierHeadBand_DescKey,Получайте дополнительные <#66FFCC>Опыт</color> за убийство врага.
+
+
+#,[ Item: Usable ]
+
+Trait_ItemUse_HealthRecovery_NameKey,Восстановление ХП
+Trait_ItemUse_HealthRecovery_DescKey,Вы восстанавливайте немного <color=#FFA500>Здоровья</color> за каждый Ход.
+
+Trait_ItemUse_Cure_Acid_NameKey,Нейтрализатор Кислот
+Trait_ItemUse_Cure_Acid_DescKey,"Снижает <color=#FF0000>Кислотный Уровень</color> каждый ход, пока действует."
+
+Trait_ItemUse_Cure_Poison_NameKey,Противоядие
+Trait_ItemUse_Cure_Poison_DescKey",Снижает <color=#FF0000>Уровень Отравления</color> каждый ход, пока действует."
+
+Trait_ItemUse_Cure_Injuried_NameKey,Свертывание Крови
+Trait_ItemUse_Cure_Injuried_DescKey,"Снижает <color=#FF0000>Уровень Травмы</color> каждый ход, пока действует."
+
+Trait_ItemUse_Cure_Fracture_NameKey,Укрепление Костей
+Trait_ItemUse_Cure_Fracture_DescKey,"Снижает <color=#FF0000>Уровень Перелома</color> каждый ход, пока действует."
+
+Trait_ItemUse_Cure_Tired_NameKey,Бодрость в Каждом Вашем Шаге
+Trait_ItemUse_Cure_Tired_DescKey,"Снижает <color=#FF0000>Усталость</color> каждый ход, пока действует."
+
+Trait_ItemUse_Cure_NanoInfection_NameKey,Нано Реорганизация
+Trait_ItemUse_Cure_NanoInfection_DescKey,"Снижает <color=#FF0000>Нано Инфекцию</color> каждый ход, пока действует."
+
+Trait_ItemUse_Charge_Adrenaline_NameKey,Бей или Беги
+Trait_ItemUse_Charge_Adrenaline_DescKey,"Увеличивает <color=#FFA500>Адреналин</color> каждый ход, пока действует."
+
+Trait_ItemUse_Charge_NanoEnergy_NameKey,Заряд Нано Энергии
+Trait_ItemUse_Charge_NanoEnergy_DescKey,"Увеличивает <color=#FFA500>Нано Энергия</color> каждый ход, пока действует."
+
+Trait_ItemUse_Food_NameKey,Употребил Пищу
+Trait_ItemUse_Food_DescKey,Ваш <color=#FF0000>Голод</color> уменьшается.
+
+Trait_ItemUse_Water_NameKey,Выпил Воды
+Trait_ItemUse_Water_DescKey,Ваша <color=#FF0000>Жажда</color> уменьшается.
+
+#,[ Monster ]
+Trait_Mon_BossFortitude_NameKey,Невероятная стойкость
+Trait_Mon_BossFortitude_DescKey,Не может быть целью Мгновенного убийства Оружием или Способностью.
+
+Trait_Mon_DeathExplosion_NameKey,Прикреплена Бомба
+Trait_Mon_DeathExplosion_DescKey,Вы успешно прикрепили к монстру Липкую Бомбу. ??Она взорвется после смерти??.
+
+Trait_Mon_Bulky_NameKey,Массивный
+Trait_Mon_Bulky_DescKey,Эта цель слишком велика, чтобы перемещать ее с помощью Захвата (the Grab Arm).
+
+Trait_Mon_Boss004_Pattern003_Buff_NameKey,Загружено
+Trait_Mon_Boss004_Pattern003_Buff_DescKey,"ИИ TECC был загружен в прототип Титаниан, что значительно улучшило ВСЕ его характеристики. "
+
+Trait_Mon_Boss005_Weakness_NameKey,Ослабленный
+Trait_Mon_Boss005_Weakness_DescKey,Прищелец в <#FF0000>Ослабленном</color> состоянии тратит много энергии. Атакуйте сейчас, пока он не оправился!
+
+Trait_Mon_Boss005_Buff_NameKey,Адаптивный Пришелец
+Trait_Mon_Boss005_Buff_DescKey,Пришелец усилил свою защиту, а также способность наносить урон. Будьте осторожны!
+
+Trait_Mon_Boss005_Resistance_NameKey,Укрепление
+Trait_Mon_Boss005_Resistance_DescKey,"В этом состоянии Пришельца практически невозможно ранить. "
+
+Trait_Boss004_Cooperate_PlayerBuff_NameKey,Титаниан Усовершенствованый
+Trait_Boss004_Cooperate_PlayerBuff_DescKey,Невероятная мощь, полученная от ИИ:Девять, чтобы противостоять Инопланетному существу.
+
+#,[Extra Key]
+PerMaxHealth_Key,-1% от макс здоровья
+RandomDurability_Decrease_Key,Случайное Снаряжение <sprite name=Durability><#FF0000> -2 Прочности (За Ход)

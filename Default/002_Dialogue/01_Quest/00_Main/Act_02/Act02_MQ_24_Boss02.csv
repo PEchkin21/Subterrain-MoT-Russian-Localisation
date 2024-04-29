@@ -1,0 +1,19 @@
+Language,Default
+
+#,Main Quest Name: Boss 02
+#,Purpose: Triggers when player enters the boss 2 arena
+#,Actor: Player
+#,KeyPrefix: Act02_MQ_24
+
+#,"Player enters the area with full of pipes and fans. Strange noise is heard, large monster with many tentacles appears to fight."
+
+#,Just before the boss monster appears. Sets the mood. Describes the surroundings. Prepares for the combat
+Act02_MQ_24_Nar_01,"(You enter an area full of rusted pipes and industrial fans. Steam is expelled from the vents at irregular intervals, contrasting against the near-constant sludge dripping from one pipe or another. The heat is unbearable, and the whole area creaks like it wants to burst under a supernatural pressure.)"
+Act02_MQ_24_Nar_02,"(A chill runs down your spine in response to a loud *CLANG*. Danger is near, but the environment's refraction makes it hard to see anything. Good thing you have other advantages.)"
+Act02_MQ_24_Player_03,Cassini... do you sense any abnormal bioactivity?
+Act01_MQ_24_AI_04,"Yes, {PlayerFullName}, and it is a big one."
+
+#,Boss monster appears. The game shows the monster crawls out from the large ventilation. Combat begins after this dialogue
+Act02_MQ_24_Player_05,<b>What the hell is that thing?!?!</b>
+Act01_MQ_24_AI_06,"A highly adaptive organism that has evolved to survive in sewers. I also detect the DNA of several other underground creatures, suggesting it can absorb and assimilate other living things. "
+Act02_MQ_24_Player_07,"If that monster gets loose, the camp is finished. We need to take care of it!"

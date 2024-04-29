@@ -1,0 +1,150 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Alp Demir
+#,Quest Name: Jozef's Favorite 
+#,Key_Fix: Side_Q_JozefsFavorite
+
+#,"Josef hates the food at the pub, but Alp really wants to win him over. Alp asks the player to to convince Josef to give up his goulash recipe, a dish Alp knows the man enjoys."
+#,Could be that the player has to select the correct options in a dialogue tree and then correctly relay the ingrediants to Alp. 
+#,"Quest only pops up after finishing Game Night, as the player has earned Jozef's trust."
+#,"Again, if player touches Jozef's car after Game night, Jozef will not talk to him. "
+
+#,Player receives message to start quest
+Side_Q_JozefsFavorite_AI_01,"Incoming message from Alp, {PlayerFullName}."
+Side_Q_JozefsFavorite_Alp_02,"If you're up for it, I have another job for you. I promise no rats this time. Come see me.\n-Alp Demir-"
+
+#,Player speaks to Alp
+Side_Q_JozefsFavorite_Player_03,"Hey, Alp! I'm looking forward to helping you out again."
+Side_Q_JozefsFavorite_Alp_04,Me too. I didn't know you'd become such a key part of the pub's business model. *haha*
+Side_Q_JozefsFavorite_Player_05,"So, what's up?"
+Side_Q_JozefsFavorite_Alp_06,"I heard you went to Jozef's game night recently. Good job on getting the invite, by the way. Do you feel like you're on good terms with him now?"
+Side_Q_JozefsFavorite_Player_07,"We're far from BFFs, but we had fun at game night, yes. "
+Side_Q_JozefsFavorite_Alp_08,"Then I need you to be my spy, a double-agent of sorts. "
+Side_Q_JozefsFavorite_Player_09,Wait... what?
+Side_Q_JozefsFavorite_Alp_10,"You see, Jozef has been my harshest critic. He doesn't come to the pub and tells everyone he hates my food. "
+Side_Q_JozefsFavorite_Nar_11,(Alp takes a moment to compose himself after the words leave his lips. The very idea seems to make him sick.)
+Side_Q_JozefsFavorite_Alp_12,It's hard for me to even say out loud. The whole situation is just ridiculous. 
+Side_Q_JozefsFavorite_Player_13,"Jozef can come off hard, but I'm sure he hasn't tried all your recipes, right?"
+Side_Q_JozefsFavorite_Alp_14,"He actually has! We've been here for a while, and he kept giving my food a try, but nothing was to his liking. "
+Side_Q_JozefsFavorite_Alp_15,And this is your mission... if you choose to accept it.
+Side_Q_JozefsFavorite_Alp_16,"I have heard him whisper about his favorite meal, a specific Czech goulash. I need you to talk him into giving you the recipe, but you cannot mention why you need it. "
+Side_Q_JozefsFavorite_Player_17,How do I do that?
+Side_Q_JozefsFavorite_Alp_18,Treat it like an interrogation. You've done the first step in gaining his trust. Just remember that Jozef's flavor palette is on the line here. I need him to enjoy a meal I cook for him. 
+Side_Q_JozefsFavorite_Player_19,"I can tell this is important to you, so I'll give it a shot. "
+
+#,If player speaks to Alp after taking quest
+#,Replaces Basic_Alp until end of quest
+Side_Q_JozefsFavorite_Alp_20,Jozef's ingredient list must be glorious. Get me that recipe!
+
+#,—————————————————————————————
+#,If player touches Jozef's car after finishing Game night and then speaks with him
+Side_Q_JozefsFavorite_Player_21,"Hey, Jozef! I was thinking abou-"
+Side_Q_JozefsFavorite_Jozef_22,I can't believe you touched my car. 
+Side_Q_JozefsFavorite_Player_23,How did you-
+Side_Q_JozefsFavorite_Jozef_24,I always know. Now get out of my sight. 
+
+#,—————————————————————————————
+#,If player had not touched Jozef's car and then speaks with him
+#,Player will have 4 dialogue prompts. Quest ends if they pick 3 wrong choices.
+Side_Q_JozefsFavorite_Player_25_01,"Ask about recipe for Alp."
+Side_Q_JozefsFavorite_Player_25,"Hey, Jozef! I was thinking about game night and how hungry I was while we were playing cards. "
+Side_Q_JozefsFavorite_Jozef_26,You weren't happy with ration chips and alcohol?
+Side_Q_JozefsFavorite_Player_27,"I mean, it was good, but I wish there was some real food there too. I was just thinking that could be good for next game night. "
+Side_Q_JozefsFavorite_Jozef_28,Noted. Real food for {PlayerFullName}. 
+
+#,Player 1st dialogue choice
+Side_Q_JozefsFavorite_Player_29,"Yeah, something like..."
+Side_Q_JozefsFavorite_Q1_S01,Stuffed Cabbage
+Side_Q_JozefsFavorite_Q1_S02,Goulash
+
+#,Player chooses Q1_S01 (correct)
+Side_Q_JozefsFavorite_Q1_S01_Jozef_01,"Ahhh, stuffed cabbage would have been good. Alp keeps the majority of the cabbage under lock and key. Then he fries the hell out of it. "
+
+#,Player chooses Q1_S02 (wrong)
+Side_Q_JozefsFavorite_Q1_S02_Jozef_01,"Goulash, you say? Alp has asked me about my goulash recipe many times. "
+
+#,Continues conversation
+Side_Q_JozefsFavorite_Player_30,"Alp loves food. I helped him gather mushrooms for a Turkish dish, and it was delicious. I think it's become my new favorite. "
+Side_Q_JozefsFavorite_Player_31,"Yeah, I'm sure he tries. "
+
+#,Player 2nd dialogue choice
+Side_Q_JozefsFavorite_Q2_S01,"So you think Alp's cooking is bad? What's your favorite food then, Jozef?"
+Side_Q_JozefsFavorite_Q2_S02,Do you not like Alp's cooking? 
+
+#,Player chooses Q2_S01 (wrong)
+Side_Q_JozefsFavorite_Q2_S01_Jozef_01,Nothing that Alp makes. And it is infuriating to be told how good his cooking is all the time. 
+Side_Q_JozefsFavorite_Q2_S01_Jozef_02,I assure you... It is not.
+
+#,Player chooses Q2_S02 (correct)
+Side_Q_JozefsFavorite_Q2_S02_Jozef_01,"Listen, Alp is a good guy, but he tries too hard. Too many flavors, too many ingredients. That's how you ruin a recipe. "
+
+#,Continues conversation
+Side_Q_JozefsFavorite_Player_32,I can't say I'm an expert in the kitchen. I just know what tastes good and what doesn't. 
+Side_Q_JozefsFavorite_Jozef_33,That has become more and more apparent in this conversation. 
+
+#,Player 3rd dialogue choice
+Side_Q_JozefsFavorite_Q3_S01,What makes your taste buds better than Alp's?
+Side_Q_JozefsFavorite_Q3_S02,Do you have experience as a chef?
+
+#,Player chooses Q3_S01 (wrong)
+Side_Q_JozefsFavorite_Q3_S01_Jozef_01,That mine work. Alp is overrated. He probably couldn't even make a simple goulash. 
+
+#,Player chooses Q3_S02 (correct)
+Side_Q_JozefsFavorite_Q3_S02_Jozef_01,"A long time ago, yes. I learned from some of the best Czech chefs and even traveled to America on a scholarship. "
+Side_Q_JozefsFavorite_Q3_S02_Jozef_02,"I learned that fancy is not necessarily good. Something simple, like a goulash, can be just as delicious."
+
+#,Continues conversation
+Side_Q_JozefsFavorite_Player_34,"It must say something that he's the cook in Camp Huygen, and you're the mechanic, right?"
+Side_Q_JozefsFavorite_Jozef_35,"Cars and food are not that different. Both are assembled with specific parts, and don't work if they're not put together correctly. "
+Side_Q_JozefsFavorite_Jozef_36,"Blue print, recipe, same thing. "
+
+#,Player 4th dialogue choice
+Side_Q_JozefsFavorite_Q4_S01,Do you have any recipes here on Titan?
+Side_Q_JozefsFavorite_Q4_S02,Would you consider giving Alp some of your recipes?
+
+#,Player chooses Q4_S01 (correct)
+Side_Q_JozefsFavorite_Q4_S01_Jozef_01,Of course. I keep my recipe book with me at all times. It's how I eat without having to rely on the pub. 
+
+#,Player chooses Q4_S02 (wrong)
+Side_Q_JozefsFavorite_Q4_S02_Jozef_01,Share my recipes? Alp would have to promise not to change them and create abominations with my name on them. 
+
+#,If player gets 3rd Wrong answer
+Side_Q_JozefsFavorite_Jozef_37,"Just stop. I know when I am being played, {PlayerFullName}."
+Side_Q_JozefsFavorite_Player_38,What do you mean?
+Side_Q_JozefsFavorite_Jozef_39,"You are here for Alp to try to get my recipes, yes?"
+Side_Q_JozefsFavorite_Player_40,"Yeah, sorry. Looks like you caught me. "
+Side_Q_JozefsFavorite_Jozef_41,I know I caught you. Now you go back and tell Alp that he'll never see my recipes. They belong to me. 
+Side_Q_JozefsFavorite_Player_42,"Okay, okay! I'll get out of here."
+
+#,If player gets 2 or fewer wrong answers
+Side_Q_JozefsFavorite_Jozef_43,Come to think of it...
+Side_Q_JozefsFavorite_Nar_44,"(Jozef pulls a small, colorful notebook from his pocket and hands it to you.)"
+Side_Q_JozefsFavorite_Jozef_45,"...here. That is four decades of my own recipes, each one a masterpieces Alp could only dream of. "
+Side_Q_JozefsFavorite_Player_46,"Oh, wow! Do you mind if I scan a few of the pages, so I can try them out myself?"
+Side_Q_JozefsFavorite_Jozef_47,"Sure, but only one. Choose wisely."
+Side_Q_JozefsFavorite_Nar_48,"(You scan the Goulash recipe on page 142, and hand it back to Jozef.)"
+Side_Q_JozefsFavorite_Jozef_49,"If you make that, you will smile uncontrollably. Trust me. "
+Side_Q_JozefsFavorite_Player_50,I bet I will. 
+Side_Q_JozefsFavorite_Player_51,Thanks for the talk. I'll get out of your hair. 
+Side_Q_JozefsFavorite_Jozef_52,Good talk. See you later. 
+
+#,Player returns to Alp without recipe
+#,Player gets credits and XP
+Side_Q_JozefsFavorite_Player_53_01,"About the recipe..."
+Side_Q_JozefsFavorite_Player_53,"Hey, Alp! I'm sorry, but I wasn't able to get the recipe. "
+Side_Q_JozefsFavorite_Alp_54,Why? What happened?
+Side_Q_JozefsFavorite_Player_55,"Jozef saw through my interrogation, so I've come back empty-handed. "
+Side_Q_JozefsFavorite_Alp_56,"That stinks, but I appreciate you trying at least. Here are some credits for your time. I'll message again if I find any more jobs. "
+Side_Q_JozefsFavorite_Player_57,"Sounds good. Take it easy, Alp!"
+
+#,Player returns to Alp with Jozef's recipe
+#,"Player gets credits and XP, and store discount "
+Side_Q_JozefsFavorite_Player_58,"Hey, Alp! I'm back, and I have Jozef's goulash recipe for you!"
+Side_Q_JozefsFavorite_Alp_59,Amazing work! I can't wait to get to work perfecting it. 
+Side_Q_JozefsFavorite_Player_60,"Fair warning, though... don't change anything in the recipe. You'll want to follow it as closely as is possible with the supplies we have on Titan. "
+Side_Q_JozefsFavorite_Alp_61,"Okay, I'll try my best not to 'Alp-ify' it. I want Jozef to love it, after all. "
+Side_Q_JozefsFavorite_Alp_62,"Here are some credits for your time, and consider yourself part of the Alp's Pub family from now on."
+Side_Q_JozefsFavorite_Alp_63,Including a friends & family discount as well. 
+Side_Q_JozefsFavorite_Player_64,"Thanks, Alp! It's good to be part of the family. I'll see you later!"

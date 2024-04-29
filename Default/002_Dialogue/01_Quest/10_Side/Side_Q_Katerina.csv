@@ -1,0 +1,62 @@
+Language,Default
+
+#,Document Outline: Side Quest Dialogue Text
+
+#,Quest NPC: Katerina Spiros
+#,Quest Name: Missing Shipments 
+#,Key_Fix: Side_Q_MissingShipments
+
+#,Receives message to come see Katerina
+Side_Q_MissingShipments_AI_01,"Incoming message from Katerina, {PlayerFullName}."
+Side_Q_MissingShipments_Katerina_02,"We found a major stock discrepancy in the Supply Depot, and David has requested I loop you in to help with the matter. Come see me.\n-Katerina Spiros"
+
+#,"Entering Supply Depot, fade in to Player and Katerina at her desk. "
+#,Talks to Katerina
+Side_Q_MissingShipments_Player_03,Hey Katerina. I'm here to help. Where's David?
+Side_Q_MissingShipments_Katerina_04,"He's out doing whatever it is David does, but we still need your help. "
+Side_Q_MissingShipments_Katerina_05,"I've gone over our inventory about a dozen times, but I keep coming up three supply crates short. It's the strangest thing for such important supplies to be missing at all. The logs say they were received normally, but then, poof, they just vanished before getting to the supply depot."
+Side_Q_MissingShipments_Player_06,"And you want me to find them, right?"
+Side_Q_MissingShipments_Katerina_07,"Look at you, a regular Einstein over here. Don't worry, you'll get paid when the job's done. "
+Side_Q_MissingShipments_Katerina_08,"Since the crates could literally be anywhere in camp, I attempted to ping each crate's tracker. They were last detected on the Biofarm, Airship Garage, and Residential levels."
+Side_Q_MissingShipments_Katerina_09,"After you find all three, come back and see me. "
+
+#,"When player talks to Katerina after taking quest, but before completing quest"
+#,Overrides Basic_Katerina until end of quest
+Side_Q_MissingShipments_Katerina_10,Did you find those supplies yet?
+
+#,When player enters area near hidden crate
+Side_Q_MissingShipments_AI_11,I suspect that one of Katerina's missing crates is nearby. Let's look around. 
+
+#,Common phrase for finding box
+Side_Q_MissingShipments_Nar_12,(The serial number on this box matches the missing crates from the supply depot.)
+Side_Q_MissingShipments_Nar_14,"(You receive '<color=#66FFCC>Supply Crate</color>'.)"
+
+#,Finds box in Residential 
+Side_Q_MissingShipments_Player_13,"This area has a lot of foot traffic, but it's from people either on their way home to rest or leaving to work. No one just hangs out in Residential around here. No wonder nobody noticed this crate."
+
+#,Finds box in Garage
+Side_Q_MissingShipments_Player_16,An onlooker would see this crate and assume it's just another box of parts in the Garage. Like a needle in a haystack. 
+
+#,Finds box in Hydroponics
+Side_Q_MissingShipments_Player_19,"Seoyeon and Rana are always preoccupied, and the crate is out of sight. If they weren't actively searching for it, no one would have found this."
+
+#,When player tagged all 3 boxes
+Side_Q_MissingShipments_Player_21,And that was the last one. Send a message to Katerina that we're on our way back. 
+Side_Q_MissingShipments_AI_22,Message successfully transmitted.
+
+#,When player returns to Katerina
+Side_Q_MissingShipments_Player_23,"I'm back, Katerina, and I found all the crates."
+Side_Q_MissingShipments_Katerina_24,And that's the strange thing... the locations where you found the crates tells me this was no accident. The crates weren't just misplaced. We have a thief in our camp. 
+Side_Q_MissingShipments_Player_25,A thief? Any idea who it might be?
+Side_Q_MissingShipments_Katerina_26,"There's no way to tell right now, but these supplies were skimmed off the top. We almost missed it entirely. Let's just focus on the positive, though... the crates have been found. "
+Side_Q_MissingShipments_Player_27,Agreed! Let's call David and share the good news. 
+Side_Q_MissingShipments_Nar_28,"(Katerina lets out a heavy sigh, like she is simultaneously relieved and annoyed.)"
+Side_Q_MissingShipments_Katerina_29,"Listen... the truth is that David didn't know the crates were missing. I didn't tell him yet, because I need this job and it happened on my watch. "
+Side_Q_MissingShipments_Katerina_30,I just told you David was asking so you wouldn't say no. 
+Side_Q_MissingShipments_Katerina_31,"And you came through in the end, so... thank you. "
+Side_Q_MissingShipments_Player_32,"Wow, this a big step for you I bet, since you're always so closed off. You're a hard nut to crack, Katerina, but it seems I'm growing on you. "
+Side_Q_MissingShipments_Katerina_33,"Let's get one thing straight, {PlayerFullName}..."
+Side_Q_MissingShipments_Katerina_34,If you tell anyone about any of this... they won't be able to identify your body. Understood?
+Side_Q_MissingShipments_Player_35,"*haha* Understood, I won't tell a soul. "
+Side_Q_MissingShipments_Katerina_36,"Good. Here's what I owe you. And since I've guaranteed your eternal secrecy, you'll have a discount at David's Emporium. "
+Side_Q_MissingShipments_Katerina_37,Now I have to get back to work. Excuse me. 

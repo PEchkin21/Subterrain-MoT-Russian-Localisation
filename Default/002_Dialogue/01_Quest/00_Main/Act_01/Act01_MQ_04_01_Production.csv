@@ -1,0 +1,68 @@
+Language,Default
+
+#,Main Quest Name: Production
+#,Purpose: Item Production Function
+#,Place: Supply
+#,"Actor: Player, David Almanza"
+#,KeyPrefix: Act01_MQ_04_01
+
+#,"개인 창고 앞에 위치하고, 창고에 대한 설명 시작."
+#,(Screen fades and then player and David appear in front of storage box location.)
+Act01_MQ_04_01_PersonalStorage_Nar_01,"(David leads you to a long red box outside his office. It is protected by heavy locks and anti-theft protective measures which deactivate as you approach, reacting to the presence of your Omniscope.)"
+Act01_MQ_04_01_PersonalStorage_David_02,"You can also store anything you own in this <color=#FFA500>Storage</color> box to avoid having to lug it around. There are several of these around camp, but your personal items are coded to your Omniscope, so no one can steal them."
+Act01_MQ_04_01_PersonalStorage_David_03,"Even better, Camp Huygen was established as a processing settlement, so you won't be surprised that we have one of the most sophisticated production systems around. You can take almost anything and turn it into something useful. "
+
+#,"아이템 작업에 대한 설명 시작."
+Act01_MQ_04_01_Production_David_01,Let me explain how to use our Item Production pipeline before I let you go. It's pretty essential to life here in camp.
+
+#,"Junk 아이템을 건넴."
+#,"Take some junk I had lying around., and here's a blueprint, too! "
+Act01_MQ_04_01_GiveItem_David_01,"For starters, grab that junk next to you. "
+Act01_MQ_04_01_GiveItem_Nar_02,(You receive <color=#66FFCC>Pile of Junk</color>.)
+
+#,아이템 작업에 대한 설명.
+Act01_MQ_04_01_Production_Player_02,Got it. What's next?
+Act01_MQ_04_01_Production_David_03,"Once you've collected some items, you can put them into your <color=#FFA500>Storage</color> and then perform one of three requests. "
+Act01_MQ_04_01_Production_David_04,"The <color=#FFA500>Craft</color> request spits out a brand spanking new item, anything from better gear to medicine."
+Act01_MQ_04_01_Production_David_05,The <color=#FFA500>Research</color> request unlocks more things to be crafted by analyzing blueprints and other researchable items. 
+Act01_MQ_04_01_Production_David_06,"The <color=#FFA500>Recycle</color> option is my favorite because it takes an item and breaks it down into its most usable parts. Then, you can use those new pieces to Craft."
+Act01_MQ_04_01_Production_Player_07,"Sounds a bit confusing. Remember, I just woke up after years in a tube."
+Act01_MQ_04_01_Production_David_08,"No worries. If you need to remember how to do it, just check out <color=#FFA500>[Journal] - [Guide]</color> in your Omniscope for a refresher. "
+Act01_MQ_04_01_Production_Player_09,"Oh, good. Thank you for that. "
+Act01_MQ_04_01_Production_David_10,"Plus, what better way to learn than doing it right now? Go to your personal <color=#FFA500>Storage</color>, then open the <color=#FFA500>Item Production</color> menu and <color=#FFA500>Recycle</color> the <color=#66FFCC>Pile of Junk</color> you picked up. "
+Act01_MQ_04_01_Production_Player_11,Let's give it a shot.
+
+#,플레이어가 아이템 작업을 완료하지 않고 시설을 떠나려는 경우 발생.
+#,Player tries to leave supply depot before completing production tutorial.
+Act01_MQ_04_01_RoomBlock_David_01,"My job is to make sure you can use the production system. Try it out before you leave, please."
+Act01_MQ_04_01_RoomBlock_Nar_02,(David's only letting you leave once you produce a new item.)
+
+#,"분해에 필요한 Junk 아이템을 개인 창고에 넣었을 때."
+M_Q_04_01_JunkStorage_Nar_01,"(As you put the item in storage, David pops out to talk to you.)"
+M_Q_04_01_JunkStorage_David_02,"Well done. For any research, recycling and crafting requests, put all the necessary items in there to begin with."
+M_Q_04_01_JunkStorage_David_03,"Open the <color=#FFA500>Item Production</color> menu and <color=#FFA500>Recycle</color> the <color=#66FFCC>Pile of Junk</color> you stored."
+M_Q_04_01_JunkStorage_Player_04,"Let's give it a shot."
+
+#,"아이템 분해를 완료했을 때"
+#,"When recycling is done, David reappear. Once conversation is over, Research guide is triggered and David disappears again."
+M_Q_04_01_RecycleDone_Nar_01,"(After you're done with the <color=#FFA500>Recycling</color> process, David pops out to praise you.)"
+M_Q_04_01_RecycleDone_David_02,"Good job! Now you have the materials you need to make something. Next, let's <color=#FFA500>Research</color> an item."
+M_Q_04_01_RecycleDone_David_03,"Take this blueprint, place it into your personal <color=#FFA500>Storage</color>, bring up the <color=#FFA500>Item Production</color> menu, and select the <color=#FFA500>Research</color> icon."
+M_Q_04_01_RecycleDone_Nar_04,(You received <color=#66FFCC>Blueprint: Bear Trap</color>.)
+
+#,"아이템 연구를 완료했을 때."
+#,"Once research is done, David reappear. Once conversation is over, Crafting guide is triggered and David disappears again."
+M_Q_04_01_ResearchDone_Nar_01,"(Once your <color=#FFA500>Research</color> is completed, David shows up again... almost like he was lurking nearby.)"
+M_Q_04_01_ResearchDone_David_02,Great! The last step is to actually <color=#FFA500>Craft</color> that <color=#66FFCC>Bear Trap</color>.
+M_Q_04_01_ResearchDone_David_03,"Go back to the <color=#FFA500>Item Production</color> menu, and select the <color=#FFA500>Craft</color> icon to start the process. Once it's done, the new item will be placed in your storage."
+
+#,"아이템 작업 퀘스트 완료"
+#,Player talks to David after completing production tutorial.
+M_Q_04_01_GetCraftItem_Player_01,"I think I got it. This was a big help, David. "
+M_Q_04_01_GetCraftItem_David_02,"Good. And it'll only become more intuitive the more you use it. And remember, if you're unsure how to do just about anything, the <color=#FFA500>Guide</color> is your friend."
+
+#,Says goodbye and points player to Mr. Lao
+M_Q_04_01_GuideLao_David_01,"So, yeah, that was a lot, and I hope it all made sense, but it's getting close to quitting time now. If you don't have a place to stay, <color=#FFFF00>speak with Mr. Lao</color>. I think a room just opened up after the last expedition underground, so tell him you want that bed. "
+M_Q_04_01_GuideLao_Nar_02,(Just thinking of a nice warm bed causes your body to reflexively yawn. Which makes David yawn as well.)
+M_Q_04_01_GuideLao_David_03,"Good luck, Maverick! Be sure to come back from time to time, and we can swap camp stories."
+
