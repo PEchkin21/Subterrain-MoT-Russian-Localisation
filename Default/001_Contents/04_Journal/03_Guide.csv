@@ -1,14 +1,14 @@
 Language,Default
-Guide_Move_ShortKey,Movement
-Guide_Move_LongKey,Movement
-Guide_Move_DescKey,<align=center>Press the following keys to move horizontally and vertically: {KeyboardControl_MoveUp}{KeyboardControl_MoveLeft}{KeyboardControl_MoveDown}{KeyboardControl_MoveRight}\nPress following keys to move diagonally: {KeyboardControl_MoveLeftUp}{KeyboardControl_MoveRightUp}{KeyboardControl_MoveLeftDown}{KeyboardControl_MoveRightDown}\nPlayers may also select a location with the left mouse button to move there.</align>
+Guide_Move_ShortKey,Передвижения
+Guide_Move_LongKey,Передвижения
+Guide_Move_DescKey,"<align=center>Нажимайте на  следующие клавиши, чтобы двигаться по горизонтали и вертикали: {KeyboardControl_MoveUp}{KeyboardControl_MoveLeft}{KeyboardControl_MoveDown}{KeyboardControl_MoveRight}\nНажимайте на  следующие клавиши, чтобы двигаться по диагонали: {KeyboardControl_MoveLeftUp}{KeyboardControl_MoveRightUp}{KeyboardControl_MoveLeftDown}{KeyboardControl_MoveRightDown}\nТакже вы можете выбрать куда идти, просто нажав по нему.</align>"
 
-Guide_Equipment_ShortKey,Equipment
-Guide_Equipment_LongKey,How to Equip Items
-Guide_Equipment_DescKey,"<align=center>First, open your Inventory. Then, left-click on the gear item to pick it up, move it to the appropriate equipment slot on the right, and then left-click again to equip the item.\n\nInventory shortcut key: {KeyboardControl_Inventory}\n\nIf you already have an item of the same type equipped in the slot, the old item will be swapped out and moved to Inventory. For items of different types (i.e., equipping a two-handed weapon instead of a sword and shield), you must unequip the old items first. </align>"
+Guide_Equipment_ShortKey,Экипировка
+Guide_Equipment_LongKey,Как Экипировать Предметы
+Guide_Equipment_DescKey,"<align=center>Во-первых, откройте ваш Инвентарь. Затем, левый клик по снаряжению, чтобы выбрать его, move it to the appropriate equipment slot on the right, and then left-click again to equip the item.\n\nInventory shortcut key: {KeyboardControl_Inventory}\n\nIf you already have an item of the same type equipped in the slot, the old item will be swapped out and moved to Inventory. For items of different types (i.e., equipping a two-handed weapon instead of a sword and shield), you must unequip the old items first. </align>"
 
-Guide_Quest_Outline_ShortKey,Tasks
-Guide_Quest_Outline_LongKey,Tasks
+Guide_Quest_Outline_ShortKey,Задания
+Guide_Quest_Outline_LongKey,,Задания
 Guide_Quest_Outline_DescKey,"<align=center>'Open [Journal] and select [Task] tab' to show a queue of Current Tasks and already completed Tasks. Selecting a Task displays who the Task is for, a short description, and a list of todos to progress through the Task.\n\nTask shortcut key: {KeyboardControl_Journal}</align>"
 
 Guide_Quest_TraceLocation_ShortKey,Task Tracking
@@ -36,8 +36,8 @@ Guide_Combat_LongKey,How to Attack
 Guide_Combat_DescKey_001,<align=center>Left-click on an enemy to move into position to perform a default attack using the currently equipped weapon.</align>
 Guide_Combat_DescKey_002,<align=center>Moving into the same location as an enemy also triggers a default attack automatically.</align>
 
-Guide_Perk_ShortKey,Perks
-Guide_Perk_LongKey,Perks
+Guide_Perk_ShortKey,Перки
+Guide_Perk_LongKey,Перки
 Guide_Perk_DescKey,"<align=center>The Perk window shows available special abilities, including information on each Perk's effect, cooldown (for Active Perks), and Adrenaline Cost (if any). Passive Perks are ongoing and always in effect. Active Perks must be equipped into a Quick Slot and activated when needed.\n\nPerk keyboard shortcut: {KeyboardControl_Perk}</align>"
 
 Guide_Perk_Unlock_ShortKey,Perks: Unlock
@@ -56,8 +56,8 @@ Guide_ItemUse_ShortKey,Item Use
 Guide_ItemUse_LongKey,How to Use Items
 Guide_ItemUse_DescKey,"<align=center>Items can be used directly from the Inventory. First, right-click on the item to bring up the Options dropdown, and then left-click one of the following:\n\nQuick Slot: Assign an Item to a Quick Slot for later use (does not remove it from Inventory). A character may have up to six Items and/or Active Perks equipped in Quick Slots at any time.\nUse: To immediately use the item.\nDrop: Leave the item on the ground, removing it from Inventory.\nCancel: Do nothing.</align>"
 
-Guide_Needs_ShortKey,Needs
-Guide_Needs_LongKey,Physical Needs
+Guide_Needs_ShortKey,Потребности
+Guide_Needs_LongKey,Физические Потребности
 Guide_Needs_DescKey,"<align=center>The character must contend with Hunger, Thirst, Sleep needs.\nWhen these gauge levels increase, it can lead to various negative effects.</align>"
 Guide_Needs_DescKey_01,<align=center><sprite name="Hunger_Icon"> Hunger / <sprite name="Thirst_Icon"> Thirst / <sprite name="Sleepness_Attribute_Icon"> Sleep</align>
 

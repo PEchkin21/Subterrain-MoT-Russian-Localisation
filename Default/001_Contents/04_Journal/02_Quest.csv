@@ -1,25 +1,25 @@
 Language,Default
 
 #,[ Quest: Main ]
-M_Q_01_Awaken,"Awaken"
-M_Q_01_Awaken_Desc,"Going out of the room." 
-M_Q_01_Guide_Move,"Going out of the room. (Use WASD or LMB to move)"
+M_Q_01_Awaken,"Пробуждение"
+M_Q_01_Awaken_Desc,"Выйдите из комнаты." 
+M_Q_01_Guide_Move,"Выйдите из комнаты. (Используйте WASD или LMB для передвижения)"
 
-M_Q_02_Equipment,Get Dressed
+M_Q_02_Equipment,Одевайтесь
 M_Q_02_Equipment_Desc,"Doctor Shahane has clothes for you inside a clinic box behind the medical curtain. Open the box, grab the clothes, and put them on. Don't worry; it's not stealing. She said it was okay."
-M_Q_02_Guide_Equipment,Equip clothes from a box located in the clinic.
+M_Q_02_Guide_Equipment,Наденьте одежду из коробки стоящей в Клинике.
 
-M_Q_03_AlpOfPub,Alp's Pub
+M_Q_03_AlpOfPub,Паб у Альпа
 M_Q_03_AlpOfPub_Desc,"Doctor Shahane suggests you visit Alp's Pub to meet the proprietor, Alp Demir, and get something in your belly. He's a pleasant guy but doesn't often give food away for free. The pub is located down the leftmost stairs in the Hub."
 M_Q_03_Guide_Talk_Alp_01,Ask Alp for a meal.
 M_Q_03_Guide_Inventory_RatTail,Collect rat tails from the basement.
 M_Q_03_Guide_Talk_Alp_02,Give rat tails to Alp.
 
-M_Q_04_00_Register,Camp Huygen Registry
+M_Q_04_00_Register,Регистрация в Лагере Гюйген
 M_Q_04_00_Register_Desc,"Feeling a bit disconnected? You can rectify this by registering in the camp's systems! Find David at the Supply Depot for processing. Access The Supply Depot by using the rightmost stairs in Hub. David is a busy man, so you'll need to check in first."
 M_Q_04_00_Guide_David,Check in with Supply Depot Reception.
 
-M_Q_04_01_Production,Item Production
+M_Q_04_01_Production,Производство Предметов
 M_Q_04_01_Production_Desc,"David wants to test your ability to Recycle, Research, and Craft items. Mastering this skill is vital to making it in Camp Huygen, so make sure you take this seriously."
 
 M_Q_04_01_Guide_PutInJunk,Put junk in Storage.
@@ -36,12 +36,12 @@ M_Q_05_Guide_Talk_Lao,Ask Mr. Lao about a room.
 M_Q_05_Guide_Door,Unlock door.
 M_Q_05_Guide_UseBed,Go to sleep.
 
-M_Q_06_Work_01_Mushroom,A Meal Without Mushrooms
+M_Q_06_Work_01_Mushroom,Пища без Грибов
 M_Q_06_Work_01_Mushroom_Desc,"Credits make the world go round, so finding a job is priority #1. Alp might have another job you can take, as Mr. Lao suggested. Hopefully, it involves more food... Alp's a great cook."
 
-M_Q_06_Guide_Talk_Alp_01,Talk to Alp about another job.
-M_Q_06_Guide_Inventory_Mushroom,Collect Cave Mushrooms.
-M_Q_06_Guide_Talk_Alp_02,Bring mushrooms to Alp.
+M_Q_06_Guide_Talk_Alp_01,Поговорите с Альпом насчёт работы.
+M_Q_06_Guide_Inventory_Mushroom,Соберите Пещерные Грибы.
+M_Q_06_Guide_Talk_Alp_02,Принесите грибы Альпу.
 
 M_Q_07_Work_02_Mineral,Feed the Machine
 M_Q_07_Work_02_Mineral_Desc,"Litzi Vogl needs someone to collect minerals for the camp's power supply, and why can't it be you? She can be found at the Power Plant on the bottom floor of the Generator Facility, located northwest of camp. Maybe she'll give you the job. "
@@ -57,11 +57,11 @@ M_Q_08_Guide_Talk_Judith_01,Talk to Judith about a job.
 M_Q_08_Guide_Inventory_JudithNote,Find Judith's Notebook in the cave.
 M_Q_08_Guide_Talk_Judith_02,Bring notebook to Judith.
 
-M_Q_09_Nanobot,Nanobot Activation
+M_Q_09_Nanobot,Активация Наноботов
 M_Q_09_Nanobot_Desc,"From her urgent message, Doctor Shahane wants to speak with you about something very important. Could it be about your past? Your health? The effects of cryostasis? There's only one way to find out..."
-M_Q_09_Guide_Talk_Ida,Talk to Ida.
+M_Q_09_Guide_Talk_Ida,Поговорить с Идой.
 
-M_Q_10_MineControl,A 'Miner' Problem
+M_Q_10_MineControl, 'Шахтёрская' Проблема
 M_Q_10_MineControl_Desc,"Ida says you (and only you) can enter the mine after your nanobot upgrade, but nothing's ever easy around here. Speak with Tau Mogorosi at Mine Control (east of camp) for your next steps."
 
 M_Q_10_Guide_Talk_Tau_01,Talk to Tau about the mines.
