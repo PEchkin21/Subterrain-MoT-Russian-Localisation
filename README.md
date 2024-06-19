@@ -19,7 +19,7 @@ Localization
 Если текст в игре на Английском. Нажмите (Ctrl + ` она же Ё), в коммандную строку введите команду localization reload
 Вместо текста пусто? Проверте что файл resources.assets был заменён.
 ## Когда перевод на новую версию?
-После Релиза 12 Марта
+~~После Релиза 12 Марта~~
 ## А где тогда взять нужную версию версию?
 Тут>>	[Google.Drive](https://drive.google.com/file/d/1JwfXQo4XE--dago5ylfpS4Puco4C_1Za/view?usp=drive_link)
 
